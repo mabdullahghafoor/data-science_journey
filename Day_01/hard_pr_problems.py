@@ -51,7 +51,7 @@ Write a Python program that stores the following about a student and prints a cl
 """
 
 name = input ("Enter name: ")
-age = input ("Enter age: ")
+age = int(input ("Enter age: "))
 uni = input ("Enter University: ")
 cgpa = float(input("Enter CGPA: "))
 enrolled = input("Are you a student: ")
@@ -66,8 +66,8 @@ print("╠═══════════════════════�
 print(f"   Name        : {name}")
 print(f"   age         : {age}")
 print(f"   University  : {uni}")
-print(f"   CGPA        : {cgpa}")
-print(f"   Enrolled    : Yes")
+print(f"   CGPA        : {cgpa:.2f}")
+print(f"   Enrolled    : {enrolled}")
 print(f"   Graduating  : {year}")
 print("╚════════════════════════════════════╝")
 print()
