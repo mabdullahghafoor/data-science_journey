@@ -1,0 +1,54 @@
+-> Operatorsare action words of programming.
+-> They tell Python what to do with variables and their values.
+-> There are six Types of operators
+
+1. Arithmetic Operators:
+    Addition (+)
+    Subtraction (-)
+    Multiplication (*)
+    Division (/)
+    Floor division (//)
+    Modulus (%)
+    Exponent (**)
+
+2. Comparison Operators
+    Equal To (==)
+    Not Equal To (!=)
+    Less Than (<)
+    Greater Than (>)
+    Less Than Equal To (<=)
+    Greater Than Equal To (>=)
+
+3. Logical Operators
+    Both Must Be True (AND)
+    At Least One True (OR)
+    Flips True/Flase (NOT)
+
+4. Assignment Operators
+    Assign (=)
+    Add & Assign (+=)
+    Subtract & Assign(-=)
+    Multiply & Assign(*=)
+    Divide & Assign(/=)
+    Floor Division & Assign(//=)
+    Modulus & Assign(%=)
+    Exponent & Assign(**=)
+
+5. Identity & Membership Operators
+    is      --> Identity Operator
+    is not  --> Identity Operator
+    in      --> Membership Operator
+    not in  --> Membership Operator
+
+6. Bitwise Operators
+    AND (&)
+    OR (|)
+    XOR (^)
+    NOT (~)
+    Left Shift (<<)     --> For LS xply a no by power of 2
+    Right Shift (>>)    --> For RS Floor Div a no by power of 2
+
+Precedence Of Operators
+()  ->  **  ->  *  /  //  %   ->    +  -   ->   comparison operators   ->   not   ->    and   ->    or
+
+
