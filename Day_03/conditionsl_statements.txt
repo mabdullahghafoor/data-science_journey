@@ -1,0 +1,18 @@
+
+Conditional Statements:
+It give your program the ability to choose different paths based on conditions.
+
+
+
+The `if / elif / else` Structure
+
+if (condition is True):
+    → do this
+
+elif (another condition is True):
+    → do this instead
+
+else:
+    → if nothing above was True, do this
+
+--> Indentation is NOT optional in Python. It defines what belongs inside the if block. Use 4 spaces (VS Code does this automatically with Tab).
