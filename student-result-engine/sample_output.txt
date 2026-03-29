@@ -1,0 +1,42 @@
+
+## 🖥️ Sample Output
+```
+╔══════════════════════════════════════════╗
+       🎓 STUDENT RESULT ENGINE
+╚══════════════════════════════════════════╝
+
+Enter student name     : Ali Hassan
+Enter roll number      : CS-2024-071
+Enter class            : BSCS Semester 1
+
+📝 Enter marks for each subject (out of 100):
+──────────────────────────────────────────
+   Mathematics        : 88
+   English            : 76
+   Science            : 92
+   Urdu               : 65
+   Computer Science   : 95
+
+╔══════════════════════════════════════════╗
+         📋 OFFICIAL REPORT CARD
+╠══════════════════════════════════════════╣
+  Student Name : Ali Hassan
+  Roll Number  : CS-2024-071
+  Class        : BSCS Semester 1
+╠══════════════════════════════════════════╣
+  SUBJECT              MARKS    STATUS
+──────────────────────────────────────────
+  Mathematics        :   88/100   ✅ Pass
+  English            :   76/100   ✅ Pass
+  Science            :   92/100   ✅ Pass
+  Urdu               :   65/100   ✅ Pass
+  Computer Science   :   95/100   ✅ Pass
+╠══════════════════════════════════════════╣
+  Total Marks  : 416 / 500
+  Percentage   : 83.2%
+  Average      : 83.2
+  Grade        : A
+  Remark       : Excellent! 🎉
+╠══════════════════════════════════════════╣
+  RESULT       : 🎉 PROMOTED
+╚══════════════════════════════════════════╝
