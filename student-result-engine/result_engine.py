@@ -15,7 +15,7 @@ SUBJECTS        = 5         # total number of subjects
 
 # ── HELPER: Display separator line ─────────────────────────────
 def print_line():
-    print("─" * 42)
+    print("─" * 42) 
 
 
 # ══════════════════════════════════════════
