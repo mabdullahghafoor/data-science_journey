@@ -1,0 +1,11 @@
+LOOPS: 
+    - Keep doing tasks untill i will tell you stop.
+    - There are two types of loops
+
+For Loop: 
+        - When you KNOW how many times to repeat.
+
+While Loop: 
+        - When you DON"T KNOW how many times - keep going until condition is false.
+
+ 
