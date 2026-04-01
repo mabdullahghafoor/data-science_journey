@@ -1,0 +1,15 @@
+LIST: 
+    A List is an **ordered, changeable collection** that stores multiple values in a single variable.
+
+marks = [88, 76, 92, 65, 95]
+          ↑   ↑   ↑   ↑   ↑
+index:    0   1   2   3   4
+
+
+Property                Meaning                         Example
+
+OrderedItems            have fixed                      positionsmarks[0] is always 88
+Mutable                 You CAN change items            marks[0] = 99 ✅
+Duplicates allowed      Same value can appear twice     [1, 2, 2, 3] ✅
+Mixed types             Can hold any data type          [1, "Ali", 3.5, True] ✅
+
