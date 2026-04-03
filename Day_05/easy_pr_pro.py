@@ -31,3 +31,11 @@ for i in numbers:
 
 print(max_num)
 print(min_num)
+
+
+# Q3. Without running, what is the output?
+
+data = [10, 20, 30, 40, 50]
+print(data[1:4]) # --> 20,30,40
+print(data[-2:]) # --> 40, 50
+print(data[::2]) # --> 30,40,50
