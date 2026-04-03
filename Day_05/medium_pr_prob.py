@@ -50,3 +50,15 @@ for n in num:
         print(f"{n} is below average")
     else:
         print(f"{n} is equal to the average")
+
+
+# Q6. Given two lists
+# Create a third list that contains "Pass" or "Fail" for each student using list comprehension
+
+students = ["Ali", "Sara", "Fatima", "Omar"]
+marks    = [88, 45, 97, 32]
+
+# Create a result list with "Pass" or "Fail"
+result = ["Pass" if mark >= 40 else "Fail" for mark in marks]
+
+print(result)
