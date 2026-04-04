@@ -1,3 +1,6 @@
+# In this we will see some some hard level practice problems of lists.
+
+
 # Q7. Build a shopping cart system using lists:
 
 # Add items (name + price)
