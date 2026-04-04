@@ -1,5 +1,5 @@
 # In this we will see some mini challenge
-
+# Data Analyzer
 marks = [88, 45, 97, 32, 78, 65, 55, 90, 42, 73,38, 82, 61, 77, 49, 93, 28, 86, 71, 54]
 
 
@@ -10,9 +10,10 @@ class_avg = sum(marks)/len(marks)
 
 # median
 median = 0
+sorted(marks)
 if total_students % 2 == 0:
     
-    median = ((marks[total_students//2] + marks[(total_students//2) - 1]))/2
+    median = ((marks[total_students//2] + marks[(total_students//2) - 1]))//2
 else:
     median = marks[total_students//2]
 
