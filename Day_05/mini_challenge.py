@@ -10,7 +10,7 @@ class_avg = sum(marks)/len(marks)
 
 # median
 median = 0
-sorted(marks)
+marks.sort()
 if total_students % 2 == 0:
     
     median = ((marks[total_students//2] + marks[(total_students//2) - 1]))//2
