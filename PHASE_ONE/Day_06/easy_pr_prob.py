@@ -26,3 +26,6 @@ data = (5,3,8,1,9,2)
 print(min(data))
 print(max(data))
 print(sum(data))
+
+ 
+ 
