@@ -33,4 +33,22 @@ for name,mark in records:
     status = "PASS" if mark >= 50 else "FAIL"
 
     print(f"Nmae: {name}     Marks: {mark}     {status}")
+
+
+# Q6. Write a function get_stats(numbers) that takes a list and returns 
+# a tuple of (minimum, maximum, average). 
+# Then unpack and print the result.
+
+def get_stats(number):
+    average = sum(number)/len(number)
+    return min(number),max(number),(average)
+
+
+print(get_stats(number = [3,8,6,1,9,2,7]))
+
+minimum, maximum,avg = get_stats(number = [3,8,6,1,9,2,7])
+
+print(f"Minimum = {minimum}     Maximum = {maximum}     Average = {avg:.2f}")
+
+
         
