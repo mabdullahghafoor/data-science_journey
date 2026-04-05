@@ -9,3 +9,11 @@ print(name)
 print(age)
 print(city)
 print(fav_lang)
+
+
+# Q2. Without running, what is the output?
+
+data = (10, 20, 30, 40, 50)
+print(data[1:4]) # --> (20,30,40)
+print(data[-1])  # --> 50
+print(len(data)) # --> 5
