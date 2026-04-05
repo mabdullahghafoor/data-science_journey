@@ -15,3 +15,22 @@ data_list = list(data)
 data_list[0] = 10
 data_tuple = tuple(data_list)
 print(data_tuple)
+
+
+# Q5. Given this tuple of student records:
+# Loop through using tuple unpacking & print each student's result as Pass/Fail.
+
+
+records = (
+    ("Ali",    88),
+    ("Sara",   45),
+    ("Fatima", 97),
+    ("Omar",   32),
+)
+
+for name,mark in records:
+    
+    status = "PASS" if mark >= 50 else "FAIL"
+
+    print(f"Nmae: {name}     Marks: {mark}     {status}")
+        
