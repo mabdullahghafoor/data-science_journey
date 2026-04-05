@@ -51,4 +51,8 @@ minimum, maximum,avg = get_stats(number = [3,8,6,1,9,2,7])
 print(f"Minimum = {minimum}     Maximum = {maximum}     Average = {avg:.2f}")
 
 
+
+
+
+
         
