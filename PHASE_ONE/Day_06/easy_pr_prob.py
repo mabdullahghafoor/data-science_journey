@@ -17,3 +17,12 @@ data = (10, 20, 30, 40, 50)
 print(data[1:4]) # --> (20,30,40)
 print(data[-1])  # --> 50
 print(len(data)) # --> 5
+
+
+# Q3. Create a tuple (5, 3, 8, 1, 9, 2). 
+# #Print its minimum, maximum, and sum without converting to a list.
+
+data = (5,3,8,1,9,2)
+print(min(data))
+print(max(data))
+print(sum(data))
