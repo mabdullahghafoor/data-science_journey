@@ -1,0 +1,27 @@
+TUPLES:
+       You already know Lists. Tuples are like lists but with one superpower:
+
+Once created — it CANNOT be changed. Ever.
+
+This is called Immutability.
+
+Example:
+
+List  = Whiteboard  → you can write, erase, rewrite anytime
+Tuple = Printed Certificate → once printed, it's permanent
+
+Real world analogy:
+
+Your date of birth (2002, 5, 14) should NEVER change in a system.
+A GPS coordinate (24.8607, 67.0011) of a fixed location never changes.
+These are perfect for Tuples!
+
+
+List vs Tuple — 
+Side by Side:   List                     Tuple
+Syntax          [1, 2, 3]               (1, 2, 3)
+Changeable?     ✅ Yes                  ❌ No
+Speed           Slower                   Faster
+Use             whenData changes         Data is fixed
+Example         Student marks            GPS coordinates
+
