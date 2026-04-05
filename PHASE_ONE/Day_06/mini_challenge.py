@@ -59,3 +59,5 @@ print(f"📍 From Karachi   : {karachi_flights[0]}, {karachi_flights[1]}")
 print(f"📊 Avg Price      : Rs{avg}")
 print(f"╚═══════════════════════════════════════════════════════╝")
 
+
+
