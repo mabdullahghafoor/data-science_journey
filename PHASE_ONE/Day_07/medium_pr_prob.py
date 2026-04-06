@@ -28,3 +28,11 @@ print(f"Intersection         : {intersection}")
 print(f"Difference Mor To Eve: {diff_mor_to_eve}")
 print(f"Difference Eve To Mor: {diff_eve_to_mor}")
 print(f"Symmetric Difference : {symmetric}")
+
+
+# Q5. You have a list of exam roll numbers 
+# with some errors (duplicates). Use sets to:
+# Find who submitted more than once (duplicates)
+# Find who submitted but is NOT registered
+# Find registered students who did NOT submit
+
