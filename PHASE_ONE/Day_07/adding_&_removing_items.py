@@ -23,3 +23,11 @@ print(f"Removed: {popped}")     # you don't know which one!
 
 skills.clear()                  # removes everything
 print(skills)                   # set()
+
+
+ #── Checking membership — sets are FASTER than lists ────────────
+allowed = {"admin", "manager", "analyst"}
+user    = "analyst"
+
+print(user in allowed)          # True — instant lookup!
+print("intern" not in allowed)  # True
