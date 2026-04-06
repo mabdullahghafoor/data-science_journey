@@ -36,3 +36,34 @@ print(f"Symmetric Difference : {symmetric}")
 # Find who submitted but is NOT registered
 # Find registered students who did NOT submit
 
+submitted = [101,102,103,101,104,102,105,103,106]
+registered = {101,102,103,104,105,106,107,108}
+
+submitted_set = set(submitted)
+# 1.
+seen = set()
+duplicates = set()
+submitted_set = set(submitted)
+
+for rollno in submitted:
+
+    if rollno in seen:
+        duplicates.add(rollno)
+    else:
+        seen.add(rollno)
+
+
+# 2.
+
+not_register = submitted_set - registered
+
+# 3.
+
+not_submitted = registered - submitted_set
+
+
+print(F"Labelled Result")
+print(f"Duplicates Roll No                          : {duplicates}")
+print(f"Students who submitted but NOT registered   : {not_register}") 
+print(f"Students who registered but NOT submitted   : {not_submitted}") 
+
