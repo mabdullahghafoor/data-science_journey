@@ -17,3 +17,8 @@ s = {1, 2, 3, 2, 1, 4}
 print(len(s)) # --> 4
 print(3 in s) # --> True
 print(5 in s) # --> False
+
+
+# Q3. Create a set of 5 programming languages. Add 2 more. 
+# Try adding a duplicate. Print final set and its length.
+
