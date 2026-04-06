@@ -22,3 +22,7 @@ print(5 in s) # --> False
 # Q3. Create a set of 5 programming languages. Add 2 more. 
 # Try adding a duplicate. Print final set and its length.
 
+languages = {"python", "java", "C++", "C#", "flutter"}
+languages.add("html")
+languages.add("java")
+print(f"Total No of Languages : {len(languages)}")
