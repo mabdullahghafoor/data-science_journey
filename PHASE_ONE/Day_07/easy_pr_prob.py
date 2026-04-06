@@ -12,3 +12,8 @@ print(F"No of Removed Duplicates : {no_of_rem_dup}")
 
 
 # Q2. Without running, what is the output?
+
+s = {1, 2, 3, 2, 1, 4}
+print(len(s)) # --> 4
+print(3 in s) # --> True
+print(5 in s) # --> False
