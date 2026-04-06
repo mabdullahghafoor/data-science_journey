@@ -88,6 +88,6 @@ print(f"")
 print(f"📊 All unique courses taken by students: {all_unique}")
 print(f"╚══════════════════════════════════════════╝")
 print(f"")
-print(f"")
-print(f"")
-print(f"")
+
+
+
