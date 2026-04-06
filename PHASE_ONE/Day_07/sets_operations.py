@@ -16,3 +16,13 @@ both = python_students & sql_students
 print(f"Enrolled in both  : {both}")
 # {'Sara', 'Omar', 'Fatima'}
 
+
+# ── DIFFERENCE ( - ) → ONLY in Python, NOT in SQL ───────────────
+only_python = python_students - sql_students
+print(f"Only Python       : {only_python}")
+# {'Ali', 'Zara'}
+
+only_sql = sql_students - python_students
+print(f"Only SQL          : {only_sql}")
+# {'Bilal', 'Hina'}
+
