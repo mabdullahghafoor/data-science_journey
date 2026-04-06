@@ -74,3 +74,14 @@ print(f"Students who registered but NOT submitted   : {not_submitted}")
 # Matching skills (candidate has these ✅)
 # Missing skills (candidate needs these ❌)
 # Extra skills (candidate has bonus skills ⭐)
+
+job_skills = {"python", "sql", "git", "linux"}
+candidate_skills = {"python", "git", "excel", "communication"}
+
+matching_skills = job_skills & candidate_skills
+missing_skills = job_skills - candidate_skills
+extra_skills = candidate_skills - job_skills
+
+print(f"Matching Skills : {matching_skills}")
+print(f"Missing Skills  : {missing_skills}")
+print(f"Extra Skills    : {extra_skills}")
