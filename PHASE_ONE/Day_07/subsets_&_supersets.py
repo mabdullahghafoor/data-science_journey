@@ -15,3 +15,8 @@ print(all_staff.issuperset(admins))     # True  ✅
 print(all_staff >= admins)              # True  (same thing)
 
 
+# Disjoint → do they share NO common items?
+developers = {"Bilal", "Hina", "Zara"}
+managers   = {"Kamran", "Sana"}
+print(developers.isdisjoint(managers))  # True — no overlap
+
