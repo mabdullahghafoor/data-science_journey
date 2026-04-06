@@ -26,3 +26,8 @@ print(f"Common Data Values are : {both}")
 
 user_B = clean_B - clean_A
 print(f"Unique user in B are : {user_B}")
+
+
+# Step 4: All unique users combined
+unique = clean_A | clean_B
+print(f"All unique users : {unique}")
