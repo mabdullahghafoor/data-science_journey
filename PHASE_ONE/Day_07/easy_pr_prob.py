@@ -5,5 +5,8 @@
 # Convert to set to remove duplicates.
 # Print how many duplicates were removed.
 
-
+data = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+data_set = set(data)
+no_of_rem_dup = len(data) - len(data_set)
+print(F"No of Removed Duplicates : {no_of_rem_dup}")
 
