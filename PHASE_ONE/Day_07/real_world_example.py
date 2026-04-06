@@ -33,3 +33,4 @@ unique = clean_A | clean_B
 print(f"All unique users : {unique}")
 
 print(f"Total unique users: {len(unique)}")  # 8
+
