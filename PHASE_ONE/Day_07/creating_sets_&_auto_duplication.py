@@ -33,3 +33,5 @@ print(f"Total visits    : {len(visitors_log)}")     # 8
 print(f"Unique visitors : {len(unique_visitors)}")  # 4
 print(f"Duplicates found: {duplicates_removed}")    # 4
 
+
+
