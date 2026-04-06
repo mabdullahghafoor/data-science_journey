@@ -9,3 +9,9 @@ all_staff = {"Ali", "Sara", "Fatima", "Omar", "Zara"}
 print(admins.issubset(all_staff))       # True  ✅
 print(admins <= all_staff)              # True  (same thing)
 
+
+# Superset → does all_staff contain all of admins?
+print(all_staff.issuperset(admins))     # True  ✅
+print(all_staff >= admins)              # True  (same thing)
+
+
