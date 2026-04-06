@@ -20,3 +20,9 @@ print(clean_B)
 
 both = clean_A & clean_B
 print(f"Common Data Values are : {both}")
+
+
+# Step 3: Find NEW users only in source B
+
+user_B = clean_B - clean_A
+print(f"Unique user in B are : {user_B}")
