@@ -1,1 +1,6 @@
 #In this program we will see some operations regarding sets
+
+# ── Setup: two groups of students ───────────────────────────────
+python_students = {"Ali", "Sara", "Fatima", "Omar", "Zara"}
+sql_students    = {"Sara", "Omar", "Bilal", "Hina", "Fatima"}
+
