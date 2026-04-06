@@ -26,3 +26,9 @@ only_sql = sql_students - python_students
 print(f"Only SQL          : {only_sql}")
 # {'Bilal', 'Hina'}
 
+
+# ── SYMMETRIC DIFFERENCE ( ^ ) → in ONE but NOT BOTH ────────────
+exclusive = python_students ^ sql_students
+print(f"In one only       : {exclusive}")
+# {'Ali', 'Zara', 'Bilal', 'Hina'}
+
