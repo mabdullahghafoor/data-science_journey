@@ -31,3 +31,5 @@ print(f"Unique user in B are : {user_B}")
 # Step 4: All unique users combined
 unique = clean_A | clean_B
 print(f"All unique users : {unique}")
+
+print(f"Total unique users: {len(unique)}")  # 8
