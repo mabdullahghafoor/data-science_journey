@@ -85,3 +85,4 @@ extra_skills = candidate_skills - job_skills
 print(f"Matching Skills : {matching_skills}")
 print(f"Missing Skills  : {missing_skills}")
 print(f"Extra Skills    : {extra_skills}")
+
