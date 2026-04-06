@@ -13,3 +13,9 @@ mixed    = {1, "hello", 3.14, True}
 # ⚠️ IMPORTANT — empty set must use set(), NOT {}
 empty_wrong  = {}       # ❌ This creates empty DICTIONARY!
 empty_right  = set()    # ✅ This creates empty set
+
+
+# ── Most powerful use: remove duplicates from a list ─────────────
+raw_data  = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5]
+clean     = list(set(raw_data))
+print(clean)        # [1, 2, 3, 4, 5] — all duplicates gone!
