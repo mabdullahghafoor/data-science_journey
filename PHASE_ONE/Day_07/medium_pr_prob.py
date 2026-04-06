@@ -67,3 +67,10 @@ print(f"Duplicates Roll No                          : {duplicates}")
 print(f"Students who submitted but NOT registered   : {not_register}") 
 print(f"Students who registered but NOT submitted   : {not_submitted}") 
 
+
+
+# Q6. Build a skill matcher — given a job's required skills and a candidate's skills, tell:
+
+# Matching skills (candidate has these ✅)
+# Missing skills (candidate needs these ❌)
+# Extra skills (candidate has bonus skills ⭐)
