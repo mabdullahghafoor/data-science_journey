@@ -20,3 +20,5 @@ developers = {"Bilal", "Hina", "Zara"}
 managers   = {"Kamran", "Sana"}
 print(developers.isdisjoint(managers))  # True — no overlap
 
+
+
