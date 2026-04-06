@@ -10,3 +10,5 @@ data_set = set(data)
 no_of_rem_dup = len(data) - len(data_set)
 print(F"No of Removed Duplicates : {no_of_rem_dup}")
 
+
+# Q2. Without running, what is the output?
