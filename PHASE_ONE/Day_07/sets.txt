@@ -1,0 +1,32 @@
+
+# 📍 TOPIC 7: Sets
+
+## 🧠 1. CONCEPT EXPLANATION
+
+You know Lists (ordered, duplicates allowed) and Tuples (ordered, immutable).
+
+Sets are **completely different** in one powerful way:
+
+> **A Set NEVER stores duplicate values — ever.**
+
+The moment you put a duplicate in, Python silently removes it.
+
+**Real world analogy:**
+> Think of a **voter registration list.**
+> Each citizen can only register ONCE.
+> No matter how many times someone tries to register, they appear only once.
+> That's exactly how a Set works.
+
+### 3 Key Properties of Sets:
+```
+1. NO duplicates    → automatically removes repeated values
+2. UNORDERED        → no index, no guaranteed order
+3. MUTABLE          → can add/remove items (but no indexing!)
+```
+
+### When should you use a Set?
+```
+✅ Removing duplicates from data
+✅ Checking if something EXISTS (very fast!)
+✅ Finding common items between two collections
+✅ Finding unique items across datasets
