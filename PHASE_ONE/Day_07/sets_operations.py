@@ -11,3 +11,8 @@ print(f"All students      : {all_students}")
 # {'Ali','Sara','Fatima','Omar','Zara','Bilal','Hina'}
 
 
+# ── INTERSECTION ( & ) → students in BOTH courses ───────────────
+both = python_students & sql_students
+print(f"Enrolled in both  : {both}")
+# {'Sara', 'Omar', 'Fatima'}
+
