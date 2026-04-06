@@ -15,3 +15,8 @@ clean_B = set(source_B)
 print(clean_A)
 print(clean_B)
 
+
+# Step 2: Find users in BOTH sources (already registered)
+
+both = clean_A & clean_B
+print(f"Common Data Values are : {both}")
