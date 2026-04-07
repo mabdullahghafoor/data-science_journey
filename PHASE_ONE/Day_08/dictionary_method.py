@@ -27,3 +27,10 @@ for value in profile.values():
 # Method 3 — BOTH key and value (most common in real life)
 for key, value in profile.items():
     print(f"  {key:<10} : {value}")
+
+
+# ── Copy a dictionary safely ─────────────────────────────────────
+original = {"name": "Ali", "age": 22}
+copy1    = original.copy()      # ✅ independent copy
+copy1["age"] = 99
+print(original["age"])          # 22 → original safe!
