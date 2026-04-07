@@ -22,3 +22,8 @@ for key in profile:
 # Method 2 — values only
 for value in profile.values():
     print(value)
+
+
+# Method 3 — BOTH key and value (most common in real life)
+for key, value in profile.items():
+    print(f"  {key:<10} : {value}")
