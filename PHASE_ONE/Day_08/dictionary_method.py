@@ -34,3 +34,4 @@ original = {"name": "Ali", "age": 22}
 copy1    = original.copy()      # ✅ independent copy
 copy1["age"] = 99
 print(original["age"])          # 22 → original safe!
+
