@@ -21,3 +21,8 @@ classroom = {
         "cgpa"  : 3.95
     }
 }
+
+# ── Accessing nested data ────────────────────────────────────────
+print(classroom["STU001"]["name"])           # Ali Hassan
+print(classroom["STU001"]["marks"]["CS"])    # 95
+print(classroom["STU003"]["cgpa"])           # 3.95
