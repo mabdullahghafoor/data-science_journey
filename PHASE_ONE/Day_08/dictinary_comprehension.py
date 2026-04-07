@@ -17,3 +17,9 @@ print(gradebook)    # same result, cleaner code!
 # Only include students who passed
 passed = {s: m for s, m in gradebook.items() if m >= 50}
 print(passed)       # {'Ali': 88, 'Sara': 65, 'Fatima': 97}
+
+
+# ── Transform values ─────────────────────────────────────────────
+# Convert all marks to percentages
+percentages = {s: f"{m}%" for s, m in gradebook.items()}
+print(percentages)  # {'Ali': '88%', 'Sara': '65%', ...}
