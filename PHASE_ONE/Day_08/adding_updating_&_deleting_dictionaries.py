@@ -23,3 +23,7 @@ print(student)
 del student["age"]                       # delete specific key
 removed = student.pop("university")      # delete AND return value
 print(f"Removed: {removed}")             # FAST
+
+
+last = student.popitem()                 # removes LAST inserted pair
+print(f"Last item removed: {last}")      # ('city', 'Karachi')
