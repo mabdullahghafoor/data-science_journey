@@ -1,0 +1,19 @@
+Dictionaries: 
+            A Dictionary stores data as key → value pairs.
+You look up data by its label (key), not by position.
+
+Real world analogy:
+
+A real dictionary: you look up a word to find its meaning.
+word = key, meaning = value
+
+Python dictionary works EXACTLY the same way.
+
+4 Key Properties:
+
+Property            Meaning                     Example
+
+Key-Value pairs     Every item has a label      "name": "Ali"
+Ordered             Keeps insertion order       Python 3.7+
+Mutable             Can add/change/deleted      ["age"] = 23Keys 
+unique              No duplicate keys           Last value wins
