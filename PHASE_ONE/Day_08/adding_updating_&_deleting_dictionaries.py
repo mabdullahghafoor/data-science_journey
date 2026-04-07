@@ -17,3 +17,9 @@ print(student["cgpa"])          # 3.87
 # ── Update multiple keys at once ─────────────────────────────────
 student.update({"age": 23, "cgpa": 3.90, "city": "Karachi"})
 print(student)
+
+
+# ── Deleting ─────────────────────────────────────────────────────
+del student["age"]                       # delete specific key
+removed = student.pop("university")      # delete AND return value
+print(f"Removed: {removed}")             # FAST
