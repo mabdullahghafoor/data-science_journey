@@ -17,3 +17,5 @@ Key-Value pairs     Every item has a label      "name": "Ali"
 Ordered             Keeps insertion order       Python 3.7+
 Mutable             Can add/change/deleted      ["age"] = 23Keys 
 unique              No duplicate keys           Last value wins
+
+
