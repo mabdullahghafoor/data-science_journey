@@ -8,3 +8,7 @@ gradebook = {}
 for student, mark in zip(students, marks):
     gradebook[student] = mark
 print(gradebook)    # {'Ali':88, 'Sara':65, 'Fatima':97, 'Omar':45} 
+
+# ── Dictionary comprehension — same in ONE line ───────────────────
+gradebook = {s: m for s, m in zip(students, marks)}
+print(gradebook)    # same result, cleaner code!
