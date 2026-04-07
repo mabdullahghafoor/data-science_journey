@@ -24,3 +24,8 @@ print(student["subjects"][0])    # Math → index into nested list
 print(student.get("age"))            # 22
 print(student.get("grade"))          # None  → key missing, no crash
 print(student.get("grade", "N/A"))   # N/A   → custom default value
+
+
+# ── Check if key exists ───────────────────────────────────────────
+print("name" in student)        # True
+print("salary" in student)      # False
