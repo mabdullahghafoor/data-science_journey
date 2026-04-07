@@ -23,3 +23,5 @@ print(passed)       # {'Ali': 88, 'Sara': 65, 'Fatima': 97}
 # Convert all marks to percentages
 percentages = {s: f"{m}%" for s, m in gradebook.items()}
 print(percentages)  # {'Ali': '88%', 'Sara': '65%', ...}
+
+
