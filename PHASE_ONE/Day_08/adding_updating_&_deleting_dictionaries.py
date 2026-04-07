@@ -27,3 +27,6 @@ print(f"Removed: {removed}")             # FAST
 
 last = student.popitem()                 # removes LAST inserted pair
 print(f"Last item removed: {last}")      # ('city', 'Karachi')
+
+student.clear()                          # delete EVERYTHING
+print(student)                           # {}
