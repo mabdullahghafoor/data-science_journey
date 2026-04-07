@@ -7,3 +7,8 @@ profile = {
     "cgpa"  : 3.95,
     "skills": ["Python", "SQL", "ML"]
 }
+
+# ── The 3 most important dictionary methods ───────────────────────
+print(profile.keys())     # dict_keys(['name','age','city','cgpa','skills'])
+print(profile.values())   # dict_values(['Fatima Khan', 23, 'Karachi',...])
+print(profile.items())    # dict_items([('name','Fatima Khan'),...])
