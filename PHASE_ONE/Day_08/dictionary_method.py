@@ -18,3 +18,7 @@ print(profile.items())    # dict_items([('name','Fatima Khan'),...])
 # Method 1 — keys only (default)
 for key in profile:
     print(key)
+
+# Method 2 — values only
+for value in profile.values():
+    print(value)
