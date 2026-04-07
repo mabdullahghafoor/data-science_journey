@@ -26,3 +26,12 @@ classroom = {
 print(classroom["STU001"]["name"])           # Ali Hassan
 print(classroom["STU001"]["marks"]["CS"])    # 95
 print(classroom["STU003"]["cgpa"])           # 3.95
+
+# ── Loop through nested dictionary ───────────────────────────────
+print("\n📊 CLASS REPORT:")
+print("─" * 45)
+for roll, data in classroom.items():
+    name   = data["name"]
+    marks  = data["marks"]
+    avg    = sum(marks.values()) / len(marks)
+    print(f"  [{roll}] {name:<15} | Avg: {avg:.1f}")
