@@ -35,3 +35,5 @@ for roll, data in classroom.items():
     marks  = data["marks"]
     avg    = sum(marks.values()) / len(marks)
     print(f"  [{roll}] {name:<15} | Avg: {avg:.1f}")
+
+
