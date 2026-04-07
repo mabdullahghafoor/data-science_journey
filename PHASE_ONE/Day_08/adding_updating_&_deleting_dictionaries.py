@@ -30,3 +30,4 @@ print(f"Last item removed: {last}")      # ('city', 'Karachi')
 
 student.clear()                          # delete EVERYTHING
 print(student)                           # {}
+
