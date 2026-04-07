@@ -9,3 +9,10 @@ student = {
     "enrolled"  : True,
     "subjects"  : ["Math", "CS", "Physics"]   # list as a value!
 }
+
+
+# ── Accessing values ─────────────────────────────────────────────
+print(student["name"])           # Ali Hassan
+print(student["cgpa"])           # 3.87
+print(student["subjects"][0])    # Math → index into nested list
+
