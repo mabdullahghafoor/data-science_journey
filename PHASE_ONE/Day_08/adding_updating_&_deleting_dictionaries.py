@@ -13,3 +13,7 @@ print(student)
 student["cgpa"] = 3.87          # simply reassign
 print(student["cgpa"])          # 3.87
 
+
+# ── Update multiple keys at once ─────────────────────────────────
+student.update({"age": 23, "cgpa": 3.90, "city": "Karachi"})
+print(student)
