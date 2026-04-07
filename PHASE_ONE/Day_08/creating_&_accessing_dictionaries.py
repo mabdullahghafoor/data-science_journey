@@ -29,3 +29,4 @@ print(student.get("grade", "N/A"))   # N/A   → custom default value
 # ── Check if key exists ───────────────────────────────────────────
 print("name" in student)        # True
 print("salary" in student)      # False
+
