@@ -33,3 +33,5 @@ for word, count in sorted_freq.items():
 # great     : █ (1)
 # easy      : █ (1)
 # fun       : █ (1)
+
+
