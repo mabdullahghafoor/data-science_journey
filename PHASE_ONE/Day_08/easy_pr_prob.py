@@ -23,8 +23,27 @@ print(d.get("z", "Not Found")) # --> Not Found
 print("c" in d) # --> True
 print(len(d)) # --> 3
 
-
 # Q3. Given this dictionary:
 # Print the most expensive and cheapest fruit with their prices.
 
 prices = {"apple": 150, "banana": 80, "mango": 200, "grape": 350}
+
+# initial reference values
+exp_fruit = "apple"
+exp_price = prices["apple"]
+
+cheap_fruit = "apple"
+cheap_price = prices["apple"]
+
+for fruit, price in prices.items():
+
+    if price > exp_price:
+        exp_fruit = fruit
+        exp_price = price
+
+    if price < cheap_price:
+        cheap_fruit = fruit
+        cheap_price = price
+
+print(f"Expensive Fruit : {exp_fruit}   Price : {exp_price}")
+print(f"Cheapest Fruit  : {cheap_fruit}   Price : {cheap_price}")
