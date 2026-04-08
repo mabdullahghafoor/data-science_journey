@@ -27,3 +27,4 @@ print(len(d)) # --> 3
 # Q3. Given this dictionary:
 # Print the most expensive and cheapest fruit with their prices.
 
+prices = {"apple": 150, "banana": 80, "mango": 200, "grape": 350}
