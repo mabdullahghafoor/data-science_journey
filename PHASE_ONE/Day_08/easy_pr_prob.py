@@ -23,3 +23,7 @@ print(d.get("z", "Not Found")) # --> Not Found
 print("c" in d) # --> True
 print(len(d)) # --> 3
 
+
+# Q3. Given this dictionary:
+# Print the most expensive and cheapest fruit with their prices.
+
