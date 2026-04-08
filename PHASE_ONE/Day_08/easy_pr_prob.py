@@ -16,3 +16,10 @@ for att, val in bio.items():
 
 
 # Q2. Without running, what is the output?
+
+d = {"a": 1, "b": 2, "c": 3}
+print(d.get("b")) # --> 2
+print(d.get("z", "Not Found")) # --> Not Found
+print("c" in d) # --> True
+print(len(d)) # --> 3
+
