@@ -13,3 +13,23 @@ for word in words:
         frequency[word] = 1     # first time seeing word → set to 1
 
 print(frequency)
+
+
+# ── Sort by frequency (highest first) ────────────────────────────
+sorted_freq = dict(sorted(frequency.items(),
+                          key=lambda x: x[1],
+                          reverse=True))
+
+print("\n📊 WORD FREQUENCY:")
+print("─" * 25)
+for word, count in sorted_freq.items():
+    bar = "█" * count
+    print(f"  {word:<10}: {bar} ({count})")
+
+# Output:
+# python    : ███ (3)
+# is        : ███ (3)
+# and       : ██ (2)
+# great     : █ (1)
+# easy      : █ (1)
+# fun       : █ (1)
