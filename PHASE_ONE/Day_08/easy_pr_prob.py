@@ -13,3 +13,6 @@ bio = {
 
 for att, val in bio.items():
     print(f"{att:>15} : {val:>15}")
+
+
+# Q2. Without running, what is the output?
