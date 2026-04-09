@@ -95,8 +95,4 @@ print(f"Average Monthly Sale: {average:.2f}")
 print(f"Above Average Months: {abv_avg_mon}")    
 
 
-
-
-
-
     
