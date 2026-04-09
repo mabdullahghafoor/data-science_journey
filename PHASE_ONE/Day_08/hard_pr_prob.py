@@ -28,4 +28,27 @@ while True:
 
     choice = int(input("Enter your choice (1-6): "))
 
+    # SEARCH CONTACT
+    if choice == 1:
+
+        name = input("Enter name to search: ")
+        found = False
+
+        for cid, bio in contact.items():
+
+            if bio["name"].lower() == name.lower():
+
+                print("\nContact Found")
+                print("Name :", bio["name"])
+                print("Phone:", bio["phone_no"])
+                print("Email:", bio["email"])
+
+                found = True
+                break
+
+        if not found:
+            print("Contact not found")
+
+
+
     
