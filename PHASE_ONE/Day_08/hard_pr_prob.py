@@ -108,4 +108,18 @@ while True:
 
 
 
+    # DISPLAY ALL CONTACTS
+    elif choice == 4:
+
+        print("\n📋 ALL CONTACTS")
+
+        for cid, bio in contact.items():
+
+            print("---------------------")
+            print("Name :", bio["name"])
+            print("Phone:", bio["phone_no"])
+            print("Email:", bio["email"])
+
+
+
     
