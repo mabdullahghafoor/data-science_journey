@@ -87,4 +87,25 @@ while True:
 
 
 
+    # DELETE CONTACT
+    elif choice == 3:
+
+        name = input("Enter name to delete: ")
+        found = False
+
+        for cid, bio in contact.items():
+
+            if bio["name"].lower() == name.lower():
+
+                del contact[cid]
+                print("Contact deleted successfully")
+
+                found = True
+                break
+
+        if not found:
+            print("Contact not found")
+
+
+
     
