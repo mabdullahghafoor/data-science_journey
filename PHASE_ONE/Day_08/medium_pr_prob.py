@@ -61,3 +61,40 @@ print(f"{frequency}")
 # Find and print: best month, worst month, total annual sales, 
 # average monthly sales, and all months above average.
 
+sales = {"Jan":120000, "Feb":95000,  "Mar":140000,
+         "Apr":88000,  "May":175000, "Jun":160000,
+         "Jul":132000, "Aug":145000, "Sep":98000,
+         "Oct":185000, "Nov":170000, "Dec":210000}
+
+best_sale = sales["Jan"]
+worst_sale = sales["Jan"]
+total = 0
+abv_avg_mon = []
+
+for month,sale in sales.items():
+
+    if sale > best_sale:
+        best_month = month
+        best_sale = sales[month]
+    elif sale < worst_sale:
+        worst_month = month
+        worst_sale = sales[month]
+
+    total += sale
+
+    average = total / 12
+    if sale > average: 
+        abv_avg_mon.append(month)
+
+  
+
+print(f"Best Sale Month     : {best_month}  Sale : {best_sale}")
+print(f"Worst Sale Month    : {worst_month}  Sale : {worst_sale}")
+print(f"Total Annual Sale   : {total}")
+print(f"Average Monthly Sale: {average:.2f}")
+print(f"Above Average Months: {abv_avg_mon}")    
+
+
+
+
+    
