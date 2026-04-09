@@ -129,4 +129,12 @@ while True:
 
 
 
-    
+    # EXIT
+    elif choice == 6:
+
+        print("Exiting Contact Book...")
+        break
+
+
+    else:
+        print("Invalid choice. Try again.")
