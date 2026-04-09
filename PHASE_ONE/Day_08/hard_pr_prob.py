@@ -122,4 +122,11 @@ while True:
 
 
 
+    # TOTAL CONTACTS
+    elif choice == 5:
+
+        print("Total Contacts:", len(contact))
+
+
+
     
