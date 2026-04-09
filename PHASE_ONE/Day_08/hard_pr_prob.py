@@ -9,3 +9,10 @@
 #Display all contacts in a formatted table
 #Show total contact count
 #Handle case when contact not found gracefully
+
+contact = {
+    "c1": {"name": "Ali",  "phone_no": 1020, "email": "abc@gmail.com"},
+    "c2": {"name": "Sara", "phone_no": 1212, "email": "xyz@gmail.com"},
+    "c3": {"name": "Aila", "phone_no": 1551, "email": "mno@gmail.com"}
+}
+
