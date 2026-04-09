@@ -56,3 +56,8 @@ for word in words:
         frequency[word] = 1
 
 print(f"{frequency}")
+
+# Q6. Given this dictionary of monthly sales:
+# Find and print: best month, worst month, total annual sales, 
+# average monthly sales, and all months above average.
+
