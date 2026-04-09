@@ -51,4 +51,40 @@ while True:
 
 
 
+    # UPDATE CONTACT
+    elif choice == 2:
+
+        name = input("Enter name to update: ")
+        found = False
+
+        for cid, bio in contact.items():
+
+            if bio["name"].lower() == name.lower():
+
+                print("1. Update Phone Number")
+                print("2. Update Email")
+
+                ch = int(input("Enter choice: "))
+
+                if ch == 1:
+                    new_phone = int(input("Enter new phone number: "))
+                    bio["phone_no"] = new_phone
+                    print("Phone number updated")
+
+                elif ch == 2:
+                    new_email = input("Enter new email: ")
+                    bio["email"] = new_email
+                    print("Email updated")
+
+                else:
+                    print("Invalid choice")
+
+                found = True
+                break
+
+        if not found:
+            print("Contact not found")
+
+
+
     
