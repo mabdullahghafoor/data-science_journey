@@ -42,3 +42,17 @@ for name, marks in gradebook.items():
 # Print each word and how many times it appears, 
 # sorted from most to least frequent.
 
+text = "to be or not to be that is the question to be"
+
+words = text.split()
+
+frequency = {}
+
+for word in words:
+    
+    if word in frequency:
+        frequency[word] += 1
+    else:
+        frequency[word] = 1
+
+print(f"{frequency}")
