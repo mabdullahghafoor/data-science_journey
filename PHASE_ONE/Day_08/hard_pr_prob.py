@@ -16,3 +16,16 @@ contact = {
     "c3": {"name": "Aila", "phone_no": 1551, "email": "mno@gmail.com"}
 }
 
+while True:
+
+    print("\n📱 CONTACT BOOK MENU")
+    print("1. Search Contact")
+    print("2. Update Contact")
+    print("3. Delete Contact")
+    print("4. Display All Contacts")
+    print("5. Total Contacts")
+    print("6. Exit")
+
+    choice = int(input("Enter your choice (1-6): "))
+
+    
