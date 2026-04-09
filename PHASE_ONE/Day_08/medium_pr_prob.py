@@ -37,3 +37,8 @@ for name, marks in gradebook.items():
 
     print(f"Name : {name}  Average : {average:.2f}  Grade : {grade}  {status}")
 
+
+# Q5. Write a word frequency counter for this sentence:
+# Print each word and how many times it appears, 
+# sorted from most to least frequent.
+
