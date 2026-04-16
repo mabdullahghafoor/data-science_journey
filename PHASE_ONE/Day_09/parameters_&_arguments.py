@@ -10,3 +10,13 @@ def greet_students (name, course):
 
 greet_students("Ali", "Python")
 greet_students("Sara", "DSA")
+
+
+# ── Default parameters ───────────────────────────────────────────
+# If no argument given → use default value
+
+def greet_student(name, course="Python"):   # default = "Python"
+    print(f"Welcome {name}! Enrolled in: {course}.")
+
+greet_student("Ali")                    # uses default: Python
+greet_student("Sara", "Data Science")   # overrides default
