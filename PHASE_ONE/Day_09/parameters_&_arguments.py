@@ -20,3 +20,10 @@ def greet_student(name, course="Python"):   # default = "Python"
 
 greet_student("Ali")                    # uses default: Python
 greet_student("Sara", "Data Science")   # overrides default
+
+
+# ── Keyword arguments — order doesn't matter ─────────────────────
+def student_info(name, age, city):
+    print(f"{name} | Age: {age} | City: {city}")
+
+student_info(age=22, city="Karachi", name="Ali")  # any order! ✅
