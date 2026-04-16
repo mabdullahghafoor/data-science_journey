@@ -1,2 +1,6 @@
 Here is some text related to functions
 
+Function: 
+        A Function is a reusable block of code that does ONE specific job.
+You define it once, call it anywhere, anytime.
+
