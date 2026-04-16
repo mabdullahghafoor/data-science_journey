@@ -7,3 +7,9 @@ You define it once, call it anywhere, anytime.
 "Do ONE thing and do it well."
 If your function does 5 different things — break it into 5 functions.
 
+
+Without Functions          With Functions
+──────────────────         ──────────────
+Repeat code everywhere  →  Write once, use forever
+Hard to fix bugs        →  Fix in one place, fixed everywhere
+Messy, unreadable code  →  Clean, organized, professional
