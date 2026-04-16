@@ -4,3 +4,6 @@ Function:
         A Function is a reusable block of code that does ONE specific job.
 You define it once, call it anywhere, anytime.
 
+"Do ONE thing and do it well."
+If your function does 5 different things — break it into 5 functions.
+
