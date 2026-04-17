@@ -5,3 +5,14 @@
 # that returns True if the number is even and False if odd. 
 # Test with 5 different numbers.
 
+
+def is_even(number):
+
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+    
+result = is_even(10)
+print(f"The number is even: {result}")
+
