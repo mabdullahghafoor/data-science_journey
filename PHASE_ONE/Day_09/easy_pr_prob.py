@@ -20,3 +20,11 @@ print(f"The number is even: {result}")
 # Q2. Write a function celsius_to_fahrenheit(temp) 
 # that converts and returns the result. 
 # Formula: F = (C × 9/5) + 32
+
+def celsius_to_fahrenheit(temperature):
+    fahrenheit = (temperature * (9/5)) + 32
+    return fahrenheit
+
+temp = celsius_to_fahrenheit(38)
+print(f"The temperature is {temp} F")
+
