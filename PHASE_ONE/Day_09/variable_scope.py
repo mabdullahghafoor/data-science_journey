@@ -28,3 +28,4 @@ print(counter)      # 3
 # ⚠️ Modify global variables inside functions — use sparingly
 # ✅ Best practice: pass values IN via parameters,
 #                                   get values OUT via return
+
