@@ -22,3 +22,9 @@ increment()
 increment()
 increment()
 print(counter)      # 3
+
+# ── Rule of thumb ────────────────────────────────────────────────
+# ✅ Read global variables inside functions — fine
+# ⚠️ Modify global variables inside functions — use sparingly
+# ✅ Best practice: pass values IN via parameters,
+#                                   get values OUT via return
