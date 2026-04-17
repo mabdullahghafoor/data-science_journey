@@ -28,3 +28,5 @@ def calculate_bmi(weight_kg, height_m):
     else:            category = "Obese"
 
     return round(bmi, 2), category
+
+
