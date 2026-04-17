@@ -13,3 +13,15 @@ def calculate_total(*marks):
 print(calculate_total(88, 76))              # 2 args
 print(calculate_total(88, 76, 92, 65, 95)) # 5 args — same function!
 
+# ── **kwargs → accept ANY number of keyword arguments ────────────
+# Stored as a DICTIONARY inside the function
+
+def create_profile(**details):
+    """Build a student profile from any keyword arguments."""
+    print("Student Profile:")
+    for key, value in details.items():
+        print(f"  {key:<12}: {value}")
+
+create_profile(name="Ali", age=22, city="Karachi", cgpa=3.87)
+create_profile(name="Sara", university="FAST")  # different keys!
+
