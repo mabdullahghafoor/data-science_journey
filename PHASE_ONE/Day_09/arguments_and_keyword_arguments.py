@@ -25,3 +25,10 @@ def create_profile(**details):
 create_profile(name="Ali", age=22, city="Karachi", cgpa=3.87)
 create_profile(name="Sara", university="FAST")  # different keys!
 
+# ── Combining all types ───────────────────────────────────────────
+def full_function(required, *args, **kwargs):
+    print(f"Required  : {required}")
+    print(f"Extra args: {args}")
+    print(f"Keywords  : {kwargs}")
+
+full_function("Ali", 88, 76, 92, city="Karachi", cgpa=3.87)
