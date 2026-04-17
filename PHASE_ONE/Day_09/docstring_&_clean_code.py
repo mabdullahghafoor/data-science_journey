@@ -37,3 +37,4 @@ print(f"BMI: {bmi} → {category}")
 
 # ── Access the docstring ─────────────────────────────────────────
 print(calculate_bmi.__doc__)
+
