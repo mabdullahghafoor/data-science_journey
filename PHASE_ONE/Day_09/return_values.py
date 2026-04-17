@@ -13,3 +13,6 @@ def calculate_percentage(marks, total=500):
 result = calculate_percentage(416)
 print(f"Percentage: {result:.1f}%") 
 
+# Use it directly in conditions
+if calculate_percentage(416) >= 80:
+    print("Grade A!")
