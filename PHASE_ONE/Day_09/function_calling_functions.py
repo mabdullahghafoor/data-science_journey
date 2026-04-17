@@ -19,3 +19,19 @@ def get_status(marks_list):
     percentage   = (sum(marks_list) / (len(marks_list) * 100)) * 100
     return "Pass ✅" if all_passed and percentage >= 50 else "Fail ❌"
 
+def generate_report(name, marks_list):
+    """
+    Generate complete student report.
+    Calls other functions to do specific jobs.
+    """
+    total      = sum(marks_list)
+    percentage = (total / (len(marks_list) * 100)) * 100
+    grade      = get_grade(percentage)      # calls get_grade!
+    status     = get_status(marks_list)     # calls get_status!
+
+    print(f"\n  Student  : {name}")
+    print(f"  Total    : {total}/{len(marks_list)*100}")
+    print(f"  Percent  : {percentage:.1f}%")
+    print(f"  Grade    : {grade}")
+    print(f"  Result   : {status}")
+
