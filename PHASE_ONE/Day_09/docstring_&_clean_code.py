@@ -30,3 +30,6 @@ def calculate_bmi(weight_kg, height_m):
     return round(bmi, 2), category
 
 
+# ── Using the function ───────────────────────────────────────────
+bmi, category = calculate_bmi(70, 1.75)
+print(f"BMI: {bmi} → {category}")
