@@ -27,7 +27,7 @@ def get_stats(marks_list):
 
 marks = [88, 76, 92, 65, 95]
 
-
 # Unpack the returned tuple
 low, high, avg = get_stats(marks)
 print(f"Low: {low}  High: {high}  Avg: {avg:.1f}")
+
