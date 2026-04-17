@@ -10,3 +10,15 @@ def show_name():
 
 show_name()         # Sara
 print(name)         # Ali (global unchanged!)
+
+# ── global keyword — modify global variable inside function ───────
+counter = 0         # global
+
+def increment():
+    global counter  # tell Python: use the GLOBAL counter
+    counter += 1
+
+increment()
+increment()
+increment()
+print(counter)      # 3
