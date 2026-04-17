@@ -33,3 +33,7 @@ def calculate_bmi(weight_kg, height_m):
 # ── Using the function ───────────────────────────────────────────
 bmi, category = calculate_bmi(70, 1.75)
 print(f"BMI: {bmi} → {category}")
+
+
+# ── Access the docstring ─────────────────────────────────────────
+print(calculate_bmi.__doc__)
