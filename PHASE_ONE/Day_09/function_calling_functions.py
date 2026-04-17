@@ -35,3 +35,8 @@ def generate_report(name, marks_list):
     print(f"  Grade    : {grade}")
     print(f"  Result   : {status}")
 
+# ── One clean call does everything ───────────────────────────────
+generate_report("Ali Hassan",  [88, 76, 92, 65, 95])
+generate_report("Sara Ahmed",  [45, 55, 38, 72, 60])
+generate_report("Fatima Khan", [95, 98, 100, 88, 97])
+
