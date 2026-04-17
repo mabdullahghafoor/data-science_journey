@@ -16,3 +16,7 @@ def is_even(number):
 result = is_even(10)
 print(f"The number is even: {result}")
 
+
+# Q2. Write a function celsius_to_fahrenheit(temp) 
+# that converts and returns the result. 
+# Formula: F = (C × 9/5) + 32
