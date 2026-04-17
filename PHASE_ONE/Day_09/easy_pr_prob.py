@@ -28,3 +28,5 @@ def celsius_to_fahrenheit(temperature):
 temp = celsius_to_fahrenheit(38)
 print(f"The temperature is {temp} F")
 
+
+# Q3. Without running, what is the output?
