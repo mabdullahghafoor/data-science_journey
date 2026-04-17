@@ -32,3 +32,4 @@ def full_function(required, *args, **kwargs):
     print(f"Keywords  : {kwargs}")
 
 full_function("Ali", 88, 76, 92, city="Karachi", cgpa=3.87)
+
