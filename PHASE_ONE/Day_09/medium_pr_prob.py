@@ -31,3 +31,9 @@ def print_report(name,mark):
     print(f"Grade : {get_grade(mark)}")
 
 print_report("Ali",77)
+
+
+# 5. Write a function find_largest(*numbers) 
+# using *args that accepts any number of arguments and
+# returns the largest one — without using max().
+
