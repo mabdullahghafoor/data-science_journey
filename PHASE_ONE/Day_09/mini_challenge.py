@@ -23,3 +23,6 @@ students = {
 def calculate_percentage(marks, total_per_subject=100):
     """Calculate percentage from marks list."""
 
+def get_grade(percentage):
+    """Return grade string based on percentage."""
+
