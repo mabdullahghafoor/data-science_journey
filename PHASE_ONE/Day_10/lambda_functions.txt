@@ -26,3 +26,5 @@ When to Use Lambda:
 ✅ Inside sorted(), map(), filter() — very common in Data Science!
 ✅ When you need a quick function without formally defining one
 ❌ Complex logic with multiple steps → use def instead
+
+
