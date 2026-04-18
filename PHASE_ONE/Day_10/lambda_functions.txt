@@ -1,0 +1,4 @@
+Lambda Function:
+                A Lambda is a small, anonymous, one-line function.
+Anonymous means it has no name by default.
+
