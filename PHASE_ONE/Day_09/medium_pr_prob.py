@@ -22,3 +22,10 @@ def get_grade(marks):
     else:
         return "Garde F"
     
+def print_report(name,mark):
+
+    print()
+    print("Report Card")
+    print(f"Name : {name}")
+    print(f"Marks : {mark}")
+    print(f"Grade : {get_grade(mark)}")
