@@ -19,3 +19,10 @@ lambda  parameters  :  expression
 NOTE: ⚡ Key rule: Lambda can only have ONE expression.
 No multiple lines. No if/else blocks (only ternary).
 If logic is complex → use a normal function.
+
+When to Use Lambda:
+
+✅ Short, simple one-line operations
+✅ Inside sorted(), map(), filter() — very common in Data Science!
+✅ When you need a quick function without formally defining one
+❌ Complex logic with multiple steps → use def instead
