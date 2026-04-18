@@ -34,6 +34,12 @@ def calculate_percentage(marks, total_per_subject=100):
 def get_grade(percentage):
     """Return grade string based on percentage."""
 
+    if   percentage >= 90   : return "A+"
+    elif percentage >= 80   : return "A"
+    elif percentage >= 70   : return "B"
+    elif percentage >= 60   : return "C"
+    elif percentage >= 50   : return "D"
+    else                    : return "F"
 
 
 def get_status(marks, passing_mark=40, passing_percent=50):
