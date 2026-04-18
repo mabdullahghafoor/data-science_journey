@@ -29,3 +29,6 @@ def get_grade(percentage):
 def get_status(marks, passing_mark=40, passing_percent=50):
     """Return Pass/Fail based on all subjects and percentage."""
 
+def get_student_stats(marks):
+    """Return (min, max, avg) as a tuple."""
+
