@@ -20,3 +20,9 @@ by_cgpa = sorted(students,
 print("📊 Sorted by CGPA:")
 for s in by_cgpa:
     print(f"  {s['name']:<10}: {s['cgpa']}")
+
+# ── Sort by NAME alphabetically ───────────────────────────────────
+by_name = sorted(students, key=lambda s: s["name"])
+print("\n📊 Sorted by Name:")
+for s in by_name:
+    print(f"  {s['name']}")
