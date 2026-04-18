@@ -3,3 +3,20 @@
 
 # Rewrite your student result system 
 # — but this time every task must be its own function.
+
+
+# Your data
+students = {
+    "STU001": {"name": "Ali Hassan",
+               "marks": [88, 76, 92, 65, 95]},
+    "STU002": {"name": "Sara Ahmed",
+               "marks": [65, 82, 71, 79, 68]},
+    "STU003": {"name": "Fatima Khan",
+               "marks": [95, 98, 100, 88, 97]},
+    "STU004": {"name": "Omar Farooq",
+               "marks": [40, 35, 28, 55, 42]},
+    "STU005": {"name": "Zara Malik",
+               "marks": [78, 82, 75, 90, 85]},
+}
+
+
