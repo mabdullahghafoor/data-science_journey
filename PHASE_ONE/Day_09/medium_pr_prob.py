@@ -37,3 +37,16 @@ print_report("Ali",77)
 # using *args that accepts any number of arguments and
 # returns the largest one — without using max().
 
+def find_largest(*numbers):
+
+    max_num = numbers[0]
+
+    for num in numbers:
+       
+        if num > max_num:
+            max_num = num
+
+    return max_num
+
+result = find_largest(63,26,42,67,71,50)
+print(result)
