@@ -9,15 +9,15 @@
 
 def get_grade(marks):
 
-    if marks <= 90:
+    if marks >= 90:
         return "Grade A+"
-    elif marks <= 80:
+    elif marks >= 80:
         return "Grade A"
-    elif marks <= 70:
+    elif marks >= 70:
         return "Grade B"
-    elif marks <= 60:
+    elif marks >= 60:
         return "Grade C"
-    elif marks <= 50:
+    elif marks >= 50:
         return "Grade D"
     else:
         return "Garde F"
@@ -29,3 +29,5 @@ def print_report(name,mark):
     print(f"Name : {name}")
     print(f"Marks : {mark}")
     print(f"Grade : {get_grade(mark)}")
+
+print_report("Ali",77)
