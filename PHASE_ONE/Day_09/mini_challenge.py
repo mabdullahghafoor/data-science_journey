@@ -20,3 +20,6 @@ students = {
 }
 
 
+def calculate_percentage(marks, total_per_subject=100):
+    """Calculate percentage from marks list."""
+
