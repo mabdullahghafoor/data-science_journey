@@ -23,11 +23,9 @@ students = {
 def calculate_percentage(marks, total_per_subject=100):
     """Calculate percentage from marks list."""
 
-    for id,val in students.items():
-        for nam, mar in val.items():
-            obtained = sum(mar)
-        
-    percentage = (obtained/500)*100
+    obtained_marks = sum(marks)
+    total_marks = len(marks) * 100
+    percentage = (obtained_marks/total_marks)*100
 
     return percentage
 
@@ -52,6 +50,7 @@ def get_status(marks, passing_mark=40, passing_percent=50):
 
 def get_student_stats(marks):
     """Return (min, max, avg) as a tuple."""
+
 
 def print_student_card(roll, student_data):
     """Print formatted report card for one student."""
