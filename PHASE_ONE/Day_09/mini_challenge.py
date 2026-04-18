@@ -101,3 +101,4 @@ def run_report(students):
     print_class_summary(students)
 
 
+run_report(students)
