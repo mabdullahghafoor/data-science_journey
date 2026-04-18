@@ -32,3 +32,6 @@ def get_status(marks, passing_mark=40, passing_percent=50):
 def get_student_stats(marks):
     """Return (min, max, avg) as a tuple."""
 
+def print_student_card(roll, student_data):
+    """Print formatted report card for one student."""
+
