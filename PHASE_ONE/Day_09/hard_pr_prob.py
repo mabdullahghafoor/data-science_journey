@@ -55,7 +55,7 @@ def run_calculator():
         print("6 for Exit")
         print()
 
-        choice = int (input("Enter Your Choice (1-5): "))
+        choice = int (input("Enter Your Choice (1-6): "))
 
         if (choice == 1):
             print()
@@ -122,3 +122,4 @@ def run_calculator():
 
 
 run_calculator()
+
