@@ -64,3 +64,40 @@ def print_student_card(roll, student_data):
     print("--------------------------\n")
 
 
+def print_class_summary(students):
+    total_percentage = 0
+    topper_id = None
+    lowest_id = None
+    highest_percent = -1
+    lowest_percent = 101
+
+    for roll, info in students.items():
+        marks = info["marks"]
+        percentage = calculate_percentage(marks)
+
+        total_percentage += percentage
+
+        if percentage > highest_percent:
+            highest_percent = percentage
+            topper_id = roll
+
+        if percentage < lowest_percent:
+            lowest_percent = percentage
+            lowest_id = roll
+
+    class_avg = total_percentage / len(students)
+
+    print("\n====== CLASS SUMMARY ======")
+    print(f"Class Average: {class_avg:.2f}%")
+    print(f"Topper: {students[topper_id]['name']} ({highest_percent:.2f}%)")
+    print(f"Lowest: {students[lowest_id]['name']} ({lowest_percent:.2f}%)")
+    print("===========================\n")
+
+
+def run_report(students):
+    for roll, data in students.items():
+        print_student_card(roll, data)
+
+    print_class_summary(students)
+
+
