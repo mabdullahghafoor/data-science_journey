@@ -15,3 +15,7 @@ lambda  parameters  :  expression
    │         │              └── what to return (automatic)
    │         └───────────────── inputs
    └─────────────────────────── keyword
+
+NOTE: ⚡ Key rule: Lambda can only have ONE expression.
+No multiple lines. No if/else blocks (only ternary).
+If logic is complex → use a normal function.
