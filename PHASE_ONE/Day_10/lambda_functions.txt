@@ -2,3 +2,11 @@ Lambda Function:
                 A Lambda is a small, anonymous, one-line function.
 Anonymous means it has no name by default.
 
+Normal Function vs Lambda — Side by Side:
+
+Normal Function              Lambda
+───────────────              ──────
+def add(a, b):               lambda a, b: a + b
+    return a + b
+
+    
