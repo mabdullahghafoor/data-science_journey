@@ -38,3 +38,5 @@ def print_student_card(roll, student_data):
 def print_class_summary(students):
     """Print class topper, lowest scorer, class average."""
 
+def run_report(students):
+    """Main function — calls all others to generate full report."""
