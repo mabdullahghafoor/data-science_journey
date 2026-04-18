@@ -33,6 +33,7 @@ def print_report(name,mark):
 print_report("Ali",77)
 
 
+
 # 5. Write a function find_largest(*numbers) 
 # using *args that accepts any number of arguments and
 # returns the largest one — without using max().
@@ -50,6 +51,7 @@ def find_largest(*numbers):
 
 result = find_largest(63,26,42,67,71,50)
 print(result)
+
 
 
 # Q6. Write a function word_counter(sentence) that:
@@ -76,6 +78,3 @@ def word_counter(sentence):
 
 diction = word_counter("hello word hello")
 print(diction)
-
-
-
