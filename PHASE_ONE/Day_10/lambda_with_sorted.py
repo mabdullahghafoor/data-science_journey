@@ -33,3 +33,6 @@ by_age_cgpa = sorted(students,
 print("\n📊 Sorted by Age then CGPA:")
 for s in by_age_cgpa:
     print(f"  {s['name']:<10}: Age={s['age']} CGPA={s['cgpa']}")
+
+
+    
