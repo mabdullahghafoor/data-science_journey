@@ -18,4 +18,10 @@ def subtract(a,b):
 def multiply(a,b):
     return a*b
 
-
+def divide(a,b):
+    if b == 0:
+        print(f"Can't divide a number by zero(0)")
+        
+    else:
+        return a/b
+    
