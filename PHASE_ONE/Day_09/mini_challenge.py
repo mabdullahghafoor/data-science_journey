@@ -65,6 +65,15 @@ def get_student_stats(marks):
 def print_student_card(roll, student_data):
     """Print formatted report card for one student."""
 
+    for id, info in students.items():
+
+        for name,mark in info.items():
+            print(f"Roll No: {id}")
+            print(f"Name : {name}")
+            print(f"Marks : {mark}")
+
+        
+
 
 def print_class_summary(students):
     """Print class topper, lowest scorer, class average."""
