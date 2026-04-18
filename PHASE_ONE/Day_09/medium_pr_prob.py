@@ -74,3 +74,5 @@ def word_counter(sentence):
 
     return word_dict
 
+diction = word_counter("hello word hello")
+print(diction)
