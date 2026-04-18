@@ -43,7 +43,7 @@ def get_grade(percentage):
 def get_status(marks, passing_mark=40, passing_percent=50):
     """Return Pass/Fail based on all subjects and percentage."""
 
-    if (passing_mark >= 40) and (passing_percent >= 50):
+    if (marks >= 40) and (calculate_percentage(marks) >= 50):
         return "Status: PASS✅"
     else:
         return "Status: FAIL❌"
