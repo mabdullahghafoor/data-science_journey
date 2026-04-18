@@ -7,3 +7,7 @@
 #run_calculator() — menu loop, keeps running until user exits
 #Handle division by zero gracefully
 #Display history of all calculations in current session
+
+
+def add(a,b):
+    return a+b
