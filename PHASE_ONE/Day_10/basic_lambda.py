@@ -32,3 +32,4 @@ status = lambda x: "Even" if x % 2 == 0 else "Odd"
 print(grade(75))            # Pass
 print(grade(35))            # Fail
 print(status(4))            # Even
+
