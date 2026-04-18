@@ -52,4 +52,25 @@ result = find_largest(63,26,42,67,71,50)
 print(result)
 
 
+# Q6. Write a function word_counter(sentence) that:
+
+# Takes a sentence as input
+# Returns a dictionary with each word and its count
+# Ignores case ("Python" and "python" are same)
+
+
+def word_counter(sentence):
+
+    word_dict = {}
+
+
+    for word in sentence.split():
+        
+        if word in word_dict:
+            
+            word_dict[word] += 1
+        else:
+            word_dict[word] = 1
+
+    return word_dict
 
