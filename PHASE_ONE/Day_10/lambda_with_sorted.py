@@ -10,3 +10,13 @@ students = [
     {"name": "Omar",   "cgpa": 2.89, "age": 22},
     {"name": "Zara",   "cgpa": 3.71, "age": 20},
 ]
+
+
+# ── Sort by CGPA (highest first) ─────────────────────────────────
+by_cgpa = sorted(students,
+                 key=lambda s: s["cgpa"],
+                 reverse=True)
+
+print("📊 Sorted by CGPA:")
+for s in by_cgpa:
+    print(f"  {s['name']:<10}: {s['cgpa']}")
