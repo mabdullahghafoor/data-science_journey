@@ -23,3 +23,12 @@ print(add(10, 20))          # 30
 print(greet("Ali"))         # Hello, Ali!
 print(is_even(8))           # True
 print(is_even(7))           # False
+
+
+# ── Lambda with ternary (if/else in one line) ─────────────────────
+grade  = lambda p: "Pass" if p >= 50 else "Fail"
+status = lambda x: "Even" if x % 2 == 0 else "Odd"
+
+print(grade(75))            # Pass
+print(grade(35))            # Fail
+print(status(4))            # Even
