@@ -26,3 +26,6 @@ def calculate_percentage(marks, total_per_subject=100):
 def get_grade(percentage):
     """Return grade string based on percentage."""
 
+def get_status(marks, passing_mark=40, passing_percent=50):
+    """Return Pass/Fail based on all subjects and percentage."""
+
