@@ -20,6 +20,7 @@ students = {
 }
 
 
+
 def calculate_percentage(marks, total_per_subject=100):
     """Calculate percentage from marks list."""
 
@@ -28,6 +29,7 @@ def calculate_percentage(marks, total_per_subject=100):
     percentage = (obtained_marks/total_marks)*100
 
     return percentage
+
 
 def get_grade(percentage):
     """Return grade string based on percentage."""
@@ -49,15 +51,25 @@ def get_status(marks, passing_mark=40, passing_percent=50):
     else:
         return "Status: FAIL❌"
 
+
 def get_student_stats(marks):
     """Return (min, max, avg) as a tuple."""
+    max = max(marks)
+    min = min(marks)
+    total = len(marks) * 100
+    avg = sum(marks)/total
+
+    return max,min,avg
 
 
 def print_student_card(roll, student_data):
     """Print formatted report card for one student."""
 
+
 def print_class_summary(students):
     """Print class topper, lowest scorer, class average."""
 
+
 def run_report(students):
     """Main function — calls all others to generate full report."""
+
