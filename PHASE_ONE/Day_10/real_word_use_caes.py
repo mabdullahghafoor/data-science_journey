@@ -28,3 +28,7 @@ grades = list(map(
     percentages
 ))
 print(grades)   # ['A', 'F', 'A+', 'F', 'B']
+
+# ── Use Case 3: Filter valid emails ──────────────────────────────
+emails = ["ali@gmail.com", "invalid-email",
+          "sara@yahoo.com", "notanemail", "omar@fast.edu"]
