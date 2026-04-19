@@ -18,3 +18,13 @@ for name, price in cheapest:
 
 # ── Use Case 2: Grade all students in one line ────────────────────
 percentages = [88.5, 45.2, 92.1, 32.8, 78.0]
+
+grades = list(map(
+    lambda p: "A+" if p >= 90 else
+              "A"  if p >= 80 else
+              "B"  if p >= 70 else
+              "C"  if p >= 60 else
+              "D"  if p >= 50 else "F",
+    percentages
+))
+print(grades)   # ['A', 'F', 'A+', 'F', 'B']
