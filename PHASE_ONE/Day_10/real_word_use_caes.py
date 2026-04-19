@@ -32,3 +32,6 @@ print(grades)   # ['A', 'F', 'A+', 'F', 'B']
 # ── Use Case 3: Filter valid emails ──────────────────────────────
 emails = ["ali@gmail.com", "invalid-email",
           "sara@yahoo.com", "notanemail", "omar@fast.edu"]
+
+valid = list(filter(lambda e: "@" in e and "." in e, emails))
+print(valid)    # ['ali@gmail.com', 'sara@yahoo.com', 'omar@fast.edu']
