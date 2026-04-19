@@ -16,3 +16,7 @@ print(nature(-5))
 
 temp = lambda t: (t *9/5) + 32
 print(temp(37))
+
+longer = lambda a,b: max(a,b, key=len)
+print(longer("Hellooo","World"))
+
