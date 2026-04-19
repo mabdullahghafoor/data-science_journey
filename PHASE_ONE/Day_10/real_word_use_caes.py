@@ -11,3 +11,7 @@ products = [
 
 cheapest   = sorted(products, key=lambda p: p[1])
 expensive  = sorted(products, key=lambda p: p[1], reverse=True)
+
+print("💸 Cheapest first:")
+for name, price in cheapest:
+    print(f"  {name:<12}: PKR {price:,}")
