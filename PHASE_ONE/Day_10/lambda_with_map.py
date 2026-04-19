@@ -13,3 +13,8 @@ print(percentages)      # [88.0, 76.0, 92.0, 65.0, 95.0, 45.0, 38.0]
 bonus_marks = list(map(lambda m: min(m + 5, 100), marks))
 print(bonus_marks)      # [93, 81, 97, 70, 100, 50, 43]
 #                          ↑ min() ensures no one exceeds 100
+
+# ── Convert all names to uppercase ───────────────────────────────
+names = ["ali hassan", "sara ahmed", "fatima khan"]
+upper = list(map(lambda n: n.title(), names))
+print(upper)   
