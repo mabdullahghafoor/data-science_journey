@@ -15,6 +15,3 @@ passing = list(filter(lambda m: m >= 50, with_bonus))
 final = sorted(passing, key=lambda m: m, reverse=True)
 
 print(f"Original : {raw_marks}")
-print(f"Bonus    : {with_bonus}")
-print(f"Passing  : {passing}")
-print(f"Final    : {final}")
