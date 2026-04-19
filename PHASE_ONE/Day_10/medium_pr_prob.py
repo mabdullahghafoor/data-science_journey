@@ -26,3 +26,10 @@ for s in sort_by_higher_marks:
 
 students_karachi = list(filter(lambda c: c["city"] == "Karachi", students))
 print(students_karachi)
+
+
+#Add 5 bonus marks to everyone
+
+bonus = list(map(lambda c: c["city"] == c+5, students))
+print(bonus)
+
