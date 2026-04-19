@@ -10,3 +10,6 @@ with_bonus = list(map(lambda m: min(m + 5, 100), raw_marks))
 
 # Step 2: Keep only passing marks (filter)
 passing = list(filter(lambda m: m >= 50, with_bonus))
+
+# Step 3: Sort highest to lowest (sorted)
+final = sorted(passing, key=lambda m: m, reverse=True)
