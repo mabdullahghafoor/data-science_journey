@@ -7,3 +7,6 @@ raw_marks = [88, 45, 92, 32, 78, 65, 55, 90, 28, 73, 38, 82]
 
 # Step 1: Add 5 bonus marks (map)
 with_bonus = list(map(lambda m: min(m + 5, 100), raw_marks))
+
+# Step 2: Keep only passing marks (filter)
+passing = list(filter(lambda m: m >= 50, with_bonus))
