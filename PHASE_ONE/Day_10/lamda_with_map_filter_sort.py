@@ -4,3 +4,6 @@
 # This is EXACTLY how you process data in pandas/python
 
 raw_marks = [88, 45, 92, 32, 78, 65, 55, 90, 28, 73, 38, 82]
+
+# Step 1: Add 5 bonus marks (map)
+with_bonus = list(map(lambda m: min(m + 5, 100), raw_marks))
