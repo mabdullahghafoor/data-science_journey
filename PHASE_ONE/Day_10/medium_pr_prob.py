@@ -22,3 +22,7 @@ sort_by_higher_marks = sorted(students,
 print("📊 Sorted by Highest Marks:")
 for s in sort_by_higher_marks:
     print(f"  {s['name']:<10}: {s['marks']}")
+
+
+students_karachi = list(filter(lambda c: c["city"] == "Karachi", students))
+print(students_karachi)
