@@ -15,3 +15,6 @@ expensive  = sorted(products, key=lambda p: p[1], reverse=True)
 print("💸 Cheapest first:")
 for name, price in cheapest:
     print(f"  {name:<12}: PKR {price:,}")
+
+# ── Use Case 2: Grade all students in one line ────────────────────
+percentages = [88.5, 45.2, 92.1, 32.8, 78.0]
