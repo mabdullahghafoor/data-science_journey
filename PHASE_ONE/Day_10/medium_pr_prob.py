@@ -6,3 +6,11 @@
 #Sort by marks (highest first)
 #Filter only students from Karachi
 #Add 5 bonus marks to everyone
+
+students = [
+    {"name": "Ali",    "marks": 88, "city": "Karachi"},
+    {"name": "Sara",   "marks": 45, "city": "Lahore"},
+    {"name": "Fatima", "marks": 92, "city": "Karachi"},
+    {"name": "Omar",   "marks": 67, "city": "Islamabad"},
+    {"name": "Zara",   "marks": 78, "city": "Lahore"},
+]
