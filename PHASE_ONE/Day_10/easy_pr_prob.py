@@ -23,3 +23,10 @@ print(longer("Hellooo","World"))
 
 #Q2. Without running, what is the output?
 
+f = lambda x, y: x ** y
+g = lambda s: s[::-1]
+
+print(f(2, 10)) # --> 1024
+print(g("Python")) # --> nohtyP
+print((lambda x: x * 3)(7)) # --> 21
+
