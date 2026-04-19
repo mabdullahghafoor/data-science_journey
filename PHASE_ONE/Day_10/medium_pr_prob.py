@@ -1,0 +1,1 @@
+# In This Program we will see how to solve medium level practice problems of lamda functions
