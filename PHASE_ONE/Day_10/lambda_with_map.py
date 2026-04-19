@@ -8,3 +8,8 @@ marks = [88, 76, 92, 65, 95, 45, 38]
 # ── Convert marks to percentages ─────────────────────────────────
 percentages = list(map(lambda m: (m / 100) * 100, marks))
 print(percentages)      # [88.0, 76.0, 92.0, 65.0, 95.0, 45.0, 38.0]
+
+# ── Add 5 bonus marks to everyone ────────────────────────────────
+bonus_marks = list(map(lambda m: min(m + 5, 100), marks))
+print(bonus_marks)      # [93, 81, 97, 70, 100, 50, 43]
+#                          ↑ min() ensures no one exceeds 100
