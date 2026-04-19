@@ -14,3 +14,8 @@ print(f"Passed marks : {passed}")
 failed = list(filter(lambda m: m < 50, marks))
 print(f"Failed marks : {failed}")
 # [45, 32, 28]
+
+# ── Filter names starting with a specific letter ──────────────────
+f_names = list(filter(lambda n: n.startswith("F"), students))
+print(f"Names with F : {f_names}")
+# ['Fatima']
