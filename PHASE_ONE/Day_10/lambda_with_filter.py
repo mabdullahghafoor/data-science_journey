@@ -19,3 +19,9 @@ print(f"Failed marks : {failed}")
 f_names = list(filter(lambda n: n.startswith("F"), students))
 print(f"Names with F : {f_names}")
 # ['Fatima']
+
+# ── Filter marks above class average ─────────────────────────────
+average      = sum(marks) / len(marks)
+above_avg    = list(filter(lambda m: m > average, marks))
+print(f"Average      : {average:.1f}")
+print(f"Above average: {above_avg}")
