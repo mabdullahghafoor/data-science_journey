@@ -30,3 +30,10 @@ print(f(2, 10)) # --> 1024
 print(g("Python")) # --> nohtyP
 print((lambda x: x * 3)(7)) # --> 21
 
+
+#Q3. Given numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], use map() and filter() with lambdas to:
+
+#Get squares of all numbers
+#Keep only even numbers
+#Keep only odd squares
+
