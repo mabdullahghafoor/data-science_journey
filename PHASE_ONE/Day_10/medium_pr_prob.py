@@ -14,3 +14,11 @@ students = [
     {"name": "Omar",   "marks": 67, "city": "Islamabad"},
     {"name": "Zara",   "marks": 78, "city": "Lahore"},
 ]
+
+sort_by_higher_marks = sorted(students,
+                              key=lambda s: s["marks"],
+                              reverse=True)
+
+print("📊 Sorted by Highest Marks:")
+for s in sort_by_higher_marks:
+    print(f"  {s['name']:<10}: {s['marks']}")
