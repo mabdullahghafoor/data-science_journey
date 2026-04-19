@@ -16,3 +16,4 @@ final = sorted(passing, key=lambda m: m, reverse=True)
 
 print(f"Original : {raw_marks}")
 print(f"Bonus    : {with_bonus}")
+print(f"Passing  : {passing}")
