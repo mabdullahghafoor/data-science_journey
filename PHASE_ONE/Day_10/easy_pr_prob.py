@@ -7,3 +7,7 @@
 #Convert Celsius to Fahrenheit
 #Find the longer of two strings
 
+
+cube = lambda x: x**3
+
+print(cube(2))
