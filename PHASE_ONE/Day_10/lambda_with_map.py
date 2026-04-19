@@ -18,3 +18,13 @@ print(bonus_marks)      # [93, 81, 97, 70, 100, 50, 43]
 names = ["ali hassan", "sara ahmed", "fatima khan"]
 upper = list(map(lambda n: n.title(), names))
 print(upper)   
+
+# ── Normal function vs map+lambda ────────────────────────────────
+# Without map (loop)
+result = []
+for m in marks:
+    result.append(m * 2)
+
+# With map + lambda (one line!) ✅
+result = list(map(lambda m: m * 2, marks))
+
