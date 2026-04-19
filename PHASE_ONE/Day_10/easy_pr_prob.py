@@ -1,4 +1,4 @@
-# In This Program we will see how to solve easy level practice problems of functions
+# In This Program we will see how to solve easy level practice problems of lamda functions
 
 #Q1. Write lambda functions for:
 
