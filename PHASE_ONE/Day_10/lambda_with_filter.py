@@ -9,3 +9,8 @@ students = ["Ali", "Sara", "Fatima", "Omar", "Zara"]
 passed = list(filter(lambda m: m >= 50, marks))
 print(f"Passed marks : {passed}")
 # [88, 92, 78, 65, 55, 90, 73]
+
+# ── Keep only failed marks ────────────────────────────────────────
+failed = list(filter(lambda m: m < 50, marks))
+print(f"Failed marks : {failed}")
+# [45, 32, 28]
