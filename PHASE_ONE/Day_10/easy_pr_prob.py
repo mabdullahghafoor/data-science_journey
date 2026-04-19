@@ -45,3 +45,5 @@ print(square)
 even = list(filter(lambda m: m % 2 == 0, numbers))
 print(even)
 
+odd = list(filter(lambda m : m % 2 != 0, numbers))
+print(odd)
