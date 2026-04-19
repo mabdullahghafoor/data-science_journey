@@ -8,3 +8,6 @@ products = [
     ("Monitor", 45000),
     ("Webcam",   8000),
 ]
+
+cheapest   = sorted(products, key=lambda p: p[1])
+expensive  = sorted(products, key=lambda p: p[1], reverse=True)
