@@ -9,5 +9,7 @@
 
 
 cube = lambda x: x**3
-
 print(cube(2))
+
+nature = lambda num: "Positive" if num >=0 else "Negative"
+print(nature(-5))
