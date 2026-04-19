@@ -21,5 +21,5 @@ longer = lambda a,b: max(a,b, key=len)
 print(longer("Hellooo","World"))
 
 
-
+#Q2. Without running, what is the output?
 
