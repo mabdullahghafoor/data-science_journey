@@ -34,3 +34,4 @@ bonus = list(map(lambda c: c["city"] == c+5, students))
 print(bonus)
 
 
+
