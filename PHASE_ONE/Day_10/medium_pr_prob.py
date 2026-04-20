@@ -63,3 +63,10 @@ charac = list(filter(lambda x: len(x) > 5, words))
 
 for c in charac:
     print(c)
+
+print()
+
+case = list(map(lambda x: x.upper(), words))
+
+for u in case:
+    print(u)
