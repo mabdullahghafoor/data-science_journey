@@ -70,11 +70,16 @@ case = list(map(lambda x: x.upper(), words))
 
 for u in case:
     print(u)
-
+print()
 #Q6. Write a lambda that takes a student dictionary 
 # {"name":"Ali", "marks":88} 
 # and returns a formatted string "Ali: 88/100 (Pass)" 
 # — use ternary for Pass/Fail.
 
-student = {"name":"Ali", "marks":88} 
+student = {"name": "Ali", "marks": 88}
 
+# The lambda handles the formatting and the Pass/Fail logic internally
+format_student = lambda s: f"{s['name']}: {s['marks']}/100 ({'Pass' if s['marks'] >= 50 else 'Fail'})"
+
+# Call the lambda and print the result
+print(format_student(student))
