@@ -48,3 +48,6 @@ print(bonus)
 #Sort by word length (shortest first)
 #Filter words longer than 5 characters
 #Convert all to uppercase using map
+
+
+words = ["banana", "apple", "cherry", "date", "elderberry", "fig"]
