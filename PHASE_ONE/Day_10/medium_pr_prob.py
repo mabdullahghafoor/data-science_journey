@@ -57,3 +57,9 @@ short = sorted(words, key=lambda x: len(x))
 
 for s in short:
     print(s)
+print()
+
+charac = list(filter(lambda x: len(x) > 5, words))
+
+for c in charac:
+    print(c)
