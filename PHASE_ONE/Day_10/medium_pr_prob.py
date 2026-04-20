@@ -30,7 +30,15 @@ print(students_karachi)
 
 #Add 5 bonus marks to everyone
 
-bonus = list(map(lambda c: c["city"] == c+5, students))
+bonus = list(map(
+    lambda c: {
+        "name": c["name"],
+        "marks": min(c["marks"] + 5, 100),
+        "city": c["city"]
+    },
+    students
+))
+
 print(bonus)
 
 
