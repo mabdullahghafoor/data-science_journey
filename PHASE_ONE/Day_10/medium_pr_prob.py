@@ -51,3 +51,9 @@ print(bonus)
 
 
 words = ["banana", "apple", "cherry", "date", "elderberry", "fig"]
+
+
+short = sorted(words, key=lambda x: len(x))
+
+for s in short:
+    print(s)
