@@ -41,5 +41,3 @@ bonus = list(map(
 
 print(bonus)
 
-
-
