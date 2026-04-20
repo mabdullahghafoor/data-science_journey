@@ -70,3 +70,4 @@ case = list(map(lambda x: x.upper(), words))
 
 for u in case:
     print(u)
+
