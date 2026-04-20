@@ -41,3 +41,10 @@ bonus = list(map(
 
 print(bonus)
 
+
+# Q5. Given a list of words:
+#Use lambda to:
+
+#Sort by word length (shortest first)
+#Filter words longer than 5 characters
+#Convert all to uppercase using map
