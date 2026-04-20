@@ -83,3 +83,4 @@ format_student = lambda s: f"{s['name']}: {s['marks']}/100 ({'Pass' if s['marks'
 
 # Call the lambda and print the result
 print(format_student(student))
+
