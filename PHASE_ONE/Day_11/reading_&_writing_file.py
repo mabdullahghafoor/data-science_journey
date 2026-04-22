@@ -13,7 +13,7 @@ with open("Students.txt", "w") as file:
 
 # File is automatically closed after 'with' block ✅
 print("File Written Successfully")
-
+print()
 # ── Reading entire file at once ───────────────────────────────────
 
 with open("Students.txt", "r") as file:
@@ -21,5 +21,10 @@ with open("Students.txt", "r") as file:
     content = file.read()
     print(content)
 
-
+print()
 # ── Reading line by line ──────────────────────────────────────────
+
+with open("Students.txt", "r") as file:
+
+    for line in file:   # most memory efficient way!
+        print(line.strip()) # strip() removes \n at end
