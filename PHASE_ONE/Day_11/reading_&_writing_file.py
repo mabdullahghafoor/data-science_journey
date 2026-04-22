@@ -20,3 +20,6 @@ with open("Students.txt", "r") as file:
 
     content = file.read()
     print(content)
+
+
+# ── Reading line by line ──────────────────────────────────────────
