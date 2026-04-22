@@ -1,1 +1,5 @@
 In this we will drop some info regarding file handling
+
+Every program you've written so far has one big problem:
+
+When the program stops — ALL data disappears. Forever.
