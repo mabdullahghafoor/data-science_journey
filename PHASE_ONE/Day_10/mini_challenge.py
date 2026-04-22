@@ -45,3 +45,9 @@ record = list(map(lambda x: {**x, "percentage": x['marks'], "grade":grades(x['ma
 print()
 for r in record:
     print(r)
+
+#Filters only fee-paid students
+
+paid = list(filter(lambda x: x['fee_paid'] == True, raw_data))
+for p in paid:
+    print(p)
