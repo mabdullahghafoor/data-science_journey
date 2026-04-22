@@ -13,3 +13,6 @@ with open("Students.txt", "w") as file:
 
 # File is automatically closed after 'with' block ✅
 print("File Written Successfully")
+
+# ── Reading entire file at once ───────────────────────────────────
+
