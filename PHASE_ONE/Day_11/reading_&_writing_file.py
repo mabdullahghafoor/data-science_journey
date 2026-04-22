@@ -38,4 +38,11 @@ with open("students.txt", "r") as file:
     lines = file.readlines()
     print(lines)
 
+
+print()
 # Clean version — remove \n from each line
+
+with open("students.txt", "r") as file:
+
+    lines = [line.strip() for line in file.readlines()]
+    print(lines)
