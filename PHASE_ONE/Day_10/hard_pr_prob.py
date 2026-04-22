@@ -33,3 +33,9 @@ selected = list(filter(lambda x: (x > 100000), total_revenu))
 for f in selected:
     print(f)
 
+print()
+#Sort by revenue highest first
+
+highest = sorted(total_revenu, key=lambda x: x, reverse=True)
+
+print(highest)
