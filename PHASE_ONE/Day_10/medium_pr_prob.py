@@ -78,6 +78,8 @@ print()
 # and returns a formatted string "Ali: 88/100 (Pass)" 
 # — use ternary for Pass/Fail.
 
+
+
 student = {"name": "Ali", "marks": 88}
 
 # The lambda handles the formatting and the Pass/Fail logic internally
@@ -85,5 +87,6 @@ format_student = lambda s: f"{s['name']}: {s['marks']}/100 ({'Pass' if s['marks'
 
 # Call the lambda and print the result
 print(format_student(student))
+
 
 
