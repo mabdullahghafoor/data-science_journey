@@ -51,3 +51,10 @@ for r in record:
 paid = list(filter(lambda x: x['fee_paid'] == True, raw_data))
 for p in paid:
     print(p)
+
+#Sorts by marks highest first
+
+highest = sorted(raw_data, key=lambda x: x['marks'], reverse =True)
+print()
+for h in highest:
+    print(h)
