@@ -16,3 +16,18 @@ Can't share data          →    Share files with anyone
 
 File Handling = Reading from and writing to actual files
 on your computer — .txt, .csv, .json and more.
+
+The 4 File Modes — The Most Important Concept:
+
+┌──────┬────────────────────────────────────────┐
+│ Mode │ Meaning                                │
+├──────┼────────────────────────────────────────┤
+│ "r"  │ READ   — open existing file to read    │
+│ "w"  │ WRITE  — create new / OVERWRITE old    │
+│ "a"  │ APPEND — add to end, keep existing     │
+│ "x"  │ CREATE — create new, fail if exists    │
+├──────┼────────────────────────────────────────┤
+│ "r+" │ Read AND write                         │
+│ "rb" │ Read binary (images, PDFs)             │
+│ "wb" │ Write binary                           │
+└──────┴────────────────────────────────────────┘
