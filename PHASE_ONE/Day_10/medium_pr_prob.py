@@ -71,6 +71,8 @@ case = list(map(lambda x: x.upper(), words))
 for u in case:
     print(u)
 print()
+
+
 #Q6. Write a lambda that takes a student dictionary 
 # {"name":"Ali", "marks":88} 
 # and returns a formatted string "Ali: 88/100 (Pass)" 
