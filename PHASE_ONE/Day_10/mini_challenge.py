@@ -53,3 +53,5 @@ print("-" * 45)
 
 for s in sorted_data:
     print(f"{s['name']:15} {s['marks']:5} {s['percentage']:5} {s['grade']:6} {'Paid' if s['fee_paid'] else 'Unpaid'}")
+
+    
