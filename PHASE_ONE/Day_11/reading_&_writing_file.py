@@ -28,3 +28,12 @@ with open("Students.txt", "r") as file:
 
     for line in file:   # most memory efficient way!
         print(line.strip()) # strip() removes \n at end
+
+print()
+
+# ── Reading all lines into a LIST ────────────────────────────────
+
+with open("students.txt", "r") as file:
+
+    lines = file.readlines()
+    print(lines)
