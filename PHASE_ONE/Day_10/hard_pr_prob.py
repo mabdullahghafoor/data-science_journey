@@ -40,4 +40,6 @@ sorted_data = sorted(
 print("=== SALES REPORT ===")
 for item in sorted_data:
     print(f"{item['product']:10} | City: {item['city']:10} | Revenue: PKR {item['revenue']:,}")
+
+
     
