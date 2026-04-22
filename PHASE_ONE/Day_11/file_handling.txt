@@ -7,3 +7,9 @@ When the program stops — ALL data disappears. Forever.
 students = {"Ali": 88, "Sara": 76}
 # Program ends → students dictionary is GONE
 # Next time you run → start from scratch 😱
+
+Without File Handling          With File Handling
+─────────────────────          ──────────────────
+Data lives in RAM only    →    Data saved to disk permanently
+Lost when program ends    →    Available next time you run
+Can't share data          →    Share files with anyone
