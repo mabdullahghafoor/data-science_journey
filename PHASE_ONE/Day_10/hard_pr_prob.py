@@ -17,3 +17,8 @@ sales = [
     {"product": "Webcam",   "price":  8000, "qty": 15, "city": "Islamabad"},
 ]
 
+
+revenu = list(map(lambda x : (x["price"] * x["qty"]) , sales))
+
+for s in revenu:
+    print(f"{s}")
