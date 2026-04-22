@@ -29,3 +29,19 @@ names = list(map(lambda x: x['name'].strip().title(), raw_data))
 for n in names:
     print(n)
 
+#Adds percentage and grade to each student record
+
+def grades(marks):
+
+    if marks >= 90: return "A+"
+    elif marks >= 80: return "A"
+    elif marks >= 70: return "B"
+    elif marks >= 60: return "C"
+    elif marks >= 50: return "D"
+    else: return "F"
+
+record = list(map(lambda x: {**x, "percentage": x['marks'], "grade":grades(x['marks'])}, raw_data))
+
+print()
+for r in record:
+    print(r)
