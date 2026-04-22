@@ -22,3 +22,10 @@ raw_data = [
     {"name": "hina shah",      "marks": 90, "fee_paid": True},
     {"name": "  usman ali",    "marks": 40, "fee_paid": False},
 ]
+
+#Cleans names (strip spaces + proper Title Case)
+
+names = list(map(lambda x: x['name'].strip().title(), raw_data))
+for n in names:
+    print(n)
+
