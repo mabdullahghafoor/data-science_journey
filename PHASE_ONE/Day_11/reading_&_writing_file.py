@@ -10,4 +10,6 @@ with open("Students.txt", "w") as file:
     file.write("Fatima Khan\n")
     file.write("Omar Farroq\n")
 
+
+# File is automatically closed after 'with' block ✅
 print("File Written Successfully")
