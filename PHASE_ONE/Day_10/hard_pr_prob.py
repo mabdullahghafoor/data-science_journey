@@ -17,8 +17,19 @@ sales = [
     {"product": "Webcam",   "price":  8000, "qty": 15, "city": "Islamabad"},
 ]
 
-
+#Calculate total revenue per product (price × qty)
 revenu = list(map(lambda x : (x["price"] * x["qty"]) , sales))
-
+total_revenu = []
 for s in revenu:
     print(f"{s}")
+    total_revenu.append(s)
+
+
+print()
+#Filter products with revenue > PKR 100,000#
+
+selected = list(filter(lambda x: (x > 100000), total_revenu))
+
+for f in selected:
+    print(f)
+
