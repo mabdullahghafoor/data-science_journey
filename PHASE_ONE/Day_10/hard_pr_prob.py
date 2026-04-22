@@ -17,25 +17,26 @@ sales = [
     {"product": "Webcam",   "price":  8000, "qty": 15, "city": "Islamabad"},
 ]
 
-#Calculate total revenue per product (price × qty)
-revenu = list(map(lambda x : (x["price"] * x["qty"]) , sales))
-total_revenu = []
-for s in revenu:
-    print(f"{s}")
-    total_revenu.append(s)
+# Step 1: Add revenue to each product
+with_revenue = list(map(
+    lambda x: {**x, "revenue": x["price"] * x["qty"]}, #--> **x takes everything from x
+    sales
+))
+ 
+# Step 2: Filter revenue > 100000
+filtered = list(filter(
+    lambda x: x["revenue"] > 100000,
+    with_revenue
+))
 
+# Step 3: Sort by revenue (highest first)
+sorted_data = sorted(
+    filtered,
+    key=lambda x: x["revenue"],
+    reverse=True
+)
 
-print()
-#Filter products with revenue > PKR 100,000#
-
-selected = list(filter(lambda x: (x > 100000), total_revenu))
-
-for f in selected:
-    print(f)
-
-print()
-#Sort by revenue highest first
-
-highest = sorted(total_revenu, key=lambda x: x, reverse=True)
-
-print(highest)
+# Step 4: Print formatted report
+print("=== SALES REPORT ===")
+for item in sorted_data:
+    print(f"{item['product']:10} | City: {item['city']:10} | Revenue: PKR {item['revenue']:,}")
