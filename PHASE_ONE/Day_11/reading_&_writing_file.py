@@ -37,3 +37,5 @@ with open("students.txt", "r") as file:
 
     lines = file.readlines()
     print(lines)
+
+# Clean version — remove \n from each line
