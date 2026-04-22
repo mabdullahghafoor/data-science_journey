@@ -34,3 +34,5 @@ The 4 File Modes — The Most Important Concept:
 
 ⚡ Most important rule: Always use with statement.
 It automatically closes the file — even if an error occurs.
+
+
