@@ -10,7 +10,6 @@
 #Sorts by marks highest first
 #Prints a final clean formatted report
 
-
 # Raw messy student data
 raw_data = [
     {"name": "  ali hassan  ", "marks": 88, "fee_paid": True},
@@ -23,16 +22,8 @@ raw_data = [
     {"name": "  usman ali",    "marks": 40, "fee_paid": False},
 ]
 
-#Cleans names (strip spaces + proper Title Case)
-
-names = list(map(lambda x: x['name'].strip().title(), raw_data))
-for n in names:
-    print(n)
-
-#Adds percentage and grade to each student record
-
-def grades(marks):
-
+# Grade function
+def grade(marks):
     if marks >= 90: return "A+"
     elif marks >= 80: return "A"
     elif marks >= 70: return "B"
@@ -40,21 +31,25 @@ def grades(marks):
     elif marks >= 50: return "D"
     else: return "F"
 
-record = list(map(lambda x: {**x, "percentage": x['marks'], "grade":grades(x['marks'])}, raw_data))
+# ✅ Step 1 + 2: Clean + Add fields
+processed = list(map(lambda x: {
+    "name": x["name"].strip().title(),
+    "marks": x["marks"],
+    "fee_paid": x["fee_paid"],
+    "percentage": x["marks"],
+    "grade": grade(x["marks"])
+}, raw_data))
 
-print()
-for r in record:
-    print(r)
+# ✅ Step 3: Filter fee paid
+paid = list(filter(lambda x: x["fee_paid"], processed))
 
-#Filters only fee-paid students
+# ✅ Step 4: Sort by marks
+sorted_data = sorted(paid, key=lambda x: x["marks"], reverse=True)
 
-paid = list(filter(lambda x: x['fee_paid'] == True, raw_data))
-for p in paid:
-    print(p)
+# ✅ Step 5: Final formatted report
+print("===== STUDENT REPORT =====")
+print(f"{'Name':15} {'Marks':5} {'%':5} {'Grade':6} {'Fee'}")
+print("-" * 45)
 
-#Sorts by marks highest first
-
-highest = sorted(raw_data, key=lambda x: x['marks'], reverse =True)
-print()
-for h in highest:
-    print(h)
+for s in sorted_data:
+    print(f"{s['name']:15} {s['marks']:5} {s['percentage']:5} {s['grade']:6} {'Paid' if s['fee_paid'] else 'Unpaid'}")
