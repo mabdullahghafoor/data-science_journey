@@ -16,3 +16,7 @@ print("File Written Successfully")
 
 # ── Reading entire file at once ───────────────────────────────────
 
+with open("Students.txt", "r") as file:
+
+    content = file.read()
+    print(content)
