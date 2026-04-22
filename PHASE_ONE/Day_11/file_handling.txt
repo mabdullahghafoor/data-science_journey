@@ -13,3 +13,6 @@ Without File Handling          With File Handling
 Data lives in RAM only    →    Data saved to disk permanently
 Lost when program ends    →    Available next time you run
 Can't share data          →    Share files with anyone
+
+File Handling = Reading from and writing to actual files
+on your computer — .txt, .csv, .json and more.
