@@ -46,3 +46,4 @@ with open("students.txt", "r") as file:
 
     lines = [line.strip() for line in file.readlines()]
     print(lines)
+
