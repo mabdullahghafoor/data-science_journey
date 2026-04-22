@@ -3,3 +3,7 @@ In this we will drop some info regarding file handling
 Every program you've written so far has one big problem:
 
 When the program stops — ALL data disappears. Forever.
+
+students = {"Ali": 88, "Sara": 76}
+# Program ends → students dictionary is GONE
+# Next time you run → start from scratch 😱
