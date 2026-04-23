@@ -26,3 +26,6 @@ print(os.path.getsize(filename))
 # current working directory
 print(os.getcwd())
 print()
+
+# list all files in folder
+print(os.listdir("."))
