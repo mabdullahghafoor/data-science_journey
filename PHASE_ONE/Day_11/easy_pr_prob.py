@@ -6,6 +6,6 @@
 #Writes 5 lines of text to it
 #Reads it back and prints each line
 
-import csv
 import os
 
+filename = "my_notes.txt"
