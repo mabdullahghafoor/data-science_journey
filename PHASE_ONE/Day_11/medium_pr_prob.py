@@ -70,3 +70,6 @@ with open("summary.txt", "w") as file:
     file.write(f"Average : {avg:.2f}\n")
 
 
+#Q6. Create a JSON config file for an application:
+#Save it, then read it back and use the values in your program.
+
