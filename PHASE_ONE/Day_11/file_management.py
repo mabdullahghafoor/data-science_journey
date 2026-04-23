@@ -16,3 +16,6 @@ else:
 
 
 # ── Other useful os operations ────────────────────────────────────
+
+# True/False
+print(os.path.exists(filename))
