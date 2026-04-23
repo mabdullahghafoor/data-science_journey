@@ -83,3 +83,7 @@ config = {
 
 import json
 
+with open("Config.json", "w") as file:
+    json.dump(config, file, indent=4)
+
+print("File written Successfully")
