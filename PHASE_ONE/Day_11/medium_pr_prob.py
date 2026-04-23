@@ -48,3 +48,10 @@ clear_task()
 import csv
 
 marks_list = []
+
+with open("students.csv", "r") as file:
+    reader = csv.DictReader(file)
+
+    for row in reader:
+        marks = int(row['Marks'])   # convert string → int
+        marks_list.append(marks)
