@@ -68,3 +68,4 @@ with open("summary.txt", "w") as file:
     file.write(f"Highest : {highest}\n")
     file.write(f"Lowest : {lowest}\n")
     file.write(f"Average : {avg:.2f}\n")
+    
