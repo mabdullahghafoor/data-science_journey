@@ -5,3 +5,6 @@
 
 import json
 import os
+
+DATA_FILE = "student_records.json"
+
