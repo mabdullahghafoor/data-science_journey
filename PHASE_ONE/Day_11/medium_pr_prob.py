@@ -44,3 +44,6 @@ clear_task()
 #Calculates average marks
 #Finds highest and lowest scorer
 #Writes a summary.txt with the results
+
+import csv
+
