@@ -15,3 +15,10 @@ students = [
     ["Omar",    32,      "F",     "Fail"],
     ["Zara",    78,      "B",     "Pass"],
 ]
+
+with open("Students.csv", "w", newline="") as file:
+
+    writer = csv.writer(file)
+    writer.writerows(students)
+
+print("CSV File Written Successfully!")
