@@ -87,3 +87,16 @@ with open("Config.json", "w") as file:
     json.dump(config, file, indent=4)
 
 print("File written Successfully")
+
+
+with open("Config.json", "r") as file:
+
+    data = json.load(file)
+
+    print(f"App Name: {data['app_name']}")
+    print(f"Version: {data['version']}")
+    print(f"Max Students: {data['max_students']}")
+    print(f"Passing Mark: {data['passing_mark']}")
+    print("Subjects: ")
+    for sub in data["subjects"]:
+        print(sub)
