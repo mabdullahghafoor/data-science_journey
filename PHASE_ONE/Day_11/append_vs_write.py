@@ -42,3 +42,4 @@ def log_activity(action):
 log_activity("User Ali Logged In!")
 log_activity("User Ali view Dashboard!")
 log_activity("User Ali Logged Out!")
+
