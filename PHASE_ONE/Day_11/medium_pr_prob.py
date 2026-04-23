@@ -7,3 +7,6 @@
 #clear_tasks() → empties the file
 #Tasks persist between program runs!
 
+
+filename = "todos.txt"
+
