@@ -7,7 +7,7 @@
 #clear_tasks() → empties the file
 #Tasks persist between program runs!
 
-
+import os
 filename = "todos.txt"
 
 def add_task(task):
