@@ -39,3 +39,5 @@ print(f"Total:      {data["total_students"]}")
 for student in data["students"]:
     avg = sum(student["marks"]) / len(student["marks"])
     print(f"{student["name"]:>15} : {avg:.1f}")
+
+    
