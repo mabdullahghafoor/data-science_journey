@@ -100,3 +100,5 @@ with open("Config.json", "r") as file:
     print("Subjects: ")
     for sub in data["subjects"]:
         print(sub)
+
+        
