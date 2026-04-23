@@ -36,3 +36,11 @@ with open("Students.csv", "r") as file:
         name, marks,grade, status = row
 
         print(f"{name:>15} {marks}/100 {grade} {status}")
+
+print()
+# ── CSV with DictReader — most powerful! ─────────────────────────
+
+with open("Students.csv", "r") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        print(f"{row['Name']}: {row['Marks']} -> {row['Status']}")
