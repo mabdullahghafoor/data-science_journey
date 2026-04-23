@@ -14,3 +14,9 @@ def load_records():
         with open(DATA_FILE, "r") as file:
             return json.load(file)
     return {}           # return empty dict if file doesn't exist
+
+
+def save_records(records):
+    """Save all records to file."""
+    with open(DATA_FILE, "w") as file:
+        json.dump(records, file, indent=4)
