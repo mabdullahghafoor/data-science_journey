@@ -3,3 +3,6 @@
 # ── CSV = Comma Separated Values ─────────────────────────────────
 # The most common data format in Data Science!
 # Every spreadsheet, dataset, database export = CSV
+
+import csv
+
