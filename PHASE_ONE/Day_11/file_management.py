@@ -3,3 +3,5 @@
 # ── Check if file exists before opening ───────────────────────────
 
 import os
+
+filename = "students.txt"
