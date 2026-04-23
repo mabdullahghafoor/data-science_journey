@@ -73,3 +73,10 @@ with open("summary.txt", "w") as file:
 #Q6. Create a JSON config file for an application:
 #Save it, then read it back and use the values in your program.
 
+config = {
+    "app_name": "Student Manager",
+    "version": "1.0",
+    "max_students": 100,
+    "passing_mark": 50,
+    "subjects": ["Math", "English", "Science"]
+}
