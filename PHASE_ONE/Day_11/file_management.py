@@ -30,3 +30,6 @@ print()
 # list all files in folder
 print(os.listdir("."))
 
+# ── Rename and delete ─────────────────────────────────────────────
+
+
