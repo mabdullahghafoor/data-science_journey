@@ -16,4 +16,11 @@ def add_task(task):
         file.write(task)
 
 
+def show_task():
+
+    with open(filename, "r") as file:
+
+        for line in file:
+            print(line)
+
 
