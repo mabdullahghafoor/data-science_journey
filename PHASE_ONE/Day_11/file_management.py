@@ -22,3 +22,7 @@ print(os.path.exists(filename))
 
 # file size in bytes
 print(os.path.getsize(filename))
+
+# current working directory
+print(os.getcwd())
+print()
