@@ -55,3 +55,9 @@ with open("students.csv", "r") as file:
     for row in reader:
         marks = int(row['Marks'])   # convert string → int
         marks_list.append(marks)
+# Calculations
+total = sum(marks_list)
+avg = total / len(marks_list)
+highest = max(marks_list)
+lowest = min(marks_list)
+
