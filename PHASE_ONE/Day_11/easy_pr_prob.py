@@ -51,3 +51,4 @@ with open("file.txt", "a") as f:
 # that opens a file and returns how many lines it has.
 
 print(f"No of Lines In {filename} = {count}")
+
