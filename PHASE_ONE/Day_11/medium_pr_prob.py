@@ -38,4 +38,9 @@ show_task()
 clear_task()
 
 
+#Q5. Write a program that:
 
+#Reads students.csv (create it first with sample data)
+#Calculates average marks
+#Finds highest and lowest scorer
+#Writes a summary.txt with the results
