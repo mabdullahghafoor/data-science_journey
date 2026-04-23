@@ -44,3 +44,6 @@ with open("file.txt", "a") as f:
 
 # Wile Option B just append World next line to the Hello due to "a"
 
+
+# Q3. Write a function count_lines(filename) 
+# that opens a file and returns how many lines it has.
