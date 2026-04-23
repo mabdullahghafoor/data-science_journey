@@ -48,3 +48,6 @@ def show_all_students():
 add_student("Ali Hassan",  [88, 76, 92, 65, 95])
 add_student("Sara Ahmed",  [65, 82, 71, 79, 68])
 add_student("Fatima Khan", [95, 98, 100, 88, 97])
+show_all_students()
+
+# ✅ Close and reopen program — data is still there!
