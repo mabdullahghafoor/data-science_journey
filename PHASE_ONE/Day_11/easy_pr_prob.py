@@ -52,3 +52,5 @@ with open("file.txt", "a") as f:
 
 print(f"No of Lines In {filename} = {count}")
 
+
+
