@@ -34,3 +34,4 @@ print(os.listdir("."))
 
 # os.rename("old_name.txt", "new_name.txt")
 
+# os.remove("file_to_delete.txt")
