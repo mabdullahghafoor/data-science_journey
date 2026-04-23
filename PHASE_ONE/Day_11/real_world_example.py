@@ -43,3 +43,8 @@ def show_all_students():
     print("─" * 40)
     for name, data in records.items():
         print(f"  {name:<15}: {data['percentage']}%")
+
+# ── Run it ───────────────────────────────────────────────────────
+add_student("Ali Hassan",  [88, 76, 92, 65, 95])
+add_student("Sara Ahmed",  [65, 82, 71, 79, 68])
+add_student("Fatima Khan", [95, 98, 100, 88, 97])
