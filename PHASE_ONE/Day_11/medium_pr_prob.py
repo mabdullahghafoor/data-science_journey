@@ -24,3 +24,7 @@ def show_task():
             print(line)
 
 
+def clear_task():
+
+    os.remove(filename)
+
