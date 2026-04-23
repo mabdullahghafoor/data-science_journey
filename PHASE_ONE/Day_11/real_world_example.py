@@ -32,3 +32,14 @@ def add_student(name, marks):
     }
     save_records(records)
     print(f"✅ '{name}' saved to file!")
+
+def show_all_students():
+    """Display all saved students."""
+    records = load_records()
+    if not records:
+        print("No records found.")
+        return
+    print("\n📋 Saved Student Records:")
+    print("─" * 40)
+    for name, data in records.items():
+        print(f"  {name:<15}: {data['percentage']}%")
