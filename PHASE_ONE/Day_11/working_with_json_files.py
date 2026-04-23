@@ -25,3 +25,17 @@ with open("Students.json", "w") as file:
     json.dump(student_data, file, indent=4)
 
 print("JSON File written Successfully!")
+
+
+# ── Reading JSON ──────────────────────────────────────────────────
+
+with open("Students.json", "r") as file:
+
+    data = json.load(file)
+
+print(f"Institution: {data["institution"]}")
+print(f"Total:      {data["total_students"]}")
+
+for student in data["students"]:
+    avg = sum(student["marks"]) / len(student["marks"])
+    print(f"{student["name"]:>15} : {avg:.1f}")
