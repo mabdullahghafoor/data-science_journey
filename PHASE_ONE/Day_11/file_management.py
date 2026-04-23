@@ -6,3 +6,10 @@ import os
 
 filename = "students.txt"
 # Always check before reading — prevents crashes!
+
+if os.path.exists(filename):
+    with open(filename, "r") as  file:
+        print(file.read())
+
+else:
+    print(f"❌ {filename} is Not Found")
