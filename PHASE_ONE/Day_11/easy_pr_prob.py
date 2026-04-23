@@ -27,3 +27,10 @@ with open(filename, "r") as file:
 
 # Q2. Without running, what is the difference:
 # What does each file contain after both writes?
+
+# Option A
+with open("file.txt", "w") as f:
+    f.write("Hello")
+with open("file.txt", "w") as f:
+    f.write("World")
+
