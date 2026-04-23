@@ -22,3 +22,17 @@ with open("Students.csv", "w", newline="") as file:
     writer.writerows(students)
 
 print("CSV File Written Successfully!")
+
+
+# ── Reading CSV ───────────────────────────────────────────────────
+
+with open("Students.csv", "r") as file:
+    reader = csv.reader(file)
+    header = next(reader)
+    print(f"Coloumn: {header}")
+
+    for row in reader:
+
+        name, marks,grade, status = row
+
+        print(f"{name:>15} {marks}/100 {grade} {status}")
