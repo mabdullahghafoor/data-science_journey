@@ -34,3 +34,8 @@ with open("file.txt", "w") as f:
 with open("file.txt", "w") as f:
     f.write("World")
 
+# Option B
+with open("file.txt", "a") as f:
+    f.write("Hello")
+with open("file.txt", "a") as f:
+    f.write("World")
