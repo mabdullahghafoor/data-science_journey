@@ -20,3 +20,8 @@ student_data = {
     "total_students": 3,
     "institution": "FAST-NUCES"
 }
+
+with open("Students.json", "w") as file:
+    json.dump(student_data, file, indent=4)
+
+print("JSON File written Successfully!")
