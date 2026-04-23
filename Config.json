@@ -1,0 +1,11 @@
+{
+    "app_name": "Student Manager",
+    "version": "1.0",
+    "max_students": 100,
+    "passing_mark": 50,
+    "subjects": [
+        "Math",
+        "English",
+        "Science"
+    ]
+}
