@@ -5,3 +5,4 @@
 import os
 
 filename = "students.txt"
+# Always check before reading — prevents crashes!
