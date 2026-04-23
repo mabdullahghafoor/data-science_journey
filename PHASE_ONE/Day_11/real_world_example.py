@@ -20,3 +20,15 @@ def save_records(records):
     """Save all records to file."""
     with open(DATA_FILE, "w") as file:
         json.dump(records, file, indent=4)
+
+
+def add_student(name, marks):
+    """Add a student and save immediately."""
+    records = load_records()
+    records[name] = {
+        "marks"     : marks,
+        "total"     : sum(marks),
+        "percentage": round((sum(marks) / (len(marks)*100))*100, 2)
+    }
+    save_records(records)
+    print(f"✅ '{name}' saved to file!")
