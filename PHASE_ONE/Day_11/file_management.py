@@ -19,3 +19,6 @@ else:
 
 # True/False
 print(os.path.exists(filename))
+
+# file size in bytes
+print(os.path.getsize(filename))
