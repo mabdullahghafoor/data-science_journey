@@ -6,3 +6,12 @@
 
 import csv
 
+# ── Writing CSV ───────────────────────────────────────────────────
+students = [
+    ["Name",    "Marks", "Grade", "Status"],    # header row
+    ["Ali",     88,      "A",     "Pass"],
+    ["Sara",    45,      "F",     "Fail"],
+    ["Fatima",  97,      "A+",    "Pass"],
+    ["Omar",    32,      "F",     "Fail"],
+    ["Zara",    78,      "B",     "Pass"],
+]
