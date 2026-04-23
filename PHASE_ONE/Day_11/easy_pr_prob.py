@@ -24,3 +24,6 @@ with open(filename, "r") as file:
     for line in file:
         print(line.strip())
 
+
+# Q2. Without running, what is the difference:
+# What does each file contain after both writes?
