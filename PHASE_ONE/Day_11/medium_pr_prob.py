@@ -33,3 +33,6 @@ add_task("Coding Python\n")
 add_task("Cooking\n")
 add_task("Playing Badminton\n")
 
+show_task()
+
+
