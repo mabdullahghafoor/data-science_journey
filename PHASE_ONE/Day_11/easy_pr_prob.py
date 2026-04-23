@@ -34,8 +34,13 @@ with open("file.txt", "w") as f:
 with open("file.txt", "w") as f:
     f.write("World")
 
+# Option just override World over Hello due to "w" 
+
 # Option B
 with open("file.txt", "a") as f:
     f.write("Hello")
 with open("file.txt", "a") as f:
     f.write("World")
+
+# Wile Option B just append World next line to the Hello due to "a"
+
