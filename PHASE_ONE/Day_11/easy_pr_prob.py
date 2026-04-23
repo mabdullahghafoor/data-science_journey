@@ -10,6 +10,7 @@ import os
 
 filename = "my_notes.txt"
 
+count = 0
 
 with open(filename, "a") as file:
     file.write("Line # 01\n")
@@ -22,6 +23,7 @@ print()
 with open(filename, "r") as file:
 
     for line in file:
+        count += 1
         print(line.strip())
 
 
@@ -47,3 +49,5 @@ with open("file.txt", "a") as f:
 
 # Q3. Write a function count_lines(filename) 
 # that opens a file and returns how many lines it has.
+
+print(f"No of Lines In {filename} = {count}")
