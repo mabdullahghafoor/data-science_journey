@@ -47,3 +47,4 @@ clear_task()
 
 import csv
 
+marks_list = []
