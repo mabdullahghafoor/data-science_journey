@@ -35,4 +35,5 @@ add_task("Playing Badminton\n")
 
 show_task()
 
+clear_task()
 
