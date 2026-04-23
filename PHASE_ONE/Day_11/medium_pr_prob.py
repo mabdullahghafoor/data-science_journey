@@ -10,3 +10,10 @@
 
 filename = "todos.txt"
 
+def add_task(task):
+    
+    with open(filename, "a")as file:
+        file.write(task)
+
+
+
