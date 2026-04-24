@@ -15,3 +15,7 @@ def get_integer_input(prompt, min_val=None, max_val=None):
                 raise ValueError(
                     f"Value must be at least {min_val}"
                 )
+            if max_val is not None and value > max_val:
+                raise ValueError(
+                    f"Value must be at most {max_val}"
+                )
