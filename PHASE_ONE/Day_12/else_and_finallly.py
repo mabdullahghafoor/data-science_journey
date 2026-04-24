@@ -23,3 +23,8 @@ else:
     # Only runs if try block had NO errors
     print(f"✅ Marks accepted: {marks}")
     print(f"   Percentage   : {percentage:.1f}%")
+
+finally:
+    # ALWAYS runs — perfect for cleanup
+    print("─" * 35)
+    print("Processing complete.")
