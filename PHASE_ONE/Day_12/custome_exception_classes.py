@@ -20,3 +20,4 @@ class StudentNotFoundError(StudentError):
         self.student_id = student_id
         super().__init__(f"Student '{student_id}' not found!")
 
+# ── Using custom exceptions ───────────────────────────────────────
