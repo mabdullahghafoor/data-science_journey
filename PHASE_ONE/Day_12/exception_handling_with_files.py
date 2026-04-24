@@ -32,3 +32,4 @@ def save_data(filename, data):
 
     except PermissionError:
         print(f"❌ No permission to write '{filename}'")
+
