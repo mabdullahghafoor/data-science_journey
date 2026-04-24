@@ -33,3 +33,5 @@ def validate_marks(marks):
         raise TypeError("Marks must be provided as a list!")
     if len(marks) == 0:
         raise ValueError("Marks list cannot be empty!")
+    for m in marks:
+        if not isinstance(m, (int, float)):
