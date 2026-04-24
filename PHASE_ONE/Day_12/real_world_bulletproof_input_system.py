@@ -33,3 +33,4 @@ def get_float_input(prompt):
             print("  ❌ Please enter a valid decimal number.")
 
 # ── Using bulletproof inputs ──────────────────────────────────────
+print("📝 Student Registration")
