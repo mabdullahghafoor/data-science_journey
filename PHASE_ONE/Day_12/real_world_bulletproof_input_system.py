@@ -19,3 +19,4 @@ def get_integer_input(prompt, min_val=None, max_val=None):
                 raise ValueError(
                     f"Value must be at most {max_val}"
                 )
+            return value    # only returns if everything is valid!
