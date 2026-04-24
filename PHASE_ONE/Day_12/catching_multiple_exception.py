@@ -28,3 +28,5 @@ try:
 
 except (ValueError, ZeroDivisionError) as e:
     print(f"❌ Error occurred: {e}")
+
+# ── Method 3: Catch ALL exceptions (use carefully!) ───────────────
