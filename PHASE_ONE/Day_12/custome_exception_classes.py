@@ -4,3 +4,5 @@
 # This is how professional Python libraries work
 
 class StudentError(Exception):
+    """Base exception for student-related errors."""
+    pass
