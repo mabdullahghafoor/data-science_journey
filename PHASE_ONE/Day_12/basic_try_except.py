@@ -24,3 +24,5 @@ except ZeroDivisionError:
     print("❌ Cannot divide by zero!")
 
 print("✅ Program continues normally...")   # always runs!
+
+
