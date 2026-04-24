@@ -1,3 +1,5 @@
+# In this we will se  how to use exception handling with files
+
 # ── The most common real-world exception pattern ──────────────────
 
 import json
