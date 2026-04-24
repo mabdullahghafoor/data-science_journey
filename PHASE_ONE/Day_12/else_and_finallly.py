@@ -18,3 +18,8 @@ try:
 
 except ValueError as e:
     print(f"❌ Invalid input: {e}")
+
+else:
+    # Only runs if try block had NO errors
+    print(f"✅ Marks accepted: {marks}")
+    print(f"   Percentage   : {percentage:.1f}%")
