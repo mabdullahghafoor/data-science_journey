@@ -27,3 +27,5 @@ def get_student(student_id, database):
     return database[student_id]
 
 def add_marks(student_id, marks):
+    if marks < 0 or marks > 100:
+        raise InvalidMarksError(marks, "Marks out of range")
