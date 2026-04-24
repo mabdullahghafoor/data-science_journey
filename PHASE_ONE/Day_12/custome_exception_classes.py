@@ -6,3 +6,4 @@
 class StudentError(Exception):
     """Base exception for student-related errors."""
     pass
+
