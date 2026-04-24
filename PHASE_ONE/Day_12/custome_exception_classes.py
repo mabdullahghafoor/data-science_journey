@@ -14,3 +14,4 @@ class InvalidMarksError(StudentError):
         self.message = message
         super().__init__(f"{message}: {marks}")
 
+class StudentNotFoundError(StudentError):
