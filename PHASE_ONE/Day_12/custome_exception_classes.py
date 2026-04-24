@@ -32,3 +32,5 @@ def add_marks(student_id, marks):
 
 database = {"STU001": "Ali Hassan", "STU002": "Sara Ahmed"}
 
+try:
+    student = get_student("STU999", database)
