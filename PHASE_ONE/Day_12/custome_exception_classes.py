@@ -31,3 +31,4 @@ def add_marks(student_id, marks):
         raise InvalidMarksError(marks, "Marks out of range")
 
 database = {"STU001": "Ali Hassan", "STU002": "Sara Ahmed"}
+
