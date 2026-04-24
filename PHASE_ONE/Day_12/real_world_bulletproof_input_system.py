@@ -23,3 +23,4 @@ def get_integer_input(prompt, min_val=None, max_val=None):
 
         except ValueError as e:
             print(f"  ❌ Invalid: {e}. Please try again.")
+
