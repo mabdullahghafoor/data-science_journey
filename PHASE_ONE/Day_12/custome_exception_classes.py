@@ -8,3 +8,4 @@ class StudentError(Exception):
     pass
 
 class InvalidMarksError(StudentError):
+    """Raised when marks are invalid."""
