@@ -9,3 +9,7 @@ class StudentError(Exception):
 
 class InvalidMarksError(StudentError):
     """Raised when marks are invalid."""
+    def __init__(self, marks, message="Invalid marks provided"):
+        self.marks   = marks
+        self.message = message
+        super().__init__(f"{message}: {marks}")
