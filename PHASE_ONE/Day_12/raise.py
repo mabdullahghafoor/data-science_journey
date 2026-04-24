@@ -25,3 +25,4 @@ try:
     print(set_age("twenty"))    # ❌ TypeError
 except TypeError as e:
     print(f"❌ {e}")
+
