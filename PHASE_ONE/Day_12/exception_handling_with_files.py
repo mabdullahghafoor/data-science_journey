@@ -22,3 +22,4 @@ def load_data(filename):
     except PermissionError:
         print(f"❌ No permission to read '{filename}'")
         return {}
+
