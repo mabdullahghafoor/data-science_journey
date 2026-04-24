@@ -28,3 +28,4 @@ except TypeError as e:
 
 # ── Real world: validate marks input ─────────────────────────────
 def validate_marks(marks):
+    """Validate a list of marks."""
