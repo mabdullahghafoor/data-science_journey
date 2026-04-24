@@ -13,3 +13,5 @@ def set_age(age):
     if age > 150:
         raise ValueError("Age is unrealistically high!")
     return age
+
+# ── Using it ─────────────────────────────────────────────────────
