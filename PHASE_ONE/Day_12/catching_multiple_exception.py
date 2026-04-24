@@ -32,3 +32,7 @@ except (ValueError, ZeroDivisionError) as e:
 # ── Method 3: Catch ALL exceptions (use carefully!) ───────────────
 try:
     risky_operation = int("hello") + 10 / 0
+
+except Exception as e:
+    print(f"❌ Unexpected error: {type(e).__name__}: {e}")
+
