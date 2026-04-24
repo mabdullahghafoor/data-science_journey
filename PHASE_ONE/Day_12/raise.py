@@ -15,3 +15,6 @@ def set_age(age):
     return age
 
 # ── Using it ─────────────────────────────────────────────────────
+try:
+    print(set_age(22))          # ✅ 22
+    print(set_age(-5))          # ❌ ValueError
