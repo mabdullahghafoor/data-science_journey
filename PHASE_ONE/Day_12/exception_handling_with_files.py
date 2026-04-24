@@ -19,3 +19,6 @@ def load_data(filename):
         print(f"❌ File is corrupted or invalid JSON: {e}")
         return {}
 
+    except PermissionError:
+        print(f"❌ No permission to read '{filename}'")
+        return {}
