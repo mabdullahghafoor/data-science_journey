@@ -27,3 +27,5 @@ def get_integer_input(prompt, min_val=None, max_val=None):
 def get_float_input(prompt):
     """Get a valid float from user."""
     while True:
+        try:
+            return float(input(prompt))
