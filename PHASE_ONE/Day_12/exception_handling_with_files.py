@@ -15,3 +15,6 @@ def load_data(filename):
         print(f"⚠️  '{filename}' not found. Starting fresh.")
         return {}
 
+    except json.JSONDecodeError as e:
+        print(f"❌ File is corrupted or invalid JSON: {e}")
+        return {}
