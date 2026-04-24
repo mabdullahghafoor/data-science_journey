@@ -34,3 +34,5 @@ database = {"STU001": "Ali Hassan", "STU002": "Sara Ahmed"}
 
 try:
     student = get_student("STU999", database)
+except StudentNotFoundError as e:
+    print(f"❌ {e}")
