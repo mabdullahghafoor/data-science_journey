@@ -10,3 +10,7 @@ def safe_divide(a, b):
     except ZeroDivisionError:
         print("❌ Error: Cannot divide by zero!")
         return None
+    
+    except TypeError:
+        print("❌ Error: Both inputs must be numbers!")
+        return None
