@@ -31,3 +31,5 @@ def validate_marks(marks):
     """Validate a list of marks."""
     if not isinstance(marks, list):
         raise TypeError("Marks must be provided as a list!")
+    if len(marks) == 0:
+        raise ValueError("Marks list cannot be empty!")
