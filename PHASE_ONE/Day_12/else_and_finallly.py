@@ -15,3 +15,6 @@ try:
         raise ValueError("Marks must be between 0 and 100")
 
     percentage = (marks / 100) * 100
+
+except ValueError as e:
+    print(f"❌ Invalid input: {e}")
