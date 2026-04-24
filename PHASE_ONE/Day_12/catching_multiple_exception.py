@@ -21,3 +21,7 @@ print(safe_divide(10, "two"))   # ❌ Both inputs must be numbers!
 
 
 # ── Method 2: Catch multiple in one line ─────────────────────────
+
+try:
+    value = int(input("Enter value: "))
+    result = 100 / value
