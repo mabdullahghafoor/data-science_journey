@@ -13,3 +13,4 @@ class InvalidMarksError(StudentError):
         self.marks   = marks
         self.message = message
         super().__init__(f"{message}: {marks}")
+
