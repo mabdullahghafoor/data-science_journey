@@ -25,3 +25,4 @@ def get_integer_input(prompt, min_val=None, max_val=None):
             print(f"  ❌ Invalid: {e}. Please try again.")
 
 def get_float_input(prompt):
+    """Get a valid float from user."""
