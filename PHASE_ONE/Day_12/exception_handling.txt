@@ -1,1 +1,4 @@
 In this we will drop some info regarding exception handlinh
+
+Exception Handling prevents crashes by catching errors
+and handling them gracefully — like a safety net.
