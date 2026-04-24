@@ -35,3 +35,4 @@ def save_data(filename, data):
 
     except Exception as e:
         print(f"❌ Unexpected error while saving: {e}")
+
