@@ -34,3 +34,4 @@ def get_float_input(prompt):
 
 # ── Using bulletproof inputs ──────────────────────────────────────
 print("📝 Student Registration")
+print("─" * 30)
