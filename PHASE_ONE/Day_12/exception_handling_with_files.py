@@ -23,3 +23,4 @@ def load_data(filename):
         print(f"❌ No permission to read '{filename}'")
         return {}
 
+def save_data(filename, data):
