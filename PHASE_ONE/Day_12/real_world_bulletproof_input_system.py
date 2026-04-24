@@ -35,3 +35,7 @@ def get_float_input(prompt):
 # ── Using bulletproof inputs ──────────────────────────────────────
 print("📝 Student Registration")
 print("─" * 30)
+name  = input("Enter name: ")
+age   = get_integer_input("Enter age: ", min_val=15, max_val=80)
+marks = get_integer_input("Enter marks: ", min_val=0, max_val=100)
+cgpa  = get_float_input("Enter CGPA: ")
