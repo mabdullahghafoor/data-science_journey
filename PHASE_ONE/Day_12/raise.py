@@ -10,3 +10,6 @@ def set_age(age):
         raise TypeError("Age must be an integer!")
     if age < 0:
         raise ValueError("Age cannot be negative!")
+    if age > 150:
+        raise ValueError("Age is unrealistically high!")
+    return age
