@@ -29,3 +29,4 @@ def save_data(filename, data):
         with open(filename, "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4)
             print(f"✅ Saved successfully to '{filename}'")
+
