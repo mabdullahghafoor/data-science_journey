@@ -6,3 +6,5 @@
 
 def set_age(age):
     """Set student age with validation."""
+    if not isinstance(age, int):
+        raise TypeError("Age must be an integer!")
