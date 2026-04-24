@@ -37,3 +37,6 @@ def save_data(filename, data):
         print(f"❌ Unexpected error while saving: {e}")
 
 # ── Usage ─────────────────────────────────────────────────────────
+records = load_data("students.json")   # safe even if missing!
+records["new_student"] = {"marks": 88}
+save_data("students.json", records)    # safe even if fails!
