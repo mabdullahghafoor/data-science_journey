@@ -39,5 +39,6 @@ def validate_marks(marks):
         if not 0 <= m <= 100:
             raise ValueError(f"Mark {m} is out of range (0-100)!")
     return True    return True
+    return True
 
 
