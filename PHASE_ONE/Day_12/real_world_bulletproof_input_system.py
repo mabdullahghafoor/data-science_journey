@@ -32,3 +32,4 @@ def get_float_input(prompt):
         except ValueError:
             print("  ❌ Please enter a valid decimal number.")
 
+# ── Using bulletproof inputs ──────────────────────────────────────
