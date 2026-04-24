@@ -11,3 +11,13 @@ just drop from the sky. The pilot has backup systems
 and emergency procedures.
 
 Exception handling = your program's emergency procedure.
+
+
+The Big Picture:
+WITHOUT Exception Handling    WITH Exception Handling
+──────────────────────────    ───────────────────────
+Error → Program CRASHES   →   Error → Caught → Handle it
+User sees ugly traceback  →   User sees friendly message
+Program stops completely  →   Program keeps running
+
+
