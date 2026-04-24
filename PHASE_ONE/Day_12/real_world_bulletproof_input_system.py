@@ -8,3 +8,6 @@ def get_integer_input(prompt, min_val=None, max_val=None):
     Keeps asking until valid input received.
     """
     while True:
+        try:
+            value = int(input(prompt))
+
