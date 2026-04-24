@@ -24,3 +24,4 @@ def load_data(filename):
         return {}
 
 def save_data(filename, data):
+    """Save JSON data safely."""
