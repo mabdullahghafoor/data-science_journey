@@ -21,3 +21,4 @@ class StudentNotFoundError(StudentError):
         super().__init__(f"Student '{student_id}' not found!")
 
 # ── Using custom exceptions ───────────────────────────────────────
+def get_student(student_id, database):
