@@ -41,3 +41,5 @@ try:
     add_marks("STU001", 150)
 except InvalidMarksError as e:
     print(f"❌ {e}")
+
+    
