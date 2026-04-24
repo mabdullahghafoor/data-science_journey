@@ -36,3 +36,4 @@ try:
     student = get_student("STU999", database)
 except StudentNotFoundError as e:
     print(f"❌ {e}")
+
