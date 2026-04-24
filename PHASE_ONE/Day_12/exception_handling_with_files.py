@@ -10,3 +10,4 @@ def load_data(filename):
             data = json.load(file)
             print(f"✅ Loaded {len(data)} records from {filename}")
             return data
+
