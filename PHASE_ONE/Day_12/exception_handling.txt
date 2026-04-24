@@ -1,4 +1,13 @@
 In this we will drop some info regarding exception handlinh
 
+Exception Handling:
 Exception Handling prevents crashes by catching errors
 and handling them gracefully — like a safety net.
+
+Real world analogy:
+
+Think of a pilot. When an engine fails, the plane doesn't
+just drop from the sky. The pilot has backup systems
+and emergency procedures.
+
+Exception handling = your program's emergency procedure.
