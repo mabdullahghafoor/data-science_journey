@@ -36,3 +36,5 @@ def validate_marks(marks):
     for m in marks:
         if not isinstance(m, (int, float)):
             raise TypeError(f"Invalid mark: {m} — must be a number!")
+        if not 0 <= m <= 100:
+            raise ValueError(f"Mark {m} is out of range (0-100)!")
