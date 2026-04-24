@@ -11,3 +11,6 @@ def load_data(filename):
             print(f"✅ Loaded {len(data)} records from {filename}")
             return data
 
+    except FileNotFoundError:
+        print(f"⚠️  '{filename}' not found. Starting fresh.")
+        return {}
