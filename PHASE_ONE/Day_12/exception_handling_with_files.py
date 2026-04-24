@@ -30,3 +30,5 @@ def save_data(filename, data):
             json.dump(data, file, indent=4)
             print(f"✅ Saved successfully to '{filename}'")
 
+    except PermissionError:
+        print(f"❌ No permission to write '{filename}'")
