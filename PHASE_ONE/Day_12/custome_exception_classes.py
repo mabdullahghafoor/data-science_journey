@@ -37,3 +37,5 @@ try:
 except StudentNotFoundError as e:
     print(f"❌ {e}")
 
+try:
+    add_marks("STU001", 150)
