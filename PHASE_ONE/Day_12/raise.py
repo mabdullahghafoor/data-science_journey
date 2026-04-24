@@ -27,3 +27,4 @@ except TypeError as e:
     print(f"❌ {e}")
 
 # ── Real world: validate marks input ─────────────────────────────
+def validate_marks(marks):
