@@ -14,3 +14,4 @@ def load_data(filename):
     except FileNotFoundError:
         print(f"⚠️  '{filename}' not found. Starting fresh.")
         return {}
+
