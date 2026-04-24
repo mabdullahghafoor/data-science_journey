@@ -14,3 +14,7 @@ def safe_divide(a, b):
     except TypeError:
         print("❌ Error: Both inputs must be numbers!")
         return None
+    
+print(safe_divide(10, 2))       # 5.0 ✅
+print(safe_divide(10, 0))       # ❌ Cannot divide by zero!
+print(safe_divide(10, "two"))   # ❌ Both inputs must be numbers!
