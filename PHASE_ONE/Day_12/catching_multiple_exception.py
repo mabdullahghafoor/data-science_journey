@@ -18,3 +18,6 @@ def safe_divide(a, b):
 print(safe_divide(10, 2))       # 5.0 ✅
 print(safe_divide(10, 0))       # ❌ Cannot divide by zero!
 print(safe_divide(10, "two"))   # ❌ Both inputs must be numbers!
+
+
+# ── Method 2: Catch multiple in one line ─────────────────────────
