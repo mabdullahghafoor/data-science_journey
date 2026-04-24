@@ -21,3 +21,5 @@ try:
 except ValueError as e:
     print(f"❌ {e}")
 
+try:
+    print(set_age("twenty"))    # ❌ TypeError
