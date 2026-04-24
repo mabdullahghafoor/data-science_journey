@@ -18,3 +18,4 @@ def load_data(filename):
     except json.JSONDecodeError as e:
         print(f"❌ File is corrupted or invalid JSON: {e}")
         return {}
+
