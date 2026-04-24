@@ -20,4 +20,17 @@ Error → Program CRASHES   →   Error → Caught → Handle it
 User sees ugly traceback  →   User sees friendly message
 Program stops completely  →   Program keeps running
 
+Types of Common Exceptions: 
+
+Exception           When it happens
+
+ValueError              Wrong value type: int("hello")
+TypeError               Wrong type operation: "Ali" + 5
+ZeroDivisionError       Dividing by zero: 10 / 0
+FileNotFoundError       File doesn't exist
+IndexError              List index out of range
+KeyError                Dictionary key doesn't exist
+NameError               Variable not defined
+AttributeError          Method doesn't exist on object
+
 
