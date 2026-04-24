@@ -25,3 +25,4 @@ def get_student(student_id, database):
     if student_id not in database:
         raise StudentNotFoundError(student_id)
     return database[student_id]
+
