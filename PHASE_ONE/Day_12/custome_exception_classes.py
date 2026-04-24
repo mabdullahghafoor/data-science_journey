@@ -3,3 +3,4 @@
 # ── Create your OWN exception types ──────────────────────────────
 # This is how professional Python libraries work
 
+class StudentError(Exception):
