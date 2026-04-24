@@ -26,3 +26,4 @@ def get_student(student_id, database):
         raise StudentNotFoundError(student_id)
     return database[student_id]
 
+def add_marks(student_id, marks):
