@@ -15,3 +15,4 @@ class InvalidMarksError(StudentError):
         super().__init__(f"{message}: {marks}")
 
 class StudentNotFoundError(StudentError):
+    """Raised when student doesn't exist."""
