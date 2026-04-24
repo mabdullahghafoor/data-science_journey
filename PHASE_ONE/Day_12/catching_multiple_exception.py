@@ -25,3 +25,6 @@ print(safe_divide(10, "two"))   # ❌ Both inputs must be numbers!
 try:
     value = int(input("Enter value: "))
     result = 100 / value
+
+except (ValueError, ZeroDivisionError) as e:
+    print(f"❌ Error occurred: {e}")
