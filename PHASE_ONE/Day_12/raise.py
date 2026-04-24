@@ -38,4 +38,6 @@ def validate_marks(marks):
             raise TypeError(f"Invalid mark: {m} — must be a number!")
         if not 0 <= m <= 100:
             raise ValueError(f"Mark {m} is out of range (0-100)!")
-    return True
+    return True    return True
+
+
