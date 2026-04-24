@@ -30,3 +30,4 @@ def add_marks(student_id, marks):
     if marks < 0 or marks > 100:
         raise InvalidMarksError(marks, "Marks out of range")
 
+database = {"STU001": "Ali Hassan", "STU002": "Sara Ahmed"}
