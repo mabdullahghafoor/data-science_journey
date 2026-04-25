@@ -199,3 +199,17 @@ while True:
     print("2. View All Students")
     print("3. Exit")
 
+    choice = input("Choose an option: ")
+
+    if choice == "1":
+        register_student()
+
+    elif choice == "2":
+        view_all_students()
+
+    elif choice == "3":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid choice! Try again.")
