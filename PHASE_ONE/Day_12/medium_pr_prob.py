@@ -68,3 +68,4 @@ def marks():
     return mark_list
 
 
+result = marks()
