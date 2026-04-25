@@ -99,3 +99,5 @@ def parse_student_csv(filename):
                     if len(row) < 2:
                         continue
 
+                    name = row[0]
+                    marks = int(row[1])   # may raise ValueError
