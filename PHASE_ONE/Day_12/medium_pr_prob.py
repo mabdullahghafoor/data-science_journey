@@ -92,3 +92,4 @@ def parse_student_csv(filename):
     try:
         with open(filename, "r") as file:
             reader = csv.reader(file)
+
