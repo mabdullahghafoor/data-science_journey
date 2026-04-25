@@ -120,3 +120,5 @@ def parse_student_csv(filename):
     return valid_students
 
 
+result = parse_student_csv("Students.csv")
+print(result)
