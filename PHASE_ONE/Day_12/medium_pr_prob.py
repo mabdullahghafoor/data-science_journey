@@ -110,3 +110,4 @@ def parse_student_csv(filename):
                         "name": name,
                         "marks": marks
                     })
+
