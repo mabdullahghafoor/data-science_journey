@@ -113,3 +113,4 @@ def parse_student_csv(filename):
 
                 except ValueError:
                     continue   # skip invalid marks
+
