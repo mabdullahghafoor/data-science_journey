@@ -58,3 +58,4 @@ def marks():
 
                 mark_list.append(a)
                 break   # valid input, move to next subject
+
