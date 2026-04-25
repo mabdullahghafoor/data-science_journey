@@ -61,3 +61,26 @@ def calculator():
                 print("Goodbye!")
                 break
 
+            if num2 == "":
+                raise ValueError("Second input cannot be empty.")
+
+            num1 = float(num1)
+            num2 = float(num2)
+
+            # Perform calculation
+            if operator == "+":
+                result = num1 + num2
+
+            elif operator == "-":
+                result = num1 - num2
+
+            elif operator == "*":
+                result = num1 * num2
+
+            elif operator == "/":
+                if num2 == 0:
+                    raise ZeroDivisionError("Cannot divide by zero.")
+                result = num1 / num2
+
+            expression = f"{num1} {operator} {num2}"
+
