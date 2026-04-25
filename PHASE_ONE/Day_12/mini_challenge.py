@@ -44,3 +44,12 @@ def validate_cgpa(cgpa):
         raise ValueError("Please enter a valid CGPA!")
 
 
+def validate_phone(phone):
+    """Raise ValueError if phone not 11 digits."""
+    if not phone.isdigit():
+        raise ValueError("Phone number must contain only digits!")
+
+    if len(phone) != 11:
+        raise ValueError("Phone number must be exactly 11 digits!")
+
+
