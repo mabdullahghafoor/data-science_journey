@@ -48,3 +48,5 @@ try:
         data = json.load(file)
         print(data)
 
+except FileNotFoundError:
+    print(f"{filename} not found!")
