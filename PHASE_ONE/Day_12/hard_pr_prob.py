@@ -9,3 +9,6 @@
 #Logs every successful calculation to calc_history.txt
 #Keeps running until user types "exit"
 
+from datetime import datetime
+
+
