@@ -52,3 +52,4 @@ def marks():
         while True:
             try:
                 a = int(input(f"Enter marks for subject {i+1}: "))
+
