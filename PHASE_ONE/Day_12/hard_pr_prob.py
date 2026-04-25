@@ -20,3 +20,9 @@ def log_error(error_message):
         file.write(f"[{timestamp}] ERROR: {error_message}\n")
 
 
+def log_history(expression, result):
+    with open("calc_history.txt", "a") as file:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        file.write(f"[{timestamp}] {expression} = {result}\n")
+
+
