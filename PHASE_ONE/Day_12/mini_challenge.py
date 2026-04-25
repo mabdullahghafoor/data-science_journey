@@ -174,3 +174,12 @@ def view_all_students():
             print("No students available!")
             return
 
+        print("\n===== All Students =====")
+        for index, student in enumerate(students, start=1):
+            print(f"\nStudent {index}")
+            print(f"Name: {student['name']}")
+            print(f"Age: {student['age']}")
+            print(f"CGPA: {student['cgpa']}")
+            print(f"Phone: {student['phone']}")
+            print(f"Email: {student['email']}")
+
