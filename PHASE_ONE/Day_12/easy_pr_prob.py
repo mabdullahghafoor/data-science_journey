@@ -12,3 +12,4 @@ try:
 
     div = a/b
     print(div)
+
