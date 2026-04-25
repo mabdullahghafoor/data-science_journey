@@ -94,3 +94,5 @@ def parse_student_csv(filename):
             reader = csv.reader(file)
 
             for row in reader:
+                try:
+                    # Check missing data
