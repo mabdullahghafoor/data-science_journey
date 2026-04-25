@@ -13,3 +13,5 @@ try:
     div = a/b
     print(div)
 
+except ValueError:
+    print("Please enter a number")
