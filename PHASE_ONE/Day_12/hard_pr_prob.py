@@ -96,3 +96,8 @@ def calculator():
             print(f"Math Error: {e}")
             log_error(str(e))
 
+        except Exception as e:
+            print(f"Unexpected Error: {e}")
+            log_error(str(e))
+
+
