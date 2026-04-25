@@ -31,3 +31,5 @@ int("hello") # --> VE
 [1,2,3][10]  # --> LIORE
 {"name": "Ali"}["age"] # -->KNFE
 "hello" + 5 # --> TE
+
+
