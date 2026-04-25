@@ -96,3 +96,5 @@ def parse_student_csv(filename):
             for row in reader:
                 try:
                     # Check missing data
+                    if len(row) < 2:
+                        continue
