@@ -84,3 +84,4 @@ print(f"Percentage: {percentage:.2f}%")
 #Handles rows with missing or invalid data
 #Returns a clean list of valid student records
 
+import csv
