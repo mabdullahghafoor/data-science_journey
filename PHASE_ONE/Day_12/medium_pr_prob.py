@@ -62,3 +62,5 @@ def marks():
             except ValueError:
                 print("Please enter an integer.")
 
+            except InvalidMarksError as e:
+                print(e)
