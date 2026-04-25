@@ -102,3 +102,6 @@ def parse_student_csv(filename):
                     name = row[0]
                     marks = int(row[1])   # may raise ValueError
 
+                    # Validate range
+                    if marks < 0 or marks > 100:
+                        continue
