@@ -105,3 +105,4 @@ def parse_student_csv(filename):
                     # Validate range
                     if marks < 0 or marks > 100:
                         continue
+
