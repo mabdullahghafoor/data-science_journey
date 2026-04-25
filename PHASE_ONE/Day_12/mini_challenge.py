@@ -82,3 +82,12 @@ def save_student(student_data):
         print(f"Error saving student: {e}")
 
 
+def register_student():
+    """
+    Collect and validate all student info.
+    Every input is exception-handled.
+    Data saved to students.json after registration.
+    """
+
+    print("\n===== Student Registration =====")
+
