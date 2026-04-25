@@ -50,3 +50,5 @@ mark_list = []
 def marks():
     for i in range(5):
         while True:
+            try:
+                a = int(input(f"Enter marks for subject {i+1}: "))
