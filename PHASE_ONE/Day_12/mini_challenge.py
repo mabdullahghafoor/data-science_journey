@@ -22,3 +22,11 @@ import os
 import re
 
 
+def validate_email(email):
+    """Raise ValueError if email format is invalid."""
+    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+
+    if not re.match(pattern, email):
+        raise ValueError("Invalid email format!")
+
+
