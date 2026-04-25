@@ -56,3 +56,5 @@ def marks():
                 if a < 0 or a > 100:
                     raise InvalidMarksError(a, "Marks out of range")
 
+                mark_list.append(a)
+                break   # valid input, move to next subject
