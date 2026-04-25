@@ -137,3 +137,24 @@ def register_student():
         except ValueError as e:
             print(e)
 
+    # Email validation
+    while True:
+        try:
+            email = input("Enter email: ")
+            validate_email(email)
+            break
+
+        except ValueError as e:
+            print(e)
+
+    student = {
+        "name": name,
+        "age": age,
+        "cgpa": cgpa,
+        "phone": phone,
+        "email": email
+    }
+
+    save_student(student)
+
+
