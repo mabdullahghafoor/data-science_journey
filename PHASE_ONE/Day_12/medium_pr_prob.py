@@ -59,3 +59,5 @@ def marks():
                 mark_list.append(a)
                 break   # valid input, move to next subject
 
+            except ValueError:
+                print("Please enter an integer.")
