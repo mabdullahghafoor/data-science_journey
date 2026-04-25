@@ -34,3 +34,5 @@ print(result)
 #Each input must be validated (0–100, must be integer)
 #Keep asking for each subject until valid input given
 #After all 5 entered — print total and percentage
+class StudentError(Exception):
+    pass
