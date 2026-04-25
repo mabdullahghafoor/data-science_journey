@@ -65,3 +65,4 @@ def marks():
             except InvalidMarksError as e:
                 print(e)
 
+    return mark_list
