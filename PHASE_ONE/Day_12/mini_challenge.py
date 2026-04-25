@@ -70,3 +70,15 @@ def save_student(student_data):
                 students = []
 
         # Add new student
+        students.append(student_data)
+
+        # Save updated data
+        with open(filename, "w") as file:
+            json.dump(students, file, indent=4)
+
+        print("Student saved successfully!")
+
+    except Exception as e:
+        print(f"Error saving student: {e}")
+
+
