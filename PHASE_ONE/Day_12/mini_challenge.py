@@ -103,3 +103,17 @@ def register_student():
 
         except ValueError as e:
             print(e)
+
+    # Age validation
+    while True:
+        try:
+            age = int(input("Enter age: "))
+
+            if age <= 0:
+                raise ValueError("Age must be positive!")
+
+            break
+
+        except ValueError:
+            print("Please enter a valid number for age!")
+
