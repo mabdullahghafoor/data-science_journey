@@ -101,3 +101,4 @@ def parse_student_csv(filename):
 
                     name = row[0]
                     marks = int(row[1])   # may raise ValueError
+
