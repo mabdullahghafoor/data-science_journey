@@ -28,3 +28,4 @@ print()
 
 int("hello") # --> VE
 10 / 0       # --> ZDE
+[1,2,3][10]  # --> LIORE
