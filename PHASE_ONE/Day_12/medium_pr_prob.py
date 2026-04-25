@@ -53,3 +53,5 @@ def marks():
             try:
                 a = int(input(f"Enter marks for subject {i+1}: "))
 
+                if a < 0 or a > 100:
+                    raise InvalidMarksError(a, "Marks out of range")
