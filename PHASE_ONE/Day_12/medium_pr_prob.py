@@ -83,3 +83,4 @@ print(f"Percentage: {percentage:.2f}%")
 #Handles FileNotFoundError
 #Handles rows with missing or invalid data
 #Returns a clean list of valid student records
+
