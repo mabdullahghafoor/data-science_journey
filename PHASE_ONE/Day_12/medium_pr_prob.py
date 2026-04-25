@@ -7,3 +7,4 @@
 #Handles TypeError if index is not an integer
 #Returns None on any error with a helpful message
 
+def safe_list_access(lst, index):
