@@ -16,3 +16,5 @@ try:
 except ValueError:
     print("Please enter a number")
 
+except ZeroDivisionError:
+    print("A no can't be divided by zero")
