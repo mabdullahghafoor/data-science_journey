@@ -158,3 +158,19 @@ def register_student():
     save_student(student)
 
 
+def view_all_students():
+    """Load and display all students safely."""
+    filename = "students.json"
+
+    try:
+        if not os.path.exists(filename):
+            print("No student records found!")
+            return
+
+        with open(filename, "r") as file:
+            students = json.load(file)
+
+        if not students:
+            print("No students available!")
+            return
+
