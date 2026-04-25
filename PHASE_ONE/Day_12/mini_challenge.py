@@ -193,3 +193,9 @@ def view_all_students():
         print(f"Unexpected error: {e}")
 
 
+# Main program
+while True:
+    print("\n1. Register Student")
+    print("2. View All Students")
+    print("3. Exit")
+
