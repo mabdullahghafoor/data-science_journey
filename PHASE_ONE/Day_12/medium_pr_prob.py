@@ -22,3 +22,4 @@ def safe_list_access(lst, index):
     finally:
         print("Attempt Completed")
 
+list1 = [10,20,30,40,50,60,70,80]
