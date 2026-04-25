@@ -84,3 +84,15 @@ def calculator():
 
             expression = f"{num1} {operator} {num2}"
 
+            print(f"Result: {result}")
+
+            log_history(expression, result)
+
+        except ValueError as e:
+            print(f"Input Error: {e}")
+            log_error(str(e))
+
+        except ZeroDivisionError as e:
+            print(f"Math Error: {e}")
+            log_error(str(e))
+
