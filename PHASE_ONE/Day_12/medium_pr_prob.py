@@ -36,3 +36,5 @@ print(result)
 #After all 5 entered — print total and percentage
 class StudentError(Exception):
     pass
+
+
