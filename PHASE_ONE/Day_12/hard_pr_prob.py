@@ -33,3 +33,31 @@ def calculator():
     print("Type 'exit' anytime to quit.\n")
 
     while True:
+        try:
+            num1 = input("Enter first number: ").strip()
+
+            if num1.lower() == "exit":
+                print("Goodbye!")
+                break
+
+            if num1 == "":
+                raise ValueError("First input cannot be empty.")
+
+            operator = input("Enter operator (+, -, *, /): ").strip()
+
+            if operator.lower() == "exit":
+                print("Goodbye!")
+                break
+
+            if operator == "":
+                raise ValueError("Operator cannot be empty.")
+
+            if operator not in ["+", "-", "*", "/"]:
+                raise ValueError(f"Invalid operator: {operator}")
+
+            num2 = input("Enter second number: ").strip()
+
+            if num2.lower() == "exit":
+                print("Goodbye!")
+                break
+
