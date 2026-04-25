@@ -18,3 +18,4 @@ def safe_list_access(lst, index):
 
     except TypeError:
         print("Index must be an integer")
+
