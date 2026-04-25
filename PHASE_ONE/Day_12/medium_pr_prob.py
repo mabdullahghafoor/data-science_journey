@@ -42,3 +42,5 @@ class InvalidMarksError(StudentError):
     def __init__(self, marks, message="Invalid marks provided"):
         self.marks = marks
         super().__init__(f"{message}: {marks}")
+
+
