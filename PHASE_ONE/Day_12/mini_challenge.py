@@ -117,3 +117,13 @@ def register_student():
         except ValueError:
             print("Please enter a valid number for age!")
 
+    # CGPA validation
+    while True:
+        try:
+            cgpa = input("Enter CGPA: ")
+            cgpa = validate_cgpa(cgpa)
+            break
+
+        except ValueError as e:
+            print(e)
+
