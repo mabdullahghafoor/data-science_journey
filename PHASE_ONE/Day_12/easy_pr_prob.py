@@ -21,3 +21,4 @@ except ZeroDivisionError:
 
 print("Program completed")
 
+print()
