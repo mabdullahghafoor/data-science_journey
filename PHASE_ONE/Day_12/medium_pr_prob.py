@@ -9,3 +9,6 @@
 
 def safe_list_access(lst, index):
 
+    try: 
+        val = lst[index]
+        return val
