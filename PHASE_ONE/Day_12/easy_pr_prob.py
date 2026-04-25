@@ -33,3 +33,4 @@ int("hello") # --> VE
 "hello" + 5 # --> TE
 
 
+#Q3. Write a try/except/else/finally block that:
