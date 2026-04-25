@@ -77,3 +77,9 @@ print(f"Total: {total}")
 print(f"Percentage: {percentage:.2f}%")
 
 
+#Q6. Create a function parse_student_csv(filename) that:
+
+#Reads a CSV file of student data
+#Handles FileNotFoundError
+#Handles rows with missing or invalid data
+#Returns a clean list of valid student records
