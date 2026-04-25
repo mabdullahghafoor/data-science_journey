@@ -30,3 +30,17 @@ def validate_email(email):
         raise ValueError("Invalid email format!")
 
 
+def validate_cgpa(cgpa):
+    """Raise ValueError if CGPA not between 0.0 and 4.0."""
+    try:
+        cgpa = float(cgpa)
+
+        if cgpa < 0.0 or cgpa > 4.0:
+            raise ValueError("CGPA must be between 0.0 and 4.0!")
+
+        return cgpa
+
+    except ValueError:
+        raise ValueError("Please enter a valid CGPA!")
+
+
