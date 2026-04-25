@@ -60,3 +60,13 @@ def save_student(student_data):
     try:
         students = []
 
+        # Load old data if file exists
+        if os.path.exists(filename):
+            try:
+                with open(filename, "r") as file:
+                    students = json.load(file)
+
+            except json.JSONDecodeError:
+                students = []
+
+        # Add new student
