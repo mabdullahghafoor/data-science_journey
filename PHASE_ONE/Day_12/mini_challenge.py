@@ -127,3 +127,13 @@ def register_student():
         except ValueError as e:
             print(e)
 
+    # Phone validation
+    while True:
+        try:
+            phone = input("Enter phone number: ")
+            validate_phone(phone)
+            break
+
+        except ValueError as e:
+            print(e)
+
