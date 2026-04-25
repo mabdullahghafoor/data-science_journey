@@ -183,3 +183,13 @@ def view_all_students():
             print(f"Phone: {student['phone']}")
             print(f"Email: {student['email']}")
 
+    except FileNotFoundError:
+        print("Student file not found!")
+
+    except json.JSONDecodeError:
+        print("Error reading student data!")
+
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+
+
