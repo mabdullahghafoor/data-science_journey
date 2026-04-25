@@ -53,3 +53,10 @@ def validate_phone(phone):
         raise ValueError("Phone number must be exactly 11 digits!")
 
 
+def save_student(student_data):
+    """Save to JSON with full error handling."""
+    filename = "students.json"
+
+    try:
+        students = []
+
