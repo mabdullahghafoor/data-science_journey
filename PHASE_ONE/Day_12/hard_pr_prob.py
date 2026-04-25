@@ -12,3 +12,11 @@
 from datetime import datetime
 
 
+# ---------- Logging Functions ----------
+
+def log_error(error_message):
+    with open("error_log.txt", "a") as file:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        file.write(f"[{timestamp}] ERROR: {error_message}\n")
+
+
