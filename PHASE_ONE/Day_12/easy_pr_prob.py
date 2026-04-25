@@ -6,3 +6,9 @@
 # Handle ValueError (non-numeric input) and 
 # ZeroDivisionError (division by zero) separately.
 
+try:
+    a = int(input("Enter first no : "))
+    b = int(input("Enter second no : "))
+
+    div = a/b
+    print(div)
