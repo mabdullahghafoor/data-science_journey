@@ -26,3 +26,5 @@ list1 = [10,20,30,40,50,60,70,80]
 
 result = safe_list_access(list1, "as")
 print(result)
+
+
