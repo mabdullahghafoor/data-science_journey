@@ -21,3 +21,4 @@ def safe_list_access(lst, index):
 
     finally:
         print("Attempt Completed")
+
