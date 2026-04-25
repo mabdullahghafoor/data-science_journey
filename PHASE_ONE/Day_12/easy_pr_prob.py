@@ -27,3 +27,4 @@ print()
 #Q2. Without running, identify what exception each line raises:
 
 int("hello") # --> VE
+10 / 0       # --> ZDE
