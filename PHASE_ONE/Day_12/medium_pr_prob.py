@@ -47,3 +47,4 @@ class InvalidMarksError(StudentError):
 mark_list = []
 
 
+def marks():
