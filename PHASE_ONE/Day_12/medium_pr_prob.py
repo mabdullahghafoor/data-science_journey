@@ -72,3 +72,4 @@ result = marks()
 
 total = sum(result)
 percentage = (total / 500) * 100
+
