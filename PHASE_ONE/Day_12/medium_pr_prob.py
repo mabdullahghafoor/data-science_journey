@@ -49,3 +49,4 @@ mark_list = []
 
 def marks():
     for i in range(5):
+        while True:
