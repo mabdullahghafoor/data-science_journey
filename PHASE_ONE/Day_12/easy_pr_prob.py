@@ -35,3 +35,6 @@ int("hello") # --> VE
 
 #Q3. Write a try/except/else/finally block that:
 
+#Tries to open a file that doesn't exist
+#Catches the error with a friendly message
+#finally prints "Attempt complete"
