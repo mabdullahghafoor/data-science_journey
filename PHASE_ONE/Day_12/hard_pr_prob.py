@@ -26,3 +26,10 @@ def log_history(expression, result):
         file.write(f"[{timestamp}] {expression} = {result}\n")
 
 
+# ---------- Calculator Function ----------
+
+def calculator():
+    print("=== ROBUST CALCULATOR ===")
+    print("Type 'exit' anytime to quit.\n")
+
+    while True:
