@@ -101,3 +101,5 @@ def calculator():
             log_error(str(e))
 
 
+# ---------- Run Program ----------
+calculator()
