@@ -91,3 +91,15 @@ def register_student():
 
     print("\n===== Student Registration =====")
 
+    # Name validation
+    while True:
+        try:
+            name = input("Enter name: ").strip()
+
+            if not name:
+                raise ValueError("Name cannot be empty!")
+
+            break
+
+        except ValueError as e:
+            print(e)
