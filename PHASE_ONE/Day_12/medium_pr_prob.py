@@ -75,3 +75,5 @@ percentage = (total / 500) * 100
 
 print(f"Total: {total}")
 print(f"Percentage: {percentage:.2f}%")
+
+
