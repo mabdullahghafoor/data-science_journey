@@ -106,3 +106,7 @@ def parse_student_csv(filename):
                     if marks < 0 or marks > 100:
                         continue
 
+                    valid_students.append({
+                        "name": name,
+                        "marks": marks
+                    })
