@@ -89,3 +89,4 @@ import csv
 def parse_student_csv(filename):
     valid_students = []
 
+    try:
