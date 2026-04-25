@@ -13,3 +13,5 @@ def safe_list_access(lst, index):
         val = lst[index]
         return val
 
+    except IndexError:
+        print("Please provide an Index with in range of list")
