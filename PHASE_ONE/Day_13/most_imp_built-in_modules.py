@@ -34,3 +34,6 @@ print(students)
 otp = random.randint(100000, 999999)
 print(f"Your OTP: {otp}")
 
+# ════════════════════════════════════════
+# MODULE 3: datetime
+# ════════════════════════════════════════
