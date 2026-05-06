@@ -62,3 +62,14 @@ print(f"[{timestamp}] User logged in")
 # ════════════════════════════════════════
 # MODULE 4: os
 # ════════════════════════════════════════
+import os
+
+print(os.getcwd())                  # current working directory
+print(os.listdir("."))              # files in current folder
+print(os.path.exists("data.txt"))   # check if file exists
+print(os.path.join("folder","file.txt"))  # safe path joining
+
+# Create folder if not exists
+if not os.path.exists("output"):
+    os.makedirs("output")
+    print("Created output folder!")
