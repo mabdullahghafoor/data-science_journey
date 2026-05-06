@@ -17,3 +17,5 @@ print(f"Percentage: {pct}%")
 print(f"Grade     : {grade}")
 print(f"Status    : {status}")
 
+# ── Or import specific functions ─────────────────────────────────
+from utils import calculate_percentage, get_grade
