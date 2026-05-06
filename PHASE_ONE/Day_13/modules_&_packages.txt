@@ -19,3 +19,13 @@ Three Types of Modules:
 │    students.py, utils.py, reports.py...          │
 └─────────────────────────────────────────────────┘
 
+
+❌ Without Modules — one file with 5000 lines
+   everything.py  ← impossible to manage!
+
+✅ With Modules — organized, clean, professional
+   main.py
+   students.py
+   grades.py
+   utils.py
+   reports.py
