@@ -73,3 +73,4 @@ print(os.path.join("folder","file.txt"))  # safe path joining
 if not os.path.exists("output"):
     os.makedirs("output")
     print("Created output folder!")
+
