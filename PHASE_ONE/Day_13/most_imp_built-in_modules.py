@@ -74,3 +74,6 @@ if not os.path.exists("output"):
     os.makedirs("output")
     print("Created output folder!")
 
+# ════════════════════════════════════════
+# MODULE 5: string & collections
+# ════════════════════════════════════════
