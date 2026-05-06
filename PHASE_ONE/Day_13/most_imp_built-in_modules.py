@@ -15,3 +15,6 @@ print(math.floor(4.9))      # 4
 print(math.ceil(4.1))       # 5
 print(math.abs(-7))         # use abs() directly → 7
 
+# ════════════════════════════════════════
+# MODULE 2: random
+# ════════════════════════════════════════
