@@ -58,3 +58,4 @@ print(f"Days until deadline: {days_left}")
 # ── Real use: timestamp for logs ──────────────────────────────────
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 print(f"[{timestamp}] User logged in")
+
