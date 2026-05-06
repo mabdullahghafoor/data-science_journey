@@ -6,3 +6,16 @@ Package:
         A Package is a folder containing multiple modules.
 
 
+Three Types of Modules:
+
+┌─────────────────────────────────────────────────┐
+│ 1. BUILT-IN    → comes with Python               │
+│    math, os, random, datetime, json, csv...      │
+│                                                   │
+│ 2. THIRD-PARTY → installed via pip               │
+│    numpy, pandas, matplotlib, scikit-learn...    │
+│                                                   │
+│ 3. YOUR OWN    → files YOU create                │
+│    students.py, utils.py, reports.py...          │
+└─────────────────────────────────────────────────┘
+
