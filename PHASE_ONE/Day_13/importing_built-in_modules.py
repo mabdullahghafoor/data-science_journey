@@ -15,3 +15,8 @@ print(sqrt(81))             # 9.0  ← no 'math.' prefix!
 print(pi)                   # 3.14159
 print(factorial(5))         # 120
 
+# Method 3: import with alias (shorter name)
+import numpy as np          # industry standard alias
+import pandas as pd         # industry standard alias
+import matplotlib.pyplot as plt
+
