@@ -18,3 +18,18 @@ print(math.abs(-7))         # use abs() directly → 7
 # ════════════════════════════════════════
 # MODULE 2: random
 # ════════════════════════════════════════
+import random
+
+print(random.random())              # float: 0.0 to 1.0
+print(random.randint(1, 100))       # int: 1 to 100 inclusive
+print(random.randrange(0, 100, 5))  # 0,5,10,15...95
+
+students = ["Ali", "Sara", "Fatima", "Omar"]
+print(random.choice(students))      # random single item
+print(random.sample(students, 2))   # random 2 items (no repeat)
+random.shuffle(students)            # shuffles IN PLACE
+print(students)
+
+# ── Real use: generate random OTP ────────────────────────────────
+otp = random.randint(100000, 999999)
+print(f"Your OTP: {otp}")
