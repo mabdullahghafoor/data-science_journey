@@ -33,3 +33,4 @@ print(students)
 # ── Real use: generate random OTP ────────────────────────────────
 otp = random.randint(100000, 999999)
 print(f"Your OTP: {otp}")
+
