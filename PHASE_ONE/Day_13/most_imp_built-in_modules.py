@@ -95,3 +95,4 @@ print(counts.most_common(2))    # [(88, 3), (76, 2)] → top 2
 words = "python is great python is easy python".split()
 word_count = Counter(words)
 print(word_count)       # Counter({'python': 3, 'is': 2, ...})
+
