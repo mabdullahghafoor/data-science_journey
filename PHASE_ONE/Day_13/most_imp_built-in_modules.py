@@ -77,3 +77,21 @@ if not os.path.exists("output"):
 # ════════════════════════════════════════
 # MODULE 5: string & collections
 # ════════════════════════════════════════
+import string
+from collections import Counter, defaultdict
+
+# string constants
+print(string.ascii_lowercase)   # abcdefghijklmnopqrstuvwxyz
+print(string.ascii_uppercase)   # ABCDEFGHIJKLMNOPQRSTUVWXYZ
+print(string.digits)            # 0123456789
+print(string.punctuation)       # !"#$%&'()*+,...
+
+# Counter → count occurrences automatically!
+marks  = [88, 76, 88, 92, 76, 88, 65, 92]
+counts = Counter(marks)
+print(counts)           # Counter({88: 3, 76: 2, 92: 2, 65: 1})
+print(counts.most_common(2))    # [(88, 3), (76, 2)] → top 2
+
+words = "python is great python is easy python".split()
+word_count = Counter(words)
+print(word_count)       # Counter({'python': 3, 'is': 2, ...})
