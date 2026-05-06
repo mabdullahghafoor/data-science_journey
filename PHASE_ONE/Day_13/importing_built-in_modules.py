@@ -20,3 +20,6 @@ import numpy as np          # industry standard alias
 import pandas as pd         # industry standard alias
 import matplotlib.pyplot as plt
 
+# Method 4: import everything (avoid this!)
+from math import *          # ❌ pollutes namespace
+print(sqrt(25))             # works but dangerous — avoid!
