@@ -13,3 +13,6 @@ pct   = utils.calculate_percentage(marks)
 grade = utils.get_grade(pct)
 status = "Pass ✅" if utils.is_passing(marks) else "Fail ❌"
 
+print(f"Percentage: {pct}%")
+print(f"Grade     : {grade}")
+print(f"Status    : {status}")
