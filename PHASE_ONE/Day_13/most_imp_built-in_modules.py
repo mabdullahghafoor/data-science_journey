@@ -37,3 +37,24 @@ print(f"Your OTP: {otp}")
 # ════════════════════════════════════════
 # MODULE 3: datetime
 # ════════════════════════════════════════
+from datetime import datetime, date, timedelta
+
+# Current date and time
+now   = datetime.now()
+today = date.today()
+
+print(now)                              # 2024-01-15 14:30:22.123456
+print(today)                            # 2024-01-15
+print(now.strftime("%d-%m-%Y %H:%M"))   # 15-01-2024 14:30
+print(now.year, now.month, now.day)     # 2024 1 15
+
+# Date arithmetic
+tomorrow    = today + timedelta(days=1)
+last_week   = today - timedelta(weeks=1)
+deadline    = date(2024, 12, 31)
+days_left   = (deadline - today).days
+print(f"Days until deadline: {days_left}")
+
+# ── Real use: timestamp for logs ──────────────────────────────────
+timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+print(f"[{timestamp}] User logged in")
