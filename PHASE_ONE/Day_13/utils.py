@@ -3,3 +3,9 @@
 
 # ── Step 1: Create utils.py ──────────────────────────────────────
 
+# FILE: utils.py
+# ─────────────────────────────────────────────────
+"""
+utils.py — Reusable utility functions
+for the Student Management System.
+"""
