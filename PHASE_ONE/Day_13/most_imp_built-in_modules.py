@@ -59,3 +59,6 @@ print(f"Days until deadline: {days_left}")
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 print(f"[{timestamp}] User logged in")
 
+# ════════════════════════════════════════
+# MODULE 4: os
+# ════════════════════════════════════════
