@@ -23,3 +23,4 @@ from utils import calculate_percentage, get_grade
 pct   = calculate_percentage(marks)   # no 'utils.' prefix needed
 grade = get_grade(pct)
 
+
