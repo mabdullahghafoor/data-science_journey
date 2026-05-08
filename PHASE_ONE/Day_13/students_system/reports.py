@@ -3,3 +3,4 @@
 # FILE: reports.py
 from datetime import datetime
 
+def generate_report_header(title):
