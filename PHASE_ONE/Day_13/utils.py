@@ -1,9 +1,3 @@
-# FILE: utils.py
-# ─────────────────────────────────────────────────
-"""
-utils.py — Reusable utility functions
-for the Student Management System.
-"""
 
 def calculate_percentage(marks, total_per_subject=100):
     """Calculate percentage from a list of marks."""
