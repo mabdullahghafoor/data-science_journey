@@ -30,3 +30,4 @@ def is_passing(marks, pass_mark=40, pass_percent=50):
     all_passed = all(m >= pass_mark for m in marks)
     percentage = calculate_percentage(marks)
     return all_passed and percentage >= pass_percent
+
