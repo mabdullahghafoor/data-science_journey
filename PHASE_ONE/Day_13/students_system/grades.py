@@ -8,3 +8,4 @@ def assign_grade(percentage):
         range(70, 80) : "B",
         range(60, 70) : "C",
         range(50, 60) : "D",
+    }
