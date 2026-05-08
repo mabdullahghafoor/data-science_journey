@@ -1,4 +1,3 @@
-
 def get_grade(percentage):
     """Return grade based on percentage."""
     if   percentage >= 90: return "A+"
