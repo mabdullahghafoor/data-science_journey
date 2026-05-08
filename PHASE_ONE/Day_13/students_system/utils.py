@@ -16,3 +16,11 @@ def calculate_percentage(marks, total_per_subject=100):
     max_total = len(marks) * total_per_subject
     return round((total / max_total) * 100, 2)
 
+def get_grade(percentage):
+    """Return grade based on percentage."""
+    if   percentage >= 90: return "A+"
+    elif percentage >= 80: return "A"
+    elif percentage >= 70: return "B"
+    elif percentage >= 60: return "C"
+    elif percentage >= 50: return "D"
+    else:                  return "F"
