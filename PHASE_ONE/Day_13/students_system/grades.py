@@ -9,3 +9,4 @@ def assign_grade(percentage):
         range(60, 70) : "C",
         range(50, 60) : "D",
     }
+    for mark_range, grade in grades.items():
