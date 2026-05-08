@@ -10,3 +10,4 @@ marks = [88, 76, 92, 65, 95]
 pct   = utils.calculate_percentage(marks)
 grade = assign_grade(pct)
 print(f"Result: {pct}% → {grade}")
+
