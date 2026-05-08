@@ -1,5 +1,3 @@
-
-
 # ── Step 1: Create utils.py ──────────────────────────────────────
 
 # FILE: utils.py
