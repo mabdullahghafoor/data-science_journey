@@ -1,4 +1,3 @@
-
 def is_passing(marks, pass_mark=40, pass_percent=50):
     """Check if student has passed all subjects."""
     all_passed = all(m >= pass_mark for m in marks)
