@@ -15,3 +15,4 @@ def calculate_percentage(marks, total_per_subject=100):
     total    = sum(marks)
     max_total = len(marks) * total_per_subject
     return round((total / max_total) * 100, 2)
+
