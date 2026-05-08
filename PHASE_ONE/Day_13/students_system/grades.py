@@ -2,3 +2,4 @@
 
 # FILE: grades.py
 def assign_grade(percentage):
+    grades = {
