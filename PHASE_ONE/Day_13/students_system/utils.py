@@ -31,3 +31,4 @@ def is_passing(marks, pass_mark=40, pass_percent=50):
     percentage = calculate_percentage(marks)
     return all_passed and percentage >= pass_percent
 
+PI = 3.14159     # module-level constant
