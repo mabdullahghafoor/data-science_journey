@@ -22,3 +22,4 @@ def assign_grade(percentage):
         if int(percentage) in mark_range:
             return grade
     return "F"
+
