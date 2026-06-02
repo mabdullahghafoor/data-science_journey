@@ -11,3 +11,5 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
+# ── This block ONLY runs when you run THIS file directly ──────────
+# It does NOT run when this file is imported as a module
