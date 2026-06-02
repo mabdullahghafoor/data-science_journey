@@ -9,3 +9,5 @@
 # matplotlib==3.7.0
 # requests==2.31.0
 
+# Install everything at once:
+# pip install -r requirements.txt
