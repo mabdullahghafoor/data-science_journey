@@ -24,3 +24,6 @@ if __name__ == "__main__":
 # ── When imported: __name__ = "calculator" → block skipped
 # ── When run directly: __name__ = "__main__" → block runs
 
+# In main.py:
+# from calculator import add, subtract
+# result = add(10, 5)   ← works, test block doesn't run ✅
