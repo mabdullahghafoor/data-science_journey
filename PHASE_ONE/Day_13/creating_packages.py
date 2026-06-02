@@ -38,3 +38,8 @@ from student_system import utils
 from student_system.grades import assign_grade
 from student_system.reports import generate_report_header
 
+generate_report_header("Student Performance Report")
+marks = [88, 76, 92, 65, 95]
+pct   = utils.calculate_percentage(marks)
+grade = assign_grade(pct)
+print(f"Result: {pct}% → {grade}")
