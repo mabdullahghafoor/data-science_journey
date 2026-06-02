@@ -12,3 +12,4 @@
 # Install everything at once:
 # pip install -r requirements.txt
 
+# ── Using requests (HTTP calls) ───────────────────────────────────
