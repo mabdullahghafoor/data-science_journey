@@ -32,3 +32,4 @@ def generate_report_header(title):
     print(f"  {title}")
     print(f"  Generated: {timestamp}")
     print(f"{'═'*45}")
+
