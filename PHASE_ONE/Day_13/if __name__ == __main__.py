@@ -20,3 +20,4 @@ if __name__ == "__main__":
     print(subtract(10, 5))      # 5
     print(multiply(10, 5))      # 50
     print("All tests passed! ✅")
+
