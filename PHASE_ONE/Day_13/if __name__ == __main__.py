@@ -23,3 +23,4 @@ if __name__ == "__main__":
 
 # ── When imported: __name__ = "calculator" → block skipped
 # ── When run directly: __name__ = "__main__" → block runs
+
