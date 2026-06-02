@@ -21,3 +21,5 @@ if __name__ == "__main__":
     print(multiply(10, 5))      # 50
     print("All tests passed! ✅")
 
+# ── When imported: __name__ = "calculator" → block skipped
+# ── When run directly: __name__ = "__main__" → block runs
