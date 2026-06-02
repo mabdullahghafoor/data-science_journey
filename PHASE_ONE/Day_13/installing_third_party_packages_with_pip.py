@@ -15,3 +15,7 @@
 # ── Using requests (HTTP calls) ───────────────────────────────────
 import requests     # pip install requests
 
+response = requests.get("https://api.github.com")
+print(response.status_code)    # 200 = success
+data = response.json()
+print(data["current_user_url"])
