@@ -29,3 +29,4 @@ def generate_password(length=12,
     return password
 
 
+def check_strength(password):
