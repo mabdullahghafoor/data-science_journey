@@ -94,3 +94,4 @@ def generate_passphrase(words=4):
     ]
 
     selected_words = []
+
