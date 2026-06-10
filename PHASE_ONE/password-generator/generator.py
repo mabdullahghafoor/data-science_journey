@@ -93,3 +93,4 @@ def generate_passphrase(words=4):
         "Sun"
     ]
 
+    selected_words = []
