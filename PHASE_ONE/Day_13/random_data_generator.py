@@ -16,3 +16,4 @@ def random_marks(n):
     for i in range(n):
         marks.append(random.randint(50, 100))
 
+    return marks
