@@ -16,3 +16,5 @@ print("╠═══════════════════════�
 print("Standard Password :", password)
 print("Strength          :", check_strength(password), "💪")
 
+pin = generate_pin()
+print("\nNumeric PIN       :", pin)
