@@ -12,3 +12,4 @@ def random_name():
 
 def random_marks(n):
     marks = []
+
