@@ -17,3 +17,6 @@ def capitalize_words(text):
     return text.title()
 
 
+def remove_duplicates(text):
+    words = text.split()
+    unique_words = []
