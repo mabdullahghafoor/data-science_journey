@@ -52,3 +52,5 @@ def check_strength(password):
     if score == 1:
         return "Weak"
 
+    elif score == 2:
+        return "Medium"
