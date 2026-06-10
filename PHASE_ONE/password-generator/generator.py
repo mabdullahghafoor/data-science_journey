@@ -17,3 +17,4 @@ def generate_password(length=12,
 
     if use_digits:
         characters += string.digits
+
