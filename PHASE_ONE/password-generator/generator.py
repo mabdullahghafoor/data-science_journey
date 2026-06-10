@@ -43,3 +43,5 @@ def check_strength(password):
     if any(char.isupper() for char in password):
         score += 1
 
+    if any(char.isdigit() for char in password):
+        score += 1
