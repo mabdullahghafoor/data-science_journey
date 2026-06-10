@@ -2,4 +2,3 @@
 
 # This problems contains some extra files and their names are listed below
 
-# 1. string_utils.py
