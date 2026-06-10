@@ -9,3 +9,10 @@
 
 import math
 
+arr = [4,6,8,10,12,14,16,18,20,22]
+square_root  = []
+for i in arr:
+    num = math.sqrt(i) 
+    square_root.append(num)
+
+print(square_root)
