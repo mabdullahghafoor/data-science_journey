@@ -46,3 +46,5 @@ def check_strength(password):
     if any(char.isdigit() for char in password):
         score += 1
 
+    if any(char in string.punctuation for char in password):
+        score += 1
