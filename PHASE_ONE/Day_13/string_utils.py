@@ -13,3 +13,5 @@ def word_count(text):
     return counts
 
 
+def capitalize_words(text):
+    return text.title()
