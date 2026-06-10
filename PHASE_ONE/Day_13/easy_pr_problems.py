@@ -40,3 +40,4 @@ print(log10_num)
 
 
 #Q2. Using random module:
+
