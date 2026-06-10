@@ -17,3 +17,4 @@ def print_summary():
     """
     Print program summary.
     """
+    print("\nReport generated successfully.")
