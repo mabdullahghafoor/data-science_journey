@@ -83,3 +83,4 @@ print(today.strftime("%d %B %Y"))
 
 # Print current time in format: "02:30 PM"
 print(today.strftime("%I:%M %p"))
+
