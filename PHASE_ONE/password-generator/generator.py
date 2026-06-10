@@ -48,3 +48,4 @@ def check_strength(password):
 
     if any(char in string.punctuation for char in password):
         score += 1
+
