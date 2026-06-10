@@ -52,3 +52,4 @@ for i in range (10):
     num = random.randint(1,100)
     random_numbers.append(num)
 
+print(random_numbers)
