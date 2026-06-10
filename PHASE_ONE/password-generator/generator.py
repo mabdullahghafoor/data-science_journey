@@ -37,3 +37,5 @@ def check_strength(password):
 
     score = 0
 
+    if len(password) >= 8:
+        score += 1
