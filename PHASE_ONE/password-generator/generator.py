@@ -60,3 +60,5 @@ def check_strength(password):
 
     else:
         return "Very Strong"
+
+
