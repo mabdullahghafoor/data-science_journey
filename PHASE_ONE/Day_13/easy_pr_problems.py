@@ -56,3 +56,4 @@ print(random_numbers)
 
 students = ["Ali","Sara","Dia","Ana","Ela","Faiz","Sara","Sana"]
 
+random_student = random.choice(students)
