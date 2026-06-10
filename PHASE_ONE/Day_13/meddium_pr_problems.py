@@ -19,3 +19,4 @@ print(char_count)
 # Top 3 most common marks
 marks = [80, 75, 90, 80, 85, 90, 90, 75, 80, 95]
 
+mark_count = Counter(marks)
