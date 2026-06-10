@@ -63,3 +63,6 @@ def check_strength(password):
 
 
 def generate_pin(digits=6):
+    """
+    Generate numeric PIN.
+    """
