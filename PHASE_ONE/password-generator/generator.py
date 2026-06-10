@@ -27,3 +27,5 @@ def generate_password(length=12,
         password += random.choice(characters)
 
     return password
+
+
