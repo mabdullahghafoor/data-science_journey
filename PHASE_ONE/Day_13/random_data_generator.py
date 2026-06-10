@@ -26,3 +26,4 @@ def random_student():
         "marks": random_marks(5)
     }
 
+    return student
