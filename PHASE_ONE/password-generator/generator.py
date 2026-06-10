@@ -80,3 +80,15 @@ def generate_passphrase(words=4):
     Generate memorable passphrase.
     """
 
+    word_list = [
+        "Tiger",
+        "Moon",
+        "River",
+        "Storm",
+        "Fire",
+        "Lake",
+        "Cloud",
+        "Eagle",
+        "Forest",
+        "Sun"
+    ]
