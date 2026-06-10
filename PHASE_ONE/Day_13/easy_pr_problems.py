@@ -58,3 +58,4 @@ students = ["Ali","Sara","Dia","Ana","Ela","Faiz","Sara","Sana"]
 
 random_student = random.choice(students)
 
+print(random_student)
