@@ -20,3 +20,4 @@ def capitalize_words(text):
 def remove_duplicates(text):
     words = text.split()
     unique_words = []
+
