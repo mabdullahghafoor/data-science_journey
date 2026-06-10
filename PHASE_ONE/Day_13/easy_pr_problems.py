@@ -54,3 +54,4 @@ for i in range (10):
 
 print(random_numbers)
 
+students = ["Ali","Sara","Dia","Ana","Ela","Faiz","Sara","Sana"]
