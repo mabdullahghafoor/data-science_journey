@@ -25,3 +25,4 @@ def generate_password(length=12,
 
     for i in range(length):
         password += random.choice(characters)
+
