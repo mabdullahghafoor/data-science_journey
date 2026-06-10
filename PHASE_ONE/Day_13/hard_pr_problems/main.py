@@ -4,3 +4,4 @@ from reporter import print_card, print_summary
 
 name = "Ali"
 marks = [85, 90, 78, 88, 92]
+
