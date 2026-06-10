@@ -112,3 +112,5 @@ def generate_multiple(count=5, **kwargs):
         passwords.append(generate_password(**kwargs))
 
     return passwords
+
+
