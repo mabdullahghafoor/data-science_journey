@@ -114,3 +114,4 @@ def generate_multiple(count=5, **kwargs):
     return passwords
 
 
+if __name__ == "__main__":
