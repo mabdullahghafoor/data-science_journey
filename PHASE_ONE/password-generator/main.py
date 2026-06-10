@@ -30,3 +30,4 @@ bulk = generate_multiple(5)
 for index, pwd in enumerate(bulk, start=1):
     print(f"{index}. {pwd}")
 
+print("╚══════════════════════════════════════════╝")
