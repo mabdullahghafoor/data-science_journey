@@ -21,3 +21,6 @@ def validate_marks(marks):
     return True
 
 
+if __name__ == "__main__":
+    print(validate_name("Ali"))
+    print(validate_marks([85, 90, 78]))
