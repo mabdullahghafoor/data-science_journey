@@ -21,3 +21,5 @@ marks = [80, 75, 90, 80, 85, 90, 90, 75, 80, 95]
 
 mark_count = Counter(marks)
 
+print("\nTop 3 most common marks:")
+print(mark_count.most_common(3))
