@@ -20,3 +20,4 @@ print(char_count)
 marks = [80, 75, 90, 80, 85, 90, 90, 75, 80, 95]
 
 mark_count = Counter(marks)
+
