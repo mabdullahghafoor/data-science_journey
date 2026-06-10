@@ -30,3 +30,5 @@ if __name__ == "__main__":
     sample_marks = [85, 90, 80]
     percentage = calculate_percentage(sample_marks)
 
+    print("Percentage:", percentage)
+    print("Grade:", get_grade(percentage))
