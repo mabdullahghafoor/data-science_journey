@@ -102,3 +102,6 @@ def generate_passphrase(words=4):
 
 
 def generate_multiple(count=5, **kwargs):
+    """
+    Generate multiple passwords.
+    """
