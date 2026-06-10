@@ -98,3 +98,4 @@ def generate_passphrase(words=4):
     for i in range(words):
         selected_words.append(random.choice(word_list))
 
+    return "-".join(selected_words)
