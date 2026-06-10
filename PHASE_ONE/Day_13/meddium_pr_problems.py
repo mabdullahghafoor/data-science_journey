@@ -24,3 +24,8 @@ mark_count = Counter(marks)
 print("\nTop 3 most common marks:")
 print(mark_count.most_common(3))
 
+# Election votes
+votes = [
+    "Ali", "Sara", "Ali", "Ahmed",
+    "Sara", "Ali", "Ahmed", "Sara"
+]
