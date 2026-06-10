@@ -13,3 +13,5 @@ def random_name():
 def random_marks(n):
     marks = []
 
+    for i in range(n):
+        marks.append(random.randint(50, 100))
