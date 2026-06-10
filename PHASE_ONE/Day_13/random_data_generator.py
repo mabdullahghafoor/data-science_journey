@@ -25,3 +25,4 @@ def random_student():
         "age": random.randint(15, 20),
         "marks": random_marks(5)
     }
+
