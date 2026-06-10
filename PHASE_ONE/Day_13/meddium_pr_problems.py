@@ -29,3 +29,4 @@ votes = [
     "Ali", "Sara", "Ali", "Ahmed",
     "Sara", "Ali", "Ahmed", "Sara"
 ]
+
