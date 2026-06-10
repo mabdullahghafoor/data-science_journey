@@ -105,3 +105,4 @@ def generate_multiple(count=5, **kwargs):
     """
     Generate multiple passwords.
     """
+
