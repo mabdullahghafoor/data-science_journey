@@ -8,3 +8,4 @@ from generator import (
 
 
 password = generate_password()
+
