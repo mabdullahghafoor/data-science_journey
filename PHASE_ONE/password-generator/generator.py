@@ -71,3 +71,4 @@ def generate_pin(digits=6):
 
     for i in range(digits):
         pin += random.choice(string.digits)
+
