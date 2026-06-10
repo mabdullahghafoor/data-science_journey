@@ -66,3 +66,5 @@ for i in range(5):
     dice2 = random.randint(1,6)
 
     print(f"Term {i+1} : {dice1},{dice2}")
+
+
