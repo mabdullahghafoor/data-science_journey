@@ -23,3 +23,4 @@ phrase = generate_passphrase()
 print("\nPassphrase        :", phrase)
 print("Strength          :", check_strength(phrase))
 
+print("\nBulk Passwords (5):")
