@@ -8,3 +8,5 @@ names = [
 
 def random_name():
     return random.choice(names)
+
+
