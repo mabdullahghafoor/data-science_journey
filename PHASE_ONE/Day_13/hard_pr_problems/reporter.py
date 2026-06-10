@@ -13,3 +13,4 @@ def print_card(name, percentage, grade):
     print("Grade:", grade)
 
 
+def print_summary():
