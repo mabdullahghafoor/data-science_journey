@@ -108,3 +108,5 @@ def generate_multiple(count=5, **kwargs):
 
     passwords = []
 
+    for i in range(count):
+        passwords.append(generate_password(**kwargs))
