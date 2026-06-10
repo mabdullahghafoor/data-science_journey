@@ -9,3 +9,6 @@
 
 from collections import Counter
 
+# Character frequency
+text = "hello world"
+char_count = Counter(text)
