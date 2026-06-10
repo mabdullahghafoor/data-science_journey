@@ -15,3 +15,4 @@ print("╠═══════════════════════�
 
 print("Standard Password :", password)
 print("Strength          :", check_strength(password), "💪")
+
