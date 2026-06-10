@@ -34,3 +34,4 @@ def random_class(size):
 
     for i in range(size):
         students.append(random_student())
+
