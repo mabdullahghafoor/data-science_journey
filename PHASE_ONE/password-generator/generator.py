@@ -12,3 +12,5 @@ def generate_password(length=12,
 
     characters = string.ascii_lowercase
 
+    if use_upper:
+        characters += string.ascii_uppercase
