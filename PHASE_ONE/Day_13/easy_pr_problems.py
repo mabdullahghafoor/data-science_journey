@@ -27,3 +27,5 @@ for i in dec_num:
     c_num = math.ceil(i)
     ceil_num.append(c_num)
 
+print(floor_num)
+print(ceil_num)
