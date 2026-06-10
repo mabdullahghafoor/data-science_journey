@@ -26,3 +26,4 @@ print("Strength          :", check_strength(phrase))
 print("\nBulk Passwords (5):")
 
 bulk = generate_multiple(5)
+
