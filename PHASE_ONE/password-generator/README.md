@@ -10,3 +10,4 @@ A Python password generator project.
 - Passphrase generator
 - Bulk password generation
 
+## Run
