@@ -58,3 +58,5 @@ def check_strength(password):
     elif score == 3:
         return "Strong"
 
+    else:
+        return "Very Strong"
