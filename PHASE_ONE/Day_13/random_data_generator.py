@@ -10,3 +10,5 @@ def random_name():
     return random.choice(names)
 
 
+def random_marks(n):
+    marks = []
