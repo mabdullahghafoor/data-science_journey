@@ -9,3 +9,4 @@ A Python password generator project.
 - Numeric PIN generator
 - Passphrase generator
 - Bulk password generation
+
