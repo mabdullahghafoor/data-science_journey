@@ -15,3 +15,4 @@ char_count = Counter(text)
 
 print("Character frequency:")
 print(char_count)
+
