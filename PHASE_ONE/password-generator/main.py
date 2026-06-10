@@ -22,3 +22,4 @@ print("\nNumeric PIN       :", pin)
 phrase = generate_passphrase()
 print("\nPassphrase        :", phrase)
 print("Strength          :", check_strength(phrase))
+
