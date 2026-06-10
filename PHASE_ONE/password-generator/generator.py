@@ -22,3 +22,4 @@ def generate_password(length=12,
         characters += string.punctuation
 
     password = ""
+
