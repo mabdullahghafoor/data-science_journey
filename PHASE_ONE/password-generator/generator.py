@@ -75,3 +75,4 @@ def generate_pin(digits=6):
     return pin
 
 
+def generate_passphrase(words=4):
