@@ -3,3 +3,6 @@ def is_palindrome(text):
     return text == text[::-1]
 
 
+def word_count(text):
+    words = text.split()
+    counts = {}
