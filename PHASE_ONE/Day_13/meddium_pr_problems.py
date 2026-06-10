@@ -32,3 +32,5 @@ votes = [
 
 vote_count = Counter(votes)
 
+print("\nElection results:")
+print(vote_count)
