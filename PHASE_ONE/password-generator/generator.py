@@ -49,3 +49,5 @@ def check_strength(password):
     if any(char in string.punctuation for char in password):
         score += 1
 
+    if score == 1:
+        return "Weak"
