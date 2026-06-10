@@ -34,3 +34,4 @@ def check_strength(password):
     Returns:
     Weak, Medium, Strong, Very Strong
     """
+
