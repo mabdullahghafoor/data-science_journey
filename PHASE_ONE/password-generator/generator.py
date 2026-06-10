@@ -14,3 +14,4 @@ def generate_password(length=12,
 
     if use_upper:
         characters += string.ascii_uppercase
+
