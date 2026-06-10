@@ -7,3 +7,4 @@
 #Calculates log base 10 of: 10, 100, 1000
 
 
+import math
