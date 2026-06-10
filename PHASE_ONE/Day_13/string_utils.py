@@ -21,3 +21,6 @@ def remove_duplicates(text):
     words = text.split()
     unique_words = []
 
+    for word in words:
+        if word not in unique_words:
+            unique_words.append(word)
