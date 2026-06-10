@@ -35,3 +35,4 @@ log10_num = []
 for i in log_num:
     l_num = math.log10(i)
     log10_num.append(l_num)
+
