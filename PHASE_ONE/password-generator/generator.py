@@ -95,3 +95,5 @@ def generate_passphrase(words=4):
 
     selected_words = []
 
+    for i in range(words):
+        selected_words.append(random.choice(word_list))
