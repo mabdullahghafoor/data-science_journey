@@ -87,3 +87,4 @@ print(today.strftime("%I:%M %p"))
 # Calculate how many days until December 31, 2025
 target_date = datetime(2025, 12, 31)
 difference = target_date - today
+
