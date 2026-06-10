@@ -18,3 +18,5 @@ def generate_password(length=12,
     if use_digits:
         characters += string.digits
 
+    if use_symbols:
+        characters += string.punctuation
