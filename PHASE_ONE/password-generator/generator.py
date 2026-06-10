@@ -76,3 +76,6 @@ def generate_pin(digits=6):
 
 
 def generate_passphrase(words=4):
+    """
+    Generate memorable passphrase.
+    """
