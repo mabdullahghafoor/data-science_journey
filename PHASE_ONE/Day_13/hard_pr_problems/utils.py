@@ -14,3 +14,13 @@ def get_grade(percentage):
     """
     Return grade according to percentage.
     """
+    if percentage >= 90:
+        return "A+"
+    elif percentage >= 80:
+        return "A"
+    elif percentage >= 70:
+        return "B"
+    elif percentage >= 60:
+        return "C"
+    else:
+        return "F"
