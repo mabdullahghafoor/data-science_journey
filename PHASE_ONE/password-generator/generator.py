@@ -62,3 +62,4 @@ def check_strength(password):
         return "Very Strong"
 
 
+def generate_pin(digits=6):
