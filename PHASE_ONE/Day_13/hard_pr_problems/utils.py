@@ -11,3 +11,6 @@ def calculate_percentage(marks):
 
 
 def get_grade(percentage):
+    """
+    Return grade according to percentage.
+    """
