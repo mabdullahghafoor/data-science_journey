@@ -20,3 +20,6 @@ def print_summary():
     print("\nReport generated successfully.")
 
 
+if __name__ == "__main__":
+    print_card("Ali", 88.5, "A")
+    print_summary()
