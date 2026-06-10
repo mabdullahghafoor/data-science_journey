@@ -11,3 +11,4 @@ A Python password generator project.
 - Bulk password generation
 
 ## Run
+
