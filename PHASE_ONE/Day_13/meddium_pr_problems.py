@@ -30,3 +30,4 @@ votes = [
     "Sara", "Ali", "Ahmed", "Sara"
 ]
 
+vote_count = Counter(votes)
