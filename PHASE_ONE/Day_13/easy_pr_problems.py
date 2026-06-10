@@ -45,3 +45,6 @@ print(log10_num)
 #Pick a random student from a list of 8 names
 #Simulate rolling two dice (1-6 each) 5 times
 
+import random
+random_numbers = []
+for i in range (10):
