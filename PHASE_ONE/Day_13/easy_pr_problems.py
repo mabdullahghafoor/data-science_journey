@@ -30,3 +30,8 @@ for i in dec_num:
 print(floor_num)
 print(ceil_num)
 
+log_num = [10,100,1000]
+log10_num = []
+for i in log_num:
+    l_num = math.log10(i)
+    log10_num.append(l_num)
