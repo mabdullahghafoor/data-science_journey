@@ -29,3 +29,5 @@ def random_student():
     return student
 
 
+def random_class(size):
+    students = []
