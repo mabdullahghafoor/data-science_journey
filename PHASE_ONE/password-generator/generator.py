@@ -92,3 +92,4 @@ def generate_passphrase(words=4):
         "Forest",
         "Sun"
     ]
+
