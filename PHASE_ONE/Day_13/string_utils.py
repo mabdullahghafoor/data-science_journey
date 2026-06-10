@@ -25,3 +25,4 @@ def remove_duplicates(text):
         if word not in unique_words:
             unique_words.append(word)
 
+    return " ".join(unique_words)
