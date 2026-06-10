@@ -7,3 +7,4 @@
 # 3. random_data_generator.py
 # 4. main2.py
 
+from collections import Counter
