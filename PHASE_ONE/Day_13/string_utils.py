@@ -24,3 +24,4 @@ def remove_duplicates(text):
     for word in words:
         if word not in unique_words:
             unique_words.append(word)
+
