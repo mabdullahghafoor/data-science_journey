@@ -12,3 +12,5 @@ A Python password generator project.
 
 ## Run
 
+```bash
+python main.py
