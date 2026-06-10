@@ -107,3 +107,4 @@ def generate_multiple(count=5, **kwargs):
     """
 
     passwords = []
+
