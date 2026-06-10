@@ -37,3 +37,5 @@ for i in log_num:
     log10_num.append(l_num)
 
 print(log10_num)
+
+
