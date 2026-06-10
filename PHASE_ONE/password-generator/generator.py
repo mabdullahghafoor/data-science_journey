@@ -23,3 +23,5 @@ def generate_password(length=12,
 
     password = ""
 
+    for i in range(length):
+        password += random.choice(characters)
