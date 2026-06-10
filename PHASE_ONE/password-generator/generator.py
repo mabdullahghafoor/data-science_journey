@@ -73,3 +73,5 @@ def generate_pin(digits=6):
         pin += random.choice(string.digits)
 
     return pin
+
+
