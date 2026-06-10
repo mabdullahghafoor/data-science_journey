@@ -26,3 +26,4 @@ for i in dec_num:
     floor_num.append(f_num)
     c_num = math.ceil(i)
     ceil_num.append(c_num)
+
