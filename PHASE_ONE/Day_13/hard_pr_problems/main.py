@@ -9,3 +9,4 @@ if validate_name(name) and validate_marks(marks):
 
     percentage = calculate_percentage(marks)
     grade = get_grade(percentage)
+
