@@ -68,3 +68,4 @@ def generate_pin(digits=6):
     """
 
     pin = ""
+
