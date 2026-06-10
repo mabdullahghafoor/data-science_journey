@@ -26,3 +26,6 @@ def get_grade(percentage):
         return "F"
 
 
+if __name__ == "__main__":
+    sample_marks = [85, 90, 80]
+    percentage = calculate_percentage(sample_marks)
