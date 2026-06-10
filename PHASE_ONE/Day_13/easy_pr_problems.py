@@ -70,3 +70,6 @@ for i in range(5):
 
 #Q3. Using datetime:
 
+#Print today's date in format: "15 January 2024"
+#Print current time in format: "02:30 PM"
+#Calculate how many days until December 31, 2025
