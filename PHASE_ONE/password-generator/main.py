@@ -12,3 +12,4 @@ password = generate_password()
 print("╔══════════════════════════════════════════╗")
 print("        🔐 PASSWORD GENERATOR")
 print("╠══════════════════════════════════════════╣")
+
