@@ -13,3 +13,5 @@ if validate_name(name) and validate_marks(marks):
     print_card(name, percentage, grade)
     print_summary()
 
+else:
+    print("Invalid data entered.")
