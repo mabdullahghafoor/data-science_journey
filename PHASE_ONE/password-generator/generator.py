@@ -116,3 +116,6 @@ def generate_multiple(count=5, **kwargs):
 
 if __name__ == "__main__":
 
+    print(generate_password())
+    print(generate_pin())
+    print(generate_passphrase())
