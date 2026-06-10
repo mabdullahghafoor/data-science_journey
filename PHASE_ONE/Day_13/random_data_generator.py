@@ -17,3 +17,5 @@ def random_marks(n):
         marks.append(random.randint(50, 100))
 
     return marks
+
+
