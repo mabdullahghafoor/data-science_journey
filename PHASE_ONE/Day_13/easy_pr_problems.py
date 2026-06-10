@@ -44,3 +44,4 @@ print(log10_num)
 #Generate 10 random numbers between 1 and 100
 #Pick a random student from a list of 8 names
 #Simulate rolling two dice (1-6 each) 5 times
+
