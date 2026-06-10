@@ -68,3 +68,4 @@ for i in range(5):
     print(f"Term {i+1} : {dice1},{dice2}")
 
 
+#Q3. Using datetime:
