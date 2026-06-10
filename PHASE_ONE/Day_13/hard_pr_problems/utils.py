@@ -10,3 +10,4 @@ def calculate_percentage(marks):
     return sum(marks) / len(marks)
 
 
+def get_grade(percentage):
