@@ -32,3 +32,5 @@ def random_student():
 def random_class(size):
     students = []
 
+    for i in range(size):
+        students.append(random_student())
