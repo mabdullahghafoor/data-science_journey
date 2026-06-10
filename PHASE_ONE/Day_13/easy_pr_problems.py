@@ -88,3 +88,4 @@ print(today.strftime("%I:%M %p"))
 target_date = datetime(2025, 12, 31)
 difference = target_date - today
 
+print("Days until December 31, 2025:", difference.days)
