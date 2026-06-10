@@ -11,3 +11,6 @@ def validate_name(name):
 
 
 def validate_marks(marks):
+    """
+    Check whether all marks are between 0 and 100.
+    """
