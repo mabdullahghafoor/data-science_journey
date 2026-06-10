@@ -5,3 +5,5 @@
 #Calculates square root of 10 numbers
 #Finds the ceiling and floor of 5 decimal numbers
 #Calculates log base 10 of: 10, 100, 1000
+
+
