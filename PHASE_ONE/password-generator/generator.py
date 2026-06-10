@@ -21,3 +21,4 @@ def generate_password(length=12,
     if use_symbols:
         characters += string.punctuation
 
+    password = ""
