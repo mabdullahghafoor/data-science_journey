@@ -101,3 +101,4 @@ def generate_passphrase(words=4):
     return "-".join(selected_words)
 
 
+def generate_multiple(count=5, **kwargs):
