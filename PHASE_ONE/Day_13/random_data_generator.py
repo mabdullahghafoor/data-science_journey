@@ -19,3 +19,9 @@ def random_marks(n):
     return marks
 
 
+def random_student():
+    student = {
+        "name": random_name(),
+        "age": random.randint(15, 20),
+        "marks": random_marks(5)
+    }
