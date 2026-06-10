@@ -36,3 +36,4 @@ def check_strength(password):
     """
 
     score = 0
+
