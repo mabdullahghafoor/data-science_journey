@@ -64,3 +64,5 @@ student.introduce()     # uses Student's version
 teacher.introduce()     # uses Teacher's version
 
 # Student has ALL Person methods + its own
+print(student.get_info())       # from Person ✅
+print(student.get_percentage()) # from Student ✅
