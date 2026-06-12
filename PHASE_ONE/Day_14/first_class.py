@@ -5,3 +5,4 @@
 #   class ClassName:          ← PascalCase naming convention
 #       def __init__(self):   ← constructor (runs at creation)
 #           self.attribute    ← instance variable
+#
