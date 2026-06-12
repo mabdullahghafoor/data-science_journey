@@ -21,3 +21,4 @@ s3 = Student("Fatima", [95, 98, 100])
 
 s1.get_info()   # [FAST-NUCES] Ali: [88, 76, 92]
 s2.get_info()   # [FAST-NUCES] Sara: [65, 82, 71]
+
