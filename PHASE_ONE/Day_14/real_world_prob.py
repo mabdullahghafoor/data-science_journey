@@ -13,3 +13,4 @@ class Student:
         self.age         = age
         self.__marks     = {}       # private: subject → marks
         Student.total_students += 1
+
