@@ -75,3 +75,7 @@ s3 = Student("STU003", "Fatima Khan", 23)
 
 subjects = ["Math", "English", "Science", "Urdu", "CS"]
 marks_data = {
+    s1: [88, 76, 92, 65, 95],
+    s2: [65, 82, 71, 79, 68],
+    s3: [95, 98, 100, 88, 97],
+}
