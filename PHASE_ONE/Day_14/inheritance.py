@@ -7,3 +7,4 @@
 # ── PARENT class ─────────────────────────────────────────────────
 class Person:
     """Base class for all people."""
+
