@@ -44,3 +44,5 @@ class Teacher(Person):
         self.subject = subject
         self.salary  = salary
 
+    def teach(self):
+        print(f"👨‍🏫 {self.name} is teaching {self.subject}.")
