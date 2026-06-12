@@ -13,3 +13,4 @@ class Student:
         """Called when you print(object) — human readable"""
         return f"Student({self.name}, {self.percentage:.1f}%)"
 
+    def __repr__(self):
