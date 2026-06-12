@@ -39,3 +39,4 @@ student2 = Students("Sara Ahmed",  21, 3.52)  # object 2
 student3 = Students("Fatima Khan", 23, 3.95)  # object 3
 
 
+# ── Using object attributes ───────────────────────────────────────
