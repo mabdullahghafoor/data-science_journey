@@ -35,3 +35,4 @@ class Student:
             return 0
         return round(self.total / (len(self.__marks) * 100) * 100, 2)
 
+    @property
