@@ -9,3 +9,4 @@ class Student:
         self.marks = marks
         self.percentage = (sum(marks) / (len(marks) * 100)) * 100
 
+    def __str__(self):
