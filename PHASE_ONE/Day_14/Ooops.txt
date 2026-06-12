@@ -40,3 +40,4 @@ Object = Actual house built FROM the blueprint
 │ 4. ABSTRACTION    → show only what's needed,    │
 │                     hide complexity             │
 └─────────────────────────────────────────────────┘
+
