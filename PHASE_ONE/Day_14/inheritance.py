@@ -46,3 +46,4 @@ class Teacher(Person):
 
     def teach(self):
         print(f"👨‍🏫 {self.name} is teaching {self.subject}.")
+
