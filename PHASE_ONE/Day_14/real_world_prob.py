@@ -64,3 +64,5 @@ class Student:
         print(f"  Grade      : {self.grade}")
         print(f"  Status     : {self.status}")
 
+    def __str__(self):
+        return f"Student({self.student_id}: {self.name}, {self.percentage}%)"
