@@ -11,3 +11,4 @@ class BankAccount:
         self.__balance = initial_balance    # __ = private!
         self.__transactions = []
 
+    # ── Property: access private data safely ─────────────────────
