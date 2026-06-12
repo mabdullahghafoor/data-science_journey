@@ -56,3 +56,5 @@ class Student:
         print(f"\n{'─'*42}")
         print(f"  [{self.student_id}] {self.name}")
         print(f"{'─'*42}")
+        for subject, marks in self.__marks.items():
+            print(f"  {subject:<15}: {marks}/100")
