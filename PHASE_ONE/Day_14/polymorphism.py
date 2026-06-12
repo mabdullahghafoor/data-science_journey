@@ -42,3 +42,4 @@ shapes = [
     Circle(3),
 ]
 
+# Same code works for ALL shape types → polymorphism!
