@@ -43,3 +43,4 @@ class Teacher(Person):
         super().__init__(name, age, email)
         self.subject = subject
         self.salary  = salary
+
