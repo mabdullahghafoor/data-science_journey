@@ -12,3 +12,5 @@ class Shape:
               f"with area {self.area():.2f}")
 
 class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
