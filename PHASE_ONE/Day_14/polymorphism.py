@@ -31,3 +31,5 @@ class Triangle(Shape):
         self.base   = base
         self.height = height
 
+    def area(self):                         # overrides parent
+        return 0.5 * self.base * self.height
