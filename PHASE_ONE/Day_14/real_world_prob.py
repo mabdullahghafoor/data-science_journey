@@ -58,3 +58,8 @@ class Student:
         print(f"{'─'*42}")
         for subject, marks in self.__marks.items():
             print(f"  {subject:<15}: {marks}/100")
+        print(f"{'─'*42}")
+        print(f"  Total      : {self.total}/{len(self.__marks)*100}")
+        print(f"  Percentage : {self.percentage}%")
+        print(f"  Grade      : {self.grade}")
+        print(f"  Status     : {self.status}")
