@@ -19,3 +19,5 @@ class BankAccount:
 
     # ── Methods to modify private data ───────────────────────────
     def deposit(self, amount):
+        if amount <= 0:
+            raise ValueError("Deposit must be positive!")
