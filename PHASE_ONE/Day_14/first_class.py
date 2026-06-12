@@ -9,3 +9,4 @@
 #       def method(self):     ← instance method
 #
 
+class Students:
