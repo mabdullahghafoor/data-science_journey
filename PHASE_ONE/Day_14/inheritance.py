@@ -67,3 +67,5 @@ teacher.introduce()     # uses Teacher's version
 print(student.get_info())       # from Person ✅
 print(student.get_percentage()) # from Student ✅
 
+teacher.teach()                 # from Teacher ✅
+print(teacher.get_info())       # from Person ✅
