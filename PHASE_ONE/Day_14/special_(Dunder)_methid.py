@@ -21,3 +21,4 @@ class Student:
         """Called when len(object) is used"""
         return len(self.marks)
 
+    def __eq__(self, other):
