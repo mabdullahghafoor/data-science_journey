@@ -60,3 +60,5 @@ teacher = Teacher("Dr. Ahmed", 45,
                   "ahmed@fast.edu",
                   "Data Science", 150000)
 
+student.introduce()     # uses Student's version
+teacher.introduce()     # uses Teacher's version
