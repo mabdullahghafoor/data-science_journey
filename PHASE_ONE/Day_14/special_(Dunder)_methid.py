@@ -37,3 +37,7 @@ class Student:
 s1 = Student("Ali",    [88, 76, 92, 65, 95])
 s2 = Student("Fatima", [95, 98, 100, 88, 97])
 
+print(s1)               # Student(Ali, 83.2%)
+print(len(s1))          # 5 (number of subjects)
+print(s1 < s2)          # True (Ali's % < Fatima's %)
+print(s1 > s2)          # False
