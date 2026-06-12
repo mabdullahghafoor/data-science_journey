@@ -18,3 +18,4 @@ class Student:
         return f"Student(name='{self.name}', marks={self.marks})"
 
     def __len__(self):
+        """Called when len(object) is used"""
