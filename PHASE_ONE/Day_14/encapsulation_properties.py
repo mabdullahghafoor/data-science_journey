@@ -26,3 +26,7 @@ class BankAccount:
         print(f"✅ Deposited PKR {amount:,}. Balance: {self.__balance:,}")
 
     def withdraw(self, amount):
+        if amount <= 0:
+            raise ValueError("Amount must be positive!")
+        if amount > self.__balance:
+            raise ValueError("Insufficient balance!")
