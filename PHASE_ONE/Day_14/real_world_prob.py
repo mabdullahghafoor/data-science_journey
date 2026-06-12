@@ -37,3 +37,10 @@ class Student:
 
     @property
     def grade(self):
+        p = self.percentage
+        if   p >= 90: return "A+"
+        elif p >= 80: return "A"
+        elif p >= 70: return "B"
+        elif p >= 60: return "C"
+        elif p >= 50: return "D"
+        else:         return "F"
