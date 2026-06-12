@@ -13,3 +13,5 @@ class Person:
         self.age   = age
         self.email = email
 
+    def introduce(self):
+        print(f"Hi! I'm {self.name}, {self.age} years old.")
