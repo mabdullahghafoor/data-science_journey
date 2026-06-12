@@ -25,3 +25,4 @@ s2.get_info()   # [FAST-NUCES] Sara: [65, 82, 71]
 # Class variable is shared — all students see same value
 print(Student.total_students)   # 3
 print(s1.total_students)        # 3 (accessible from object too)
+
