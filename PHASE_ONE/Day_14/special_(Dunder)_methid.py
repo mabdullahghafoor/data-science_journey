@@ -25,3 +25,4 @@ class Student:
         """Called when using == between two objects"""
         return self.percentage == other.percentage
 
+    def __lt__(self, other):
