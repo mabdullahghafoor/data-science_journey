@@ -4,3 +4,4 @@
 # These give your class built-in Python behavior
 
 class Student:
+    def __init__(self, name, marks):
