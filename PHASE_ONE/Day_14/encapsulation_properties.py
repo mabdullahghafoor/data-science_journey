@@ -3,3 +3,4 @@
 # ── Encapsulation: protect data from direct modification ──────────
 # Private variables use _ or __ prefix
 
+class BankAccount:
