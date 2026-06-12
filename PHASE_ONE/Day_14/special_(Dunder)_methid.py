@@ -3,3 +3,4 @@
 # ── Dunder = Double UNDERscore → __method__ ──────────────────────
 # These give your class built-in Python behavior
 
+class Student:
