@@ -70,3 +70,4 @@ print(student.get_percentage()) # from Student ✅
 teacher.teach()                 # from Teacher ✅
 print(teacher.get_info())       # from Person ✅
 
+# isinstance — check if object is instance of class
