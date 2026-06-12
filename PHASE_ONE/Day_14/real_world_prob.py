@@ -36,3 +36,4 @@ class Student:
         return round(self.total / (len(self.__marks) * 100) * 100, 2)
 
     @property
+    def grade(self):
