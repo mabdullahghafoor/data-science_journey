@@ -13,3 +13,4 @@ class Student:
 
     def get_info(self):
         print(f"[{Student.school_name}] {self.name}: {self.marks}")
+
