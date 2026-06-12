@@ -51,3 +51,4 @@ class Teacher(Person):
         super().introduce()
         print(f"   I teach {self.subject}.")
 
+# ── Using inheritance ─────────────────────────────────────────────
