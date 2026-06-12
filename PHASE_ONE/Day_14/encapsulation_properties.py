@@ -21,3 +21,6 @@ class BankAccount:
     def deposit(self, amount):
         if amount <= 0:
             raise ValueError("Deposit must be positive!")
+        self.__balance += amount
+        self.__transactions.append(f"+{amount}")
+        print(f"✅ Deposited PKR {amount:,}. Balance: {self.__balance:,}")
