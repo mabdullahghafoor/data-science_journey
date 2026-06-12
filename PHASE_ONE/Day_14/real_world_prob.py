@@ -16,3 +16,7 @@ class Student:
 
     # ── Marks management ─────────────────────────────────────────
     def add_marks(self, subject, marks):
+        if not 0 <= marks <= 100:
+            raise ValueError(f"Invalid marks: {marks}")
+        self.__marks[subject] = marks
+        print(f"✅ {subject}: {marks} added for {self.name}")
