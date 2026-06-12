@@ -63,3 +63,4 @@ class Student:
         print(f"  Percentage : {self.percentage}%")
         print(f"  Grade      : {self.grade}")
         print(f"  Status     : {self.status}")
+
