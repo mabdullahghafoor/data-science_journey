@@ -86,3 +86,4 @@ for student, marks in marks_data.items():
 
 for student in [s1, s2, s3]:
     student.print_card()
+
