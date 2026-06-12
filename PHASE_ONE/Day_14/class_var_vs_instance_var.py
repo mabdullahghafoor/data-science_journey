@@ -11,3 +11,5 @@ class Student:
         self.marks = marks
         Student.total_students += 1     # increment shared counter
 
+    def get_info(self):
+        print(f"[{Student.school_name}] {self.name}: {self.marks}")
