@@ -9,3 +9,4 @@ Procedural Thinking          OOP Thinking
 "What steps do I follow?"    "What THINGS exist in my system?"
 Functions + Variables        Objects with data + behavior
 Hard to scale up             Built to scale
+
