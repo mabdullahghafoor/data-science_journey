@@ -8,3 +8,4 @@ class Student:
         self.name  = name
         self.marks = marks
         self.percentage = (sum(marks) / (len(marks) * 100)) * 100
+
