@@ -22,3 +22,4 @@ class Student:
         print(f"✅ {subject}: {marks} added for {self.name}")
 
     def get_marks(self):
+        return dict(self.__marks)   # return copy, not original
