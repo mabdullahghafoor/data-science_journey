@@ -34,3 +34,4 @@ class BankAccount:
         self.__transactions.append(f"-{amount}")
         print(f"✅ Withdrawn PKR {amount:,}. Balance: {self.__balance:,}")
 
+    def get_statement(self):
