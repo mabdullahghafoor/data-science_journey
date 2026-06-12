@@ -43,3 +43,8 @@ print(s1 < s2)          # True (Ali's % < Fatima's %)
 print(s1 > s2)          # False
 
 # Sort a list of students automatically using __lt__!
+students = [s1, s2,
+            Student("Sara", [65, 82, 71, 79, 68])]
+ranked = sorted(students, reverse=True)
+for s in ranked:
+    print(s)
