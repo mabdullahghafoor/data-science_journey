@@ -80,3 +80,4 @@ marks_data = {
     s3: [95, 98, 100, 88, 97],
 }
 
+for student, marks in marks_data.items():
