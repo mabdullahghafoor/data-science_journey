@@ -28,3 +28,4 @@ class Student:
     @property
     def total(self):
         return sum(self.__marks.values())
+
