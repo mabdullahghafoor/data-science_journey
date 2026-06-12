@@ -28,3 +28,6 @@ def __init__ (self, name, age, cgpa):
 def introduce(self):
     print(f"Hi! I'm {self.name}, age {self.age}.")
 
+def get_status(self):
+    status = "Dean's List 🌟" if self.cgpa >= 3.7 else "Regular"
+    return status
