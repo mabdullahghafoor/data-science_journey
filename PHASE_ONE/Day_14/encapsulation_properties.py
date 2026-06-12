@@ -42,3 +42,4 @@ class BankAccount:
 # ── Using the class ───────────────────────────────────────────────
 account = BankAccount("Ali Hassan", 50000)
 
+print(account.balance)      # 50000 ✅ via property
