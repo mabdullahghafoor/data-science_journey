@@ -15,3 +15,5 @@ class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
 
+    def area(self):                         # overrides parent
+        return 3.14159 * self.radius ** 2
