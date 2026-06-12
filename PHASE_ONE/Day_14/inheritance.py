@@ -47,3 +47,6 @@ class Teacher(Person):
     def teach(self):
         print(f"👨‍🏫 {self.name} is teaching {self.subject}.")
 
+    def introduce(self):
+        super().introduce()
+        print(f"   I teach {self.subject}.")
