@@ -24,3 +24,4 @@ class BankAccount:
         self.__balance += amount
         self.__transactions.append(f"+{amount}")
         print(f"✅ Deposited PKR {amount:,}. Balance: {self.__balance:,}")
+
