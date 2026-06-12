@@ -52,3 +52,4 @@ class Student:
                else "Fail ❌"
 
     # ── Display ───────────────────────────────────────────────────
+    def print_card(self):
