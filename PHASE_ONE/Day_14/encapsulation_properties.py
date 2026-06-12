@@ -33,3 +33,4 @@ class BankAccount:
         self.__balance -= amount
         self.__transactions.append(f"-{amount}")
         print(f"✅ Withdrawn PKR {amount:,}. Balance: {self.__balance:,}")
+
