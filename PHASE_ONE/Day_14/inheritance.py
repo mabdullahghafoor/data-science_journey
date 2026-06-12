@@ -31,3 +31,4 @@ class Student(Person):
     def get_percentage(self):
         return (sum(self.marks) / (len(self.marks) * 100)) * 100
 
+    # Override parent method → customize for Student
