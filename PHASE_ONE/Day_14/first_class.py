@@ -34,3 +34,6 @@ def get_status(self):
 
 
 # ── Creating Objects (Instances) ─────────────────────────────────
+student1 = Students("Ali Hassan",  22, 3.87)  # object 1
+student2 = Students("Sara Ahmed",  21, 3.52)  # object 2
+student3 = Students("Fatima Khan", 23, 3.95)  # object 3
