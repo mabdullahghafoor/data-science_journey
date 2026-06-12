@@ -11,3 +11,4 @@
 
 class Students:
 
+     """Represents a student in the system."""
