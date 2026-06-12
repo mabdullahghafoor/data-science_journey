@@ -52,3 +52,6 @@ class Teacher(Person):
         print(f"   I teach {self.subject}.")
 
 # ── Using inheritance ─────────────────────────────────────────────
+student = Student("Ali Hassan", 22,
+                  "ali@fast.edu", "STU001",
+                  [88, 76, 92, 65, 95])
