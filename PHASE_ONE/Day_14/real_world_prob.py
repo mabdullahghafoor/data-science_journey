@@ -20,3 +20,4 @@ class Student:
             raise ValueError(f"Invalid marks: {marks}")
         self.__marks[subject] = marks
         print(f"✅ {subject}: {marks} added for {self.name}")
+
