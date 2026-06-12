@@ -13,3 +13,4 @@ class Students:
 
      """Represents a student in the system."""
 
+    # ── Constructor: runs automatically when object is created ───
