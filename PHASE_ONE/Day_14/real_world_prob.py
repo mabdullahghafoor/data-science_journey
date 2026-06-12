@@ -27,3 +27,4 @@ class Student:
     # ── Computed properties ───────────────────────────────────────
     @property
     def total(self):
+        return sum(self.__marks.values())
