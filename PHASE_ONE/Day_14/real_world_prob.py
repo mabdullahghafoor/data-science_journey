@@ -68,3 +68,4 @@ class Student:
         return f"Student({self.student_id}: {self.name}, {self.percentage}%)"
 
 
+# ── Using the system ──────────────────────────────────────────────
