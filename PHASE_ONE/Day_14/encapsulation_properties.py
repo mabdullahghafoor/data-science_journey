@@ -5,3 +5,4 @@
 
 class BankAccount:
     """A bank account with protected balance."""
+
