@@ -21,3 +21,6 @@ def __init__ (self, name, age, cgpa):
     self.name = name
     self.age = age
     self.cgpa = cgpa
+
+
+
