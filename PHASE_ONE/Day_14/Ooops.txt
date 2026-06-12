@@ -20,3 +20,4 @@ Behavior → study(), get_grade(), register()
 In OOP, you create a blueprint called a Class
 that defines this data and behavior.
 Then you create actual Objects from that blueprint.
+
