@@ -38,3 +38,4 @@ class BankAccount:
         print(f"\n📋 Account: {self.owner}")
         print(f"   Transactions: {self.__transactions}")
         print(f"   Balance: PKR {self.__balance:,}")
+
