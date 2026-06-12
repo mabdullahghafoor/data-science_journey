@@ -27,3 +27,4 @@ def __init__ (self, name, age, cgpa):
 # ── Method: function that belongs to this class ───────────────
 def introduce(self):
     print(f"Hi! I'm {self.name}, age {self.age}.")
+
