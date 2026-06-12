@@ -45,3 +45,6 @@ print(student2.age)         # 21
 print(student3.cgpa)        # 3.95
 
 # ── Calling methods ───────────────────────────────────────────────
+student1.introduce()        # Hi! I'm Ali Hassan, age 22.
+print(student2.get_status())# Regular
+print(student3.get_status())# Dean's List 🌟
