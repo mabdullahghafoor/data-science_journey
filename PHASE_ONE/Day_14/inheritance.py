@@ -69,3 +69,4 @@ print(student.get_percentage()) # from Student ✅
 
 teacher.teach()                 # from Teacher ✅
 print(teacher.get_info())       # from Person ✅
+
