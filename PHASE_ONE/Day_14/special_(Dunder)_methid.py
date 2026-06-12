@@ -22,3 +22,4 @@ class Student:
         return len(self.marks)
 
     def __eq__(self, other):
+        """Called when using == between two objects"""
