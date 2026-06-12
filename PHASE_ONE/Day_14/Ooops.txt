@@ -13,3 +13,4 @@ Hard to scale up             Built to scale
 The Core Idea — Everything is an Object:
 
 In the real world, a Student has:
+
