@@ -3,3 +3,4 @@
 # ── A mini Student Management System using OOP ───────────────────
 
 class Student:
+    """Complete student with all functionality."""
