@@ -7,3 +7,6 @@ class BankAccount:
     """A bank account with protected balance."""
 
     def __init__(self, owner, initial_balance):
+        self.owner    = owner
+        self.__balance = initial_balance    # __ = private!
+        self.__transactions = []
