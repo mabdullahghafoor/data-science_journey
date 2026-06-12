@@ -34,3 +34,4 @@ class Triangle(Shape):
     def area(self):                         # overrides parent
         return 0.5 * self.base * self.height
 
+# ── Polymorphism in action ────────────────────────────────────────
