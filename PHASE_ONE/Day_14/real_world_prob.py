@@ -14,3 +14,4 @@ class Student:
         self.__marks     = {}       # private: subject → marks
         Student.total_students += 1
 
+    # ── Marks management ─────────────────────────────────────────
