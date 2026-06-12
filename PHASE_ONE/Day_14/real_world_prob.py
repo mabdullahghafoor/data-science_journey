@@ -6,3 +6,4 @@ class Student:
     """Complete student with all functionality."""
 
     total_students = 0
+
