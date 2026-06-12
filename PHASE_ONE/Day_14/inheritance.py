@@ -16,3 +16,5 @@ class Person:
     def introduce(self):
         print(f"Hi! I'm {self.name}, {self.age} years old.")
 
+    def get_info(self):
+        return f"{self.name} | {self.email}"
