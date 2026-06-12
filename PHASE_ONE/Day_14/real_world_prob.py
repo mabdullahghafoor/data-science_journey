@@ -44,3 +44,4 @@ class Student:
         elif p >= 60: return "C"
         elif p >= 50: return "D"
         else:         return "F"
+
