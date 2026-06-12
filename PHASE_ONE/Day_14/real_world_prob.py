@@ -34,3 +34,4 @@ class Student:
         if not self.__marks:
             return 0
         return round(self.total / (len(self.__marks) * 100) * 100, 2)
+
