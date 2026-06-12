@@ -17,3 +17,4 @@ class Student:
         """Called in console/debugging — developer friendly"""
         return f"Student(name='{self.name}', marks={self.marks})"
 
+    def __len__(self):
