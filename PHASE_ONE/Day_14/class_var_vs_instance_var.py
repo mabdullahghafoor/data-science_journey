@@ -6,3 +6,4 @@ class Student:
     total_students = 0
 
     def __init__(self, name, marks):
+        # ── Instance variables: UNIQUE to each object ────────────
