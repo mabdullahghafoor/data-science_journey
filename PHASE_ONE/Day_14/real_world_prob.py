@@ -15,3 +15,4 @@ class Student:
         Student.total_students += 1
 
     # ── Marks management ─────────────────────────────────────────
+    def add_marks(self, subject, marks):
