@@ -25,3 +25,4 @@ class Student:
         return dict(self.__marks)   # return copy, not original
 
     # ── Computed properties ───────────────────────────────────────
+    @property
