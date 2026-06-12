@@ -16,3 +16,4 @@ class BankAccount:
     def balance(self):
         """Read-only access to balance."""
         return self.__balance
+
