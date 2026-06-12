@@ -33,3 +33,4 @@ class Student:
         """Called for greater than >"""
         return self.percentage > other.percentage
 
+# ── Using dunder methods ──────────────────────────────────────────
