@@ -32,3 +32,4 @@ class Student:
     def __gt__(self, other):
         """Called for greater than >"""
         return self.percentage > other.percentage
+
