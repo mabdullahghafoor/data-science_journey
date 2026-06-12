@@ -10,3 +10,4 @@ Procedural Thinking          OOP Thinking
 Functions + Variables        Objects with data + behavior
 Hard to scale up             Built to scale
 
+The Core Idea — Everything is an Object:
