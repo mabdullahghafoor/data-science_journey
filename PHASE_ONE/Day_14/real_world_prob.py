@@ -30,3 +30,4 @@ class Student:
         return sum(self.__marks.values())
 
     @property
+    def percentage(self):
