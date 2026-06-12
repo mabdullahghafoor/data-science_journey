@@ -26,3 +26,4 @@ class Student:
 
     # ── Computed properties ───────────────────────────────────────
     @property
+    def total(self):
