@@ -27,3 +27,6 @@ class Rectangle(Shape):
         return self.width * self.height
 
 class Triangle(Shape):
+    def __init__(self, base, height):
+        self.base   = base
+        self.height = height
