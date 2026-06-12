@@ -18,3 +18,4 @@ class Student:
 s1 = Student("Ali",    [88, 76, 92])
 s2 = Student("Sara",   [65, 82, 71])
 s3 = Student("Fatima", [95, 98, 100])
+
