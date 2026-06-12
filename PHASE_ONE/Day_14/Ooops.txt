@@ -1,0 +1,4 @@
+Everything you've written so far is called
+Procedural Programming — a list of instructions
+that run top to bottom.
+OOP is a completely different way of thinking:
