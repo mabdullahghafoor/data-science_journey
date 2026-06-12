@@ -18,3 +18,4 @@ class BankAccount:
         return self.__balance
 
     # ── Methods to modify private data ───────────────────────────
+    def deposit(self, amount):
