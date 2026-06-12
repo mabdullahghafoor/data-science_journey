@@ -46,3 +46,4 @@ class Student:
         else:         return "F"
 
     @property
+    def status(self):
