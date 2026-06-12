@@ -50,3 +50,6 @@ print(student2.get_status())# Regular
 print(student3.get_status())# Dean's List 🌟
 
 # ── Each object is INDEPENDENT ───────────────────────────────────
+student1.cgpa = 3.95        # only changes student1
+print(student1.cgpa)        # 3.95
+print(student2.cgpa)        # 3.52 → unchanged!
