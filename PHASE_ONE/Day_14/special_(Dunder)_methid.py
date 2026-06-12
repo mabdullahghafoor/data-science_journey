@@ -10,3 +10,4 @@ class Student:
         self.percentage = (sum(marks) / (len(marks) * 100)) * 100
 
     def __str__(self):
+        """Called when you print(object) — human readable"""
