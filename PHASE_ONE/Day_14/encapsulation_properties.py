@@ -44,3 +44,4 @@ account = BankAccount("Ali Hassan", 50000)
 
 print(account.balance)      # 50000 ✅ via property
 # account.__balance = 999999  ← ❌ can't access private directly!
+
