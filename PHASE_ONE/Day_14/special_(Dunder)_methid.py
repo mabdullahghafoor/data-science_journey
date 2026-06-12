@@ -20,3 +20,4 @@ class Student:
     def __len__(self):
         """Called when len(object) is used"""
         return len(self.marks)
+
