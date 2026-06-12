@@ -28,3 +28,5 @@ class Student(Person):
         self.student_id = student_id        # student-specific
         self.marks      = marks
 
+    def get_percentage(self):
+        return (sum(self.marks) / (len(self.marks) * 100)) * 100
