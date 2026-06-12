@@ -1,2 +1,4 @@
 # In this we will see how to use Dunderr(Duble UnderScore) Methods
 
+# ── Dunder = Double UNDERscore → __method__ ──────────────────────
+# These give your class built-in Python behavior
