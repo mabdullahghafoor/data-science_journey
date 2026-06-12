@@ -42,3 +42,4 @@ print(len(s1))          # 5 (number of subjects)
 print(s1 < s2)          # True (Ali's % < Fatima's %)
 print(s1 > s2)          # False
 
+# Sort a list of students automatically using __lt__!
