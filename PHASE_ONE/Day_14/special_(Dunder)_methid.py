@@ -29,3 +29,4 @@ class Student:
         """Called for less than comparison <"""
         return self.percentage < other.percentage
 
+    def __gt__(self, other):
