@@ -37,3 +37,4 @@ class Student(Person):
         print(f"   I'm a student. ID: {self.student_id}")
 
 class Teacher(Person):
+    """Teacher also inherits from Person."""
