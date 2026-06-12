@@ -41,3 +41,4 @@ print(s1)               # Student(Ali, 83.2%)
 print(len(s1))          # 5 (number of subjects)
 print(s1 < s2)          # True (Ali's % < Fatima's %)
 print(s1 > s2)          # False
+
