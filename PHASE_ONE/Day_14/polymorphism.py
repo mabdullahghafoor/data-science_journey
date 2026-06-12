@@ -18,3 +18,4 @@ class Circle(Shape):
     def area(self):                         # overrides parent
         return 3.14159 * self.radius ** 2
 
+class Rectangle(Shape):
