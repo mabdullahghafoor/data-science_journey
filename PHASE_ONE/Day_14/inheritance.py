@@ -71,3 +71,6 @@ teacher.teach()                 # from Teacher ✅
 print(teacher.get_info())       # from Person ✅
 
 # isinstance — check if object is instance of class
+print(isinstance(student, Student))  # True
+print(isinstance(student, Person))   # True! (it's a Person too)
+print(isinstance(teacher, Student))  # False
