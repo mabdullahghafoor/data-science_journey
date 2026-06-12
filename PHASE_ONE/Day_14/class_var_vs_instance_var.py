@@ -27,3 +27,6 @@ print(Student.total_students)   # 3
 print(s1.total_students)        # 3 (accessible from object too)
 
 # Change class variable → affects ALL objects
+Student.school_name = "LUMS"
+s1.get_info()   # [LUMS] Ali: [88, 76, 92]  ← changed!
+s2.get_info()   # [LUMS] Sara: [65, 82, 71] ← changed!
