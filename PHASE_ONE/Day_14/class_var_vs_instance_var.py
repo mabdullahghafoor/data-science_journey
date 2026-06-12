@@ -10,3 +10,4 @@ class Student:
         self.name  = name
         self.marks = marks
         Student.total_students += 1     # increment shared counter
+
