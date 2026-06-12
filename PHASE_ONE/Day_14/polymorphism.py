@@ -4,3 +4,5 @@
 # "poly" = many, "morph" = form
 
 class Shape:
+    def area(self):
+        return 0
