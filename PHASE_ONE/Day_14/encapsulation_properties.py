@@ -17,3 +17,4 @@ class BankAccount:
         """Read-only access to balance."""
         return self.__balance
 
+    # ── Methods to modify private data ───────────────────────────
