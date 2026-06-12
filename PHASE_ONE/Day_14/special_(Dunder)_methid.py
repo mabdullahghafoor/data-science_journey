@@ -27,3 +27,4 @@ class Student:
 
     def __lt__(self, other):
         """Called for less than comparison <"""
+        return self.percentage < other.percentage
