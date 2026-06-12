@@ -47,3 +47,6 @@ class Student:
 
     @property
     def status(self):
+        all_pass = all(m >= 40 for m in self.__marks.values())
+        return "Pass ✅" if all_pass and self.percentage >= 50 \
+               else "Fail ❌"
