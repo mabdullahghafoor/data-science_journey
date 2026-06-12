@@ -15,3 +15,9 @@ class Students:
 
     # ── Constructor: runs automatically when object is created ───
 
+def __init__ (self, name, age, cgpa):
+    # self = the specific object being created
+    # self.name = instance variable (belongs to THIS object)
+    self.name = name
+    self.age = age
+    self.cgpa = cgpa
