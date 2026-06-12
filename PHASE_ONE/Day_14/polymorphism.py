@@ -25,3 +25,4 @@ class Rectangle(Shape):
 
     def area(self):                         # overrides parent
         return self.width * self.height
+
