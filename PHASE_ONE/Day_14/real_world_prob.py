@@ -84,3 +84,4 @@ for student, marks in marks_data.items():
     for subject, mark in zip(subjects, marks):
         student.add_marks(subject, mark)
 
+for student in [s1, s2, s3]:
