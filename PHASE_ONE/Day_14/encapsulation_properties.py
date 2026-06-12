@@ -39,3 +39,4 @@ class BankAccount:
         print(f"   Transactions: {self.__transactions}")
         print(f"   Balance: PKR {self.__balance:,}")
 
+# ── Using the class ───────────────────────────────────────────────
