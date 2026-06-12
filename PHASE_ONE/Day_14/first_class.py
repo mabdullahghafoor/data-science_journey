@@ -31,3 +31,5 @@ def introduce(self):
 def get_status(self):
     status = "Dean's List 🌟" if self.cgpa >= 3.7 else "Regular"
     return status
+
+
