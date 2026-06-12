@@ -26,3 +26,4 @@ s2.get_info()   # [FAST-NUCES] Sara: [65, 82, 71]
 print(Student.total_students)   # 3
 print(s1.total_students)        # 3 (accessible from object too)
 
+# Change class variable → affects ALL objects
