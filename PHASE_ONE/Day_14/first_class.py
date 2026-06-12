@@ -6,3 +6,5 @@
 #       def __init__(self):   ← constructor (runs at creation)
 #           self.attribute    ← instance variable
 #
+#       def method(self):     ← instance method
+#
