@@ -36,3 +36,4 @@ class Student:
 # ── Using dunder methods ──────────────────────────────────────────
 s1 = Student("Ali",    [88, 76, 92, 65, 95])
 s2 = Student("Fatima", [95, 98, 100, 88, 97])
+
