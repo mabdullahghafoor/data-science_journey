@@ -23,3 +23,7 @@ class Person:
 class Student(Person):
     """Student inherits from Person."""
 
+    def __init__(self, name, age, email, student_id, marks):
+        super().__init__(name, age, email)  # call parent __init__!
+        self.student_id = student_id        # student-specific
+        self.marks      = marks
