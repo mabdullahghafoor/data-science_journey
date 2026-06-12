@@ -44,3 +44,4 @@ print(student1.name)        # Ali Hassan
 print(student2.age)         # 21
 print(student3.cgpa)        # 3.95
 
+# ── Calling methods ───────────────────────────────────────────────
