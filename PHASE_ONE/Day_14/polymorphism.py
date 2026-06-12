@@ -46,3 +46,8 @@ shapes = [
 for shape in shapes:
     shape.describe()    # each calls ITS OWN area() method!
 
+# Output:
+# I am a Circle with area 153.94
+# I am a Rectangle with area 50.00
+# I am a Triangle with area 24.00
+# I am a Circle with area 28.27
