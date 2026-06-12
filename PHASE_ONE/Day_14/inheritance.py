@@ -22,3 +22,4 @@ class Person:
 # ── CHILD class: inherits from Person ────────────────────────────
 class Student(Person):
     """Student inherits from Person."""
+
