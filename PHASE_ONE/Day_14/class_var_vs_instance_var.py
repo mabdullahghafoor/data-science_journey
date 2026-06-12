@@ -5,3 +5,4 @@ class Student:
     school_name   = "FAST-NUCES"
     total_students = 0
 
+    def __init__(self, name, marks):
