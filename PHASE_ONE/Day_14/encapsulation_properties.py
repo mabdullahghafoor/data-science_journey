@@ -14,3 +14,4 @@ class BankAccount:
     # ── Property: access private data safely ─────────────────────
     @property
     def balance(self):
+        """Read-only access to balance."""
