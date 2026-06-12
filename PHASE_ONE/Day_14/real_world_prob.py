@@ -23,3 +23,4 @@ class Student:
 
     def get_marks(self):
         return dict(self.__marks)   # return copy, not original
+
