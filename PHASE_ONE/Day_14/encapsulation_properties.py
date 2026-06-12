@@ -12,3 +12,4 @@ class BankAccount:
         self.__transactions = []
 
     # ── Property: access private data safely ─────────────────────
+    @property
