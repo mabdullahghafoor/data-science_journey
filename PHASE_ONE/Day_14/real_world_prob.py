@@ -53,3 +53,6 @@ class Student:
 
     # ── Display ───────────────────────────────────────────────────
     def print_card(self):
+        print(f"\n{'─'*42}")
+        print(f"  [{self.student_id}] {self.name}")
+        print(f"{'─'*42}")
