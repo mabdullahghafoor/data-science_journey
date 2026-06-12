@@ -7,3 +7,6 @@ class Student:
 
     def __init__(self, name, marks):
         # ── Instance variables: UNIQUE to each object ────────────
+        self.name  = name
+        self.marks = marks
+        Student.total_students += 1     # increment shared counter
