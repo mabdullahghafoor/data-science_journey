@@ -32,3 +32,6 @@ class Student(Person):
         return (sum(self.marks) / (len(self.marks) * 100)) * 100
 
     # Override parent method → customize for Student
+    def introduce(self):
+        super().introduce()     # call parent version first
+        print(f"   I'm a student. ID: {self.student_id}")
