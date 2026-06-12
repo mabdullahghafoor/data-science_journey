@@ -21,3 +21,4 @@ class Student:
         self.__marks[subject] = marks
         print(f"✅ {subject}: {marks} added for {self.name}")
 
+    def get_marks(self):
