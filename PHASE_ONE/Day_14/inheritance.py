@@ -39,3 +39,7 @@ class Student(Person):
 class Teacher(Person):
     """Teacher also inherits from Person."""
 
+    def __init__(self, name, age, email, subject, salary):
+        super().__init__(name, age, email)
+        self.subject = subject
+        self.salary  = salary
