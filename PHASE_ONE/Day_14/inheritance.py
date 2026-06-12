@@ -56,3 +56,6 @@ student = Student("Ali Hassan", 22,
                   "ali@fast.edu", "STU001",
                   [88, 76, 92, 65, 95])
 
+teacher = Teacher("Dr. Ahmed", 45,
+                  "ahmed@fast.edu",
+                  "Data Science", 150000)
