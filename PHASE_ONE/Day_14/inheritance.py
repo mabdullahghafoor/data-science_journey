@@ -36,3 +36,4 @@ class Student(Person):
         super().introduce()     # call parent version first
         print(f"   I'm a student. ID: {self.student_id}")
 
+class Teacher(Person):
