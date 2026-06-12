@@ -23,3 +23,4 @@ class Student:
 
     def __eq__(self, other):
         """Called when using == between two objects"""
+        return self.percentage == other.percentage
