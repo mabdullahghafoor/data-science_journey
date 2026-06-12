@@ -38,3 +38,4 @@ class Student(Person):
 
 class Teacher(Person):
     """Teacher also inherits from Person."""
+
