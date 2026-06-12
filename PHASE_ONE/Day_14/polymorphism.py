@@ -19,3 +19,6 @@ class Circle(Shape):
         return 3.14159 * self.radius ** 2
 
 class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width  = width
+        self.height = height
