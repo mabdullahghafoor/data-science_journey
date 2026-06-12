@@ -55,3 +55,4 @@ class Teacher(Person):
 student = Student("Ali Hassan", 22,
                   "ali@fast.edu", "STU001",
                   [88, 76, 92, 65, 95])
+
