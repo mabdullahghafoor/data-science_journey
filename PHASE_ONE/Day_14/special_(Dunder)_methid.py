@@ -5,3 +5,6 @@
 
 class Student:
     def __init__(self, name, marks):
+        self.name  = name
+        self.marks = marks
+        self.percentage = (sum(marks) / (len(marks) * 100)) * 100
