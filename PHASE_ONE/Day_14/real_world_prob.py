@@ -45,3 +45,4 @@ class Student:
         elif p >= 50: return "D"
         else:         return "F"
 
+    @property
