@@ -14,3 +14,4 @@ class Student:
         return f"Student({self.name}, {self.percentage:.1f}%)"
 
     def __repr__(self):
+        """Called in console/debugging — developer friendly"""
