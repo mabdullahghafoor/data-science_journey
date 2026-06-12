@@ -87,3 +87,6 @@ for student, marks in marks_data.items():
 for student in [s1, s2, s3]:
     student.print_card()
 
+print(f"\n📊 Total Students: {Student.total_students}")
+print(f"🏆 Top Student: "
+      f"{max([s1,s2,s3], key=lambda s: s.percentage).name}")
