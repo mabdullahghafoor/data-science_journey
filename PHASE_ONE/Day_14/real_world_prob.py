@@ -51,3 +51,4 @@ class Student:
         return "Pass ✅" if all_pass and self.percentage >= 50 \
                else "Fail ❌"
 
+    # ── Display ───────────────────────────────────────────────────
