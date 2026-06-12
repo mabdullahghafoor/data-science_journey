@@ -35,3 +35,9 @@ class Triangle(Shape):
         return 0.5 * self.base * self.height
 
 # ── Polymorphism in action ────────────────────────────────────────
+shapes = [
+    Circle(7),
+    Rectangle(10, 5),
+    Triangle(8, 6),
+    Circle(3),
+]
