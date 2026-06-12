@@ -25,3 +25,4 @@ Class  = Blueprint of a house (just the plan)
 Object = Actual house built FROM the blueprint
          (you can build many houses from one blueprint!)
 
+4 Pillars of OOP:
