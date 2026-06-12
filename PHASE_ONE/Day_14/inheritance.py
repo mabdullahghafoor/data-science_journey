@@ -5,3 +5,4 @@
 # + can override parent methods
 
 # ── PARENT class ─────────────────────────────────────────────────
+class Person:
