@@ -40,3 +40,4 @@ class Car:
         car_brand = "Toyota"
         car_model = "Altis"
         car_year = 2010
+        car_speed = 110
