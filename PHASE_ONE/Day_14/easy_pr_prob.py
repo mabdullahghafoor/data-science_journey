@@ -25,3 +25,4 @@ class Car:
 
     def brake(amount):
         if amount <= 0:
+            raise ValueError("Amount must be positive!")
