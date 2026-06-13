@@ -37,3 +37,4 @@ class Car:
         pos_speed = Car.accelerate(120)
         neg_speed = Car.brake(20)
 
+        car_brand = "Toyota"
