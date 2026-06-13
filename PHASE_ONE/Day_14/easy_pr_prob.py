@@ -44,3 +44,4 @@ class Car:
 
     print(f"Car Brand: {car_brand}")        
     print(f"Car Model: {car_model}")        
+    print(f"Car Year: {car_year}")        
