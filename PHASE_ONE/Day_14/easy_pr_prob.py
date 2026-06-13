@@ -20,3 +20,4 @@ class Car:
 
 
     def accelerate(amount):
+        increase_speed += increase_speed
