@@ -38,3 +38,4 @@ class Car:
         neg_speed = Car.brake(20)
 
         car_brand = "Toyota"
+        car_model = "Altis"
