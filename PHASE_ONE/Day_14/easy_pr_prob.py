@@ -19,3 +19,4 @@ class Car:
         self.speed = speed
 
 
+    def accelerate(amount):
