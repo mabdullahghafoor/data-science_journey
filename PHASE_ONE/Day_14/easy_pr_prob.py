@@ -23,3 +23,4 @@ class Car:
         increase_speed += increase_speed
         return increase_speed
 
+    def brake(amount):
