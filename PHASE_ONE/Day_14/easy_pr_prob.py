@@ -22,6 +22,7 @@ class Car:
         increase_speed = self.speed + amount
         return increase_speed
 
+    def brake(self, amount):
         
     def get_info(self):
 
