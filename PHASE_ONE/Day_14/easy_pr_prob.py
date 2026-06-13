@@ -42,3 +42,4 @@ class Car:
         car_year = 2010
         car_speed = 110
 
+    print(f"Car Brand: {car_brand}")        
