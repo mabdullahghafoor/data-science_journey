@@ -18,6 +18,7 @@ class Car:
 
 
     def accelerate(self, amount):
+        self.amount = amount
         return increase_speed
 
     def brake(amount):
