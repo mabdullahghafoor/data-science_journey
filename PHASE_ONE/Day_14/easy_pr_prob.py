@@ -30,3 +30,4 @@ class Car:
     def get_info():
 
         car_brand = Car.brand
+        car_model = Car.model
