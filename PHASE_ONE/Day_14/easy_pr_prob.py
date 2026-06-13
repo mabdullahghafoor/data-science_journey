@@ -35,3 +35,4 @@ class Car:
         car_speed = Car.speed
 
         pos_speed = Car.accelerate(120)
+        neg_speed = Car.brake(20)
