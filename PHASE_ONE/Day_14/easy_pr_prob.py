@@ -13,3 +13,4 @@ class Car:
     decrease_speed = 0
     def __init__(self,brand,model,year,speed):
 
+        self.brand = brand
