@@ -9,7 +9,6 @@
 
 class Car:
 
-    increase_speed = 0
     decrease_speed = 0
     def __init__(self,brand,model,year,speed):
 
@@ -27,27 +26,16 @@ class Car:
         if amount <= 0:
             raise ValueError("Amount must be positive!")
         
-    def get_info():
+    def get_info(self):
 
-        car_brand = Car.brand
-        car_model = Car.model
-        car_year = Car.year
-        car_speed = Car.speed
+        car1 = Car("Toyota","Grande",2016,120)
+        car1.accelerate(20)
+        car1.brake(50)
 
-        pos_speed = Car.accelerate(120)
-        neg_speed = Car.brake(20)
+        print(car1)
 
-        car_brand = "Toyota"
-        car_model = "Altis"
-        car_year = 2010
-        car_speed = 110
-
-    print(f"Car Brand: {car_brand}")        
-    print(f"Car Model: {car_model}")        
-    print(f"Car Year: {car_year}")        
-    print(f"Car Speed: {car_speed}")        
-    print(f"Car Acceleration: {pos_speed}")
-    print(f"Car Brake: {neg_speed}")
+    
 
 
-    get_info()                
+    result = get_info()                
+    print(result)
