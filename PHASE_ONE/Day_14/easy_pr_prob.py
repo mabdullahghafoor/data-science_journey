@@ -27,6 +27,7 @@ class Car:
         decreased_speed = self.speed - amount 
         if decreased_speed < 0:
             final_speed =  0
+            return final_speed
         
     def get_info(self):
 
