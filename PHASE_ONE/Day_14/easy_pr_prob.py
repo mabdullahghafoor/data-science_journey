@@ -7,3 +7,4 @@
 #Method brake(amount) → decreases speed (not below 0)
 #Method get_info() → prints all details
 
+class Car:
