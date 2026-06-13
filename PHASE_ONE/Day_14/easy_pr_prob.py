@@ -8,3 +8,4 @@
 #Method get_info() → prints all details
 
 class Car:
+
