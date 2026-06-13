@@ -9,3 +9,4 @@
 
 class Car:
 
+    increase_speed = 0
