@@ -34,3 +34,4 @@ class Car:
         car_year = Car.year
         car_speed = Car.speed
 
+        pos_speed = Car.accelerate(120)
