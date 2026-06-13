@@ -46,3 +46,4 @@ class Car:
     print(f"Car Model: {car_model}")        
     print(f"Car Year: {car_year}")        
     print(f"Car Speed: {car_speed}")        
+    print(f"Car Acceleration: {pos_speed}")
