@@ -50,3 +50,4 @@ class Car:
     print(f"Car Brake: {neg_speed}")
 
 
+    get_info()                
