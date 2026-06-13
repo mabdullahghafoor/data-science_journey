@@ -27,3 +27,4 @@ class Car:
         if amount <= 0:
             raise ValueError("Amount must be positive!")
         
+    def get_info():
