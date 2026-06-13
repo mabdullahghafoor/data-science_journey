@@ -24,6 +24,7 @@ class Car:
 
     def brake(self, amount):
         self.amount = amount
+        decreased_speed = self.speed - amount 
         
     def get_info(self):
 
