@@ -28,6 +28,7 @@ class Car:
         if decreased_speed < 0:
             final_speed =  0
             return final_speed
+        else:
         
     def get_info(self):
 
