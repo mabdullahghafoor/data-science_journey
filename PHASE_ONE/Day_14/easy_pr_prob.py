@@ -22,7 +22,6 @@ class Car:
         increase_speed = self.speed + amount
         return increase_speed
 
-            raise ValueError("Amount must be positive!")
         
     def get_info(self):
 
