@@ -43,3 +43,4 @@ class Car:
         car_speed = 110
 
     print(f"Car Brand: {car_brand}")        
+    print(f"Car Model: {car_model}")        
