@@ -32,3 +32,4 @@ class Car:
         car_brand = Car.brand
         car_model = Car.model
         car_year = Car.year
+        car_speed = Car.speed
