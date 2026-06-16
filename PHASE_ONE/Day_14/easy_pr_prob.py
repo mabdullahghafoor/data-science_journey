@@ -27,6 +27,7 @@ class Car:
         return self.speed
 
     def get_info(self):
+        print("Car Info:")
 
 
     result = get_info()                
