@@ -35,3 +35,4 @@ class Car:
 
 
 # Creating object
+car1 = Car("Toyota", "Grande", 2016, 120)
