@@ -8,7 +8,6 @@
 #Method get_info() → prints all details
 
 class Car:
-    def __init__(self,brand,model,year,speed):
 
         self.brand = brand
         self.model = model
