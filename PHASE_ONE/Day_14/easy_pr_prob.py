@@ -19,7 +19,6 @@ class Car:
         return self.speed
 
     def brake(self, amount):
-            return final_speed
         else:
             return decreased_speed
             
