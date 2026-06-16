@@ -24,6 +24,7 @@ class Car:
         if self.speed < 0:
             self.speed = 0
 
+        return self.speed
 
     
 
