@@ -21,7 +21,6 @@ class Car:
     def brake(self, amount):
         self.speed -= amount  # reduce speed
 
-        car1.accelerate(20)
         car1.brake(50)
 
         print(car1)
