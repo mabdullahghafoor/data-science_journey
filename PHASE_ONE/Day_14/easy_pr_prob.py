@@ -29,6 +29,7 @@ class Car:
     def get_info(self):
         print("Car Info:")
         print("Brand:", self.brand)
+        print("Model:", self.model)
 
 
     result = get_info()                
