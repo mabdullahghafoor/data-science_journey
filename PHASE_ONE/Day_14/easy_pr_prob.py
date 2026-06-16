@@ -22,6 +22,7 @@ class Car:
         self.speed -= amount  # reduce speed
 
         if self.speed < 0:
+            self.speed = 0
 
         print(car1)
 
