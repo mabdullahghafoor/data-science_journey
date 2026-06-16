@@ -34,4 +34,3 @@ class Car:
         print("Speed:", self.speed)
 
 
-    print(result)
