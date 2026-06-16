@@ -40,3 +40,4 @@ car1 = Car("Toyota", "Grande", 2016, 120)
 car1.accelerate(20)
 car1.brake(50)
 
+car1.get_info()
