@@ -8,7 +8,6 @@
 #Method get_info() → prints all details
 
 class Car:
-
         self.brand = brand
         self.model = model
         self.year = year
