@@ -34,5 +34,4 @@ class Car:
         print("Speed:", self.speed)
 
 
-    result = get_info()                
     print(result)
