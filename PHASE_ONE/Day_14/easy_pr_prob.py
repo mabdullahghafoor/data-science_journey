@@ -21,6 +21,7 @@ class Car:
     def brake(self, amount):
         self.speed -= amount  # reduce speed
 
+        if self.speed < 0:
 
         print(car1)
 
