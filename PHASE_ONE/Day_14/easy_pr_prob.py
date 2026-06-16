@@ -19,7 +19,6 @@ class Car:
         return self.speed
 
     def brake(self, amount):
-    def get_info(self):
 
         car1 = Car("Toyota","Grande",2016,120)
         car1.accelerate(20)
