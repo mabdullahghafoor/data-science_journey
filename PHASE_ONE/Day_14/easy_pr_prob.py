@@ -31,6 +31,7 @@ class Car:
         print("Brand:", self.brand)
         print("Model:", self.model)
         print("Year:", self.year)
+        print("Speed:", self.speed)
 
 
     result = get_info()                
