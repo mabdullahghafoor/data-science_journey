@@ -19,6 +19,7 @@ class Car:
         return self.speed
 
     def brake(self, amount):
+        self.speed -= amount  # reduce speed
 
         car1 = Car("Toyota","Grande",2016,120)
         car1.accelerate(20)
