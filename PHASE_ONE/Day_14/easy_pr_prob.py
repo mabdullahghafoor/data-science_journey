@@ -24,7 +24,6 @@ class Car:
         if self.speed < 0:
             self.speed = 0
 
-        print(car1)
 
     
 
