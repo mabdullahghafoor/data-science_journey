@@ -89,3 +89,4 @@ class Rectangle:
         print (f"{total_perimeter}")
     
     def is_square(self):
+
