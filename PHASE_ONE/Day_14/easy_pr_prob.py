@@ -59,3 +59,4 @@ class Animal:
         print(f"I say {self.sound}")
 
 class Dog(Animal):
+    sound = "Woof!"
