@@ -90,3 +90,4 @@ class Rectangle:
     
     def is_square(self):
 
+        if self.height == self.width:
