@@ -3,3 +3,4 @@
 #Q4. Build a BankAccount class with:
 
 #Private __balance
+#deposit(amount), withdraw(amount)
