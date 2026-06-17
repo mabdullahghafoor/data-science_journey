@@ -37,6 +37,7 @@ class Car:
 
         print("Car Details")
         print(f"Car Brand: {self.brand}")
+        print(f"Car Model: {self.model}")
 
 # Creating object
 car1 = Car("Toyota", "Grande", 2016, 120)
