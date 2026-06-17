@@ -49,3 +49,4 @@ car1.accelerate(20)
 car1.brake(60)
 
 car1.get_info()
+
