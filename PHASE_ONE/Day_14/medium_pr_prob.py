@@ -20,3 +20,4 @@ class BankAccount:
         if amount < 0:
             print(f"Invalid Amount! Amount must be greater than 0")
         else:
+            self.__balance += amount
