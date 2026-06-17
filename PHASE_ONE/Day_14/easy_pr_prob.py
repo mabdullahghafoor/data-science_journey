@@ -101,3 +101,4 @@ shape1 = Rectangle(120,120)
 
 shape1.area()
 shape1.perimeter()
+shape1.is_square()
