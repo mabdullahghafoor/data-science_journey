@@ -97,3 +97,4 @@ class Rectangle:
         
 # Creating an Object
 
+shape1 = Rectangle(120,120)
