@@ -85,3 +85,4 @@ class Rectangle:
         print(f"{total_area}")
     
     def perimeter(self):
+        total_perimeter = self.height + self.width
