@@ -9,6 +9,7 @@
 
 
 class Car:
+
         self.brand = brand
         self.model = model
         self.year = year
