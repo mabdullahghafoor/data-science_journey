@@ -23,3 +23,4 @@ class BankAccount:
             self.__balance += amount
             self.transactions.append(f"Deposited {amount}")
 
+    def withdraw(self, amount):
