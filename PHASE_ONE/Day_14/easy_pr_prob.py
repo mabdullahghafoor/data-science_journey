@@ -34,7 +34,6 @@ class Car:
     
 
     def get_info(self):
-        print("Year:", self.year)
         print("Speed:", self.speed)
 
 
