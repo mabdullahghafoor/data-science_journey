@@ -15,6 +15,7 @@ class Car:
         self.model = model
         self.year = year
         self.speed = speed
+    
 
     def accelerate(self, amount):
         self.speed += amount  # updates THIS car's speed
