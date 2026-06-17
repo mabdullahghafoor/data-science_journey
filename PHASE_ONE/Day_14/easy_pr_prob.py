@@ -82,3 +82,4 @@ class Rectangle:
 
     def area(self):
         total_area = self.height * self.width
+        print(f"{total_area}")
