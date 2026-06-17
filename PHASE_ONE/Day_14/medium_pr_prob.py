@@ -30,3 +30,4 @@ class BankAccount:
             print("Insufficient Balance!")
         else:
             self.__balance -= amount
+            self.transactions.append(f"Withdrew {amount}")
