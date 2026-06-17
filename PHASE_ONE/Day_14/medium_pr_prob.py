@@ -16,3 +16,4 @@ class BankAccount:
         self.__balance = initial_balance
         self.transactions = []
 
+    def deposit(self, amount):
