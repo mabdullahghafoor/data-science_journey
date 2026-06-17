@@ -37,3 +37,4 @@ class BankAccount:
     def balance(self):
         return self.__balance
 
+    def print_statement(self):
