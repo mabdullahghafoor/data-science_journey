@@ -34,7 +34,6 @@ class Car:
     
 
     def get_info(self):
-        print("Speed:", self.speed)
 
 
 # Creating object
