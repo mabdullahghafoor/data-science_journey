@@ -95,3 +95,4 @@ class Rectangle:
         else:
             print(f"False")
         
+# Creating an Object
