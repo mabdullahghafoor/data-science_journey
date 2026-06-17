@@ -67,3 +67,4 @@ class Cat(Animal):
 d = Dog()
 c = Cat()
 d.speak() # I say Woof
+c.speak() # I say Meow
