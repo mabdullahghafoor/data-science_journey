@@ -17,7 +17,6 @@ class Car:
         self.speed = speed
     
 
-        self.speed += amount  # updates THIS car's speed
         return self.speed
 
     def brake(self, amount):
