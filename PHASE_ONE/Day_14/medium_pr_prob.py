@@ -27,3 +27,4 @@ class BankAccount:
         if amount <= 0:
             print("Invalid amount!")
         elif amount > self.__balance:
+            print("Insufficient Balance!")
