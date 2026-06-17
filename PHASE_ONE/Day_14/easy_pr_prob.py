@@ -94,3 +94,4 @@ class Rectangle:
             print(f"True") 
         else:
             print(f"False")
+        
