@@ -41,3 +41,4 @@ class BankAccount:
         print("Account Details")
         print(f"Account Holder: {self.owner}")
         print(f"Account Balance: {self.__balance}")
+        print(f"\nTransaction History")
