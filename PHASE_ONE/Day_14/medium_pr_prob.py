@@ -34,3 +34,4 @@ class BankAccount:
 
 
     @property
+    def balance(self):
