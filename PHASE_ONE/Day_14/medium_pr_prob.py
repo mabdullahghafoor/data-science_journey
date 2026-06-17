@@ -32,3 +32,4 @@ class BankAccount:
             self.__balance -= amount
             self.transactions.append(f"Withdrew {amount}")
 
+
