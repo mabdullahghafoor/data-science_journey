@@ -39,3 +39,4 @@ class BankAccount:
 
     def print_statement(self):
         print("Account Details")
+        print(f"Account Holder: {self.owner}")
