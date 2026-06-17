@@ -21,3 +21,4 @@ class BankAccount:
             print(f"Invalid Amount! Amount must be greater than 0")
         else:
             self.__balance += amount
+            self.transactions.append(f"Deposited {amount}")
