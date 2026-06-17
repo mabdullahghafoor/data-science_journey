@@ -92,3 +92,4 @@ class Rectangle:
 
         if self.height == self.width:
             print(f"True") 
+        else:
