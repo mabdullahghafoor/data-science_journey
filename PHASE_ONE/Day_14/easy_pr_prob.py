@@ -70,3 +70,4 @@ d.speak() # I say Woof
 c.speak() # I say Meow
 print(isinstance(d, Animal)) # True
 
+
