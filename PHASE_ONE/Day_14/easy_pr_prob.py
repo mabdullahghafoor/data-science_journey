@@ -65,3 +65,4 @@ class Cat(Animal):
     sound = "Meow!"
 
 d = Dog()
+c = Cat()
