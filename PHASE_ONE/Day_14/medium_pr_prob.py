@@ -22,3 +22,4 @@ class BankAccount:
         else:
             self.__balance += amount
             self.transactions.append(f"Deposited {amount}")
+
