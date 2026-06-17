@@ -55,3 +55,4 @@ car1.get_info()
 
 class Animal:
     sound = "..."
+    def speak(self):
