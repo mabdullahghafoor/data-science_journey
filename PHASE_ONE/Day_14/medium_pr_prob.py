@@ -26,3 +26,4 @@ class BankAccount:
     def withdraw(self, amount):
         if amount <= 0:
             print("Invalid amount!")
+        elif amount > self.__balance:
