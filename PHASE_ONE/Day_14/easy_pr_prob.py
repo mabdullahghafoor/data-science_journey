@@ -99,3 +99,4 @@ class Rectangle:
 
 shape1 = Rectangle(120,120)
 
+shape1.area()
