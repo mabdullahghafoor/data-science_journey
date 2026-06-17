@@ -18,3 +18,4 @@ class BankAccount:
 
     def deposit(self, amount):
         if amount < 0:
+            print(f"Invalid Amount! Amount must be greater than 0")
