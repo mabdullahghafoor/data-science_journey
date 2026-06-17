@@ -62,3 +62,4 @@ class Dog(Animal):
     sound = "Woof!"
 
 class Cat(Animal):
+    sound = "Meow!"
