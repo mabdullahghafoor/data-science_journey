@@ -17,3 +17,4 @@ class BankAccount:
         self.transactions = []
 
     def deposit(self, amount):
+        if amount < 0:
