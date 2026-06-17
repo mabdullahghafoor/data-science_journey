@@ -29,3 +29,4 @@ class BankAccount:
         elif amount > self.__balance:
             print("Insufficient Balance!")
         else:
+            self.__balance -= amount
