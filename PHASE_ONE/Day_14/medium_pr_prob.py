@@ -43,3 +43,4 @@ class BankAccount:
         print(f"Account Balance: {self.__balance}")
         print(f"\nTransaction History")
         for transaction in self.transactions:
+            print(transaction )
