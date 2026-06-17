@@ -75,3 +75,4 @@ print(isinstance(d, Animal)) # True
 # Add methods for area(), perimeter(), and is_square().
 
 class Rectangle:
+
