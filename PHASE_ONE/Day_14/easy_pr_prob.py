@@ -80,3 +80,4 @@ class Rectangle:
         self.width = width
         self.height = height
 
+    def area(self):
