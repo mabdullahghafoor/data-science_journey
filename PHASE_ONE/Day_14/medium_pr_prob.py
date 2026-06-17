@@ -24,3 +24,4 @@ class BankAccount:
             self.transactions.append(f"Deposited {amount}")
 
     def withdraw(self, amount):
+        if amount <= 0:
