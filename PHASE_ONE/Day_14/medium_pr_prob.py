@@ -7,3 +7,4 @@
 #@property for balance (read-only)
 #Transaction history list
 #print_statement() method
+#Proper error handling
