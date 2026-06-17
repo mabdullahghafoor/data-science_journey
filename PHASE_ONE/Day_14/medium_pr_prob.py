@@ -4,3 +4,4 @@
 
 #Private __balance
 #deposit(amount), withdraw(amount)
+#@property for balance (read-only)
