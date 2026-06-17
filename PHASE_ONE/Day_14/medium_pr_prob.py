@@ -13,3 +13,4 @@ class BankAccount:
 
     def __init__(self,owner, initial_balance = 0):
         self.owner = owner
+        self.__balance = initial_balance
