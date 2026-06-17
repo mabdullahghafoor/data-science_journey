@@ -73,3 +73,4 @@ print(isinstance(d, Animal)) # True
 
 # Q3. Create a Rectangle class with width and height.
 # Add methods for area(), perimeter(), and is_square().
+
