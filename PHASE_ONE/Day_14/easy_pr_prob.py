@@ -17,7 +17,6 @@ class Car:
         self.speed = speed
     
 
-    def accelerate(self, amount):
         self.speed += amount  # updates THIS car's speed
         return self.speed
 
