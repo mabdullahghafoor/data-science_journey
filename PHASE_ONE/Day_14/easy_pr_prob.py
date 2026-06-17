@@ -51,3 +51,4 @@ car1.brake(60)
 car1.get_info()
 
 
+#Q2. Without running, what prints?
