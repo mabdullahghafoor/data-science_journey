@@ -33,3 +33,4 @@ class BankAccount:
             self.transactions.append(f"Withdrew {amount}")
 
 
+    @property
