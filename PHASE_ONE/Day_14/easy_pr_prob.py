@@ -71,3 +71,4 @@ c.speak() # I say Meow
 print(isinstance(d, Animal)) # True
 
 
+# Q3. Create a Rectangle class with width and height.
