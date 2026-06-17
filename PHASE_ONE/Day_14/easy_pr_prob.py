@@ -39,6 +39,7 @@ class Car:
         print(f"Car Brand: {self.brand}")
         print(f"Car Model: {self.model}")
         print(f"Car Year: {self.year}")
+        print(f"Car Speed: {self.speed}")
 
 # Creating object
 car1 = Car("Toyota", "Grande", 2016, 120)
