@@ -65,6 +65,7 @@ class Student(Person):
     def __init__(self, name, age):
         super().__init__(name, age)
 
+    def introduce(self):
 
     def __init__(self):
         pass
