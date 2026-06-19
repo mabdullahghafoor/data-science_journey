@@ -74,6 +74,7 @@ class Teacher(Person):
         super().__init__(name, age)
 
     def introduce(self):
+        print(f"Hello, I am teacher {self.name} and I teach students.")
 
 
 s1 = Student()
