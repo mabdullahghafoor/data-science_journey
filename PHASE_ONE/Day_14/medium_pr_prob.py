@@ -83,3 +83,4 @@ s1 = Student()
 t1 = Teacher()
 
 s1.introduce("Ali")
+t1.introduce("Sir Khalid")
