@@ -69,7 +69,6 @@ class Student(Person):
         print(f"Hi, I am student {self.name} and I study at university.")
 
 
-
 class Teacher(Person):
 
     def __init__(self):
