@@ -73,7 +73,6 @@ class Teacher(Person):
     def __init__(self, name, age):
         super().__init__(name, age)
 
-        pass
 
     def introduce(self,name):
         self.name = name
