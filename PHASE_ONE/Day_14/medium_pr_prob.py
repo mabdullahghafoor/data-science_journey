@@ -79,6 +79,7 @@ class Teacher(Person):
 
 # Creating objects
 s1 = Student("Ali", 20)
+t1 = Teacher("Mr. Khalid", 40)
 
 s1.introduce("Ali")
 t1.introduce("Sir Khalid")
