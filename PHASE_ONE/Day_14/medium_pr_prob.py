@@ -85,3 +85,4 @@ t1 = Teacher("Mr. Khalid", 40)
 s1.introduce()
 t1.introduce()
 
+# isinstance check
