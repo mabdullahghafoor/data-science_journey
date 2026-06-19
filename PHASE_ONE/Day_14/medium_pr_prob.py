@@ -73,7 +73,6 @@ class Teacher(Person):
     def __init__(self, name, age):
         super().__init__(name, age)
 
-        self.name = name
         print(f"Hello {self.name}, This is Teacher's class ")
 
 
