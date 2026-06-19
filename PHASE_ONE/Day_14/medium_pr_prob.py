@@ -79,3 +79,4 @@ class Teacher(Person):
         print(f"Hello {self.name}, This is Teacher's class ")
 
 
+s1 = Student()
