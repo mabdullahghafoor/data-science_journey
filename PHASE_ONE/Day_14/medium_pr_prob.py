@@ -86,3 +86,4 @@ s1.introduce()
 t1.introduce()
 
 # isinstance check
+print(isinstance(s1, Person))  # True
