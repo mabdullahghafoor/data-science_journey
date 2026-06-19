@@ -82,5 +82,6 @@ s1 = Student("Ali", 20)
 t1 = Teacher("Mr. Khalid", 40)
 
 # Method overriding in action
+s1.introduce()
 
 print(isinstance(s1, Person))
