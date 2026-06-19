@@ -52,7 +52,6 @@ class BankAccount:
 #Each must have its own introduce() method.
 #Show that isinstance(student, Person) is True.
 
-
 class Person:
 
     def __init__(self):
