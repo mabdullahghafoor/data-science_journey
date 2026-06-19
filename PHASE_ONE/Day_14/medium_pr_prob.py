@@ -69,7 +69,6 @@ class Student(Person):
         print(f"Hi, I am student {self.name} and I study at university.")
 
 
-        print(f"Hello {self.name}, This is Student's class ")
 
 class Teacher(Person):
 
