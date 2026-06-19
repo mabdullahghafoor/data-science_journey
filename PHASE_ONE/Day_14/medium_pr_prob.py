@@ -75,3 +75,4 @@ class Teacher(Person):
         pass
 
     def introduce(self,name):
+        self.name = name
