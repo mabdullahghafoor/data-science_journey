@@ -58,6 +58,7 @@ class Person:
         self.age = age
 
     def introduce(self):
+        print(f"I am {self.name}, and I am {self.age} years old.")
 
 
 class Student(Person):
