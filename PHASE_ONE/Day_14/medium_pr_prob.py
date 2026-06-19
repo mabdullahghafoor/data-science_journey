@@ -66,3 +66,4 @@ class Student(Person):
         pass
 
     def introduce(self,name):
+        self.name = name
