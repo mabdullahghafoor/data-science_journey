@@ -57,7 +57,6 @@ class Person:
         self.name = name
         self.age = age
 
-    def __init__(self):
         pass
 
 
