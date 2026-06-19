@@ -85,4 +85,3 @@ t1 = Teacher("Mr. Khalid", 40)
 s1.introduce()
 t1.introduce()
 
-print(isinstance(s1, Person))
