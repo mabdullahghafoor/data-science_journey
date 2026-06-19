@@ -68,7 +68,6 @@ class Student(Person):
     def introduce(self):
         print(f"Hi, I am student {self.name} and I study at university.")
 
-    def __init__(self):
         pass
 
     def introduce(self,name):
