@@ -77,6 +77,7 @@ class Teacher(Person):
         print(f"Hello, I am teacher {self.name} and I teach students.")
 
 
+# Creating objects
 
 s1.introduce("Ali")
 t1.introduce("Sir Khalid")
