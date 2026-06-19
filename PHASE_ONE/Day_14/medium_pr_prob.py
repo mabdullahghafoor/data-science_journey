@@ -57,7 +57,6 @@ class Person:
         self.name = name
         self.age = age
 
-        pass
 
 
 class Student(Person):
