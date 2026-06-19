@@ -82,3 +82,4 @@ class Teacher(Person):
 s1 = Student()
 t1 = Teacher()
 
+s1.introduce("Ali")
