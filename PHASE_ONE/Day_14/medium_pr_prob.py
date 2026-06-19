@@ -48,3 +48,4 @@ class BankAccount:
 
 
 # Q5. Create a Person parent class, then
+#Student and Teacher child classes.
