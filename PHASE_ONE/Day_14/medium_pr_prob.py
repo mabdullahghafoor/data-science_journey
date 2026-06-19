@@ -71,6 +71,7 @@ class Student(Person):
 
 class Teacher(Person):
     def __init__(self, name, age):
+        super().__init__(name, age)
 
     def __init__(self):
         pass
