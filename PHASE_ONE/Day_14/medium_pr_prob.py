@@ -66,6 +66,7 @@ class Student(Person):
         super().__init__(name, age)
 
     def introduce(self):
+        print(f"Hi, I am student {self.name} and I study at university.")
 
     def __init__(self):
         pass
