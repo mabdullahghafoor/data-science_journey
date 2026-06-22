@@ -154,3 +154,4 @@ library.add_book("Data Structures", "Ali Khan", 2)
 library.add_book("Machine Learning", "Sara Ahmed", 0)
 
 library.borrow_book("Python Basics")
+library.return_book("Data Structures")
