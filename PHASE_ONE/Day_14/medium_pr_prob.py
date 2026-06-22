@@ -124,3 +124,4 @@ class Library:
         if title not in self.books:
             print("Book not found!")
         else:
+            self.books[title]["copies"] += 1
