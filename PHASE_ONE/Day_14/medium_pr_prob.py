@@ -147,3 +147,4 @@ class Library:
 
 # ---------------- Testing ----------------
 
+library = Library()
