@@ -140,3 +140,4 @@ class Library:
     def list_available(self):
         print("\nAvailable Books:")
         for title, details in self.books.items():
+            if details["copies"] > 0:
