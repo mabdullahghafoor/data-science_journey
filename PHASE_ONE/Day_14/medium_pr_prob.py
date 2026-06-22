@@ -92,3 +92,4 @@ print(isinstance(t1, Person))  # True
 
 #Q6. Build a Library class that:
 
+#Stores a collection of books (dict)
