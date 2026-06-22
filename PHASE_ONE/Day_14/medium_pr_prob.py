@@ -118,3 +118,4 @@ class Library:
             print("No copies available!")
         else:
             self.books[title]["copies"] -= 1
+            print(f"You borrowed '{title}'.")
