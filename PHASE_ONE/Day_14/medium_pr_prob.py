@@ -114,3 +114,4 @@ class Library:
     def borrow_book(self, title):
         if title not in self.books:
             print("Book not found!")
+        elif self.books[title]["copies"] <= 0:
