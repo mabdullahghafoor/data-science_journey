@@ -143,3 +143,4 @@ class Library:
             if details["copies"] > 0:
                 print(f"{title} by {details['author']} "
                       f"({details['copies']} copies)")
+
