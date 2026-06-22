@@ -102,3 +102,4 @@ print(isinstance(t1, Person))  # True
 class Library:
     def __init__(self):
         # Stores books as:
+        # {"Python Basics": {"author": "John Smith", "copies": 3}}
