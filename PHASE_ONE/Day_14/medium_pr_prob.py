@@ -99,3 +99,4 @@ print(isinstance(t1, Person))  # True
 #search(title) → find book details
 #list_available() → only books with copies > 0
 
+class Library:
