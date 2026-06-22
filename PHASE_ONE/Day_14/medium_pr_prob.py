@@ -107,3 +107,4 @@ class Library:
 
     def add_book(self, title, author, copies):
         self.books[title] = {
+            "author": author,
