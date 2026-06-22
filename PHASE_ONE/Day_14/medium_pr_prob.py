@@ -104,3 +104,4 @@ class Library:
         # Stores books as:
         # {"Python Basics": {"author": "John Smith", "copies": 3}}
         self.books = {}
+
