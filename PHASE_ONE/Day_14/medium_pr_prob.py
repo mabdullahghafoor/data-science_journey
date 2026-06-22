@@ -97,3 +97,4 @@ print(isinstance(t1, Person))  # True
 #borrow_book(title) → reduces copies
 #return_book(title) → increases copies
 #search(title) → find book details
+#list_available() → only books with copies > 0
