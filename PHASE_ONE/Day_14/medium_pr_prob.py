@@ -137,3 +137,4 @@ class Library:
         else:
             print("Book not found!")
 
+    def list_available(self):
