@@ -109,3 +109,4 @@ class Library:
         self.books[title] = {
             "author": author,
             "copies": copies
+        }
