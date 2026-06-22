@@ -117,3 +117,4 @@ class Library:
         elif self.books[title]["copies"] <= 0:
             print("No copies available!")
         else:
+            self.books[title]["copies"] -= 1
