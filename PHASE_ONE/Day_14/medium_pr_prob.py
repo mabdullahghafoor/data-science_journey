@@ -87,4 +87,4 @@ t1.introduce()
 
 # isinstance check
 print(isinstance(s1, Person))  # True
-print(isinstance(t1, Person))  # True
+print(isinstance(t1, Person))  # Trueprint(isinstance(t1, Person))  # True
