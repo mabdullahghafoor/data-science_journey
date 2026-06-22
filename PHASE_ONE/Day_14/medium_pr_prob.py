@@ -127,3 +127,4 @@ class Library:
             self.books[title]["copies"] += 1
             print(f"You returned '{title}'.")
 
+    def search(self, title):
