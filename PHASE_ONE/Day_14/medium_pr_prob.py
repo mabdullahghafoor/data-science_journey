@@ -158,3 +158,4 @@ library.return_book("Data Structures")
 
 library.search("Python Basics")
 
+library.list_available()
