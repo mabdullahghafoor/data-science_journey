@@ -133,3 +133,4 @@ class Library:
             print("Book Found!")
             print(f"Title : {title}")
             print(f"Author: {book['author']}")
+            print(f"Copies: {book['copies']}")
