@@ -132,3 +132,4 @@ class Library:
             book = self.books[title]
             print("Book Found!")
             print(f"Title : {title}")
+            print(f"Author: {book['author']}")
