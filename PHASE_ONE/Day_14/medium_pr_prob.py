@@ -89,3 +89,4 @@ t1.introduce()
 print(isinstance(s1, Person))  # True
 print(isinstance(t1, Person))  # True
 
+
