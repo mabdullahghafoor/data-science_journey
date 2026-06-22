@@ -94,3 +94,4 @@ print(isinstance(t1, Person))  # True
 
 #Stores a collection of books (dict)
 #add_book(title, author, copies)
+#borrow_book(title) → reduces copies
