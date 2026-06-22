@@ -149,3 +149,4 @@ class Library:
 
 library = Library()
 
+library.add_book("Python Basics", "John Smith", 3)
