@@ -98,3 +98,4 @@ print(isinstance(t1, Person))  # True
 #return_book(title) → increases copies
 #search(title) → find book details
 #list_available() → only books with copies > 0
+
