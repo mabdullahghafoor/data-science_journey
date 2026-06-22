@@ -112,3 +112,4 @@ class Library:
         }
 
     def borrow_book(self, title):
+        if title not in self.books:
