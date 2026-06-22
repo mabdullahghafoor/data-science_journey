@@ -128,3 +128,4 @@ class Library:
             print(f"You returned '{title}'.")
 
     def search(self, title):
+        if title in self.books:
