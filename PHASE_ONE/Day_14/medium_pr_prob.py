@@ -129,3 +129,4 @@ class Library:
 
     def search(self, title):
         if title in self.books:
+            book = self.books[title]
