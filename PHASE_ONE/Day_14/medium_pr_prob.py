@@ -141,3 +141,4 @@ class Library:
         print("\nAvailable Books:")
         for title, details in self.books.items():
             if details["copies"] > 0:
+                print(f"{title} by {details['author']} "
