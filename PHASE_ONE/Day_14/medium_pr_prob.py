@@ -105,3 +105,4 @@ class Library:
         # {"Python Basics": {"author": "John Smith", "copies": 3}}
         self.books = {}
 
+    def add_book(self, title, author, copies):
