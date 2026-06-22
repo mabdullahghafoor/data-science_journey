@@ -120,3 +120,4 @@ class Library:
             self.books[title]["copies"] -= 1
             print(f"You borrowed '{title}'.")
 
+    def return_book(self, title):
