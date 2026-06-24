@@ -52,3 +52,4 @@ class Course:
 # ---------------- School Class ----------------
 
 class School:
+    def __init__(self, name):
