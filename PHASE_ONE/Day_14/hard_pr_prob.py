@@ -101,3 +101,4 @@ class School:
                 print(f"- {student.name}")
 
         print("\n==================================")
+
