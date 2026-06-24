@@ -64,3 +64,4 @@ class School:
     def add_teacher(self, teacher):
         self.teachers.append(teacher)
 
+    def add_course(self, course):
