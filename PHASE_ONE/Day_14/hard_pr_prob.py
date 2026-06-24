@@ -85,3 +85,4 @@ class School:
         print("\nTeachers:")
         for teacher in self.teachers:
             print(
+                f"{teacher.name} | Subjects: {teacher.subjects} "
