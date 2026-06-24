@@ -31,3 +31,4 @@ class Student(Person):
 # ---------------- Teacher Class ----------------
 
 class Teacher(Person):
+    def __init__(self, name, age, subjects, salary):
