@@ -82,3 +82,4 @@ class School:
                 f"| Attendance: {student.attendance}%"
             )
 
+        print("\nTeachers:")
