@@ -6,3 +6,4 @@
 #Student(Person) → marks, grades, attendance
 #Teacher(Person) → subjects, salary
 #Course → course name, teacher, enrolled students
+#School → manages students, teachers, courses
