@@ -30,3 +30,4 @@ class Student(Person):
 
 # ---------------- Teacher Class ----------------
 
+class Teacher(Person):
