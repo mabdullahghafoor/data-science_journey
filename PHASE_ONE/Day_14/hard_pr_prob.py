@@ -70,3 +70,4 @@ class School:
     def enroll_student_in_course(self, student, course):
         course.enroll_student(student)
 
+    def generate_report(self):
