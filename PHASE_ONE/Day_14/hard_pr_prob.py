@@ -125,3 +125,4 @@ school.add_student(s2)
 school.add_teacher(t1)
 
 school.add_course(python_course)
+
