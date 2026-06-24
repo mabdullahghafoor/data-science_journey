@@ -116,3 +116,4 @@ s2 = Student("Sara", 17, 92, "A+", 98)
 t1 = Teacher("Mr. Khalid", 40, ["Python", "OOP"], 80000)
 
 # Create course
+python_course = Course("Python Programming", t1)
