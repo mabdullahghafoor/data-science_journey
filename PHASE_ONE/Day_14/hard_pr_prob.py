@@ -57,3 +57,4 @@ class School:
         self.students = []
         self.teachers = []
         self.courses = []
+
