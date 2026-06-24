@@ -12,3 +12,4 @@
 
 # ---------------- Person Base Class ----------------
 
+class Person:
