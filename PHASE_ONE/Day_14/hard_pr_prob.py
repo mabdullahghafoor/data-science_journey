@@ -130,3 +130,4 @@ school.add_course(python_course)
 school.enroll_student_in_course(s1, python_course)
 school.enroll_student_in_course(s2, python_course)
 
+# Generate report
