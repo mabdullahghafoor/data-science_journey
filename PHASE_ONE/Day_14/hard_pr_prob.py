@@ -67,3 +67,4 @@ class School:
     def add_course(self, course):
         self.courses.append(course)
 
+    def enroll_student_in_course(self, student, course):
