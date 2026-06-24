@@ -23,3 +23,4 @@ class Person:
 class Student(Person):
     def __init__(self, name, age, marks, grade, attendance):
         super().__init__(name, age)
+        self.marks = marks
