@@ -105,3 +105,4 @@ class School:
 
 # ---------------- Testing ----------------
 
+# Create school
