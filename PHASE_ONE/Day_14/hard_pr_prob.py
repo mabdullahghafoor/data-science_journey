@@ -89,3 +89,4 @@ class School:
                 f"| Salary: {teacher.salary}"
             )
 
+        print("\nCourses:")
