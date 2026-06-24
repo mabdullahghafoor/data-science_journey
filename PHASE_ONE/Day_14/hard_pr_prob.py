@@ -113,3 +113,4 @@ s1 = Student("Ali", 18, 88, "A", 95)
 s2 = Student("Sara", 17, 92, "A+", 98)
 
 # Create teacher
+t1 = Teacher("Mr. Khalid", 40, ["Python", "OOP"], 80000)
