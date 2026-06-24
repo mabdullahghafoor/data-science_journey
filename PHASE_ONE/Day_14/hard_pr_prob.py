@@ -45,3 +45,4 @@ class Course:
         self.teacher = teacher
         self.students = []
 
+    def enroll_student(self, student):
