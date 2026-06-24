@@ -39,3 +39,4 @@ class Teacher(Person):
 
 # ---------------- Course Class ----------------
 
+class Course:
