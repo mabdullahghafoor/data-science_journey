@@ -106,3 +106,4 @@ class School:
 # ---------------- Testing ----------------
 
 # Create school
+school = School("ABC School")
