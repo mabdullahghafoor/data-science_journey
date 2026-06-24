@@ -58,3 +58,4 @@ class School:
         self.teachers = []
         self.courses = []
 
+    def add_student(self, student):
