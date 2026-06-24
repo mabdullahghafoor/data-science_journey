@@ -68,3 +68,4 @@ class School:
         self.courses.append(course)
 
     def enroll_student_in_course(self, student, course):
+        course.enroll_student(student)
