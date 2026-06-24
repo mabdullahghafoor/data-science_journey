@@ -78,3 +78,4 @@ class School:
         for student in self.students:
             print(
                 f"{student.name} | Grade: {student.grade} "
+                f"| Marks: {student.marks} "
