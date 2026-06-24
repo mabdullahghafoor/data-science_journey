@@ -36,3 +36,4 @@ class Teacher(Person):
         self.subjects = subjects      # list
         self.salary = salary
 
+
