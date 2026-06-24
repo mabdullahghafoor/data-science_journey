@@ -119,3 +119,4 @@ t1 = Teacher("Mr. Khalid", 40, ["Python", "OOP"], 80000)
 python_course = Course("Python Programming", t1)
 
 # Add data to school
+school.add_student(s1)
