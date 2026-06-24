@@ -13,3 +13,4 @@
 # ---------------- Person Base Class ----------------
 
 class Person:
+    def __init__(self, name, age):
