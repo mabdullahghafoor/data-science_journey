@@ -3,3 +3,4 @@
 #Q7. Build a complete School system:
 
 #Person → base class
+#Student(Person) → marks, grades, attendance
