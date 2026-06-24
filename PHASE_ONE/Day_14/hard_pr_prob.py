@@ -80,3 +80,4 @@ class School:
                 f"{student.name} | Grade: {student.grade} "
                 f"| Marks: {student.marks} "
                 f"| Attendance: {student.attendance}%"
+            )
