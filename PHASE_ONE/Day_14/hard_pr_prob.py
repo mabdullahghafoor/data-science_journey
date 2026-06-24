@@ -95,3 +95,4 @@ class School:
             print(f"\nCourse: {course.course_name}")
             print(f"Teacher: {course.teacher.name}")
 
+            print("Enrolled Students:")
