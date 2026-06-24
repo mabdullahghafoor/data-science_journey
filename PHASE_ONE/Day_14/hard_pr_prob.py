@@ -123,3 +123,4 @@ school.add_student(s1)
 school.add_student(s2)
 
 school.add_teacher(t1)
+
