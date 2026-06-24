@@ -87,3 +87,4 @@ class School:
             print(
                 f"{teacher.name} | Subjects: {teacher.subjects} "
                 f"| Salary: {teacher.salary}"
+            )
