@@ -44,3 +44,4 @@ class Course:
         self.course_name = course_name
         self.teacher = teacher
         self.students = []
+
