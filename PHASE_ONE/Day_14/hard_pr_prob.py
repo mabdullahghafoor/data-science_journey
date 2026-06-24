@@ -81,3 +81,4 @@ class School:
                 f"| Marks: {student.marks} "
                 f"| Attendance: {student.attendance}%"
             )
+
