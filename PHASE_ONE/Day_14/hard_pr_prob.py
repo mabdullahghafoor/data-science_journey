@@ -20,3 +20,4 @@ class Person:
 
 # ---------------- Student Class ----------------
 
+class Student(Person):
