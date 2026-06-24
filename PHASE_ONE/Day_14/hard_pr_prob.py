@@ -4,3 +4,4 @@
 
 #Person → base class
 #Student(Person) → marks, grades, attendance
+#Teacher(Person) → subjects, salary
