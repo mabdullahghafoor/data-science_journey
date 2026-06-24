@@ -109,3 +109,4 @@ class School:
 school = School("ABC School")
 
 # Create students
+s1 = Student("Ali", 18, 88, "A", 95)
