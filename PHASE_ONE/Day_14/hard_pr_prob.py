@@ -74,3 +74,4 @@ class School:
 
         print("\n========== SCHOOL REPORT ==========")
 
+        print("\nStudents:")
