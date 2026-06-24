@@ -97,3 +97,4 @@ class School:
 
             print("Enrolled Students:")
 
+            for student in course.students:
