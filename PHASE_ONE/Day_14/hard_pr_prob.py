@@ -88,3 +88,4 @@ class School:
                 f"{teacher.name} | Subjects: {teacher.subjects} "
                 f"| Salary: {teacher.salary}"
             )
+
