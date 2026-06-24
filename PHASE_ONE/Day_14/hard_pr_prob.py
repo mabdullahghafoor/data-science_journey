@@ -33,3 +33,4 @@ class Student(Person):
 class Teacher(Person):
     def __init__(self, name, age, subjects, salary):
         super().__init__(name, age)
+        self.subjects = subjects      # list
