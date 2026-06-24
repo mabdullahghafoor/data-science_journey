@@ -35,3 +35,4 @@ class Teacher(Person):
         super().__init__(name, age)
         self.subjects = subjects      # list
         self.salary = salary
+
