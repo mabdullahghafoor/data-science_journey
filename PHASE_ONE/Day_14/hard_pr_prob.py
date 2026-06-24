@@ -21,3 +21,4 @@ class Person:
 # ---------------- Student Class ----------------
 
 class Student(Person):
+    def __init__(self, name, age, marks, grade, attendance):
