@@ -11,3 +11,4 @@
 #School.generate_report() → full school summary
 
 # ---------------- Person Base Class ----------------
+
