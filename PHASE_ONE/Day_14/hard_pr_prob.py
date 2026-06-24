@@ -83,3 +83,4 @@ class School:
             )
 
         print("\nTeachers:")
+        for teacher in self.teachers:
