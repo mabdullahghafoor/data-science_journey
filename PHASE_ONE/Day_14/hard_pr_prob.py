@@ -49,3 +49,4 @@ class Course:
         self.students.append(student)
 
 
+# ---------------- School Class ----------------
