@@ -126,3 +126,4 @@ school.add_teacher(t1)
 
 school.add_course(python_course)
 
+# Enroll students
