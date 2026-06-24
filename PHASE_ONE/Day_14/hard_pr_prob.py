@@ -8,3 +8,4 @@
 #Course → course name, teacher, enrolled students
 #School → manages students, teachers, courses
 #School.add_student(), enroll_student_in_course()
+#School.generate_report() → full school summary
