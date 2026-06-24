@@ -71,3 +71,4 @@ class School:
         course.enroll_student(student)
 
     def generate_report(self):
+
