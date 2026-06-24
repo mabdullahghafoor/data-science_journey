@@ -77,3 +77,4 @@ class School:
         print("\nStudents:")
         for student in self.students:
             print(
+                f"{student.name} | Grade: {student.grade} "
