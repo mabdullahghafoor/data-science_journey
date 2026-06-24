@@ -26,3 +26,4 @@ class Student(Person):
         self.marks = marks
         self.grade = grade
         self.attendance = attendance
+
