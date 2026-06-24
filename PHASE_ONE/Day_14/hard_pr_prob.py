@@ -51,3 +51,4 @@ class Course:
 
 # ---------------- School Class ----------------
 
+class School:
