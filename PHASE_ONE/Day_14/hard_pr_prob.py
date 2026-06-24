@@ -92,3 +92,4 @@ class School:
         print("\nCourses:")
         for course in self.courses:
 
+            print(f"\nCourse: {course.course_name}")
