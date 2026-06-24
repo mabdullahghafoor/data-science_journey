@@ -37,3 +37,4 @@ class Teacher(Person):
         self.salary = salary
 
 
+# ---------------- Course Class ----------------
