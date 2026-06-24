@@ -25,3 +25,4 @@ class Student(Person):
         super().__init__(name, age)
         self.marks = marks
         self.grade = grade
+        self.attendance = attendance
