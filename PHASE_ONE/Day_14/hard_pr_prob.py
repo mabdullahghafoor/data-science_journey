@@ -73,3 +73,4 @@ class School:
     def generate_report(self):
 
         print("\n========== SCHOOL REPORT ==========")
+
