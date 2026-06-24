@@ -40,3 +40,4 @@ class Teacher(Person):
 # ---------------- Course Class ----------------
 
 class Course:
+    def __init__(self, course_name, teacher):
