@@ -75,3 +75,4 @@ class School:
         print("\n========== SCHOOL REPORT ==========")
 
         print("\nStudents:")
+        for student in self.students:
