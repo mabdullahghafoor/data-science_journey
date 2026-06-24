@@ -120,3 +120,4 @@ python_course = Course("Python Programming", t1)
 
 # Add data to school
 school.add_student(s1)
+school.add_student(s2)
