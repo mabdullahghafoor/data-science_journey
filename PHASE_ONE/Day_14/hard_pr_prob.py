@@ -46,3 +46,4 @@ class Course:
         self.students = []
 
     def enroll_student(self, student):
+        self.students.append(student)
