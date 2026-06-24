@@ -10,3 +10,4 @@
 #School.add_student(), enroll_student_in_course()
 #School.generate_report() → full school summary
 
+# ---------------- Person Base Class ----------------
