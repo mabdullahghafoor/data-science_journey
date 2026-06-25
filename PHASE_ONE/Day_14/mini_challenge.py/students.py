@@ -31,3 +31,4 @@ class Student:
     @property
     def grade(self):
 
+        if self.percentage >= 80:
