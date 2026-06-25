@@ -62,3 +62,4 @@ class Classroom:
             f"Class Average: "
             f"{self.class_average():.2f}%"
         )
+
