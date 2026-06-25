@@ -70,3 +70,4 @@ class Classroom:
                 f"Topper: {topper.name} "
                 f"({topper.percentage:.2f}%)"
             )
+
