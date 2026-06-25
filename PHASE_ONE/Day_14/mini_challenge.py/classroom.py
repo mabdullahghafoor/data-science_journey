@@ -63,3 +63,4 @@ class Classroom:
             f"{self.class_average():.2f}%"
         )
 
+        topper = self.get_topper()
