@@ -26,3 +26,4 @@ c1.add_student(s2)
 c1.add_student(s3)
 
 c1.generate_report()
+
