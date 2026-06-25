@@ -95,3 +95,5 @@ class Classroom:
 
         try:
 
+            with open(filename, "r") as file:
+                data = json.load(file)
