@@ -57,3 +57,4 @@ class Student:
 
         for subject, marks in self.marks.items():
             print(f"{subject:<10}: {marks}")
+
