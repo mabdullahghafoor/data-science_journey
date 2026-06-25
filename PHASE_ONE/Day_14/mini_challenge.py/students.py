@@ -32,3 +32,4 @@ class Student:
     def grade(self):
 
         if self.percentage >= 80:
+            return "A"
