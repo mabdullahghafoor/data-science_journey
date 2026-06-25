@@ -78,3 +78,4 @@ class Classroom:
 
     def save_to_file(self, filename):
 
+        data = []
