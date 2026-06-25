@@ -72,5 +72,6 @@ class Classroom:
             )
 
         print("\nStudents:")
+
         for student in self.students:
             print(student)
