@@ -10,3 +10,4 @@ class Student:
         self.marks = {}
 
     def add_marks(self, subject, marks):
+
