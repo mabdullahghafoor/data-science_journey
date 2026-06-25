@@ -114,3 +114,5 @@ class Classroom:
         except FileNotFoundError:
             print("File not found.")
 
+        except json.JSONDecodeError:
+            print("Invalid JSON file.")
