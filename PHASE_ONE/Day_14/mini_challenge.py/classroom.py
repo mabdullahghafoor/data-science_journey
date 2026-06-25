@@ -8,3 +8,4 @@ class Classroom:
         self.name = name
         self.students = []
 
+    def add_student(self, student):
