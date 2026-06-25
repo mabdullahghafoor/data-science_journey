@@ -46,3 +46,5 @@ class Classroom:
             if subject in student.marks:
                 marks.append(student.marks[subject])
 
+        if not marks:
+            return 0
