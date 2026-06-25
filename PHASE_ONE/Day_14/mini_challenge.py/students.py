@@ -35,3 +35,4 @@ class Student:
             return "A"
 
         elif self.percentage >= 70:
+            return "B"
