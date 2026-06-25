@@ -99,3 +99,4 @@ class Classroom:
                 data = json.load(file)
 
             self.students.clear()
+
