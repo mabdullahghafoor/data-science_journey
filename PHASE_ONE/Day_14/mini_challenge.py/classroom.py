@@ -93,3 +93,4 @@ class Classroom:
 
     def load_from_file(self, filename):
 
+        try:
