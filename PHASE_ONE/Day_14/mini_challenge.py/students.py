@@ -12,3 +12,4 @@ class Student:
     def add_marks(self, subject, marks):
 
         if not (0 <= marks <= 100):
+            raise ValueError("Marks must be between 0 and 100")
