@@ -107,3 +107,4 @@ class Classroom:
                     record["name"]
                 )
 
+                student.marks = record["marks"]
