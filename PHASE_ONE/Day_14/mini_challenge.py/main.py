@@ -30,3 +30,6 @@ c1.generate_report()
 print("\nTopper:")
 print(c1.get_topper())
 
+print("\nFailures:")
+for student in c1.get_failures():
+    print(student)
