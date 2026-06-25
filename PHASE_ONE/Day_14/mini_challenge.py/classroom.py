@@ -36,3 +36,4 @@ class Classroom:
             student.percentage
             for student in self.students
         ) / len(self.students)
+
