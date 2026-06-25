@@ -50,3 +50,4 @@ class Classroom:
             return 0
 
         return sum(marks) / len(marks)
+
