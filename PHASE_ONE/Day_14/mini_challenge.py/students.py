@@ -62,3 +62,8 @@ class Student:
         print(f"Percentage : {self.percentage:.2f}%")
         print(f"Grade      : {self.grade}")
 
+    def __str__(self):
+        return (
+            f"{self.roll_no} - "
+            f"{self.name} ({self.percentage:.2f}% | {self.grade})"
+        )
