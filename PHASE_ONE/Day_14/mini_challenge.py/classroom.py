@@ -54,3 +54,4 @@ class Classroom:
     def generate_report(self):
 
         print("\n========== CLASS REPORT ==========")
+
