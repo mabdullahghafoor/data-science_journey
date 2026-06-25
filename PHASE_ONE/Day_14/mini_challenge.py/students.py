@@ -33,3 +33,4 @@ class Student:
 
         if self.percentage >= 80:
             return "A"
+
