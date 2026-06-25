@@ -55,3 +55,5 @@ class Student:
         print(f"Roll No : {self.roll_no}")
         print(f"Name    : {self.name}")
 
+        for subject, marks in self.marks.items():
+            print(f"{subject:<10}: {marks}")
