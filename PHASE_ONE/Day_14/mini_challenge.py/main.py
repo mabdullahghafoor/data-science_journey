@@ -27,3 +27,5 @@ c1.add_student(s3)
 
 c1.generate_report()
 
+print("\nTopper:")
+print(c1.get_topper())
