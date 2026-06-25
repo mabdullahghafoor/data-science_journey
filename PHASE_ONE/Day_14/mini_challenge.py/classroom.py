@@ -111,3 +111,5 @@ class Classroom:
 
                 self.students.append(student)
 
+        except FileNotFoundError:
+            print("File not found.")
