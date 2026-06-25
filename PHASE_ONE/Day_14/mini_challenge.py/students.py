@@ -45,3 +45,6 @@ class Student:
 
         return "F"
 
+    @property
+    def passed(self):
+        return self.percentage >= 50
