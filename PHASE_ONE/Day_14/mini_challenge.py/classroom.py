@@ -37,3 +37,4 @@ class Classroom:
             for student in self.students
         ) / len(self.students)
 
+    def subject_average(self, subject):
