@@ -54,3 +54,4 @@ class Student:
         print("\n-----------------------")
         print(f"Roll No : {self.roll_no}")
         print(f"Name    : {self.name}")
+
