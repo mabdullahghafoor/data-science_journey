@@ -27,3 +27,4 @@ class Classroom:
         return [student for student in self.students
                 if not student.passed]
 
+    def class_average(self):
