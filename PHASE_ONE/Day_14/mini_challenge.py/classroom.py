@@ -43,3 +43,5 @@ class Classroom:
 
         for student in self.students:
 
+            if subject in student.marks:
+                marks.append(student.marks[subject])
