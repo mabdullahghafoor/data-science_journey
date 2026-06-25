@@ -26,3 +26,4 @@ class Student:
         if len(self.marks) == 0:
             return 0
 
+        return self.total / len(self.marks)
