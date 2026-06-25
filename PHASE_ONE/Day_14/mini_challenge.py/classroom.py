@@ -52,3 +52,4 @@ class Classroom:
         return sum(marks) / len(marks)
 
     def generate_report(self):
+
