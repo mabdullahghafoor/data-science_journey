@@ -23,3 +23,4 @@ class Student:
     @property
     def percentage(self):
 
+        if len(self.marks) == 0:
