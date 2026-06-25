@@ -29,3 +29,5 @@ class Classroom:
 
     def class_average(self):
 
+        if not self.students:
+            return 0
