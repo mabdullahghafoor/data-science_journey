@@ -15,3 +15,4 @@ class Student:
             raise ValueError("Marks must be between 0 and 100")
 
         self.marks[subject] = marks
+
