@@ -41,3 +41,4 @@ class Classroom:
 
         marks = []
 
+        for student in self.students:
