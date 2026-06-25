@@ -20,3 +20,4 @@ class Classroom:
         if not self.students:
             return None
 
+        return max(self.students, key=lambda s: s.percentage)
