@@ -28,3 +28,4 @@ class Student:
 
         return self.total / len(self.marks)
 
+    @property
