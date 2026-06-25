@@ -29,3 +29,4 @@ class Student:
         return self.total / len(self.marks)
 
     @property
+    def grade(self):
