@@ -65,3 +65,8 @@ class Classroom:
 
         topper = self.get_topper()
 
+        if topper:
+            print(
+                f"Topper: {topper.name} "
+                f"({topper.percentage:.2f}%)"
+            )
