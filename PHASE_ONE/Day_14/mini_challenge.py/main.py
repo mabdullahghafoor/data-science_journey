@@ -38,3 +38,5 @@ c1.save_to_file("results.json")
 
 print("\nResults saved.")
 
+new_class = Classroom("Loaded Data")
+new_class.load_from_file("results.json")
