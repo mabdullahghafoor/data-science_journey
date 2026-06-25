@@ -10,3 +10,5 @@ class Classroom:
 
     def add_student(self, student):
 
+        if not isinstance(student, Student):
+            raise TypeError("Must provide Student object")
