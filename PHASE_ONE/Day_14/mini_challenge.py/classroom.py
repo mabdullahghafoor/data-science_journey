@@ -102,3 +102,7 @@ class Classroom:
 
             for record in data:
 
+                student = Student(
+                    record["roll_no"],
+                    record["name"]
+                )
