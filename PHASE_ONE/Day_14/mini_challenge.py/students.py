@@ -24,3 +24,4 @@ class Student:
     def percentage(self):
 
         if len(self.marks) == 0:
+            return 0
