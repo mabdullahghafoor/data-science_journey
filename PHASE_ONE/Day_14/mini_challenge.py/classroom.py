@@ -31,3 +31,4 @@ class Classroom:
 
         if not self.students:
             return 0
+
