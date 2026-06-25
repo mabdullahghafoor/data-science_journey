@@ -100,3 +100,4 @@ class Classroom:
 
             self.students.clear()
 
+            for record in data:
