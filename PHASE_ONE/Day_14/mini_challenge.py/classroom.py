@@ -39,3 +39,4 @@ class Classroom:
 
     def subject_average(self, subject):
 
+        marks = []
