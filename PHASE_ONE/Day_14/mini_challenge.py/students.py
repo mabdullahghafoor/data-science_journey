@@ -16,3 +16,4 @@ class Student:
 
         self.marks[subject] = marks
 
+    @property
