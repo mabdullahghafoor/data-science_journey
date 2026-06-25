@@ -24,3 +24,5 @@ class Classroom:
 
     def get_failures(self):
 
+        return [student for student in self.students
+                if not student.passed]
