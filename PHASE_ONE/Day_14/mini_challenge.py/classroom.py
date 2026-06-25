@@ -32,3 +32,7 @@ class Classroom:
         if not self.students:
             return 0
 
+        return sum(
+            student.percentage
+            for student in self.students
+        ) / len(self.students)
