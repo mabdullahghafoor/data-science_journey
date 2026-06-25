@@ -10,3 +10,7 @@ s1.add_marks("Math", 90)
 s1.add_marks("Python", 85)
 s1.add_marks("OOP", 80)
 
+s2 = Student(2, "Sara")
+s2.add_marks("Math", 95)
+s2.add_marks("Python", 92)
+s2.add_marks("OOP", 89)
