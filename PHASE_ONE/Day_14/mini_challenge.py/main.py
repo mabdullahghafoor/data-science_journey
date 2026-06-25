@@ -19,3 +19,5 @@ s3 = Student(3, "Ahmed")
 s3.add_marks("Math", 40)
 s3.add_marks("Python", 45)
 s3.add_marks("OOP", 35)
+
+
