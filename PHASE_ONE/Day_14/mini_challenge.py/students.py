@@ -11,3 +11,4 @@ class Student:
 
     def add_marks(self, subject, marks):
 
+        if not (0 <= marks <= 100):
