@@ -49,3 +49,4 @@ class Student:
     def passed(self):
         return self.percentage >= 50
 
+    def print_card(self):
