@@ -27,3 +27,4 @@ class Student:
             return 0
 
         return self.total / len(self.marks)
+
