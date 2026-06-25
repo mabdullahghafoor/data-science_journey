@@ -58,3 +58,6 @@ class Student:
         for subject, marks in self.marks.items():
             print(f"{subject:<10}: {marks}")
 
+        print(f"Total      : {self.total}")
+        print(f"Percentage : {self.percentage:.2f}%")
+        print(f"Grade      : {self.grade}")
