@@ -59,3 +59,6 @@ class Classroom:
         print(f"Students  : {len(self.students)}")
 
         print(
+            f"Class Average: "
+            f"{self.class_average():.2f}%"
+        )
