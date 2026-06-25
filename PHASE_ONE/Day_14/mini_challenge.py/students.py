@@ -17,3 +17,4 @@ class Student:
         self.marks[subject] = marks
 
     @property
+    def total(self):
