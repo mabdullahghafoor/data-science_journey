@@ -82,3 +82,8 @@ class Classroom:
 
         for student in self.students:
 
+            data.append({
+                "roll_no": student.roll_no,
+                "name": student.name,
+                "marks": student.marks
+            })
