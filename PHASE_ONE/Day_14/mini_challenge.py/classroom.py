@@ -17,3 +17,5 @@ class Classroom:
 
     def get_topper(self):
 
+        if not self.students:
+            return None
