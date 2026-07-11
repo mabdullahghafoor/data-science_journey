@@ -81,3 +81,13 @@ def text_editor_demo():
 text_editor_demo()
 
 # ── Classic Problem: Balanced Brackets ───────────────────────────
+def is_balanced(expression):
+    """
+    Check if brackets are balanced.
+    '({[]})' → True
+    '({[})' → False
+    """
+    stack   = Stack()
+    opening = "({["
+    closing = ")}]"
+    pairs   = {")":"(", "}":"{", "]":"["}
