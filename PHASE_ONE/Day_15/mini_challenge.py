@@ -66,3 +66,6 @@ for mark in marks_data:
         grade = "D"
     else:
         grade = "F"
+
+    grade_count[grade] = grade_count.get(grade, 0) + 1
+
