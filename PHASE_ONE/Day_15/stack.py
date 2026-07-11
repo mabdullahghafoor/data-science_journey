@@ -45,3 +45,4 @@ class Stack:
     def __str__(self):
         return f"Stack{self.__items} ← top"
 
+# ── Using Stack ───────────────────────────────────────────────────
