@@ -22,3 +22,10 @@ class Stack:
         self.__items.append(item)
         print(f"  Pushed: {item}")
 
+    def pop(self):
+        """Remove and return top item — O(1)"""
+        if self.is_empty():
+            raise IndexError("Stack is empty!")
+        item = self.__items.pop()
+        print(f"  Popped: {item}")
+        return item
