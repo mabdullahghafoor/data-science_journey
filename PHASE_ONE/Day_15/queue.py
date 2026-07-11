@@ -53,3 +53,7 @@ print("─" * 40)
 
 bank_queue = Queue()
 
+# Customers arrive
+customers = ["Ali", "Sara", "Fatima", "Omar", "Zara"]
+for customer in customers:
+    bank_queue.enqueue(customer)
