@@ -42,3 +42,5 @@ class Stack:
     def size(self):
         return len(self.__items)
 
+    def __str__(self):
+        return f"Stack{self.__items} ← top"
