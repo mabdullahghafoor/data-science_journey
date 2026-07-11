@@ -88,3 +88,4 @@ def group_by_grade(students):
             groups[grade] = []
         groups[grade].append(name)
 
+    return groups
