@@ -6,3 +6,7 @@
 # → You ADD at the back (enqueue)
 # → You REMOVE from the front (dequeue)
 
+# Real world uses:
+# → Print queue
+# → Customer service ticket system
+# → CPU task scheduling
