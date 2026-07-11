@@ -18,3 +18,9 @@
 
 # PROBLEM 1: Two Sum
 # "Find two numbers that add up to target"
+def two_sum(nums, target):
+    """
+    Find indices of two numbers that sum to target.
+    Hashmap solution: O(n) — much better than O(n²)!
+    """
+    seen = {}   # value → index mapping
