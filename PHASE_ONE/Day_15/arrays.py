@@ -8,3 +8,4 @@
 # Operation          Time        Meaning
 # ─────────────────────────────────────────────
 # Access  arr[i]     O(1)   → instant, no matter size
+# Search  x in arr   O(n)   → checks each element
