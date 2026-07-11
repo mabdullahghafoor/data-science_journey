@@ -179,3 +179,11 @@ def class_analytics():
     if not students:
         print("\n  No students to analyze.")
         return
+
+    ranked   = classroom.get_ranked()
+    topper   = classroom.get_topper()
+    failures = classroom.get_failures()
+    avg      = classroom.class_average()
+    dist     = classroom.grade_distribution()
+    subj_avg = classroom.subject_averages()
+
