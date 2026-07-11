@@ -20,3 +20,6 @@ while stack:
 #Q2. Implement linear_search and binary_search.
 #Test with a list of 10 marks.
 #Which is faster for large data and why?
+
+# Linear Search
+
