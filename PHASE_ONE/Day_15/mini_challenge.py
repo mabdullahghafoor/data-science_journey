@@ -95,3 +95,5 @@ def merge_sort(arr):
 
 def merge(left, right):
     result = []
+    i = j = 0
+
