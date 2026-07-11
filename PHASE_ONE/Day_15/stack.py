@@ -61,3 +61,4 @@ def text_editor_demo():
     """Simulate undo functionality using a stack."""
     text    = ""
     history = Stack()
+
