@@ -59,3 +59,6 @@ def is_anagram(s1, s2):
     if len(s1) != len(s2):
         return False
 
+    count = {}
+    for char in s1:
+        count[char] = count.get(char, 0) + 1
