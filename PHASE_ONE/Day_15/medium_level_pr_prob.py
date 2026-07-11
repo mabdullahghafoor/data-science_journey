@@ -29,3 +29,10 @@ print("Swaps:", swap_count)
 #find all students who scored above average.
 #Use O(n) time — only one loop!
 
+students = {
+    "Ali": 85,
+    "Ahmed": 72,
+    "Sara": 91,
+    "Fatima": 68,
+    "Ayesha": 88
+}
