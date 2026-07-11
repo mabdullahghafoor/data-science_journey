@@ -36,3 +36,5 @@ class Stack:
             raise IndexError("Stack is empty!")
         return self.__items[-1]
 
+    def is_empty(self):
+        return len(self.__items) == 0
