@@ -12,3 +12,6 @@ students = [
     {"name": "Omar",   "marks": [40, 35, 28]},
 ]
 
+# Add percentage to each student
+for student in students:
+    student["percentage"] = sum(student["marks"]) / len(student["marks"])
