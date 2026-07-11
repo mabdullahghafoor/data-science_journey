@@ -39,3 +39,9 @@ print(two_sum([2, 7, 11, 15], 9))   # [0, 1] (2+7=9)
 print(two_sum([3, 2, 4], 6))        # [1, 2] (2+4=6)
 
 # PROBLEM 2: Frequency Counter
+def get_frequency(data):
+    """Count how often each item appears — O(n)"""
+    freq = {}
+    for item in data:
+        freq[item] = freq.get(item, 0) + 1
+    return freq
