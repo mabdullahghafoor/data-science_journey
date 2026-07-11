@@ -148,3 +148,7 @@ print("\nResult Announcement (Queue - FIFO)")
 while queue:
     student = queue.popleft()
     print(student["name"], "-", student["marks"])
+
+print("\nStudent Rankings")
+for i, student in enumerate(ranked_students, start=1):
+    print(f"{i}. {student['name']} - {student['marks']}")
