@@ -77,3 +77,4 @@ def reverse_array(arr):
     """Reverse without using [::-1] — O(n)"""
     left  = 0
     right = len(arr) - 1
+
