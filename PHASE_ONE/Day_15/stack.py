@@ -63,3 +63,4 @@ def text_editor_demo():
     history = Stack()
 
     actions = ["Hello", " World", " Python", " Rocks"]
+
