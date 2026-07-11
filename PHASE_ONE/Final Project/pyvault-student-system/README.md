@@ -24,3 +24,5 @@ all Phase 1 concepts.
 python main.py
 ```
 
+## Author
+Your Name — Data Science Journey, Phase 1 Final Project
