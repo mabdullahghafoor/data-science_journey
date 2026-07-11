@@ -42,3 +42,6 @@ def selection_sort(arr):
     for i in range(n):
         min_idx = i     # assume current is minimum
 
+        for j in range(i + 1, n):
+            if arr[j] < arr[min_idx]:
+                min_idx = j     # found new minimum
