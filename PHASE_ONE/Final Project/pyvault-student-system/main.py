@@ -236,3 +236,13 @@ def show_rankings():
         print(f"  {medals[i]} {student.name:<18} "
               f": {student.percentage}%  {student.grade}")
 
+    # Full ranking
+    print(f"\n  📋 FULL CLASS RANKING:\n")
+    ranked = classroom.get_ranked()
+    for i, student in enumerate(ranked, 1):
+        print(f"  {i:>3}. {student.name:<18} "
+              f": {student.percentage}%  {student.grade}")
+
+    log_activity("Viewed rankings")
+
+
