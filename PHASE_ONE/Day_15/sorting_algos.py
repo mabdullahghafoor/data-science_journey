@@ -102,3 +102,9 @@ def merge(left, right):
             result.append(right[j])
             j += 1
 
+    result.extend(left[i:])    # add remaining
+    result.extend(right[j:])
+    return result
+
+print(f"Merge Sort  : {merge_sort(marks)}")
+
