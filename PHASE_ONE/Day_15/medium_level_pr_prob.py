@@ -46,3 +46,10 @@ for name, marks in students.items():
     if marks > average:
         print(name, ":", marks)
 
+#Q6. Build a task queue system:
+#add_task(name, priority) → adds to queue
+#process_next() → processes front task
+#peek_next() → shows next without processing
+#queue_status() → shows all pending tasks
+
+
