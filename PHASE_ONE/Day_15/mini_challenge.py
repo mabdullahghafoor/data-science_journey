@@ -79,3 +79,11 @@ for i in range(len(student_names)):
         "name": student_names[i],
         "marks": marks_data[i]
     })
+
+# -------------------------------
+# Merge Sort
+# -------------------------------
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+
