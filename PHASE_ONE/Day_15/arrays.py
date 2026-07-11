@@ -48,3 +48,4 @@ def binary_search(arr, target):
         else:
             right = mid - 1            # target is left half
 
+    return -1   # not found
