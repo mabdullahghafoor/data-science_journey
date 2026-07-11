@@ -31,3 +31,7 @@ def log_activity(action):
         f.write(f"[{timestamp}] {action}\n")
 
 
+# ── Display Helpers ───────────────────────────────────────────────
+def clear():
+    os.system("cls" if os.name == "nt" else "clear")
+
