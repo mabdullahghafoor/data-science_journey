@@ -42,3 +42,7 @@ average = sum(students.values()) / len(students)
 print("Average:", average)
 print("Students above average:")
 
+for name, marks in students.items():
+    if marks > average:
+        print(name, ":", marks)
+
