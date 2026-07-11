@@ -138,3 +138,4 @@ print("Lowest Marks:", min_marks)
 print("\nGrade Frequency")
 for grade, count in grade_count.items():
     print(grade, ":", count)
+
