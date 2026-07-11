@@ -138,3 +138,7 @@ def search_students():
     query   = get_input("  Enter name to search: ")
     results = classroom.search_by_name(query)
 
+    if not results:
+        print(f"\n  ❌ No students found for '{query}'")
+        return
+
