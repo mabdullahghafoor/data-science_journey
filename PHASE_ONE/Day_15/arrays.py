@@ -43,3 +43,4 @@ def binary_search(arr, target):
 
         if arr[mid] == target:
             return mid                  # found!
+        elif arr[mid] < target:
