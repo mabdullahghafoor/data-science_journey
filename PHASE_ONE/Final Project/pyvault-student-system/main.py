@@ -230,3 +230,9 @@ def show_rankings():
     # Use STACK to get top 5
     top5 = get_top_n_stack(students, 5)
 
+    print("\n  🥇 TOP 5 STUDENTS (via Stack DSA):\n")
+    medals = ["🥇","🥈","🥉","4️⃣ ","5️⃣ "]
+    for i, student in enumerate(top5):
+        print(f"  {medals[i]} {student.name:<18} "
+              f": {student.percentage}%  {student.grade}")
+
