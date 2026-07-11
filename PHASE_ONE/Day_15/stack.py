@@ -91,3 +91,4 @@ def is_balanced(expression):
     opening = "({["
     closing = ")}]"
     pairs   = {")":"(", "}":"{", "]":"["}
+
