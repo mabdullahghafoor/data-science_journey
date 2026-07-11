@@ -57,3 +57,7 @@ stack.pop()             # removes 20
 print(stack)            # Stack[10] ← top
 
 # ── Real Use: Undo System ─────────────────────────────────────────
+def text_editor_demo():
+    """Simulate undo functionality using a stack."""
+    text    = ""
+    history = Stack()
