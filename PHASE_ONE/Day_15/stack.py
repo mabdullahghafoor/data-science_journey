@@ -6,3 +6,7 @@
 # → You REMOVE from the top (pop)
 # → Last plate placed = First plate removed
 
+# Real world uses:
+# → Undo/Redo in text editors
+# → Browser back button
+# → Function call stack in Python itself!
