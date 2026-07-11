@@ -12,3 +12,4 @@
 # Insert  append()   O(1)   → fast at end
 # Insert  insert(0)  O(n)   → slow at beginning (shifts all)
 # Delete  pop()      O(1)   → fast from end
+# Delete  pop(0)     O(n)   → slow from front
