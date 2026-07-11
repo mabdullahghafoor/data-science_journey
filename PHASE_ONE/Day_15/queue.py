@@ -19,3 +19,7 @@ class Queue:
     def __init__(self):
         self.__items = deque()  # deque is faster than list for queue
 
+    def enqueue(self, item):
+        """Add item to BACK of queue — O(1)"""
+        self.__items.append(item)
+        print(f"  Joined queue: {item}")
