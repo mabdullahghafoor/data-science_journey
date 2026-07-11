@@ -102,3 +102,4 @@ def is_balanced(expression):
                 return False
 
     return stack.is_empty()
+
