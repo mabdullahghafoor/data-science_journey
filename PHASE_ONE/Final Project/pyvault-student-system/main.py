@@ -69,3 +69,5 @@ def add_student():
 # ════════════════════════════════════════════
 #   FEATURE 2 — Enter Marks
 # ════════════════════════════════════════════
+def enter_marks():
+    print_header("📝 ENTER MARKS")
