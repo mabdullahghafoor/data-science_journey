@@ -227,3 +227,6 @@ def show_rankings():
         print("\n  No marks entered yet.")
         return
 
+    # Use STACK to get top 5
+    top5 = get_top_n_stack(students, 5)
+
