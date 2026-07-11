@@ -246,3 +246,6 @@ def show_rankings():
     log_activity("Viewed rankings")
 
 
+# ════════════════════════════════════════════
+#   FEATURE 9 — Export Report
+# ════════════════════════════════════════════
