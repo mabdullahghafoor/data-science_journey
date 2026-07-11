@@ -150,3 +150,5 @@ def search_students():
 # ════════════════════════════════════════════
 #   FEATURE 6 — Delete Student
 # ════════════════════════════════════════════
+def delete_student():
+    print_header("🗑️  DELETE STUDENT")
