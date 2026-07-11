@@ -9,3 +9,5 @@ def get_float(prompt, min_val=None, max_val=None):
 def validate_email(email):
         raise ValueError(f"Invalid email: {email}")
 
+    """Validate student ID format."""
+            "ID must be like 'STU001'"
