@@ -83,3 +83,6 @@ def enter_marks():
             )
             classroom.add_marks(sid, subject, marks)
 
+        log_activity(f"Marks entered for: {student.name}")
+        print(f"\n  ✅ All marks saved!")
+        student.print_card()
