@@ -333,3 +333,12 @@ def main():
             "8": show_rankings,
             "9": export_report,
         }
+
+        if choice == "0":
+            log_activity("=== PyVault Session Ended ===")
+            print("\n  👋 Goodbye! Data saved. Exiting...\n")
+            break
+        elif choice in actions:
+            actions[choice]()
+        else:
+            print("\n  ❌ Invalid choice. Enter 0-9.")
