@@ -82,3 +82,10 @@ def merge_sort(arr):
     """
     if len(arr) <= 1:
         return arr
+
+    mid   = len(arr) // 2
+    left  = merge_sort(arr[:mid])   # sort left half
+    right = merge_sort(arr[mid:])   # sort right half
+
+    return merge(left, right)
+
