@@ -31,3 +31,4 @@ class Queue:
         item = self.__items.popleft()   # O(1) with deque!
         print(f"  Served: {item}")
         return item
+
