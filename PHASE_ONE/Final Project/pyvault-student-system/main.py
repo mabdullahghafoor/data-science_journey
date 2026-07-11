@@ -58,3 +58,6 @@ def add_student():
         email = validate_email(
                     get_input("  Email      : "))
 
+        student = Student(sid, name, age, city, email)
+        classroom.add_student(student)
+        log_activity(f"Added student: {name} [{sid}]")
