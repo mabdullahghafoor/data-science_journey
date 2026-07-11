@@ -14,3 +14,5 @@
 class Stack:
     """Stack implementation using a list."""
 
+    def __init__(self):
+        self.__items = []       # private internal list
