@@ -60,3 +60,8 @@ print("Linear Search Index:", linear_search(marks, target))
 
 sorted_marks = sorted(marks)
 print("Binary Search Index:", binary_search(sorted_marks, target))
+
+
+
+#Q3. Without running, what is the output?
+
