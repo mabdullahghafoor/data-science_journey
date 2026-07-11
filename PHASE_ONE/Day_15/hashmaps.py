@@ -16,3 +16,5 @@
 
 # ── Classic Hashmap Problems ──────────────────────────────────────
 
+# PROBLEM 1: Two Sum
+# "Find two numbers that add up to target"
