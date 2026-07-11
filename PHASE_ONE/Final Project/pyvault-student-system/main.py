@@ -159,3 +159,13 @@ def delete_student():
             f"\n  Delete '{student.name}'? (yes/no): "
         ).lower()
 
+        if confirm == "yes":
+            classroom.delete_student(sid)
+            log_activity(f"Deleted: {student.name} [{sid}]")
+        else:
+            print("\n  ❌ Deletion cancelled.")
+
+    except KeyError as e:
+        print(f"\n  ❌ {e}")
+
+
