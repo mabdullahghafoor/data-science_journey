@@ -71,3 +71,8 @@ def add_student():
 # ════════════════════════════════════════════
 def enter_marks():
     print_header("📝 ENTER MARKS")
+    try:
+        sid     = get_input("  Enter Student ID: ").upper()
+        student = classroom.get_student(sid)
+        print(f"\n  Entering marks for: {student.name}")
+        print_line()
