@@ -108,3 +108,6 @@ def merge(left, right):
     result.extend(left[i:])
     result.extend(right[j:])
     return result
+
+ranked_students = merge_sort(students)
+
