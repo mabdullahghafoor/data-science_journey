@@ -61,3 +61,4 @@ def find_max_min(arr):
     maximum = arr[0]    # assume first is max
     minimum = arr[0]    # assume first is min
 
+    for num in arr[1:]:         # check rest
