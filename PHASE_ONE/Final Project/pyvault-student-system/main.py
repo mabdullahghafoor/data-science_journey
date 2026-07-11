@@ -17,3 +17,7 @@ from utils.analytics   import (get_top_n_stack,
                                 announcement_queue,
                                 grade_frequency_hashmap)
 
+# ── Initialize classroom ──────────────────────────────────────────
+classroom = Classroom()
+
+
