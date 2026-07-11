@@ -61,3 +61,9 @@ def add_task(name, priority):
     queue.append((name, priority))
     print(f"Added: {name} (Priority: {priority})")
 
+def process_next():
+    if queue:
+        task = queue.popleft()
+        print("Processing:", task)
+    else:
+        print("No tasks to process.")
