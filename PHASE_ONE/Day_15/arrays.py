@@ -36,3 +36,4 @@ print(f"Found 92 at index: {result}")   # 2
 def binary_search(arr, target):
     """Divide and conquer search — O(log n)"""
     left  = 0
+    right = len(arr) - 1
