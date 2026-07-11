@@ -295,3 +295,10 @@ def export_report():
         print(f"\n  ❌ Export failed: {e}")
 
 
+# ════════════════════════════════════════════
+#   MAIN MENU
+# ════════════════════════════════════════════
+def main():
+    """Main application loop."""
+    log_activity("=== PyVault Session Started ===")
+
