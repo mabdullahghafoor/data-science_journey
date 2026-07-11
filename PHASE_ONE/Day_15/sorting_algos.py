@@ -24,3 +24,4 @@ def bubble_sort(arr):
         if not swapped:     # already sorted — stop early!
             break
 
+    return arr
