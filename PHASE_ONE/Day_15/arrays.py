@@ -44,3 +44,4 @@ def binary_search(arr, target):
         if arr[mid] == target:
             return mid                  # found!
         elif arr[mid] < target:
+            left = mid + 1              # target is right half
