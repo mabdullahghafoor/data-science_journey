@@ -142,3 +142,8 @@ def search_students():
         print(f"\n  ❌ No students found for '{query}'")
         return
 
+    print(f"\n  Found {len(results)} result(s):\n")
+    for s in results:
+        print(f"  → {s}")
+
+
