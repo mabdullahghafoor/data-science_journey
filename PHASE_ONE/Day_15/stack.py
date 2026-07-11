@@ -29,3 +29,4 @@ class Stack:
         item = self.__items.pop()
         print(f"  Popped: {item}")
         return item
+
