@@ -215,3 +215,6 @@ def class_analytics():
     log_activity("Viewed class analytics")
 
 
+# ════════════════════════════════════════════
+#   FEATURE 8 — Rankings
+# ════════════════════════════════════════════
