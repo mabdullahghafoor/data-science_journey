@@ -139,3 +139,7 @@ print("\nGrade Frequency")
 for grade, count in grade_count.items():
     print(grade, ":", count)
 
+print("\nTop 5 Students (Stack - LIFO)")
+while stack:
+    student = stack.pop()
+    print(student["name"], "-", student["marks"])
