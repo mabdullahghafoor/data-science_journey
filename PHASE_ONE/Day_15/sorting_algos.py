@@ -21,3 +21,5 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
                 swapped = True
 
+        if not swapped:     # already sorted — stop early!
+            break
