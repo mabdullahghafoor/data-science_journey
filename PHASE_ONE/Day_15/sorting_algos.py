@@ -109,3 +109,12 @@ def merge(left, right):
 print(f"Merge Sort  : {merge_sort(marks)}")
 
 # ── Algorithm Comparison ──────────────────────────────────────────
+print("\n📊 SORTING ALGORITHM COMPARISON:")
+print("─" * 50)
+print(f"  {'Algorithm':<18} {'Best':<12} {'Worst':<12} {'Space'}")
+print("─" * 50)
+print(f"  {'Bubble Sort':<18} {'O(n)':<12} {'O(n²)':<12} O(1)")
+print(f"  {'Selection Sort':<18} {'O(n²)':<12} {'O(n²)':<12} O(1)")
+print(f"  {'Insertion Sort':<18} {'O(n)':<12} {'O(n²)':<12} O(1)")
+print(f"  {'Merge Sort':<18} {'O(nlogn)':<12} {'O(nlogn)':<12} O(n)")
+print(f"  {'Python sort()':<18} {'O(n)':<12} {'O(nlogn)':<12} O(n)")
