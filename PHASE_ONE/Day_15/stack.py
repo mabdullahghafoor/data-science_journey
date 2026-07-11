@@ -11,3 +11,5 @@
 # → Browser back button
 # → Function call stack in Python itself!
 
+class Stack:
+    """Stack implementation using a list."""
