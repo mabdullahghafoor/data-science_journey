@@ -17,3 +17,7 @@ class Stack:
     def __init__(self):
         self.__items = []       # private internal list
 
+    def push(self, item):
+        """Add item to top of stack — O(1)"""
+        self.__items.append(item)
+        print(f"  Pushed: {item}")
