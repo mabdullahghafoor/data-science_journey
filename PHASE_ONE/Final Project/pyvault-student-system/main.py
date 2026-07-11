@@ -280,3 +280,11 @@ def export_report():
             f.write(f"Failures       : "
                     f"{len(classroom.get_failures())}\n\n")
 
+            # All students
+            f.write("STUDENT RECORDS\n")
+            f.write("-" * 50 + "\n")
+            for s in classroom.get_ranked():
+                f.write(f"{s.student_id} | {s.name:<20} | "
+                        f"{s.percentage}% | {s.grade} | "
+                        f"{s.status}\n")
+
