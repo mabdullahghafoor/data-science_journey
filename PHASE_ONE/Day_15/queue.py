@@ -51,3 +51,4 @@ class Queue:
 print("🏦 BANK CUSTOMER SERVICE SIMULATION")
 print("─" * 40)
 
+bank_queue = Queue()
