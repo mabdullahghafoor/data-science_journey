@@ -56,3 +56,4 @@ stack.pop()             # removes 30
 stack.pop()             # removes 20
 print(stack)            # Stack[10] ← top
 
+# ── Real Use: Undo System ─────────────────────────────────────────
