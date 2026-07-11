@@ -49,3 +49,6 @@ def selection_sort(arr):
         arr[i], arr[min_idx] = arr[min_idx], arr[i]   # swap
 
     return arr
+
+print(f"Selection   : {selection_sort(marks)}")
+
