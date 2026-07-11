@@ -48,3 +48,7 @@ for mark in marks_data:
     if mark < min_marks:
         min_marks = mark
 
+# -------------------------------
+# HashMap (Grade Frequency)
+# -------------------------------
+grade_count = {}
