@@ -49,6 +49,10 @@ def validate_email(email):
     return email
 
 
+def validate_student_id(sid):
     """Validate student ID format."""
     if not sid.startswith("STU") or not sid[3:].isdigit():
+        raise ValueError(
             "ID must be like 'STU001'"
+        )
+    return sid.upper()
