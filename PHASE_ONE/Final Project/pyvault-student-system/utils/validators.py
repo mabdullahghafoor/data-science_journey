@@ -5,4 +5,5 @@ def get_float(prompt, min_val=None, max_val=None):
             if min_val is not None and value < min_val:
             if max_val is not None and value > max_val:
             return value
+        raise ValueError(f"Invalid email: {email}")
 
