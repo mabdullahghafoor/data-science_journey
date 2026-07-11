@@ -176,3 +176,6 @@ def class_analytics():
     print_header("📊 CLASS ANALYTICS")
     students = classroom.get_all_students()
 
+    if not students:
+        print("\n  No students to analyze.")
+        return
