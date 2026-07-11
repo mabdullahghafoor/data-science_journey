@@ -11,3 +11,4 @@
 # → Customer service ticket system
 # → CPU task scheduling
 
+from collections import deque   # efficient queue in Python!
