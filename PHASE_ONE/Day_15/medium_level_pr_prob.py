@@ -53,3 +53,6 @@ for name, marks in students.items():
 #queue_status() → shows all pending tasks
 
 
+from collections import deque
+
+queue = deque()
