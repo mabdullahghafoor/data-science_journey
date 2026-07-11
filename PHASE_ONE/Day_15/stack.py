@@ -21,3 +21,4 @@ class Stack:
         """Add item to top of stack — O(1)"""
         self.__items.append(item)
         print(f"  Pushed: {item}")
+
