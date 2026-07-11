@@ -81,3 +81,9 @@ def queue_status():
             print(task)
     else:
         print("Queue is empty.")
+
+
+# Testing
+add_task("Submit Assignment", 1)
+add_task("Attend Meeting", 2)
+add_task("Reply Emails", 3)
