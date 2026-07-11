@@ -43,3 +43,4 @@ class Queue:
 
     def size(self):
         return len(self.__items)
+
