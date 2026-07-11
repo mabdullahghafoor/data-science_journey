@@ -88,4 +88,5 @@ def merge_sort(arr):
         return arr
 
     mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
     result = []
