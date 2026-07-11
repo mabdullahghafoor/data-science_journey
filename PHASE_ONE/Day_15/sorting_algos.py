@@ -64,3 +64,13 @@ def insertion_sort(arr):
         key  = arr[i]       # element to place
         j    = i - 1
 
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]    # shift right
+            j -= 1
+
+        arr[j + 1] = key    # place in correct position
+
+    return arr
+
+print(f"Insertion   : {insertion_sort(marks)}")
+
