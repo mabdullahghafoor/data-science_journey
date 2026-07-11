@@ -37,3 +37,4 @@ class Queue:
         if self.is_empty():
             raise IndexError("Queue is empty!")
         return self.__items[0]
+
