@@ -130,3 +130,6 @@ def view_all():
     print(f"  Total: {classroom.total_students()} students")
 
 
+# ════════════════════════════════════════════
+#   FEATURE 5 — Search Students
+# ════════════════════════════════════════════
