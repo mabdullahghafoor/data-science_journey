@@ -46,3 +46,12 @@ class Stack:
         return f"Stack{self.__items} ← top"
 
 # ── Using Stack ───────────────────────────────────────────────────
+stack = Stack()
+stack.push(10)
+stack.push(20)
+stack.push(30)
+print(stack)            # Stack[10, 20, 30] ← top
+print(f"Top: {stack.peek()}")   # 30
+stack.pop()             # removes 30
+stack.pop()             # removes 20
+print(stack)            # Stack[10] ← top
