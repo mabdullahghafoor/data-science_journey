@@ -74,3 +74,8 @@ for mark in marks_data:
 # -------------------------------
 students = []
 
+for i in range(len(student_names)):
+    students.append({
+        "name": student_names[i],
+        "marks": marks_data[i]
+    })
