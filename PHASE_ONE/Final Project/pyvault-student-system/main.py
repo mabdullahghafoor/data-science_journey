@@ -35,3 +35,12 @@ def log_activity(action):
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
+def print_header(title):
+    print(f"\n  {'═'*46}")
+    print(f"      {title}")
+    print(f"  {'═'*46}")
+
+def print_line():
+    print(f"  {'─'*46}")
+
+
