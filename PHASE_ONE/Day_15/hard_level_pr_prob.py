@@ -44,3 +44,7 @@ def merge(left, right):
     result.extend(right[j:])
 
     return result
+
+
+sorted_students = merge_sort(students)
+
