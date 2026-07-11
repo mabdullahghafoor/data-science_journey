@@ -5,3 +5,6 @@
 #Count how many swaps were made.
 #Test with: [5,1,4,2,8]
 
+def bubble_sort(arr):
+    swaps = 0
+    n = len(arr)
