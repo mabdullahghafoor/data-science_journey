@@ -115,3 +115,4 @@ ranked_students = merge_sort(students)
 # Stack (Top 5 Students)
 # -------------------------------
 stack = []
+
