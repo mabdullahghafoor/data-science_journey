@@ -24,3 +24,7 @@ sorted_nums, swap_count = bubble_sort(nums)
 print("Sorted:", sorted_nums)
 print("Swaps:", swap_count)
 
+#Q5. Use a hashmap to solve:
+#Given a list of student names with marks,
+#find all students who scored above average.
+#Use O(n) time — only one loop!
