@@ -44,3 +44,5 @@ class Queue:
     def size(self):
         return len(self.__items)
 
+    def __str__(self):
+        return f"Queue: front → {list(self.__items)} ← back"
