@@ -77,3 +77,9 @@ def enter_marks():
         print(f"\n  Entering marks for: {student.name}")
         print_line()
 
+        for subject in Student.SUBJECTS:
+            marks = get_int(
+                f"  {subject:<15}: ", 0, 100
+            )
+            classroom.add_marks(sid, subject, marks)
+
