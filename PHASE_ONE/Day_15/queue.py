@@ -32,3 +32,8 @@ class Queue:
         print(f"  Served: {item}")
         return item
 
+    def front(self):
+        """See who's next without removing."""
+        if self.is_empty():
+            raise IndexError("Queue is empty!")
+        return self.__items[0]
