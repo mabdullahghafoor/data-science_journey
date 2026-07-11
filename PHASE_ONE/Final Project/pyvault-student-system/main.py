@@ -322,3 +322,14 @@ def main():
 
         choice = input("\n  Choose (0-9): ").strip()
 
+        actions = {
+            "1": add_student,
+            "2": enter_marks,
+            "3": view_student,
+            "4": view_all,
+            "5": search_students,
+            "6": delete_student,
+            "7": class_analytics,
+            "8": show_rankings,
+            "9": export_report,
+        }
