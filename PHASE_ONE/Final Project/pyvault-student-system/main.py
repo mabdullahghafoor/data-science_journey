@@ -47,3 +47,5 @@ def print_line():
 # ════════════════════════════════════════════
 #   FEATURE 1 — Add Student
 # ════════════════════════════════════════════
+def add_student():
+    print_header("➕ ADD NEW STUDENT")
