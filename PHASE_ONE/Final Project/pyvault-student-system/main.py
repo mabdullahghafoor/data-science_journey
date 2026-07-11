@@ -172,3 +172,7 @@ def delete_student():
 # ════════════════════════════════════════════
 #   FEATURE 7 — Class Analytics
 # ════════════════════════════════════════════
+def class_analytics():
+    print_header("📊 CLASS ANALYTICS")
+    students = classroom.get_all_students()
+
