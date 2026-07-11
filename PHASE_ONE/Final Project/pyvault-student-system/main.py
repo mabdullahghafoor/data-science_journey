@@ -86,3 +86,8 @@ def enter_marks():
         log_activity(f"Marks entered for: {student.name}")
         print(f"\n  ✅ All marks saved!")
         student.print_card()
+
+    except (KeyError, ValueError) as e:
+        print(f"\n  ❌ Error: {e}")
+
+
