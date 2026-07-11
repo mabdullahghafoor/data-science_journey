@@ -69,3 +69,4 @@ def find_max_min(arr):
 
     return maximum, minimum
 
+high, low = find_max_min(marks)
