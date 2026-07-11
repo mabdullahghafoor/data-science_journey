@@ -190,3 +190,8 @@ def class_analytics():
     print(f"\n  Total Students : {classroom.total_students()}")
     print(f"  Class Average  : {avg}%")
 
+    if topper:
+        print(f"  🏆 Topper      : {topper.name} "
+              f"({topper.percentage}%)")
+    print(f"  ❌ Failures    : {len(failures)}")
+
