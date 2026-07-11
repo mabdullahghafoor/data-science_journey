@@ -62,3 +62,7 @@ def add_student():
         classroom.add_student(student)
         log_activity(f"Added student: {name} [{sid}]")
 
+    except (ValueError, KeyError) as e:
+        print(f"\n  ❌ Error: {e}")
+
+
