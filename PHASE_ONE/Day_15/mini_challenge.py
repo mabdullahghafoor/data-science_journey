@@ -26,3 +26,13 @@ student_names = ["Ali","Sara","Fatima","Omar","Zara",
 
 
 
+from collections import deque
+
+marks_data = [88, 45, 92, 32, 78, 65, 55, 90, 28, 73,
+              38, 82, 61, 77, 49, 93, 28, 86, 71, 54]
+
+student_names = ["Ali","Sara","Fatima","Omar","Zara",
+                 "Bilal","Hina","Usman","Kamran","Sana",
+                 "Raza","Nadia","Tariq","Aisha","Hamid",
+                 "Rabia","Imran","Farah","Danish","Maryam"]
+
