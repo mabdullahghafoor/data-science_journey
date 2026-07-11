@@ -108,3 +108,4 @@ def merge(left, right):
 
 print(f"Merge Sort  : {merge_sort(marks)}")
 
+# ── Algorithm Comparison ──────────────────────────────────────────
