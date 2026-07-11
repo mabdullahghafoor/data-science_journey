@@ -16,3 +16,8 @@ def bubble_sort(arr):
                 swaps += 1
 
     return arr, swaps
+
+
+nums = [5, 1, 4, 2, 8]
+sorted_nums, swap_count = bubble_sort(nums)
+
