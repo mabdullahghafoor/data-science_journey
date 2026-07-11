@@ -152,3 +152,10 @@ def search_students():
 # ════════════════════════════════════════════
 def delete_student():
     print_header("🗑️  DELETE STUDENT")
+    try:
+        sid     = get_input("  Enter Student ID: ").upper()
+        student = classroom.get_student(sid)
+        confirm = get_input(
+            f"\n  Delete '{student.name}'? (yes/no): "
+        ).lower()
+
