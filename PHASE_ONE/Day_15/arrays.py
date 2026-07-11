@@ -18,3 +18,4 @@ import array   # built-in array module (typed arrays)
 
 # Python list (most common)
 marks = [88, 76, 92, 65, 95, 45, 78]
+
