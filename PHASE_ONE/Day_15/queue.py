@@ -57,3 +57,4 @@ bank_queue = Queue()
 customers = ["Ali", "Sara", "Fatima", "Omar", "Zara"]
 for customer in customers:
     bank_queue.enqueue(customer)
+
