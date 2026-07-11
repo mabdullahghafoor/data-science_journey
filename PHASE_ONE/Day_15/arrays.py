@@ -15,3 +15,4 @@
 # Delete  pop(0)     O(n)   → slow from front
 
 import array   # built-in array module (typed arrays)
+
