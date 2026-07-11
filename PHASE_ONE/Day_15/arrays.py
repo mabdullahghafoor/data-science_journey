@@ -27,3 +27,4 @@ def linear_search(arr, target):
     for i, value in enumerate(arr):
         if value == target:
             return i        # return index where found
+    return -1               # -1 means not found
