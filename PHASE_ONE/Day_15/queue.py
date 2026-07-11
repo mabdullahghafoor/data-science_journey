@@ -66,3 +66,4 @@ print(f"Waiting: {bank_queue.size()} customers\n")
 print("Serving customers:")
 while not bank_queue.is_empty():
     bank_queue.dequeue()
+
