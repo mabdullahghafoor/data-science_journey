@@ -51,3 +51,8 @@ freq  = get_frequency(marks)
 print(freq)     # {88:4, 76:2, 92:2, 65:1}
 
 # PROBLEM 3: Check if two strings are anagrams
+def is_anagram(s1, s2):
+    """
+    Anagram: same characters, different order
+    'listen' and 'silent' are anagrams
+    """
