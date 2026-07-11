@@ -21,3 +21,6 @@ def bubble_sort(arr):
 nums = [5, 1, 4, 2, 8]
 sorted_nums, swap_count = bubble_sort(nums)
 
+print("Sorted:", sorted_nums)
+print("Swaps:", swap_count)
+
