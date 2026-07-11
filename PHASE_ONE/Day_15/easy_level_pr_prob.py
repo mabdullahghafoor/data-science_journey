@@ -65,3 +65,11 @@ print("Binary Search Index:", binary_search(sorted_marks, target))
 
 #Q3. Without running, what is the output?
 
+from collections import deque
+q = deque()
+q.append("Ali")
+q.append("Sara")
+q.append("Fatima")
+q.popleft()
+print(list(q)) #Sara, Fatima
+print(q[0])     #Sara
