@@ -24,3 +24,10 @@ class Queue:
         self.__items.append(item)
         print(f"  Joined queue: {item}")
 
+    def dequeue(self):
+        """Remove item from FRONT of queue — O(1)"""
+        if self.is_empty():
+            raise IndexError("Queue is empty!")
+        item = self.__items.popleft()   # O(1) with deque!
+        print(f"  Served: {item}")
+        return item
