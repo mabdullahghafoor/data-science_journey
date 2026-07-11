@@ -40,3 +40,4 @@ class Queue:
 
     def is_empty(self):
         return len(self.__items) == 0
+
