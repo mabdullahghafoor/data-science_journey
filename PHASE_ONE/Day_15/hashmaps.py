@@ -74,3 +74,6 @@ print(is_anagram("listen", "silent"))   # True
 print(is_anagram("hello",  "world"))    # False
 
 # PROBLEM 4: Group students by grade
+def group_by_grade(students):
+    """Group students using hashmap — O(n)"""
+    groups = {}
