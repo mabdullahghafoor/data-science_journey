@@ -32,3 +32,6 @@ def linear_search(arr, target):
 
 # Binary Search
 
+def binary_search(arr, target):
+    left = 0
+    right = len(arr) - 1
