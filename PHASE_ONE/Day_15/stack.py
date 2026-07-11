@@ -80,3 +80,4 @@ def text_editor_demo():
 
 text_editor_demo()
 
+# ── Classic Problem: Balanced Brackets ───────────────────────────
