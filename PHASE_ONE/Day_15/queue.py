@@ -18,3 +18,4 @@ class Queue:
 
     def __init__(self):
         self.__items = deque()  # deque is faster than list for queue
+
