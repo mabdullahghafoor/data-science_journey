@@ -344,3 +344,6 @@ def main():
             print("\n  ❌ Invalid choice. Enter 0-9.")
 
 
+# ── Entry Point ───────────────────────────────────────────────────
+if __name__ == "__main__":
+    main()
