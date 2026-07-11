@@ -31,3 +31,4 @@ def linear_search(arr, target):
 
 
 # Binary Search
+
