@@ -37,3 +37,4 @@ def binary_search(arr, target):
     """Divide and conquer search — O(log n)"""
     left  = 0
     right = len(arr) - 1
+
