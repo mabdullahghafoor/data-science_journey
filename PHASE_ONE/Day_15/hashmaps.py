@@ -56,3 +56,5 @@ def is_anagram(s1, s2):
     Anagram: same characters, different order
     'listen' and 'silent' are anagrams
     """
+    if len(s1) != len(s2):
+        return False
