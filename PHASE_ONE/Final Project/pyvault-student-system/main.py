@@ -195,3 +195,12 @@ def class_analytics():
               f"({topper.percentage}%)")
     print(f"  ❌ Failures    : {len(failures)}")
 
+    # Grade distribution with bar chart
+    print(f"\n  GRADE DISTRIBUTION:")
+    print_line()
+    grade_order = ["A+","A","B","C","D","F"]
+    for grade in grade_order:
+        count = dist.get(grade, 0)
+        bar   = "█" * count
+        print(f"  {grade:<4}: {bar:<20} ({count})")
+
