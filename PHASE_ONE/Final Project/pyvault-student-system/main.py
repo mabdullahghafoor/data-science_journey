@@ -258,3 +258,6 @@ def export_report():
         print("\n  No data to export.")
         return
 
+    filename  = (f"data/report_"
+                 f"{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+                 f".txt")
