@@ -187,3 +187,6 @@ def class_analytics():
     dist     = classroom.grade_distribution()
     subj_avg = classroom.subject_averages()
 
+    print(f"\n  Total Students : {classroom.total_students()}")
+    print(f"  Class Average  : {avg}%")
+
