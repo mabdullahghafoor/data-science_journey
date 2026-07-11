@@ -94,3 +94,5 @@ def enter_marks():
 # ════════════════════════════════════════════
 #   FEATURE 3 — View Student
 # ════════════════════════════════════════════
+def view_student():
+    print_header("🔍 VIEW STUDENT")
