@@ -115,3 +115,4 @@ def view_all():
     if not students:
         print("\n  No students found.")
         return
+
