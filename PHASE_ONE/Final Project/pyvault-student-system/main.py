@@ -126,3 +126,7 @@ def view_all():
         print(f"  {s.student_id:<10} {s.name:<20} "
               f"{pct:>6} {grade:>6}  {s.status}")
 
+    print_line()
+    print(f"  Total: {classroom.total_students()} students")
+
+
