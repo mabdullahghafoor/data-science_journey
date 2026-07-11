@@ -38,3 +38,4 @@ def selection_sort(arr):
     """
     arr = arr.copy()
     n   = len(arr)
+
