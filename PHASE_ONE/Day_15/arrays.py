@@ -40,3 +40,4 @@ def binary_search(arr, target):
 
     while left <= right:
         mid = (left + right) // 2      # find middle
+
