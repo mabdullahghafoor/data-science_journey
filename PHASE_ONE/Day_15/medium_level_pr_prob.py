@@ -56,3 +56,8 @@ for name, marks in students.items():
 from collections import deque
 
 queue = deque()
+
+def add_task(name, priority):
+    queue.append((name, priority))
+    print(f"Added: {name} (Priority: {priority})")
+
