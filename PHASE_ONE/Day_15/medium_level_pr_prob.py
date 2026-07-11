@@ -67,3 +67,10 @@ def process_next():
         print("Processing:", task)
     else:
         print("No tasks to process.")
+
+def peek_next():
+    if queue:
+        print("Next Task:", queue[0])
+    else:
+        print("Queue is empty.")
+
