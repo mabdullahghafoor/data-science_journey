@@ -84,3 +84,6 @@ def group_by_grade(students):
                  else "B" if pct >= 70 else "C" if pct >= 60
                  else "D" if pct >= 50 else "F")
 
+        if grade not in groups:
+            groups[grade] = []
+        groups[grade].append(name)
