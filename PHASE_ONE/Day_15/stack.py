@@ -78,3 +78,4 @@ def text_editor_demo():
         else:
             print("  After undo: ''")
 
+text_editor_demo()
