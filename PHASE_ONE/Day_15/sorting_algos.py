@@ -74,3 +74,11 @@ def insertion_sort(arr):
 
 print(f"Insertion   : {insertion_sort(marks)}")
 
+# ── 4. MERGE SORT — O(n log n) fast and efficient ────────────────
+def merge_sort(arr):
+    """
+    Divide array in half, sort each half,
+    merge sorted halves back together.
+    """
+    if len(arr) <= 1:
+        return arr
