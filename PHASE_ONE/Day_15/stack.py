@@ -39,3 +39,5 @@ class Stack:
     def is_empty(self):
         return len(self.__items) == 0
 
+    def size(self):
+        return len(self.__items)
