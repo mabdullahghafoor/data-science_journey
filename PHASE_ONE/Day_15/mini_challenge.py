@@ -144,3 +144,7 @@ while stack:
     student = stack.pop()
     print(student["name"], "-", student["marks"])
 
+print("\nResult Announcement (Queue - FIFO)")
+while queue:
+    student = queue.popleft()
+    print(student["name"], "-", student["marks"])
