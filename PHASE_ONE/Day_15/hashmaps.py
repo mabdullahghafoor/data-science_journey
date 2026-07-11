@@ -45,3 +45,4 @@ def get_frequency(data):
     for item in data:
         freq[item] = freq.get(item, 0) + 1
     return freq
+
