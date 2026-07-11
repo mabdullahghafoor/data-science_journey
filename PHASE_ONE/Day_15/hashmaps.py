@@ -25,3 +25,5 @@ def two_sum(nums, target):
     """
     seen = {}   # value → index mapping
 
+    for i, num in enumerate(nums):
+        complement = target - num   # what do we need?
