@@ -108,3 +108,7 @@ def view_student():
 # ════════════════════════════════════════════
 #   FEATURE 4 — View All Students
 # ════════════════════════════════════════════
+def view_all():
+    print_header("📋 ALL STUDENTS")
+    students = classroom.get_all_students()
+
