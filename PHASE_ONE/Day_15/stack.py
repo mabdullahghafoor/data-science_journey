@@ -103,3 +103,6 @@ def is_balanced(expression):
 
     return stack.is_empty()
 
+print(is_balanced("({[]})"))    # True
+print(is_balanced("({[})"))     # False
+print(is_balanced("((()))"))    # True
