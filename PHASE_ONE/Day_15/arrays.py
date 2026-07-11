@@ -66,3 +66,4 @@ def find_max_min(arr):
             maximum = num
         if num < minimum:
             minimum = num
+
