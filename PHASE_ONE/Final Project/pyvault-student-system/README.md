@@ -13,3 +13,9 @@ all Phase 1 concepts.
 - Full exception handling
 - Modular, OOP architecture
 
+## Concepts Used
+- Variables, Operators, Conditionals, Loops
+- Lists, Tuples, Sets, Dictionaries
+- Functions, Lambda, File Handling
+- Exception Handling, Modules, OOP, DSA
+
