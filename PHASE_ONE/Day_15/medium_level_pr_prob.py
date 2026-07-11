@@ -87,3 +87,8 @@ def queue_status():
 add_task("Submit Assignment", 1)
 add_task("Attend Meeting", 2)
 add_task("Reply Emails", 3)
+
+peek_next()
+queue_status()
+process_next()
+queue_status()
