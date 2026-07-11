@@ -5,3 +5,4 @@
 # → You ADD to the top (push)
 # → You REMOVE from the top (pop)
 # → Last plate placed = First plate removed
+
