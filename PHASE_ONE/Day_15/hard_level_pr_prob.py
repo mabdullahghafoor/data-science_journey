@@ -11,3 +11,4 @@ students = [
     {"name": "Fatima", "marks": [95, 98, 100]},
     {"name": "Omar",   "marks": [40, 35, 28]},
 ]
+
