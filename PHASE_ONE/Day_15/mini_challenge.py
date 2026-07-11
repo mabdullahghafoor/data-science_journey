@@ -104,3 +104,4 @@ def merge(left, right):
         else:
             result.append(right[j])
             j += 1
+
