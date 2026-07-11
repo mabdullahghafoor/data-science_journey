@@ -13,3 +13,5 @@ def bubble_sort(arr):
     arr  = arr.copy()   # don't modify original
     n    = len(arr)
 
+    for i in range(n):
+        swapped = False
