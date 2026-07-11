@@ -269,3 +269,7 @@ def export_report():
                     f"{datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
             f.write("=" * 50 + "\n\n")
 
+            # Summary
+            f.write(f"Total Students : {classroom.total_students()}\n")
+            f.write(f"Class Average  : {classroom.class_average()}%\n")
+
