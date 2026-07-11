@@ -32,3 +32,4 @@ def two_sum(nums, target):
             return [seen[complement], i]
 
         seen[num] = i               # store current number
+
