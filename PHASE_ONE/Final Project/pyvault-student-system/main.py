@@ -249,3 +249,6 @@ def show_rankings():
 # ════════════════════════════════════════════
 #   FEATURE 9 — Export Report
 # ════════════════════════════════════════════
+def export_report():
+    """Export full report to text file."""
+    print_header("💾 EXPORT REPORT")
