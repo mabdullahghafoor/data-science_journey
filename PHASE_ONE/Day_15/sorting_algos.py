@@ -41,3 +41,4 @@ def selection_sort(arr):
 
     for i in range(n):
         min_idx = i     # assume current is minimum
+
