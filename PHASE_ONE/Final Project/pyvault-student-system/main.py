@@ -288,3 +288,10 @@ def export_report():
                         f"{s.percentage}% | {s.grade} | "
                         f"{s.status}\n")
 
+        print(f"\n  ✅ Report exported to: {filename}")
+        log_activity(f"Report exported: {filename}")
+
+    except Exception as e:
+        print(f"\n  ❌ Export failed: {e}")
+
+
