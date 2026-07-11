@@ -7,6 +7,7 @@ def get_float(prompt, min_val=None, max_val=None):
             return value
             print(f"  ❌ Invalid: {e}. Try again.")
 def validate_email(email):
+    if "@" not in email or "." not in email.split("@")[-1]:
         raise ValueError(f"Invalid email: {email}")
 
     """Validate student ID format."""
