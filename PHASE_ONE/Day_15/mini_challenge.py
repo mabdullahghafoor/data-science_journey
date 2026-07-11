@@ -126,3 +126,8 @@ queue = deque()
 
 for student in ranked_students:
     queue.append(student)
+
+# -------------------------------
+# Report
+# -------------------------------
+print("===== STUDENT ANALYSIS REPORT =====")
