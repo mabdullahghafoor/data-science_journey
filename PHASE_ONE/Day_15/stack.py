@@ -35,3 +35,4 @@ class Stack:
         if self.is_empty():
             raise IndexError("Stack is empty!")
         return self.__items[-1]
+
