@@ -123,3 +123,6 @@ for i in range(5):
 # Queue (Result Announcement)
 # -------------------------------
 queue = deque()
+
+for student in ranked_students:
+    queue.append(student)
