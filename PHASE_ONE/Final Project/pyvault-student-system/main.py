@@ -116,3 +116,6 @@ def view_all():
         print("\n  No students found.")
         return
 
+    print(f"\n  {'ID':<10} {'Name':<20} {'%':>6} "
+          f"{'Grade':>6} {'Status'}")
+    print_line()
