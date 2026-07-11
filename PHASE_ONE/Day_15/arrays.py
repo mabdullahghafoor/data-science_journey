@@ -35,3 +35,4 @@ print(f"Found 92 at index: {result}")   # 2
 # 2. BINARY SEARCH — faster search (array must be sorted!)
 def binary_search(arr, target):
     """Divide and conquer search — O(log n)"""
+    left  = 0
