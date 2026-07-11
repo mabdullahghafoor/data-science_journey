@@ -101,3 +101,7 @@ def view_student():
         student = classroom.get_student(sid)
         student.print_card()
         log_activity(f"Viewed: {student.name}")
+    except KeyError as e:
+        print(f"\n  ❌ {e}")
+
+
