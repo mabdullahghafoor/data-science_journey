@@ -100,3 +100,4 @@ def is_balanced(expression):
                 return False
             if stack.pop() != pairs[char]:
                 return False
+
