@@ -17,3 +17,6 @@ for student in students:
     student["percentage"] = sum(student["marks"]) / len(student["marks"])
 
 
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
