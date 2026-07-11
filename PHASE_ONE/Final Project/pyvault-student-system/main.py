@@ -273,3 +273,10 @@ def export_report():
             f.write(f"Total Students : {classroom.total_students()}\n")
             f.write(f"Class Average  : {classroom.class_average()}%\n")
 
+            topper = classroom.get_topper()
+            if topper:
+                f.write(f"Topper         : {topper.name} "
+                        f"({topper.percentage}%)\n")
+            f.write(f"Failures       : "
+                    f"{len(classroom.get_failures())}\n\n")
+
