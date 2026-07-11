@@ -36,3 +36,15 @@ student_names = ["Ali","Sara","Fatima","Omar","Zara",
                  "Raza","Nadia","Tariq","Aisha","Hamid",
                  "Rabia","Imran","Farah","Danish","Maryam"]
 
+# -------------------------------
+# Array Operations (Max & Min)
+# -------------------------------
+max_marks = marks_data[0]
+min_marks = marks_data[0]
+
+for mark in marks_data:
+    if mark > max_marks:
+        max_marks = mark
+    if mark < min_marks:
+        min_marks = mark
+
