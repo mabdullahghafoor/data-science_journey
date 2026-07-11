@@ -49,3 +49,11 @@ def print_line():
 # ════════════════════════════════════════════
 def add_student():
     print_header("➕ ADD NEW STUDENT")
+    try:
+        sid   = validate_student_id(
+                    get_input("  Student ID (e.g. STU001): "))
+        name  = get_input("  Full Name  : ")
+        age   = get_int("  Age        : ", 15, 80)
+        city  = get_input("  City       : ")
+        email = validate_email(
+                    get_input("  Email      : "))
