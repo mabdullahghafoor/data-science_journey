@@ -13,3 +13,4 @@
 
 class Stack:
     """Stack implementation using a list."""
+
