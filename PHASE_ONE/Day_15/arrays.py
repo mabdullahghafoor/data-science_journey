@@ -51,3 +51,4 @@ def binary_search(arr, target):
     return -1   # not found
 
 sorted_marks = sorted(marks)
+print(f"Sorted: {sorted_marks}")
