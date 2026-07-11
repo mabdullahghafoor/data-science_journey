@@ -10,3 +10,4 @@
 # Access  arr[i]     O(1)   → instant, no matter size
 # Search  x in arr   O(n)   → checks each element
 # Insert  append()   O(1)   → fast at end
+# Insert  insert(0)  O(n)   → slow at beginning (shifts all)
