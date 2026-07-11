@@ -58,3 +58,6 @@ customers = ["Ali", "Sara", "Fatima", "Omar", "Zara"]
 for customer in customers:
     bank_queue.enqueue(customer)
 
+print(f"\n{bank_queue}")
+print(f"Next to be served: {bank_queue.front()}")
+print(f"Waiting: {bank_queue.size()} customers\n")
