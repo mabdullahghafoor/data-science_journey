@@ -118,3 +118,8 @@ stack = []
 
 for i in range(5):
     stack.append(ranked_students[i])
+
+# -------------------------------
+# Queue (Result Announcement)
+# -------------------------------
+queue = deque()
