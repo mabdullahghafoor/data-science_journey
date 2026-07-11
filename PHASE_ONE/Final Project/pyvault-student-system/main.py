@@ -253,3 +253,7 @@ def export_report():
     """Export full report to text file."""
     print_header("💾 EXPORT REPORT")
 
+    students = classroom.get_all_students()
+    if not students:
+        print("\n  No data to export.")
+        return
