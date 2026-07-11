@@ -223,3 +223,7 @@ def show_rankings():
     students = [s for s in classroom.get_all_students()
                 if s.has_marks()]
 
+    if not students:
+        print("\n  No marks entered yet.")
+        return
+
