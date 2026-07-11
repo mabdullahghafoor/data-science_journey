@@ -16,3 +16,5 @@ from collections import deque   # efficient queue in Python!
 class Queue:
     """Queue implementation using collections.deque."""
 
+    def __init__(self):
+        self.__items = deque()  # deque is faster than list for queue
