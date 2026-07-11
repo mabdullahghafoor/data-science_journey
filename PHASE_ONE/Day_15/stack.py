@@ -68,3 +68,4 @@ def text_editor_demo():
         text += action
         history.push(text)      # save state
         print(f"  Typed: '{text}'")
+
