@@ -61,3 +61,4 @@ def add_student():
         student = Student(sid, name, age, city, email)
         classroom.add_student(student)
         log_activity(f"Added student: {name} [{sid}]")
+
