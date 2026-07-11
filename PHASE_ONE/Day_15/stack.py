@@ -77,3 +77,4 @@ def text_editor_demo():
             print(f"  After undo: '{text}'")
         else:
             print("  After undo: ''")
+
