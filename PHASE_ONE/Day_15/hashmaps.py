@@ -63,3 +63,7 @@ def is_anagram(s1, s2):
     for char in s1:
         count[char] = count.get(char, 0) + 1
 
+    for char in s2:
+        if char not in count or count[char] == 0:
+            return False
+        count[char] -= 1
