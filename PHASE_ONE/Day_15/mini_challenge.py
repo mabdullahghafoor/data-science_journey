@@ -69,3 +69,7 @@ for mark in marks_data:
 
     grade_count[grade] = grade_count.get(grade, 0) + 1
 
+# -------------------------------
+# Student Records
+# -------------------------------
+students = []
