@@ -15,3 +15,4 @@ from collections import deque   # efficient queue in Python!
 
 class Queue:
     """Queue implementation using collections.deque."""
+
