@@ -262,3 +262,10 @@ def export_report():
                  f"{datetime.now().strftime('%Y%m%d_%H%M%S')}"
                  f".txt")
 
+    try:
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write("PYVAULT — STUDENT MANAGEMENT SYSTEM\n")
+            f.write(f"Report Generated: "
+                    f"{datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
+            f.write("=" * 50 + "\n\n")
+
