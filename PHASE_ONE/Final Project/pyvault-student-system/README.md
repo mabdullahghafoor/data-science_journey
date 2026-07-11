@@ -19,3 +19,8 @@ all Phase 1 concepts.
 - Functions, Lambda, File Handling
 - Exception Handling, Modules, OOP, DSA
 
+## How to Run
+```bash
+python main.py
+```
+
