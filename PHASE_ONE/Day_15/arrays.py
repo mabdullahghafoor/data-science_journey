@@ -21,3 +21,4 @@ marks = [88, 76, 92, 65, 95, 45, 78]
 
 # ── Common Array Algorithms ───────────────────────────────────────
 
+# 1. LINEAR SEARCH — find an element
