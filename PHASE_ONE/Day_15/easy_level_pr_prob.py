@@ -47,3 +47,16 @@ def binary_search(arr, target):
             right = mid - 1
 
     return -1
+
+
+
+
+# Test with 10 marks
+marks = [45, 67, 23, 89, 56, 78, 91, 34, 60, 72]
+
+target = 78
+
+print("Linear Search Index:", linear_search(marks, target))
+
+sorted_marks = sorted(marks)
+print("Binary Search Index:", binary_search(sorted_marks, target))
