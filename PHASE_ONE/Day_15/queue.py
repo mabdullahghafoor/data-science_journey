@@ -62,3 +62,7 @@ print(f"\n{bank_queue}")
 print(f"Next to be served: {bank_queue.front()}")
 print(f"Waiting: {bank_queue.size()} customers\n")
 
+# Serve customers one by one
+print("Serving customers:")
+while not bank_queue.is_empty():
+    bank_queue.dequeue()
