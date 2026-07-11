@@ -5,3 +5,4 @@
 
 # ── Key Array Operations & Time Complexity ────────────────────────
 #
+# Operation          Time        Meaning
