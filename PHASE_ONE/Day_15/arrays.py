@@ -33,3 +33,4 @@ result = linear_search(marks, 92)
 print(f"Found 92 at index: {result}")   # 2
 
 # 2. BINARY SEARCH — faster search (array must be sorted!)
+def binary_search(arr, target):
