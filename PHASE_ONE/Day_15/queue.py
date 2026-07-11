@@ -47,3 +47,4 @@ class Queue:
     def __str__(self):
         return f"Queue: front → {list(self.__items)} ← back"
 
+# ── Real Use: Bank Customer Service ──────────────────────────────
