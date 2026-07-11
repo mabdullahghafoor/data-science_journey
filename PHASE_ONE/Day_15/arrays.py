@@ -25,3 +25,4 @@ marks = [88, 76, 92, 65, 95, 45, 78]
 def linear_search(arr, target):
     """Search through array one by one — O(n)"""
     for i, value in enumerate(arr):
+        if value == target:
