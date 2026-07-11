@@ -73,3 +73,4 @@ high, low = find_max_min(marks)
 print(f"Max: {high}  Min: {low}")
 
 # 4. REVERSE an array in place
+def reverse_array(arr):
