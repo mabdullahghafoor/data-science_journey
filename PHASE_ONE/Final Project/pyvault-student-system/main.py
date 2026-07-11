@@ -119,3 +119,4 @@ def view_all():
     print(f"\n  {'ID':<10} {'Name':<20} {'%':>6} "
           f"{'Grade':>6} {'Status'}")
     print_line()
+
