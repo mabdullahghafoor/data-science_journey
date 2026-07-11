@@ -125,3 +125,4 @@ def view_all():
         grade = s.grade if s.has_marks() else "N/A"
         print(f"  {s.student_id:<10} {s.name:<20} "
               f"{pct:>6} {grade:>6}  {s.status}")
+
