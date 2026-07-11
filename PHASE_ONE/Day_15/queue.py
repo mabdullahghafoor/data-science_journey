@@ -48,3 +48,5 @@ class Queue:
         return f"Queue: front → {list(self.__items)} ← back"
 
 # ── Real Use: Bank Customer Service ──────────────────────────────
+print("🏦 BANK CUSTOMER SERVICE SIMULATION")
+print("─" * 40)
