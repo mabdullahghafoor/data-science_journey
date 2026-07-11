@@ -31,3 +31,10 @@ print(f"Original    : {marks}")
 print(f"Bubble Sort : {bubble_sort(marks)}")
 
 # ── 2. SELECTION SORT — O(n²) ────────────────────────────────────
+def selection_sort(arr):
+    """
+    Find minimum in unsorted portion,
+    place it at beginning.
+    """
+    arr = arr.copy()
+    n   = len(arr)
