@@ -67,3 +67,7 @@ print("Serving customers:")
 while not bank_queue.is_empty():
     bank_queue.dequeue()
 
+# ── Stack vs Queue: Key Difference ───────────────────────────────
+print("\n📊 Stack vs Queue:")
+print("  Stack → Last In First Out  (LIFO) → undo, back button")
+print("  Queue → First In First Out (FIFO) → tickets, printing")
