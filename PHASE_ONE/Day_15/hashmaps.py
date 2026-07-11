@@ -90,3 +90,8 @@ def group_by_grade(students):
 
     return groups
 
+students = [("Ali",88),("Sara",45),("Fatima",97),
+            ("Omar",72),("Zara",88),("Bilal",55)]
+groups = group_by_grade(students)
+for grade, names in sorted(groups.items()):
+    print(f"  {grade}: {names}")
