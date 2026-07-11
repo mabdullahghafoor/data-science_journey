@@ -135,3 +135,6 @@ print("===== STUDENT ANALYSIS REPORT =====")
 print("\nHighest Marks:", max_marks)
 print("Lowest Marks:", min_marks)
 
+print("\nGrade Frequency")
+for grade, count in grade_count.items():
+    print(grade, ":", count)
