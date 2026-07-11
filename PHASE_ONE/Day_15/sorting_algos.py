@@ -52,3 +52,10 @@ def selection_sort(arr):
 
 print(f"Selection   : {selection_sort(marks)}")
 
+# ── 3. INSERTION SORT — O(n²) best for small/nearly sorted ───────
+def insertion_sort(arr):
+    """
+    Build sorted portion one element at a time.
+    Like sorting playing cards in hand.
+    """
+    arr = arr.copy()
