@@ -50,3 +50,4 @@ marks = [88, 76, 88, 92, 76, 88, 65, 92, 88]
 freq  = get_frequency(marks)
 print(freq)     # {88:4, 76:2, 92:2, 65:1}
 
+# PROBLEM 3: Check if two strings are anagrams
