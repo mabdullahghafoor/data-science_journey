@@ -5,3 +5,7 @@
 #Push numbers 1–5
 #Pop them all and print (notice LIFO order!)
 
+# Stack Implementation
+
+stack = []
+
