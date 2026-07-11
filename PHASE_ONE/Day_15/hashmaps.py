@@ -28,3 +28,5 @@ def two_sum(nums, target):
     for i, num in enumerate(nums):
         complement = target - num   # what do we need?
 
+        if complement in seen:      # have we seen it before?
+            return [seen[complement], i]
