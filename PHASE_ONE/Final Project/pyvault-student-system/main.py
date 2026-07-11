@@ -57,3 +57,4 @@ def add_student():
         city  = get_input("  City       : ")
         email = validate_email(
                     get_input("  Email      : "))
+
