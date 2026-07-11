@@ -69,3 +69,11 @@ def text_editor_demo():
         history.push(text)      # save state
         print(f"  Typed: '{text}'")
 
+    print("\n  --- Undoing ---")
+    while not history.is_empty():
+        history.pop()
+        if not history.is_empty():
+            text = history.peek()
+            print(f"  After undo: '{text}'")
+        else:
+            print("  After undo: ''")
