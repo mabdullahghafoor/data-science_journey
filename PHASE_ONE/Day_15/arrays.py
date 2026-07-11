@@ -30,3 +30,4 @@ def linear_search(arr, target):
     return -1               # -1 means not found
 
 result = linear_search(marks, 92)
+print(f"Found 92 at index: {result}")   # 2
