@@ -302,3 +302,21 @@ def main():
     """Main application loop."""
     log_activity("=== PyVault Session Started ===")
 
+    while True:
+        print(f"\n  ╔{'═'*44}╗")
+        print(f"  ║{'🎓 PYVAULT — STUDENT MANAGEMENT':^44}║")
+        print(f"  ╠{'═'*44}╣")
+        print(f"  ║  1. Add New Student              {'':>10}║")
+        print(f"  ║  2. Enter Marks                  {'':>10}║")
+        print(f"  ║  3. View Student Card            {'':>10}║")
+        print(f"  ║  4. View All Students            {'':>10}║")
+        print(f"  ║  5. Search Students              {'':>10}║")
+        print(f"  ║  6. Delete Student               {'':>10}║")
+        print(f"  ║  7. Class Analytics              {'':>10}║")
+        print(f"  ║  8. Rankings (DSA Stack)         {'':>10}║")
+        print(f"  ║  9. Export Report                {'':>10}║")
+        print(f"  ║  0. Exit                         {'':>10}║")
+        print(f"  ╚{'═'*44}╝")
+        print(f"  Students in system: "
+              f"{classroom.total_students()}")
+
