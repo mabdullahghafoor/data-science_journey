@@ -204,3 +204,14 @@ def class_analytics():
         bar   = "█" * count
         print(f"  {grade:<4}: {bar:<20} ({count})")
 
+    # Subject averages
+    if subj_avg:
+        print(f"\n  SUBJECT AVERAGES:")
+        print_line()
+        for subject, avg_mark in subj_avg.items():
+            bar = "█" * int(avg_mark // 10)
+            print(f"  {subject:<12}: {bar:<10} {avg_mark}%")
+
+    log_activity("Viewed class analytics")
+
+
