@@ -48,3 +48,7 @@ def merge(left, right):
 
 sorted_students = merge_sort(students)
 
+for student in sorted_students:
+    print(
+        f'{student["name"]}: {student["percentage"]:.2f}%'
+    )
