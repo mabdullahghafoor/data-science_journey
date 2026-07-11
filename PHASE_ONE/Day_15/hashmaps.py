@@ -33,3 +33,4 @@ def two_sum(nums, target):
 
         seen[num] = i               # store current number
 
+    return []   # no solution found
