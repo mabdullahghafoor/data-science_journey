@@ -218,3 +218,8 @@ def class_analytics():
 # ════════════════════════════════════════════
 #   FEATURE 8 — Rankings
 # ════════════════════════════════════════════
+def show_rankings():
+    print_header("🏆 STUDENT RANKINGS")
+    students = [s for s in classroom.get_all_students()
+                if s.has_marks()]
+
