@@ -64,3 +64,7 @@ def text_editor_demo():
 
     actions = ["Hello", " World", " Python", " Rocks"]
 
+    for action in actions:
+        text += action
+        history.push(text)      # save state
+        print(f"  Typed: '{text}'")
