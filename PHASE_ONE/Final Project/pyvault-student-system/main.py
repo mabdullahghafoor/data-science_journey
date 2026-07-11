@@ -120,3 +120,8 @@ def view_all():
           f"{'Grade':>6} {'Status'}")
     print_line()
 
+    for s in sorted(students, key=lambda x: x.student_id):
+        pct   = f"{s.percentage}%" if s.has_marks() else "N/A"
+        grade = s.grade if s.has_marks() else "N/A"
+        print(f"  {s.student_id:<10} {s.name:<20} "
+              f"{pct:>6} {grade:>6}  {s.status}")
