@@ -89,3 +89,8 @@ def merge_sort(arr):
 
     return merge(left, right)
 
+def merge(left, right):
+    """Merge two sorted arrays."""
+    result = []
+    i = j  = 0
+
