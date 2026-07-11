@@ -133,3 +133,7 @@ def view_all():
 # ════════════════════════════════════════════
 #   FEATURE 5 — Search Students
 # ════════════════════════════════════════════
+def search_students():
+    print_header("🔎 SEARCH STUDENTS")
+    query   = get_input("  Enter name to search: ")
+    results = classroom.search_by_name(query)
