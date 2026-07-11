@@ -59,3 +59,4 @@ print(f"Binary search found 92 at: {result}")
 def find_max_min(arr):
     """Find max and min manually — O(n)"""
     maximum = arr[0]    # assume first is max
+    minimum = arr[0]    # assume first is min
