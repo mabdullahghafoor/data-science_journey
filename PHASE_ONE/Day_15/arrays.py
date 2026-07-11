@@ -26,3 +26,4 @@ def linear_search(arr, target):
     """Search through array one by one — O(n)"""
     for i, value in enumerate(arr):
         if value == target:
+            return i        # return index where found
