@@ -71,3 +71,4 @@ def find_max_min(arr):
 
 high, low = find_max_min(marks)
 print(f"Max: {high}  Min: {low}")
+
