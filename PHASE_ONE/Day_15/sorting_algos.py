@@ -30,3 +30,4 @@ marks = [64, 34, 25, 12, 22, 11, 90]
 print(f"Original    : {marks}")
 print(f"Bubble Sort : {bubble_sort(marks)}")
 
+# ── 2. SELECTION SORT — O(n²) ────────────────────────────────────
