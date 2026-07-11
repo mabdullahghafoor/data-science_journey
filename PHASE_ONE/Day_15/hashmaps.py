@@ -24,3 +24,4 @@ def two_sum(nums, target):
     Hashmap solution: O(n) — much better than O(n²)!
     """
     seen = {}   # value → index mapping
+
