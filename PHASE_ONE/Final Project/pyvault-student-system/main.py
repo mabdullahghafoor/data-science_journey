@@ -320,3 +320,5 @@ def main():
         print(f"  Students in system: "
               f"{classroom.total_students()}")
 
+        choice = input("\n  Choose (0-9): ").strip()
+
