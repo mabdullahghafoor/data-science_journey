@@ -96,3 +96,8 @@ def enter_marks():
 # ════════════════════════════════════════════
 def view_student():
     print_header("🔍 VIEW STUDENT")
+    try:
+        sid     = get_input("  Enter Student ID: ").upper()
+        student = classroom.get_student(sid)
+        student.print_card()
+        log_activity(f"Viewed: {student.name}")
