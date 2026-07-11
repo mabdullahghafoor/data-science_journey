@@ -42,3 +42,4 @@ def binary_search(arr, target):
         mid = (left + right) // 2      # find middle
 
         if arr[mid] == target:
+            return mid                  # found!
