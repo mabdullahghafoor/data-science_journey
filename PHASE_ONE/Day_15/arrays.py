@@ -7,3 +7,4 @@
 #
 # Operation          Time        Meaning
 # ─────────────────────────────────────────────
+# Access  arr[i]     O(1)   → instant, no matter size
