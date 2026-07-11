@@ -116,3 +116,5 @@ ranked_students = merge_sort(students)
 # -------------------------------
 stack = []
 
+for i in range(5):
+    stack.append(ranked_students[i])
