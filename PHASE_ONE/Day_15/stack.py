@@ -30,3 +30,8 @@ class Stack:
         print(f"  Popped: {item}")
         return item
 
+    def peek(self):
+        """See top item without removing — O(1)"""
+        if self.is_empty():
+            raise IndexError("Stack is empty!")
+        return self.__items[-1]
