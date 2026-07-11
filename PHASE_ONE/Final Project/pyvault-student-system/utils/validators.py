@@ -11,4 +11,5 @@ def validate_email(email):
         raise ValueError(f"Invalid email: {email}")
 
     """Validate student ID format."""
+    if not sid.startswith("STU") or not sid[3:].isdigit():
             "ID must be like 'STU001'"
