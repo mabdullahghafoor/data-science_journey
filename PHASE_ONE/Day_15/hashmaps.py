@@ -68,3 +68,4 @@ def is_anagram(s1, s2):
             return False
         count[char] -= 1
 
+    return True
