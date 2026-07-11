@@ -21,3 +21,13 @@ from utils.analytics   import (get_top_n_stack,
 classroom = Classroom()
 
 
+# ── Logging ───────────────────────────────────────────────────────
+def log_activity(action):
+    """Log every action to file — File Handling."""
+    os.makedirs("data/logs", exist_ok=True)
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open("data/logs/activity.log", "a",
+              encoding="utf-8") as f:
+        f.write(f"[{timestamp}] {action}\n")
+
+
