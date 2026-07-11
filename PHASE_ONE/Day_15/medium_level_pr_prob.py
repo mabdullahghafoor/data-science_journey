@@ -74,3 +74,10 @@ def peek_next():
     else:
         print("Queue is empty.")
 
+def queue_status():
+    if queue:
+        print("Pending Tasks:")
+        for task in queue:
+            print(task)
+    else:
+        print("Queue is empty.")
