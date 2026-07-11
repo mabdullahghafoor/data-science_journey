@@ -28,3 +28,4 @@ def linear_search(arr, target):
         if value == target:
             return i        # return index where found
     return -1               # -1 means not found
+
