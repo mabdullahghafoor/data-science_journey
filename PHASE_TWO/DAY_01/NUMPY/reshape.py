@@ -27,3 +27,4 @@ print()
 f = a.reshape(3,-1) # NumPy calculates: 12/3 = 4 columns
 print(f)            # (3, 4)
 print()
+
