@@ -12,3 +12,4 @@ c = a.reshape(4,3)
 print(c)
 print()
 
+d = a.reshape(2,6)
