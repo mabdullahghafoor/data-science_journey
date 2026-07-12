@@ -5,3 +5,4 @@ NUMPY solve this problem for usss
 it uses:
 
 thorugh storing data in a fixed type and contiguous memory
+
