@@ -23,3 +23,4 @@ print()
 # All valid — as long as rows × columns = 12
 
 
+# -1 means "figure it out for me"
