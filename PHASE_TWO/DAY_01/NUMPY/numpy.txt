@@ -1,0 +1,1 @@
+When we use lists in Python, They are flexible, nu slow, but when we have to perform operation of 1,000 of elsemenys of list so this list becomes a BOTTLENECK for us.
