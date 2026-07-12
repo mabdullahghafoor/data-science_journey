@@ -7,3 +7,4 @@ print()
 b= a.reshape(3,4)
 print(b)
 print()
+
