@@ -8,3 +8,4 @@ b= a.reshape(3,4)
 print(b)
 print()
 
+c = a.reshape(4,3)
