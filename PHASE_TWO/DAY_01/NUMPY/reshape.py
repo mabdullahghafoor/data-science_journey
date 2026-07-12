@@ -15,3 +15,4 @@ print()
 d = a.reshape(2,6)
 print(d)
 print()
+
