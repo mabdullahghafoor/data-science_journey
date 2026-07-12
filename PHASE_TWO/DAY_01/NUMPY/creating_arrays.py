@@ -29,3 +29,4 @@ e = np.arange(0,10,2)
 print(e)
 print()
 
+f = np.linspace(0,1,5)
