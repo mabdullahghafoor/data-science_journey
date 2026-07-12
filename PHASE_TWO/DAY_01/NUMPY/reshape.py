@@ -21,3 +21,5 @@ print(e)
 print()
 
 # All valid — as long as rows × columns = 12
+
+
