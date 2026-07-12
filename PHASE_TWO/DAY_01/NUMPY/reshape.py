@@ -17,3 +17,5 @@ print(d)
 print()
 
 e = a.reshape(6,2)
+print(e)
+print()
