@@ -21,3 +21,4 @@ c = np.zeros((3,4))
 print(c)
 print()
 
+d = np.ones((3,3))
