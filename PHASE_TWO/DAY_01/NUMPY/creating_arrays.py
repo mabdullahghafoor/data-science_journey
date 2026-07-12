@@ -10,3 +10,5 @@ print(type(a))
 print()
 # 2D-Array
 
+b = np.array([[1,2,3],
+              [3,4,5]])
