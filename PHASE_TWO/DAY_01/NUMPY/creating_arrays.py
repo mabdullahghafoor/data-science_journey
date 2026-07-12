@@ -18,3 +18,5 @@ print()
 #Useful Creation Shortcuts
 
 c = np.zeros((3,4))
+print(c)
+print()
