@@ -28,3 +28,6 @@ f = a.reshape(3,-1) # NumPy calculates: 12/3 = 4 columns
 print(f)            # (3, 4)
 print()
 
+# Note: The rule: old_size == new_rows × new_cols.
+# If the numbers don't multiply to the same total,
+#  you'll get an error.
