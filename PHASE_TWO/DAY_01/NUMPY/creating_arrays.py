@@ -25,3 +25,4 @@ d = np.ones((3,3))
 print(d)
 print()
 
+e = np.arange(0,10,2)
