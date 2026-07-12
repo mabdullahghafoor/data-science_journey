@@ -16,3 +16,4 @@ d = a.reshape(2,6)
 print(d)
 print()
 
+e = a.reshape(6,2)
