@@ -36,3 +36,4 @@ print()
 
 # On 2D arrays, use axis parameter
 
+b = np.array([[1,2,3],
