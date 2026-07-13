@@ -27,3 +27,4 @@ print()
 print(np.argmin(a))
 print()
 
+print(np.sum(a))
