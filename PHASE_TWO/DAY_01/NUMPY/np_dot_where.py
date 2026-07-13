@@ -10,3 +10,4 @@ result = np.where(a > 20, "hogh", "low")
 print(result)
 print()
 
+# Common use: replace values conditionally
