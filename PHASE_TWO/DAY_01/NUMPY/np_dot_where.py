@@ -12,3 +12,4 @@ print()
 
 # Common use: replace values conditionally
 
+b = np.where(a > 20, a, 0)
