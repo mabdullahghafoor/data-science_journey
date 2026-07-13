@@ -10,3 +10,4 @@ print()
 
 # Slicing: [start:stop:step]
 
+print(a[1:4])
