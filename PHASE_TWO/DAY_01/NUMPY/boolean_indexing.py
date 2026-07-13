@@ -17,3 +17,4 @@ print()
 print(a[a % 2 == 0])
 print()
 
+print(a[(a >10) & (a <= 50)])
