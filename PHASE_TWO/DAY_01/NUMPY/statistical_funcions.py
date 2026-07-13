@@ -44,3 +44,4 @@ print()
 
 print(np.sum(b, axis = 1))
 print()
+
