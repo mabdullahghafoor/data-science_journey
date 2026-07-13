@@ -6,3 +6,4 @@ a = np.array([15, 3, 72, 8, 45, 29])
 mask = a > 20
 print(mask)
 print()
+
