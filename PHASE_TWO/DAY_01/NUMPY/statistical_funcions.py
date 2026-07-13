@@ -47,3 +47,4 @@ print()
 
 #Note: The axis parameter trips up beginners.
 # Remember: axis=0 collapses rows (works down),
+# axis=1 collapses columns (works across).
