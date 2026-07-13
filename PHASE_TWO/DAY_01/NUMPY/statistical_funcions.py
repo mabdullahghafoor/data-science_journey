@@ -12,3 +12,4 @@ print(np.std(a))
 print()
 
 
+print(np.var(a))
