@@ -14,3 +14,4 @@ print()
 
 
 # These are all vectorized — no for loop needed
+# Compare with plain Python:
