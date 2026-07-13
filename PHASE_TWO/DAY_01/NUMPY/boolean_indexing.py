@@ -9,3 +9,4 @@ print()
 
 print(a[mask])
 print()
+
