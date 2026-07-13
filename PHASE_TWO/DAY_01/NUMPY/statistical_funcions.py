@@ -1,2 +1,3 @@
 import numpy as np
 
+a = np.array([4, 7, 13, 2, 9, 7, 5])
