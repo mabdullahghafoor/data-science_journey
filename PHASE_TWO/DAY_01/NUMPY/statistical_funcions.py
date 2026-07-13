@@ -19,3 +19,4 @@ print(np.max(a))
 print()
 
 print(np.min(a))
+print()
