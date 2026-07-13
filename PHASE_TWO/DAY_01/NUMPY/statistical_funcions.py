@@ -16,3 +16,4 @@ print(np.var(a))
 print()
 
 print(np.max(a))
+print()
