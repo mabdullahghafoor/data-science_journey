@@ -30,3 +30,4 @@ print()
 print(np.sum(a))
 print()
 
+print(np.sort(a))
