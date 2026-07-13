@@ -45,3 +45,4 @@ print()
 print(np.sum(b, axis = 1))
 print()
 
+#Note: The axis parameter trips up beginners.
