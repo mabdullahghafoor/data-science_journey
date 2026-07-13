@@ -7,3 +7,4 @@ mask = a > 20
 print(mask)
 print()
 
+print(a[mask])
