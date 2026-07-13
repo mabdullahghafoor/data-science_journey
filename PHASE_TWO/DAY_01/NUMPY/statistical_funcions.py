@@ -7,3 +7,4 @@ print()
 
 print(np.median(a))
 print()
+
