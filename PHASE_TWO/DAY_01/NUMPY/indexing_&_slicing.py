@@ -25,3 +25,4 @@ print(b[1, :])
 print(b[: , 2])
 print(b[0:2, 1:3])
 print()
+
