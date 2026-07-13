@@ -26,3 +26,4 @@ print()
 
 print(np.argmin(a))
 print()
+
