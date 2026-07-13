@@ -24,3 +24,4 @@ print()
 print(np.argmax(a))
 print()
 
+print(np.argmin(a))
