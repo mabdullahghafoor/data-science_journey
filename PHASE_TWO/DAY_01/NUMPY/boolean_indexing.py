@@ -8,3 +8,4 @@ print(mask)
 print()
 
 print(a[mask])
+print()
