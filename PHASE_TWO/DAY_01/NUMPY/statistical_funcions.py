@@ -34,3 +34,4 @@ print(np.sort(a))
 print()
 
 
+# On 2D arrays, use axis parameter
