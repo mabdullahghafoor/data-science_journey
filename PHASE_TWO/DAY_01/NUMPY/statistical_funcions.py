@@ -9,3 +9,4 @@ print(np.median(a))
 print()
 
 print(np.std(a))
+print()
