@@ -23,3 +23,4 @@ print()
 
 print(np.argmax(a))
 print()
+
