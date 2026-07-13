@@ -8,3 +8,4 @@ print(a[0])
 print(a[-1])
 print()
 
+# Slicing: [start:stop:step]
