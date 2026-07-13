@@ -14,3 +14,4 @@ print(a[a > 20])
 print()
 
 
+print(a[a % 2 == 0])
