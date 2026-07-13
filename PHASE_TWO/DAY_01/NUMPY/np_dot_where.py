@@ -8,3 +8,4 @@ a = np.array([10, 25, 8, 40, 15])
 
 result = np.where(a > 20, "hogh", "low")
 print(result)
+print()
