@@ -15,3 +15,4 @@ print()
 
 # These are all vectorized — no for loop needed
 # Compare with plain Python:
+# result = [a[i] + b[i] for i in range(len(a))]  ← slow
