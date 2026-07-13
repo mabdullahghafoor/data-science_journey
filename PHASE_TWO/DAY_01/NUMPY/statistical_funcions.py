@@ -11,3 +11,4 @@ print()
 print(np.std(a))
 print()
 
+
