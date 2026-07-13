@@ -8,3 +8,4 @@ print()
 print(np.median(a))
 print()
 
+print(np.std(a))
