@@ -15,3 +15,4 @@ print()
 b = np.where(a > 20, a, 0)
 print(b)
 print()
+
