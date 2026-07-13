@@ -26,3 +26,4 @@ print(b[: , 2])
 print(b[0:2, 1:3])
 print()
 
+#Note: The pattern for 2D: array[row, column].
