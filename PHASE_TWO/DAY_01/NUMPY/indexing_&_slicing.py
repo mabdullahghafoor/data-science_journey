@@ -17,3 +17,4 @@ print()
 # 2D arrays
 
 b = np.array([[1,2,3],
+              [4,5,6],
