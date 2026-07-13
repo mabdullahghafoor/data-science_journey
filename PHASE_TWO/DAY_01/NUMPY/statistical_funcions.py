@@ -6,3 +6,4 @@ print(np.mean(a))
 print()
 
 print(np.median(a))
+print()
