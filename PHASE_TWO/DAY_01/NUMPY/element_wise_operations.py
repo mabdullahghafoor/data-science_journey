@@ -13,3 +13,4 @@ print(a + 100)
 print()
 
 
+# These are all vectorized — no for loop needed
