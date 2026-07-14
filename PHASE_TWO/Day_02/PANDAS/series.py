@@ -32,3 +32,4 @@ s3 = pd.Series(data)
 print(s3)
 # Mon    100
 # Tue    150
+# Wed    130
