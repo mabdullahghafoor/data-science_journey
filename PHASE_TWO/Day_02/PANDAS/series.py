@@ -12,3 +12,4 @@ print(s)
 # dtype: int64
 
 # Left column = index, right column = values
+print(s.values)   # [10 20 30 40 50]  ← NumPy array underneath
