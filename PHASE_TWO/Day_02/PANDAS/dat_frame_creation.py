@@ -13,3 +13,4 @@ print(df)
 # 1   Sara   27     Lahore   62000
 # 2  Ahmed   22    Karachi   38000
 # 3   Zara   25  Islamabad   71000
+
