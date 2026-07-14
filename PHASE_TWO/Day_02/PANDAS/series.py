@@ -18,3 +18,4 @@ print(s.dtype)    # int64
 
 # Custom index
 s2 = pd.Series([85, 92, 78], index=["Alice", "Bob", "Carol"])
+print(s2)
