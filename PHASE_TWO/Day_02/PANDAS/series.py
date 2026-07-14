@@ -13,3 +13,4 @@ print(s)
 
 # Left column = index, right column = values
 print(s.values)   # [10 20 30 40 50]  ← NumPy array underneath
+print(s.index)    # RangeIndex(start=0, stop=5, step=1)
