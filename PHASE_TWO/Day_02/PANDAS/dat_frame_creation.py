@@ -6,3 +6,4 @@ data = {
     "salary": [45000, 62000, 38000, 71000]
 }
 
+df = pd.DataFrame(data)
