@@ -17,3 +17,4 @@ print(s.index)    # RangeIndex(start=0, stop=5, step=1)
 print(s.dtype)    # int64
 
 # Custom index
+s2 = pd.Series([85, 92, 78], index=["Alice", "Bob", "Carol"])
