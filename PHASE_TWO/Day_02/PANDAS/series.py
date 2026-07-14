@@ -25,3 +25,4 @@ print(s2)
 
 print(s2["Bob"])   # 92
 print(s2[s2 > 80]) # Alice 85, Bob 92  ← boolean indexing works here too
+
