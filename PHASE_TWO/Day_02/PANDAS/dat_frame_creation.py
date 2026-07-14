@@ -10,3 +10,4 @@ df = pd.DataFrame(data)
 print(df)
 #     name  age       city  salary
 # 0    Ali   23    Karachi   45000
+# 1   Sara   27     Lahore   62000
