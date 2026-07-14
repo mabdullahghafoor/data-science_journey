@@ -15,3 +15,4 @@ print(df)
 # 3   Zara   25  Islamabad   71000
 
 # Key attributes
+print(df.shape)    # (4, 4) — 4 rows, 4 columns
