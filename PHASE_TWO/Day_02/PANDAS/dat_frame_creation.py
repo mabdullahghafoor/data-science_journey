@@ -17,3 +17,4 @@ print(df)
 # Key attributes
 print(df.shape)    # (4, 4) — 4 rows, 4 columns
 print(df.columns)  # Index(['name', 'age', 'city', 'salary'])
+print(df.dtypes)   # name: object, age: int64, city: object, salary: int64
