@@ -23,3 +23,4 @@ print(s2)
 # Bob      92
 # Carol    78
 
+print(s2["Bob"])   # 92
