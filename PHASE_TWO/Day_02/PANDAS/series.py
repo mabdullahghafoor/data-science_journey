@@ -9,3 +9,4 @@ print(s)
 # 2    30
 # 3    40
 # 4    50
+# dtype: int64
