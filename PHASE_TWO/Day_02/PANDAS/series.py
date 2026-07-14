@@ -11,3 +11,4 @@ print(s)
 # 4    50
 # dtype: int64
 
+# Left column = index, right column = values
