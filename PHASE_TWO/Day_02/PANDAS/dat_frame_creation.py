@@ -5,3 +5,4 @@ data = {
     "city":   ["Karachi", "Lahore", "Karachi", "Islamabad"],
     "salary": [45000, 62000, 38000, 71000]
 }
+
