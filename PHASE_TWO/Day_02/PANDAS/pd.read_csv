@@ -11,3 +11,4 @@ df = pd.read_json("data.json")
 
 # Useful parameters
 df = pd.read_csv("data.csv", nrows=100)          # only load first 100 rows
+df = pd.read_csv("data.csv", usecols=["name", "age"])  # only specific columns
