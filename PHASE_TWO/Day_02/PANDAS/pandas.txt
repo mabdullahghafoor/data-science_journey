@@ -4,3 +4,4 @@ there are no column names,
 and working with mixed data 
 (numbers, strings, dates together) is painful.
 Pandas solves this with two structures: 
+the Series (one column) and the DataFrame (a full table). 
