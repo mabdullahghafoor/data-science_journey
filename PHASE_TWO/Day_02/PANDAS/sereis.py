@@ -17,3 +17,6 @@ print()
 #4    50
 #dtype: int64
 
+print(s.values)
+print()
+
