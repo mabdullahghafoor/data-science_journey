@@ -40,3 +40,5 @@ print(s2[s2 > 80])
 print()
 
 
+# From a dictionary
+
