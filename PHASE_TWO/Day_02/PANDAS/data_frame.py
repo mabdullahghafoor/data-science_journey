@@ -21,3 +21,6 @@ print()
 print(df.columns)
 print()
 
+print(df.dtypes)
+print()
+
