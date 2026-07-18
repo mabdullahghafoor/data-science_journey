@@ -14,3 +14,6 @@ df = pd.DataFrame(data)
 
 print(df)
 print()
+
+print(df.shape)
+print()
