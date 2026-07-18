@@ -30,3 +30,6 @@ print()
 
 s2 = pd.Series([85,92,78] , index=["Alice", "Bob", "Carol"])
 
+print(s2)
+print()
+
