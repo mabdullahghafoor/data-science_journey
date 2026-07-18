@@ -1,13 +1,3 @@
-print(s)
-# 0    10
-# 1    20
-# 2    30
-# 3    40
-# 4    50
-# dtype: int64
-
-# Left column = index, right column = values
-print(s.values)   # [10 20 30 40 50]  ← NumPy array underneath
 print(s.index)    # RangeIndex(start=0, stop=5, step=1)
 print(s.dtype)    # int64
 
