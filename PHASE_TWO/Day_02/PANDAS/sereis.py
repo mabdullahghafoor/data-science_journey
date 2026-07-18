@@ -42,3 +42,4 @@ print()
 
 # From a dictionary
 
+data = {"Mon" : 100 , "Tue" : 150 , "Wed" : 200}
