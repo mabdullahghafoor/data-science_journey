@@ -44,3 +44,4 @@ print()
 
 data = {"Mon" : 100 , "Tue" : 150 , "Wed" : 200}
 
+s3 = pd.Series(data)
