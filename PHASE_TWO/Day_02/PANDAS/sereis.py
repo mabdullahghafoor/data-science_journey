@@ -36,3 +36,7 @@ print()
 print(s2["Bob"])
 print()
 
+print(s2[s2 > 80])
+print()
+
+
