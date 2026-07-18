@@ -20,3 +20,6 @@ print()
 print(s.values)
 print()
 
+print(s.index)
+print()
+
