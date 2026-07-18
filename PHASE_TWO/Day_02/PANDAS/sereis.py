@@ -23,3 +23,6 @@ print()
 print(s.index)
 print()
 
+print(s.dtype)
+print()
+
