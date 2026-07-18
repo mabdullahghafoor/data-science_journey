@@ -17,3 +17,7 @@ print()
 
 print(df.shape)
 print()
+
+print(df.columns)
+print()
+
