@@ -7,3 +7,4 @@ Pandas solves this with two structures:
 the Series (one column) and the DataFrame (a full table). 
 Think of a DataFrame as an Excel spreadsheet inside Python — 
 rows, columns, labels, mixed types — 
+but with the full power of code behind it.
