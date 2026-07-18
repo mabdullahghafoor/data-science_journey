@@ -3,3 +3,4 @@ every column must be the same data type,
 there are no column names, 
 and working with mixed data 
 (numbers, strings, dates together) is painful.
+Pandas solves this with two structures: 
