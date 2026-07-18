@@ -24,3 +24,7 @@ print()
 print(df.dtypes)
 print()
 
+print(df.index)
+print()
+
+
