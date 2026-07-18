@@ -2,3 +2,4 @@ NumPy arrays are powerful but limited —
 every column must be the same data type, 
 there are no column names, 
 and working with mixed data 
+(numbers, strings, dates together) is painful.
