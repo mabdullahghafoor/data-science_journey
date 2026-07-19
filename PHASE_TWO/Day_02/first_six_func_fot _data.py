@@ -16,3 +16,5 @@ df.describe() # Summary for each col like mean, std , var
 df.columns # for no of col
 
 
+# info() give us results like this
+
