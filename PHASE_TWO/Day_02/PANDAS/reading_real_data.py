@@ -21,3 +21,5 @@ df = pd.read_excel("data.xlsx")
 
 df = pd.read_json("data.json")
 
+# Useful parameters
+
