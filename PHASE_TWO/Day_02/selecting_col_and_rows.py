@@ -26,3 +26,5 @@ df.loc[0]  # 1st row
 
 df.loc[0 , "Name"] # 1st roc and name col
 
+df.loc[0:4 , "Name" : "Age"] # ros 0 - 4 and col name through age [Inclusive]
+
