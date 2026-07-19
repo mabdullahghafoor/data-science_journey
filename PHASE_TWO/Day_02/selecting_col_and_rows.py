@@ -13,3 +13,7 @@ df["Age"]
 
 # Multiple columns → returns a DataFrame
 
+df[["Name" , "Age" , "Survived"]]
+
+
+
