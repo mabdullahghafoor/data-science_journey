@@ -36,3 +36,5 @@ df.loc[df["Age"] > 30 , "Name"] # Rows where age >30 only name col
 
 df.iloc[0] # 1st row
 
+df.iloc[0 , 2] # 1st eow and col at position 2
+
