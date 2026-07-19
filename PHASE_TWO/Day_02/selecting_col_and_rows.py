@@ -24,3 +24,5 @@ df[["Name" , "Age" , "Survived"]]
 
 df.loc[0]  # 1st row
 
+df.loc[0 , "Name"] # 1st roc and name col
+
