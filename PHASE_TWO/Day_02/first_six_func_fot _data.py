@@ -5,3 +5,5 @@ df = pd.read_csv("titanic.csv")
 
 df.head() # For first 5 rows
 
+df.tail(3) # For lat 3 rows
+ 
