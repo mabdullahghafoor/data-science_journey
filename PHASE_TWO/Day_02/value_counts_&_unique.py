@@ -5,3 +5,5 @@ df = pd.read_csv("tiatanic.cs")
 
 # How many of each value?
 
+df["Sex"].value_counts()
+
