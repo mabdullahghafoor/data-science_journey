@@ -8,3 +8,5 @@ import numpy as np
 df = pd.read_csv("titanic.csv")
 
 
+# Read from a URL directly (useful in Colab/Kaggle)
+
