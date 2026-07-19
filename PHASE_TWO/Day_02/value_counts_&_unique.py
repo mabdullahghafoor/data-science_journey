@@ -7,3 +7,6 @@ df = pd.read_csv("tiatanic.cs")
 
 df["Sex"].value_counts()
 
+df["Pclass"].value_counts()
+
+
