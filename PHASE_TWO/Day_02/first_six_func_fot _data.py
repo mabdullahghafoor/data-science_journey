@@ -9,3 +9,5 @@ df.tail(3) # For lat 3 rows
  
 df.shape # No of rows and col
 
+df.info() # for no f col, data types and Non Null values
+
