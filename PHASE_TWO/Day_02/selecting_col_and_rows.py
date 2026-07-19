@@ -32,3 +32,5 @@ df.loc[df["Age"] > 30 , "Name"] # Rows where age >30 only name col
 
 
 
+# .iloc → position-based (use integer positions, like NumPy)
+
