@@ -22,3 +22,5 @@ df[["Name" , "Age" , "Survived"]]
 
 # .loc  → label-based (use index labels and column names)
 
+df.loc[0]  # 1st row
+
