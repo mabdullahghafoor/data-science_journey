@@ -15,3 +15,5 @@ df["Pclass"].value_counts()
 df["Survived"].value_counts(normalize = True)
 
 
+# Unique values
+
