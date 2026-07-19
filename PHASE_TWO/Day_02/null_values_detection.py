@@ -10,3 +10,6 @@ df.isnull().sum() / len(df) * 100
 
 # Which rows have any null?
 
+df[df.isnull().any(axis=1)]
+
+
