@@ -40,4 +40,3 @@ df.iloc[0 , 2] # 1st eow and col at position 2
 
 df.iloc[0:5 , 0:3] # first 5 rows and first 3 col
 
-df.iloc[-1] # last row
