@@ -18,3 +18,4 @@ df.columns # for no of col
 
 # info() give us results like this
 
+
