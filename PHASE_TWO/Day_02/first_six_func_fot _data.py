@@ -11,3 +11,5 @@ df.shape # No of rows and col
 
 df.info() # for no f col, data types and Non Null values
 
+df.describe() # Summary for each col like mean, std , var
+
