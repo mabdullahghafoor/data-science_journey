@@ -10,3 +10,5 @@ df["Sex"].value_counts()
 df["Pclass"].value_counts()
 
 
+# As proportions
+
