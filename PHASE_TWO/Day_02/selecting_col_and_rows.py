@@ -20,3 +20,5 @@ df[["Name" , "Age" , "Survived"]]
 # --- SELECTING ROWS: .loc and .iloc ---
 
 
+# .loc  → label-based (use index labels and column names)
+
