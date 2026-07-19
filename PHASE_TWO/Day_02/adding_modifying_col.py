@@ -8,3 +8,5 @@ df = pd.read_csv("tiatanic.cs")
 df["FamilySize"] = df["Sibsp"] + df["Parch"] + 1
 
 
+# Modify an existing column
+
