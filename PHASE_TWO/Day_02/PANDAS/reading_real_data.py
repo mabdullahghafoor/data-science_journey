@@ -15,3 +15,5 @@ url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic
 df = pd.read_csv(url)
 
 
+# Other formats
+
