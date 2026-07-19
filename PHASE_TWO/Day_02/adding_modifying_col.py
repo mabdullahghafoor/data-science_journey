@@ -14,3 +14,5 @@ df["Fare"] = df["Fare"].round(2)
 
 
 
+# Create a column based on a condition
+
