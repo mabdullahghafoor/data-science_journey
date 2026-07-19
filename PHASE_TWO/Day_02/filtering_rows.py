@@ -7,3 +7,5 @@ df = pd.read_csv("tiatanic.cs")
 
 df[df["Age"] > 30]
 
+df[df["Sex"] == "female"]
+
