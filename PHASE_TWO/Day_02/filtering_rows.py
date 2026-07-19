@@ -9,3 +9,6 @@ df[df["Age"] > 30]
 
 df[df["Sex"] == "female"]
 
+df[df["Survived"] == 1]
+
+
