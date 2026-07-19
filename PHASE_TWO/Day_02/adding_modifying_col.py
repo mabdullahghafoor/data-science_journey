@@ -3,3 +3,5 @@ import numpy as np
 
 df = pd.read_csv("tiatanic.cs")
 
+# Add a new column
+
