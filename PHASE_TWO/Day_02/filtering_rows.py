@@ -28,3 +28,6 @@ df[df["Pclass"].isin([1,2])]
 df[df["Age"].between(30,40)]
 
 
+# Combine filter + column selection
+df[df["Survived"] == 1][["Name" , "Age" , "Pclass"]]
+
