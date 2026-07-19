@@ -23,4 +23,7 @@ df = pd.read_json("data.json")
 
 # Useful parameters
 
+df = pd.read_csv("data.csv" , nrows = 100)
+df = pd.read_csv("data.csv" , usecols = ["name" , "age"])
+df = pd.read_csv("data.csv" , index_col = "id")
 
