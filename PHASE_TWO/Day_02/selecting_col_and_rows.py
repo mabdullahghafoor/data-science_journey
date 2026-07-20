@@ -1,5 +1,3 @@
-df.loc[0 , "Name"] # 1st roc and name col
-
 df.loc[0:4 , "Name" : "Age"] # ros 0 - 4 and col name through age [Inclusive]
 
 df.loc[df["Age"] > 30 , "Name"] # Rows where age >30 only name col
