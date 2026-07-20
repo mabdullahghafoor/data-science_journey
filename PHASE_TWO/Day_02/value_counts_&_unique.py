@@ -1,5 +1,3 @@
-# As proportions
-
 df["Survived"].value_counts(normalize = True)
 
 
