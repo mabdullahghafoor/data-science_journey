@@ -1,5 +1,3 @@
-
-
 # Multiple conditions — use & (and), | (or), ~ (not)
 # IMPORTANT: each condition must be wrapped in parentheses
 
