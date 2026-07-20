@@ -1,5 +1,3 @@
- #   Column       Non-Null Count  Dtype  
----  ------       --------------  -----  
  0   PassengerId  891 non-null    int64  
  1   Survived     891 non-null    int64  
  2   Pclass       891 non-null    int64  
