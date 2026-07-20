@@ -11,3 +11,9 @@ df = pd.read_csv("titanic.csv")
 df.Age  # Whe co;l name has space dont use rhis use brackets
 df["Age"]
 
+# Multiple columns → returns a DataFrame
+
+df[["Name" , "Age" , "Survived"]]
+
+
+
