@@ -17,3 +17,6 @@ df[["Name" , "Age" , "Survived"]]
 
 
 
+# --- SELECTING ROWS: .loc and .iloc ---
+
+
