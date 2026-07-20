@@ -1,5 +1,3 @@
-# .loc  → label-based (use index labels and column names)
-
 df.loc[0]  # 1st row
 
 df.loc[0 , "Name"] # 1st roc and name col
