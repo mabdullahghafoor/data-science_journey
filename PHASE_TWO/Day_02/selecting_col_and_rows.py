@@ -1,6 +1,3 @@
-df.iloc[-1] # last row
-
-
 #The .loc vs .iloc distinction matters. Remember it this way:
 
 # .loc → label → you use the actual name
