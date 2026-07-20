@@ -1,5 +1,3 @@
-df = pd.read_csv("tiatanic.cs")
-
 # Single condition
 
 df[df["Age"] > 30]
