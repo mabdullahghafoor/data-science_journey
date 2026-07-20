@@ -1,5 +1,3 @@
-
-
 # info() give us results like this
 
 '''
