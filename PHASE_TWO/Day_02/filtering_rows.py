@@ -1,5 +1,3 @@
-df[(df["Pclass"] == 1) | (df["Pclass"] == 2)]
-
 df[~(df["Embarked"] == "S")]
 
 # .isin() — cleaner way to filter multiple values
