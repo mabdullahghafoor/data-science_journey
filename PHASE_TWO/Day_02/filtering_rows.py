@@ -1,6 +1,3 @@
-# .isin() — cleaner way to filter multiple values
-df[df["Pclass"].isin([1,2])]
-
 # .between() — range filter
 df[df["Age"].between(30,40)]
 
