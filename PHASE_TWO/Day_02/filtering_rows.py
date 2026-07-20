@@ -1,10 +1,3 @@
-# Single condition
-
-df[df["Age"] > 30]
-
-df[df["Sex"] == "female"]
-
-df[df["Survived"] == 1]
 
 
 # Multiple conditions — use & (and), | (or), ~ (not)
