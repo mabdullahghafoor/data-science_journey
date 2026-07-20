@@ -1,6 +1,3 @@
-# --- SELECTING ROWS: .loc and .iloc ---
-
-
 # .loc  → label-based (use index labels and column names)
 
 df.loc[0]  # 1st row
