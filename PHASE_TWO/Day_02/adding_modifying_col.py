@@ -1,5 +1,3 @@
-# Modify an existing column
-
 df["Fare"] = df["Fare"].round(2)
 
 
