@@ -1,5 +1,3 @@
-# Create a column based on a condition
-
 df["AgeGroup"] = pd.cut(df["Age"] , bins = [0 , 18 , 40 , 60] ,
                         labels = ["Child" , "Adult" , "Senior"])
 
