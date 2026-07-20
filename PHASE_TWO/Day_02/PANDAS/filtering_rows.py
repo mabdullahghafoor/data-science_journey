@@ -3,3 +3,12 @@ import numpy as np
 
 df = pd.read_csv("tiatanic.cs")
 
+# Single condition
+
+df[df["Age"] > 30]
+
+df[df["Sex"] == "female"]
+
+df[df["Survived"] == 1]
+
+
