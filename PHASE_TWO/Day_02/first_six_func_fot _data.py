@@ -1,7 +1,3 @@
-'''
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 891 entries, 0 to 890
-Data columns (total 12 columns):
  #   Column       Non-Null Count  Dtype  
 ---  ------       --------------  -----  
  0   PassengerId  891 non-null    int64  
