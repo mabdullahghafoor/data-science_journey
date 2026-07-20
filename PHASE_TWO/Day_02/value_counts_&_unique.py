@@ -1,5 +1,3 @@
-# How many of each value?
-
 df["Sex"].value_counts()
 
 df["Pclass"].value_counts()
