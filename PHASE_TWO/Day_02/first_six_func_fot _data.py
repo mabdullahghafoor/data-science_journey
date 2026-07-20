@@ -1,5 +1,3 @@
-# info() give us results like this
-
 '''
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 891 entries, 0 to 890
