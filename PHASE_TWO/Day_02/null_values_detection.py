@@ -1,5 +1,3 @@
-# Which rows have any null?
-
 df[df.isnull().any(axis=1)]
 
 
