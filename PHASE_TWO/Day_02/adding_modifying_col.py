@@ -1,5 +1,3 @@
-df = pd.read_csv("tiatanic.cs")
-
 # Add a new column
 
 df["FamilySize"] = df["Sibsp"] + df["Parch"] + 1
