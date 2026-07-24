@@ -1,6 +1,3 @@
-df[df["Survived"] == 1]
-
-
 # Multiple conditions — use & (and), | (or), ~ (not)
 # IMPORTANT: each condition must be wrapped in parentheses
 
