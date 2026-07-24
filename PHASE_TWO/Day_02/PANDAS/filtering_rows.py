@@ -1,6 +1,3 @@
-# Multiple conditions — use & (and), | (or), ~ (not)
-# IMPORTANT: each condition must be wrapped in parentheses
-
 df[(df["Age"] > 30) & (df["Sex"] == "female")]
 
 df[(df["Pclass"] == 1) | (df["Pclass"] == 2)]
