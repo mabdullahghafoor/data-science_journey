@@ -17,3 +17,5 @@ df[df["Survived"] == 1]
 
 df[(df["Age"] > 30) & (df["Sex"] == "female")]
 
+df[(df["Pclass"] == 1) | (df["Pclass"] == 2)]
+
