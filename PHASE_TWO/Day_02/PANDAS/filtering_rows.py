@@ -1,5 +1,3 @@
-df[df["Sex"] == "female"]
-
 df[df["Survived"] == 1]
 
 
