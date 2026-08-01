@@ -19,3 +19,4 @@ df.isnull().sum()
 # Parch            0
 # Ticket           0
 # Fare             0
+# Cabin          687   ← 687 missing (77% of data!)
