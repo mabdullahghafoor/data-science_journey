@@ -16,3 +16,4 @@ df.isnull().sum()
 # Sex              0
 # Age            177   ← 177 missing
 # SibSp            0
+# Parch            0
