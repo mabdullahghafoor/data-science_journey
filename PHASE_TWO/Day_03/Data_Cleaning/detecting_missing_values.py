@@ -24,3 +24,5 @@ print()
 
 # How many rows are complete
 
+d = df.dropna().shape
+print(d)
