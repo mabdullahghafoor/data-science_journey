@@ -12,3 +12,4 @@ df.isnull().sum()
 # PassengerId      0
 # Survived         0
 # Pclass           0
+# Name             0
