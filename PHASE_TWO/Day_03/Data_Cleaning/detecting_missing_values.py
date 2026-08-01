@@ -14,3 +14,4 @@ df.isnull().sum()
 # Pclass           0
 # Name             0
 # Sex              0
+# Age            177   ← 177 missing
