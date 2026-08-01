@@ -16,6 +16,7 @@ b = ((df.isnull().sum() / len(df) ) * 100).round(2)
 print(b)
 print()
 
+# Whiich row has at least one null
 
 # How many rows are completely clean?
 df.dropna().shape   # (183, 12) — only 183 fully complete rows out of 891
