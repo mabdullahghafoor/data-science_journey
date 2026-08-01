@@ -21,3 +21,6 @@ print()
 c = df[df.isnull().any(axis=1)].head()
 print(c)
 print()
+
+# How many rows are complete
+
