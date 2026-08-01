@@ -1,2 +1,3 @@
 Day 4 — Data Cleaning.
 
+This is the most practically important skill you'll demonstrate in any internship. Real datasets are never clean. A hiring manager looking at your EDA notebook will immediately notice whether you handled the messy parts properly or skipped them. This is where junior candidates get separated from ones who get hired.
