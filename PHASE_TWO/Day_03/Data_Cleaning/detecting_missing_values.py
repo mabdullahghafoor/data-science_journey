@@ -18,3 +18,4 @@ df.isnull().sum()
 # SibSp            0
 # Parch            0
 # Ticket           0
+# Fare             0
