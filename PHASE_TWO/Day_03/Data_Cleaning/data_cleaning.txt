@@ -7,3 +7,4 @@ Section 1 — The data cleaning mindset
 Before touching any data, ask three questions:
 
 What is missing? — nulls, blanks, placeholders like "N/A", "unknown", -999
+What is wrong? — wrong data types, inconsistent formatting, duplicates
