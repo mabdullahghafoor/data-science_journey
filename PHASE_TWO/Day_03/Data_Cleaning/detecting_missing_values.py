@@ -21,3 +21,4 @@ df.isnull().sum()
 # Fare             0
 # Cabin          687   ← 687 missing (77% of data!)
 # Embarked         2   ← only 2 missing
+
