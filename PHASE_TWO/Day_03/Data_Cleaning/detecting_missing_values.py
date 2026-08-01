@@ -18,3 +18,6 @@ print()
 
 # Whiich row has at least one null
 
+c = df[df.isnull().any(axis=1)].head()
+print(c)
+print()
