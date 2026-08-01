@@ -5,3 +5,4 @@ This is the most practically important skill you'll demonstrate in any internshi
 Section 1 — The data cleaning mindset
 
 Before touching any data, ask three questions:
+
