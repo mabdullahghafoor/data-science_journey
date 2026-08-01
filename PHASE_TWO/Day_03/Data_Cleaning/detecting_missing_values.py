@@ -7,6 +7,8 @@ df = pd.read_csv(url)
 
 # Count of nulls per column
 
+a = df.isnull().sum()
+print(a)
 
 # Percentage missing — more useful for decisions
 (df.isnull().sum() / len(df) * 100).round(2)
