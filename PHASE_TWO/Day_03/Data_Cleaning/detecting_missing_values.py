@@ -7,10 +7,6 @@ df = pd.read_csv(url)
 
 # Count of nulls per column
 
-df.isnull().sum()
-# PassengerId      0
-# Survived         0
-# Pclass           0
 # Name             0
 # Sex              0
 # Age            177   ← 177 missing
