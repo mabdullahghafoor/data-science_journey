@@ -12,8 +12,6 @@ print(a)
 print()
 # Percentage of Missing Values For More Useful Decision
 
-# Percentage missing — more useful for decisions
-(df.isnull().sum() / len(df) * 100).round(2)
 
 # Which rows have at least one null?
 df[df.isnull().any(axis=1)].head()
