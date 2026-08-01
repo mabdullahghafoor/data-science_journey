@@ -17,3 +17,4 @@ df.isnull().sum()
 # Age            177   ← 177 missing
 # SibSp            0
 # Parch            0
+# Ticket           0
