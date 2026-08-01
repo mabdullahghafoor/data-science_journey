@@ -11,3 +11,4 @@ df = pd.read_csv(url)
 df.isnull().sum()
 # PassengerId      0
 # Survived         0
+# Pclass           0
