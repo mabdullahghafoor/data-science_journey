@@ -23,3 +23,4 @@ df.isnull().sum()
 # Embarked         2   ← only 2 missing
 
 # Percentage missing — more useful for decisions
+(df.isnull().sum() / len(df) * 100).round(2)
