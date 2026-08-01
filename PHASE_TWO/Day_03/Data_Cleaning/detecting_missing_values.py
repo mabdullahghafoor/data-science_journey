@@ -25,3 +25,4 @@ df.isnull().sum()
 # Percentage missing — more useful for decisions
 (df.isnull().sum() / len(df) * 100).round(2)
 
+# Which rows have at least one null?
