@@ -8,3 +8,4 @@ df = pd.read_csv(url)
 # Count of nulls per column
 
 # Count of nulls per column
+df.isnull().sum()
