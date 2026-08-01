@@ -10,3 +10,4 @@ What is missing? — nulls, blanks, placeholders like "N/A", "unknown", -999
 What is wrong? — wrong data types, inconsistent formatting, duplicates
 What is impossible? — negative ages, future birthdates, typos in categories
 
+Cleaning is not about making data pretty. It's about making it trustworthy enough to analyze. Every decision you make — fill this null, drop that row, fix this type — should have a reason you can explain out loud.
