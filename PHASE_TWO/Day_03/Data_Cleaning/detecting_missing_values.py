@@ -22,3 +22,4 @@ df.isnull().sum()
 # Cabin          687   ← 687 missing (77% of data!)
 # Embarked         2   ← only 2 missing
 
+# Percentage missing — more useful for decisions
