@@ -13,3 +13,4 @@ df.isnull().sum()
 # Survived         0
 # Pclass           0
 # Name             0
+# Sex              0
