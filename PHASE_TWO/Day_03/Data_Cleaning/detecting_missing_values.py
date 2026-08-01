@@ -27,3 +27,4 @@ df.isnull().sum()
 
 # Which rows have at least one null?
 df[df.isnull().any(axis=1)].head()
+
