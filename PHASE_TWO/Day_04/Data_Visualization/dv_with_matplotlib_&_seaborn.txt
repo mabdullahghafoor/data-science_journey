@@ -6,3 +6,5 @@ Code and numbers live in notebooks
 and stakeholders actually look at. 
 A well-made chart with a clear insight written below 
 it does more for your portfolio than three pages of clean code.
+
+
