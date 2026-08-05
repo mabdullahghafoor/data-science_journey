@@ -1,2 +1,8 @@
 — Data Visualization with Matplotlib and Seaborn.
 
+This is where your analysis becomes visible. 
+Code and numbers live in notebooks 
+— charts are what hiring managers, teammates, 
+and stakeholders actually look at. 
+A well-made chart with a clear insight written below 
+it does more for your portfolio than three pages of clean code.
