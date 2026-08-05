@@ -14,3 +14,9 @@ Most beginners treat visualization as the last step
  — "I'm done analyzing, now let me make a chart." 
  That's backwards.
 
+Visualization is analysis. 
+You make a chart to discover something, 
+not to decorate something you already know. 
+Every chart you make should answer a specific question. 
+If you can't write the question before making the chart, 
+you're not ready to make it yet.
