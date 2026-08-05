@@ -13,3 +13,4 @@ The right mental model before any code
 Most beginners treat visualization as the last step
  — "I'm done analyzing, now let me make a chart." 
  That's backwards.
+
