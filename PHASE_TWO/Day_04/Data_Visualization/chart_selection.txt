@@ -11,3 +11,4 @@ S.No    Question type	                                    Chart to use
 5.      Trend over time or ordered sequence	                Line chart
 6.      Correlation between multiple columns	            Heatmap
 7.      Count of categories	                                Countplot
+8.      Everything vs everything (exploration only)	        Pairplot
