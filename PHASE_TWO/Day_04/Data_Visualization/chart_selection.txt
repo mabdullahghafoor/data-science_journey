@@ -10,3 +10,4 @@ S.No    Question type	                                    Chart to use
 4.      Distribution of a numeric column by category	    Boxplot
 5.      Trend over time or ordered sequence	                Line chart
 6.      Correlation between multiple columns	            Heatmap
+7.      Count of categories	                                Countplot
