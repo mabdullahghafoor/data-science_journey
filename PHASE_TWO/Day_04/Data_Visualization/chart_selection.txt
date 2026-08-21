@@ -7,3 +7,4 @@ S.No    Question type	                                    Chart to use
 1.      Distribution of one numeric column	                Histogram
 2.      Compare a value across categories	                Bar chart
 3.      Relationship between two numeric columns	        Scatter plot
+4.      Distribution of a numeric column by category	    Boxplot
