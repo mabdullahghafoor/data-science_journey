@@ -4,3 +4,4 @@ Before making any chart, pick the right type:
 
 S.No    Question type	                                    Chart to use
 
+1.      Distribution of one numeric column	                Histogram
