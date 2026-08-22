@@ -10,3 +10,4 @@ factors that influenced survival.
 - Small families of 2–4 had better outcomes than solo travellers
 
 ## Tools used
+Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
