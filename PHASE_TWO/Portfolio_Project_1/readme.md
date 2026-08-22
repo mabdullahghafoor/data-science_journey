@@ -13,3 +13,8 @@ factors that influenced survival.
 Python · Pandas · NumPy · Matplotlib · Seaborn · Jupyter Notebook
 
 ## Structure
+- Data overview and initial inspection
+- Data cleaning with documented decisions
+- Univariate analysis
+- Bivariate analysis
+- Key findings and limitations
