@@ -8,3 +8,4 @@ factors that influenced survival.
 - First class passengers were 2.6× more likely to survive than third class
 - Children under 10 had noticeably higher survival rates
 - Small families of 2–4 had better outcomes than solo travellers
+
