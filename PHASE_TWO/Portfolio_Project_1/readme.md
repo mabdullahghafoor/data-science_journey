@@ -9,3 +9,4 @@ factors that influenced survival.
 - Children under 10 had noticeably higher survival rates
 - Small families of 2–4 had better outcomes than solo travellers
 
+## Tools used
