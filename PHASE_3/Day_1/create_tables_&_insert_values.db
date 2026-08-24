@@ -7,3 +7,4 @@ CREATE TABLE customers (
     join_date   TEXT
 );
 
+INSERT INTO customers VALUES
