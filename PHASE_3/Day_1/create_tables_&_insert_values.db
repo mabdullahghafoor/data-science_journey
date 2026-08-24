@@ -39,3 +39,5 @@ INSERT INTO orders VALUES
 (110, 7, 'Headphones', 8500, '2023-07-01', 'pending'),
 (111, 3, 'Tablet',  32000, '2023-07-10', 'delivered'),
 (112, 2, 'Laptop',  85000, '2023-08-05', 'delivered');
+
+-- Products table
