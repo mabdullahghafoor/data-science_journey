@@ -18,3 +18,9 @@ INSERT INTO customers VALUES
 
 -- Orders table
 CREATE TABLE orders (
+    order_id    INTEGER PRIMARY KEY,
+    customer_id INTEGER,
+    product     TEXT,
+    amount      REAL,
+    order_date  TEXT,
+    status      TEXT
