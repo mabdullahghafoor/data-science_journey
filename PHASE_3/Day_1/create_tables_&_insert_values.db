@@ -26,3 +26,4 @@ CREATE TABLE orders (
     status      TEXT
 );
 
+INSERT INTO orders VALUES
