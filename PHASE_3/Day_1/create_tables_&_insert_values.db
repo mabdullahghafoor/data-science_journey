@@ -41,3 +41,4 @@ INSERT INTO orders VALUES
 (112, 2, 'Laptop',  85000, '2023-08-05', 'delivered');
 
 -- Products table
+CREATE TABLE products (
