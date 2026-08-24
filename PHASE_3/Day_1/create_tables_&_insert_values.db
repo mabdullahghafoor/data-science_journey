@@ -5,3 +5,4 @@ CREATE TABLE customers (
     city        TEXT,
     age         INTEGER,
     join_date   TEXT
+);
