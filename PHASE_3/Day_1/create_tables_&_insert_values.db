@@ -17,3 +17,4 @@ INSERT INTO customers VALUES
 (7, 'Usman Tariq',  'Islamabad', 35, '2021-02-14');
 
 -- Orders table
+CREATE TABLE orders (
