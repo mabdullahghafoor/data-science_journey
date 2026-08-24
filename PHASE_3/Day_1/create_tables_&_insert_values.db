@@ -1,2 +1,7 @@
 -- Customers table
 CREATE TABLE customers (
+    customer_id INTEGER PRIMARY KEY,
+    name        TEXT,
+    city        TEXT,
+    age         INTEGER,
+    join_date   TEXT
