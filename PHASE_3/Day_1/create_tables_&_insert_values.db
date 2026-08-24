@@ -42,3 +42,7 @@ INSERT INTO orders VALUES
 
 -- Products table
 CREATE TABLE products (
+    product     TEXT PRIMARY KEY,
+    category    TEXT,
+    cost_price  REAL
+);
