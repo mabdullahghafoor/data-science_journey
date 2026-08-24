@@ -16,3 +16,4 @@ INSERT INTO customers VALUES
 (6, 'Hira Baig',    'Karachi',   26, '2023-07-01'),
 (7, 'Usman Tariq',  'Islamabad', 35, '2021-02-14');
 
+-- Orders table
