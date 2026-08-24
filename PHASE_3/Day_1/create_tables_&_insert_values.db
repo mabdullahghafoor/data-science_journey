@@ -8,3 +8,10 @@ CREATE TABLE customers (
 );
 
 INSERT INTO customers VALUES
+(1, 'Ali Khan',     'Karachi',   28, '2022-01-15'),
+(2, 'Sara Ahmed',   'Lahore',    34, '2021-06-20'),
+(3, 'Ahmed Raza',   'Karachi',   22, '2023-03-10'),
+(4, 'Zara Malik',   'Islamabad', 29, '2022-11-05'),
+(5, 'Bilal Shah',   'Lahore',    41, '2020-08-30'),
+(6, 'Hira Baig',    'Karachi',   26, '2023-07-01'),
+(7, 'Usman Tariq',  'Islamabad', 35, '2021-02-14');
