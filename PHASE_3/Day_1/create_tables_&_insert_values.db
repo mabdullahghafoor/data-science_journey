@@ -15,3 +15,4 @@ INSERT INTO customers VALUES
 (5, 'Bilal Shah',   'Lahore',    41, '2020-08-30'),
 (6, 'Hira Baig',    'Karachi',   26, '2023-07-01'),
 (7, 'Usman Tariq',  'Islamabad', 35, '2021-02-14');
+
