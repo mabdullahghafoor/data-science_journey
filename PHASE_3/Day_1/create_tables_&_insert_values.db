@@ -46,3 +46,5 @@ CREATE TABLE products (
     category    TEXT,
     cost_price  REAL
 );
+
+INSERT INTO products VALUES
