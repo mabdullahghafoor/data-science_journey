@@ -38,3 +38,7 @@ SELECT * FROM customers WHERE age between 25 AND 35;
 
 SELECT * FROM custtomers WHERE name LIKE ('A%');
 
+-- % means "any characters"
+-- _ means "exactly one character"
+-- LIKE '%Khan' = ends with Khan
+-- LIKE '%li%' = contains "li" anywhere
