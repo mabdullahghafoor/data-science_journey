@@ -23,3 +23,6 @@ FROM orders;
 SELECT product AS item,
        category AS department
 FROM products;
+
+-- Select a calculated value
+
