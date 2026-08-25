@@ -30,3 +30,7 @@ SELEECT * FROM customers WHERE city IN ('Karaachi'  ,  'Lahore'),
 
 -- BETWEEN — inclusive on both ends
 
+SELECT * FROM customers WHERE age between 25 AND 35;
+
+
+
