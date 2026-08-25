@@ -18,3 +18,7 @@ SELECT * FROM orders WHERE staus = 'delivered' OR status = 'pending';
 
 -- NOT
 
+SELECT * FROM orders WHERE NOT status = 'returned';
+
+
+
