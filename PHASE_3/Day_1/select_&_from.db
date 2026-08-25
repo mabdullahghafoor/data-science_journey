@@ -37,3 +37,5 @@ SELECT order_id,
        amount AS actual_price,
        amount - (amount / 100) * 10 AS discounted_price
 FROM orders;
+
+
