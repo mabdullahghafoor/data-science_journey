@@ -46,3 +46,5 @@ SELECT * FROM custtomers WHERE name LIKE ('A%');
 -- NULL handling
 
 SELECT * FROM orders WHERE amount IS NULL;
+
+SELECT * FROM orders WHERE amount IS NOT NULL;
