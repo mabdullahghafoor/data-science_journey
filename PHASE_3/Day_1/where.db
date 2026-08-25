@@ -22,3 +22,5 @@ SELECT * FROM orders WHERE NOT status = 'returned';
 
 
 
+-- IN — cleaner alternative to multiple ORs
+
