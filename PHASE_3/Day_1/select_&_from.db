@@ -26,3 +26,8 @@ FROM products;
 
 -- Select a calculated value
 
+SELECT name,
+       city,
+       age,
+       age + 5 AS age_in_five_years
+FROM customers;
