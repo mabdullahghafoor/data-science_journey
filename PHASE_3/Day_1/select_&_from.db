@@ -4,3 +4,5 @@ SELECT * FROM customers;
 SELECT * FROM orders;
 SELECT * FROM products;
 
+-- Get specific columns only
+
