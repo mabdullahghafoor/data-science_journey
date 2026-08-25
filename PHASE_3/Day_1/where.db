@@ -12,3 +12,7 @@ SELECT * FROM orders WHERE status = 'delivered';
 
 SELECT * FROM customers WHERE city = 'Karachi' AND age < 30;
 
+SELECT * FROM orders WHERE staus = 'delivered' OR status = 'pending'; 
+
+
+
