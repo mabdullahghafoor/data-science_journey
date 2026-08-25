@@ -42,3 +42,6 @@ SELECT * FROM custtomers WHERE name LIKE ('A%');
 -- _ means "exactly one character"
 -- LIKE '%Khan' = ends with Khan
 -- LIKE '%li%' = contains "li" anywhere
+
+-- NULL handling
+
