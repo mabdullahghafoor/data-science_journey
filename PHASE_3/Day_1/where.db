@@ -1,2 +1,4 @@
 -- Single condition
 
+SELECT  * FROM customers WHERE city = 'Karachi';
+
