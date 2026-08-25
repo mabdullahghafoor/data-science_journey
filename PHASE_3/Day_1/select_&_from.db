@@ -12,3 +12,6 @@ SELECT product,cost_price FROM products;
 
 -- Give columns readable aliases
 
+SELECT name AS customer_name,
+       city AS location
+FROM customers;
