@@ -15,3 +15,7 @@ SELECT product,cost_price FROM products;
 SELECT name AS customer_name,
        city AS location
 FROM customers;
+
+SELECT order_is AS order_no,
+       amount AS price
+FROM orders;
