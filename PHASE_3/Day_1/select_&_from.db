@@ -9,3 +9,6 @@ SELECT * FROM products;
 SELECT name, city FROM customers;
 SELECT order_id,amount FROM orders;
 SELECT product,cost_price FROM products;
+
+-- Give columns readable aliases
+
