@@ -28,3 +28,5 @@ SELEECT * FROM customers WHERE city IN ('Karaachi'  ,  'Lahore'),
 
 
 
+-- BETWEEN — inclusive on both ends
+
