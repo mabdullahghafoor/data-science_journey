@@ -19,3 +19,7 @@ FROM customers;
 SELECT order_is AS order_no,
        amount AS price
 FROM orders;
+
+SELECT product AS item,
+       category AS department
+FROM products;
