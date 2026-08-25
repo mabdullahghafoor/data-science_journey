@@ -10,3 +10,5 @@ SELECT * FROM orders WHERE status = 'delivered';
 
 -- Multiple conditions
 
+SELECT * FROM customers WHERE city = 'Karachi' AND age < 30;
+
