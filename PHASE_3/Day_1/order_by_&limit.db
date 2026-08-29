@@ -3,3 +3,5 @@
 SELECT * FROM orders        -- highest to lowest
 ORDER BY amount DESC;
 
+SELECT * FROM customers            -- youngest to oldest (ASC is default)
+ORDER BY age ASC;
