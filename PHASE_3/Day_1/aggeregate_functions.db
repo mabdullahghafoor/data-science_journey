@@ -15,3 +15,5 @@ SELECT SUM(amount) FROM orders;       -- total revenue
 
 SELECT SUM(amount) FROM orders        -- revenue from delivered only
 WHERE status = 'delivered';
+
+
