@@ -28,3 +28,4 @@ FROM orders;
 
 -- MIN and MAX
 
+SELECT MIN(amount), MAX(amount) FROM orders;
