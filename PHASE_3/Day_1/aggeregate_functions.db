@@ -4,3 +4,4 @@ SELECT COUMT(*) FROM orders;         -- total rows
 
 SELECT COUNT(*) FROM orders          -- count with condition
 WHERE status = 'delivered';
+
