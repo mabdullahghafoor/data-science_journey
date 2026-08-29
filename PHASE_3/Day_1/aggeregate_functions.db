@@ -11,3 +11,4 @@ FROM orders;
 
 -- SUM
 
+SELECT SUM(amount) FROM orders;       -- total revenue
