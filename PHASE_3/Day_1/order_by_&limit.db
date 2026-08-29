@@ -26,3 +26,7 @@ LIMIT 3;
 
 -- OFFSET — skip rows (used for pagination)
 
+SELECT  * FROM customers             -- rows 6 through 10
+ORDER BY age ASC
+LIMIT 5
+OFFSET 5;
