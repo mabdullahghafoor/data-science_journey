@@ -23,3 +23,6 @@ SELECT AVG(amount) FROM orders;       -- average order value
 
 SELECT ROUND(AVG(amount),2)           -- rounded to 2 decimal places
 FROM orders;
+
+
+
