@@ -19,3 +19,6 @@ ORDER BY status ASC, amount DESC;
 
 -- Limit the number of rows returned
 
+SELECT * FROM  orders                       -- top 3 most expensive orders
+ORDER BY amount DESC
+LIMIT 3;
