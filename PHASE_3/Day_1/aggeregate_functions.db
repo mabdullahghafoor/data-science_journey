@@ -1,3 +1,4 @@
 -- COUNT
 
 SELECT COUMT(*) FROM orders;         -- total rows
+
