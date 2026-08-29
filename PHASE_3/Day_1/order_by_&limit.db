@@ -22,3 +22,5 @@ ORDER BY status ASC, amount DESC;
 SELECT * FROM  orders                       -- top 3 most expensive orders
 ORDER BY amount DESC
 LIMIT 3;
+
+
