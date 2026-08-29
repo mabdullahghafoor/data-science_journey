@@ -17,3 +17,4 @@ SELECT SUM(amount) FROM orders        -- revenue from delivered only
 WHERE status = 'delivered';
 
 
+-- AVG
