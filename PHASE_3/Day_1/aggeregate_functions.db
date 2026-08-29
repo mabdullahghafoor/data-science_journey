@@ -36,3 +36,11 @@ SELECT MIN(age), MAX(age) FROM customers;
 
 -- Combining multiple aggregates
 
+SELECT 
+    COUNT(*) AS total_orders,
+    SUM(amount) AS total_revenue,
+    ROUND(AVG(amount),2) AS average_order_price,
+    MIN(amount) AS smallest_order,
+    MAX(amount) AS largest_order
+FROM orders
+WHERE status = 'delivered';
