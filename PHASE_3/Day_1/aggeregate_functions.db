@@ -5,3 +5,5 @@ SELECT COUMT(*) FROM orders;         -- total rows
 SELECT COUNT(*) FROM orders          -- count with condition
 WHERE status = 'delivered';
 
+SELECT COUNT(DISTINCT customer_id)   -- unique customers who ordered
+FROM orders;
