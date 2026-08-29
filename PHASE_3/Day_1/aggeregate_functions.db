@@ -30,3 +30,4 @@ FROM orders;
 
 SELECT MIN(amount), MAX(amount) FROM orders;
 
+SELECT MIN(age), MAX(age) FROM customers;
