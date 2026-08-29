@@ -12,3 +12,5 @@ ORDER BY age ASC;
 SELECT * FROM orders
 ORDER BY status ASC, amount DESC;
 
+-- sorts alphabetically by status first,
+-- then within each status sorts by amount descending
