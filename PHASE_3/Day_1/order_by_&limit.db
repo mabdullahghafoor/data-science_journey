@@ -32,3 +32,6 @@ LIMIT 5
 OFFSET 5;
 
 
+LIMIT is one of those things you use constantly in real work 
+— when a table has millions of rows you never want to run 
+SELECT * without it.
