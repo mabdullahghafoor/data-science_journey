@@ -9,3 +9,5 @@ ORDER BY age ASC;
 
 -- Sort by multiple columns
 
+SELECT * FROM orders
+ORDER BY status ASC, amount DESC;
