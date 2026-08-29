@@ -24,3 +24,4 @@ ORDER BY amount DESC
 LIMIT 3;
 
 
+-- OFFSET — skip rows (used for pagination)
