@@ -1,2 +1,4 @@
 -- Sort results
 
+SELECT * FROM orders        -- highest to lowest
+ORDER BY amount DESC;
