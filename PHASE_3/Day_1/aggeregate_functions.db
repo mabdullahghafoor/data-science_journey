@@ -34,3 +34,4 @@ SELECT MIN(age), MAX(age) FROM customers;
 
 
 
+-- Combining multiple aggregates
