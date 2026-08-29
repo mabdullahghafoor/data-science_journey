@@ -7,3 +7,4 @@ SELECT * FROM customers            -- youngest to oldest (ASC is default)
 ORDER BY age ASC;
 
 
+-- Sort by multiple columns
