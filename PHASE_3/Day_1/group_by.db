@@ -49,3 +49,6 @@ The rule:
 Any column in SELECT that is not inside an aggregate function
 must appear in GROUP BY. 
 This is the most common SQL error beginners make.
+
+
+
