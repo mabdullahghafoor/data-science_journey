@@ -5,3 +5,7 @@ Split rows into groups, apply an aggregate to each group.
 
 -- Total revenue by product
 
+SELECT product,
+       SUM(amount) AS total_revenue
+FROM orders
+GROUP BY product;
