@@ -3,3 +3,4 @@ Split rows into groups, apply an aggregate to each group.
 
 
 
+-- Total revenue by product
