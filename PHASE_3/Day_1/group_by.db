@@ -34,3 +34,4 @@ ORDER BY total_spent DESC;
 
 
 
+-- Group by multiple columns
