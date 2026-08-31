@@ -57,3 +57,6 @@ This is the most common SQL error beginners make.
 SELECT name, SUM(amount)
 FROM orders
 GROUP BY product;
+
+
+
