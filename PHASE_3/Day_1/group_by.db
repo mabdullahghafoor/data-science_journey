@@ -24,3 +24,10 @@ GROUP BY status;
 
 -- Average order value by customer
 
+SELECT customer_id,
+       COUNT(*) AS order_count,
+       ROUND(AVG(amount),2) AS average_order_value,
+       SUM(amount) AS total_spent
+FROM orders
+GROUP BY customer_id
+ORDER BY total_spent DESC;
