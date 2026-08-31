@@ -62,3 +62,6 @@ GROUP BY product;
 
 -- RIGHT
 
+SELECT product, SUM(amount)
+FROM orders
+GROUP BY product;
