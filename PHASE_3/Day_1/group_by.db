@@ -52,3 +52,4 @@ This is the most common SQL error beginners make.
 
 
 
+-- WRONG — name is not aggregated and not in GROUP BY
