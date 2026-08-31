@@ -19,3 +19,6 @@ SELECT status,
        SUM(amount) AS total_revenue
 FROM orders
 GROUP BY status;
+
+
+
