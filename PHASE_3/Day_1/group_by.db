@@ -42,3 +42,6 @@ SELECT status,
 FROM orders
 GROUP BY status, product
 ORDER BY product, count DESC;
+
+
+
