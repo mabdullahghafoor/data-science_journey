@@ -36,3 +36,9 @@ ORDER BY total_spent DESC;
 
 -- Group by multiple columns
 
+SELECT status,
+       product,
+       COUNT(*) AS count
+FROM orders
+GROUP BY status, product
+ORDER BY product, count DESC;
