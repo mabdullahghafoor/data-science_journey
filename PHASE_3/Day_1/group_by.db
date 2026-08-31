@@ -14,3 +14,8 @@ GROUP BY product;
 
 -- Order count and revenue by status
 
+SELECT status,
+       COUNT(*) AS order_count,
+       SUM(amount) AS total_revenue
+FROM orders
+GROUP BY status;
