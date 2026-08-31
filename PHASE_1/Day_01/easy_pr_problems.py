@@ -22,3 +22,7 @@ print(type(x) == type(y))
 val = "3.99"
 con = float(val)
 print(con*3)
+
+print()
+proint()
+prin()
