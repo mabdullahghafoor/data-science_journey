@@ -1,0 +1,2 @@
+This is the SQL equivalent of Pandas .groupby(). 
+Split rows into groups, apply an aggregate to each group.
