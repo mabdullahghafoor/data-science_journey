@@ -65,3 +65,6 @@ GROUP BY product;
 SELECT product, SUM(amount)
 FROM orders
 GROUP BY product;
+
+
+
