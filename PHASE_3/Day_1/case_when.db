@@ -1,0 +1,11 @@
+-- Categorize orders by value
+
+SELECT
+    order_id,
+    amount,
+    CASE
+        WHEN amount >= 80000 THEN 'High value'
+        WHEN amount >= 40000 THEN 'Mid value'
+        ELSE 'Low value'
+    END AS order_tier
+FROM orders;
