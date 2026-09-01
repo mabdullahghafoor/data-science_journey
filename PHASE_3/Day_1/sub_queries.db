@@ -4,3 +4,5 @@ FROM orders
 WHERE amount > (SELECT AVG(amount) FROM orders);
 -- The inner query runs first, returns a single number
 -- The outer query uses that number as a filter
+
+
