@@ -22,3 +22,12 @@ WHERE customer_id NOT IN (
 );
 
 
+-- Each order with its amount compared to product average
+SELECT
+    order_id,
+    product,
+    amount,
+    (SELECT ROUND(AVG(amount), 2)
+     FROM orders o2
+     WHERE o2.product = o1.product) AS product_avg
+FROM orders o1;
