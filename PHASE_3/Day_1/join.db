@@ -1,0 +1,3 @@
+This is where SQL becomes genuinely powerful. 
+JOINs combine data from multiple tables based on a shared column — 
+the same concept you learned with pd.merge() in Pandas.
