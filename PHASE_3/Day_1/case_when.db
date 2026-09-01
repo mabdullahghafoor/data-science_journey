@@ -29,3 +29,10 @@ FROM customers;
 
 
 
+-- Count by category in one query (pivot-like)
+
+SELECT
+    COUNT(CASE WHEN status = 'delivered' THEN 1 END) AS delivered,
+    COUNT(CASE WHEN status = 'returned'  THEN 1 END) AS returned,
+    COUNT(CASE WHEN status = 'pending'   THEN 1 END) AS pending
+FROM orders;
