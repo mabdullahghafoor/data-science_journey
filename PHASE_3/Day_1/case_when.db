@@ -24,3 +24,8 @@ SELECT
         WHEN age BETWEEN 25 AND 35 THEN 'Mid'
         ELSE 'Senior'
     END AS age_group
+FROM customers;
+
+
+
+
