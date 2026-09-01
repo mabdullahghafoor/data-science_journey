@@ -29,3 +29,6 @@ SELECT city,
 FROM customers
 GROUP BY city
 HAVING COUNT(*) > 2;
+
+
+
