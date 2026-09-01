@@ -24,3 +24,8 @@ HAVING COUNT(*) > 2;
 
 -- Cities with more than 2 customers
 
+SELECT city,
+       COUNT(*) AS customer_count
+FROM customers
+GROUP BY city
+HAVING COUNT(*) > 2;
