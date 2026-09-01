@@ -14,3 +14,13 @@ FROM orders;
 
 
 
+-- Categorize customers by age group
+
+SELECT
+    name,
+    age,
+    CASE
+        WHEN age < 25 THEN 'Young'
+        WHEN age BETWEEN 25 AND 35 THEN 'Mid'
+        ELSE 'Senior'
+    END AS age_group
