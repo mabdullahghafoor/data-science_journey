@@ -14,3 +14,9 @@ WHERE customer_id IN (
 );
 
 
+-- Customers who have NEVER placed an order
+SELECT name, city
+FROM customers
+WHERE customer_id NOT IN (
+    SELECT DISTINCT customer_id FROM orders
+);
