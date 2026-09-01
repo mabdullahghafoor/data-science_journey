@@ -14,3 +14,8 @@ HAVING SUM(amount) > 100000;
 
 -- Products with more than 2 orders
 
+SELECT product,
+       COUNT(*) AS order_count
+FROM orders
+GROUP BY product
+HAVING COUNT(*) > 2;
