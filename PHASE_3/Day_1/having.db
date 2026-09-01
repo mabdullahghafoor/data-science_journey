@@ -19,3 +19,6 @@ SELECT product,
 FROM orders
 GROUP BY product
 HAVING COUNT(*) > 2;
+
+
+
