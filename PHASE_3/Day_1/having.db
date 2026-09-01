@@ -13,3 +13,4 @@ HAVING SUM(amount) > 100000;
 
 
 -- Products with more than 2 orders
+
