@@ -1,0 +1,9 @@
+Written order:     
+
+SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT
+
+
+
+Execution order:   
+
+FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT
