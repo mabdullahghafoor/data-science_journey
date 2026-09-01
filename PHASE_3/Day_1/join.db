@@ -23,3 +23,5 @@ INNER JOIN customers c ON o.customer_id = c.customer_id;
 
 -- LEFT JOIN — all rows from left table (orders),
 --             matched rows from right (customers), NULL where no match
+
+
