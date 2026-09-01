@@ -9,3 +9,8 @@ SELECT
         ELSE 'Low value'
     END AS order_tier
 FROM orders;
+
+
+
+
+
