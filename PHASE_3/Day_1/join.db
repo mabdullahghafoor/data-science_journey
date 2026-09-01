@@ -4,3 +4,4 @@ the same concept you learned with pd.merge() in Pandas.
 
 
 
+-- INNER JOIN — only rows that match in BOTH tables
