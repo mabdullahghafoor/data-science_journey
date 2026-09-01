@@ -36,3 +36,14 @@ LEFT JOIN customers c ON o.customer_id = c.customer_id;
 
 -- Join three tables
 
+SELECT
+    c.name,
+    o.product,
+    o.amount,
+    p.category,
+    o.amount - p.cost_price AS profit
+FROM orders o
+INNER JOIN customers c ON o.customer_id = c.customer_id
+INNER JOIN products p  ON o.product = p.product
+WHERE o.status = 'delivered'
+ORDER BY profit DESC;
