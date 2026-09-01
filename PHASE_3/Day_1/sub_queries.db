@@ -6,3 +6,9 @@ WHERE amount > (SELECT AVG(amount) FROM orders);
 -- The outer query uses that number as a filter
 
 
+-- Customers who have placed at least one order
+SELECT name, city
+FROM customers
+WHERE customer_id IN (
+    SELECT DISTINCT customer_id FROM orders
+);
