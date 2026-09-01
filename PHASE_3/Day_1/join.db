@@ -21,3 +21,5 @@ INNER JOIN customers c ON o.customer_id = c.customer_id;
 -- ON specifies the matching condition
 
 
+-- LEFT JOIN — all rows from left table (orders),
+--             matched rows from right (customers), NULL where no match
