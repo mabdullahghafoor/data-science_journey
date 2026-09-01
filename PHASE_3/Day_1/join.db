@@ -19,3 +19,5 @@ INNER JOIN customers c ON o.customer_id = c.customer_id;
 
 -- Table aliases (o, c) make queries readable
 -- ON specifies the matching condition
+
+
