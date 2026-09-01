@@ -25,3 +25,10 @@ INNER JOIN customers c ON o.customer_id = c.customer_id;
 --             matched rows from right (customers), NULL where no match
 
 
+SELECT
+    o.order_id,
+    o.amount,
+    c.name,
+    c.city
+FROM orders o
+LEFT JOIN customers c ON o.customer_id = c.customer_id;
