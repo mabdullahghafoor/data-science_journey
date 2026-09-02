@@ -101,3 +101,11 @@ SELECT
     city
 FROM customers 
 WHERE customer_id NOT IN (SELECT DISTINCT customer_id FROM orders);
+
+
+
+Task 8 — CASE WHEN
+Add a column called value_tier to every order: 
+"Premium" if amount ≥ 80000, "Standard" if between 30000 
+and 79999, and "Budget" below 30000. 
+Show order ID, product, amount, and value tier.
