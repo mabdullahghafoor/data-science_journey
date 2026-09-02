@@ -78,3 +78,15 @@ Using all three tables, find the profit (amount minus cost_price)
 for each delivered order. 
 Show customer name, product, amount, cost price, and profit. 
 Sort by profit descending.
+
+SELECT
+    c.name,
+    o.product,
+    o.amount,
+    p.cost_price,
+    o.amount - p.cost_price AS profit
+FROM orders o
+INNER JOIN customers c ON o.customer_id = c.customer_id
+LEFT JOIN products p ON o.product = p.product
+WHERE status = 'delivered'
+ORDER BY profit DESC;
