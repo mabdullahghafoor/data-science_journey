@@ -38,3 +38,10 @@ SELECT
 FROM orders
 GROUP BY product
 ORDER BY totaal_revenue DESC;
+
+
+
+Task 4 — GROUP BY and HAVING
+Find all customers who have placed more than one order 
+and spent more than 100,000 in total. 
+Show customer ID, order count, and total spent.
