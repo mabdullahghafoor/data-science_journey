@@ -90,3 +90,14 @@ INNER JOIN customers c ON o.customer_id = c.customer_id
 LEFT JOIN products p ON o.product = p.product
 WHERE status = 'delivered'
 ORDER BY profit DESC;
+
+
+
+Task 7 — Subquery
+Find the names of customers who have never placed an order.
+
+SELECT
+    name,
+    city
+FROM customers 
+WHERE customer_id NOT IN (SELECT DISTINCT customer_id FROM orders);
