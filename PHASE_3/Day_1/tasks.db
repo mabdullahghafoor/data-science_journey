@@ -29,3 +29,12 @@ Task 3 — Aggregates
 Find the total revenue, average order value, and number of orders 
 for each product. 
 Sort by total revenue descending.
+
+SELECT 
+    product,
+    SUM(amount) AS total_revenue;
+    ROUND(AV(amount),2) AS average_order_value,
+    COUNT(order_id) AS no_of_orders
+FROM orders
+GROUP BY product
+ORDER BY totaal_revenue DESC;
