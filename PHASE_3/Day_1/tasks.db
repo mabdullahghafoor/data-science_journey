@@ -13,3 +13,12 @@ WHERE city = 'Karachi' AND age < 30;
 Task 2 — ORDER BY and LIMIT
 Find the top 3 most expensive delivered orders. 
 Show order ID, customer ID, product, and amount.
+
+SELECT
+    order_id,
+    customer_id,
+    product,
+    amount
+FROM orders
+ORDER BY amount DESC
+LIMIT 3;
