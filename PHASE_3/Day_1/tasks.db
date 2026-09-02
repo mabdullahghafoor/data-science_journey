@@ -22,3 +22,10 @@ SELECT
 FROM orders
 ORDER BY amount DESC
 LIMIT 3;
+
+
+
+Task 3 — Aggregates
+Find the total revenue, average order value, and number of orders 
+for each product. 
+Sort by total revenue descending.
