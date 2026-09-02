@@ -109,3 +109,14 @@ Add a column called value_tier to every order:
 "Premium" if amount ≥ 80000, "Standard" if between 30000 
 and 79999, and "Budget" below 30000. 
 Show order ID, product, amount, and value tier.
+
+SELECT
+    order_id,
+    product,
+    amount,
+    CASE
+        WHEN amount >= 80000 THEN 'Premium'
+        WHEN amount BETWEEN 30000 AND 79999 THEN 'Standard'
+        ELSE 'Budget'
+    END AS value_tier
+FROM orders;
