@@ -120,3 +120,9 @@ SELECT
         ELSE 'Budget'
     END AS value_tier
 FROM orders;
+
+
+
+Task 9 — Business question
+Using a single query, find which city generates the most total revenue. 
+You'll need a JOIN, GROUP BY, and ORDER BY together.
