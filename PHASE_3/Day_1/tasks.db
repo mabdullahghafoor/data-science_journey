@@ -1,3 +1,9 @@
 Task 1 — SELECT and WHERE
 Find all customers from Karachi who are younger than 30. 
 Show only their name and age.
+
+SELECT
+    name,
+    city
+FROM customers 
+WHERE city = 'Karachi' AND age < 30;
