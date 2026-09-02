@@ -60,3 +60,13 @@ Task 5 — JOIN
 Write a query that shows each customer's name, city, 
 the product they ordered, the amount, and the order status. 
 Only include delivered orders.
+
+SELECT
+    c.name,
+    c.city,
+    o.product,
+    o.amount,
+    o.status
+FROM orders o
+INNER JOIN customers c ON o.customer_id = c.customer_id
+WHERE o.status = 'delivered';
