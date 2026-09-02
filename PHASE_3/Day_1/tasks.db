@@ -126,3 +126,14 @@ FROM orders;
 Task 9 — Business question
 Using a single query, find which city generates the most total revenue. 
 You'll need a JOIN, GROUP BY, and ORDER BY together.
+
+SELECT
+    c.name,
+    c.city,
+    SUM(o.amount) AS total_revenue
+FROM orders o
+INNER JOIN customers c ON o.customer_id = c.customer_id
+GROUP BY c.city
+ORDER BY total_revenue DESC;
+
+
