@@ -53,3 +53,10 @@ SELECT
 FROM orders
 GROUP BY customer_id
 HAVING order_count > 1 AND total_spent > 100000;
+
+
+
+Task 5 — JOIN
+Write a query that shows each customer's name, city, 
+the product they ordered, the amount, and the order status. 
+Only include delivered orders.
