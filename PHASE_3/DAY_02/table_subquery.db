@@ -35,3 +35,5 @@ FROM (
 )
 AS spending
 ORDER BY city, total_spent DESC;
+
+
