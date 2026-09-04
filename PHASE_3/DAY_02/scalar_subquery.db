@@ -15,3 +15,12 @@ WHERE amount > (SELECT DISTINCT AVG(amount) FROM orders);
 
 -- Each order compared to overall average in one query
 
+SELECT
+    customer_id,
+    order_id,
+    product,
+    amount,
+    (SELECT AVG(amount) FROM ORDERS) AS overall_avg,
+    amount - (SELECT AVG(amount) FROM orders) AS diff_from_avg
+FROM orders
+ORDER BY diff_from_avg DESC;
