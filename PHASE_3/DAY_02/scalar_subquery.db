@@ -13,3 +13,5 @@ WHERE amount > (SELECT DISTINCT AVG(amount) FROM orders);
 
 
 
+-- Each order compared to overall average in one query
+
