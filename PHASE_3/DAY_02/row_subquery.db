@@ -17,3 +17,6 @@ WHERE customer_id IN (
 
 
 
+-- Customers who have ONLY placed delivered orders
+-- (no returned, no pending)
+
