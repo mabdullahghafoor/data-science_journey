@@ -4,3 +4,12 @@
 
 -- Average spending per customer, then average of that
 
+SELECT
+    ROUND(AVG(customer_total),2) AS  avg_customer_spend
+FROM
+    (SELECT
+        customer_id,
+        SUM(amount) as customer_total
+    FROM orders 
+    GROUP BY customer_id)
+AS customer_spending;
