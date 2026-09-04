@@ -20,3 +20,16 @@ WHERE customer_id IN (
 -- Customers who have ONLY placed delivered orders
 -- (no returned, no pending)
 
+SELECT 
+    name
+FROM customers
+WHERE customer_id NOT IN
+(SELECT DISTINCT 
+    customer_id 
+FROM orders 
+WHERE status != 'delivered')
+AND
+customer_id IN
+(SELECT DISTINCT 
+    customer_id 
+FROM orders);
