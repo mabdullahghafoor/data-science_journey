@@ -4,3 +4,9 @@
 
 -- Orders above the average amount
 
+SELECT
+    order_id,
+    customer_id,
+    product
+FROM orders
+WHERE amount > (SELECT DISTINCT AVG(amount) FROM orders);
