@@ -13,3 +13,6 @@ FROM
     FROM orders 
     GROUP BY customer_id)
 AS customer_spending;
+
+
+
