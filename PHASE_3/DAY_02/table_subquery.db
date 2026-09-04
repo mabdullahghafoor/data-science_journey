@@ -23,3 +23,15 @@ AS customer_spending;
 
 -- Rank customers by spending, show top 2 per city
 
+SELECT *
+FROM (
+    SELECT
+        c.name,
+        c.city,
+        SUM(o.amount) AS total_spent
+    FROM orders o
+    JOIN customers c ON o.customer_id = c.customer_id
+    GROUP BY  c.name , c.city
+)
+AS spending
+ORDER BY city, total_spent DESC;
