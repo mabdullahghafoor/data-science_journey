@@ -16,3 +16,8 @@ AS customer_spending;
 
 
 
+-- The inner query produces a temporary table
+-- The outer query treats it like a real table
+
+
+
