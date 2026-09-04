@@ -21,3 +21,5 @@ AS customer_spending;
 
 
 
+-- Rank customers by spending, show top 2 per city
+
