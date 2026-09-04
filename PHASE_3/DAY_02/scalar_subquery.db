@@ -10,3 +10,6 @@ SELECT
     product
 FROM orders
 WHERE amount > (SELECT DISTINCT AVG(amount) FROM orders);
+
+
+
