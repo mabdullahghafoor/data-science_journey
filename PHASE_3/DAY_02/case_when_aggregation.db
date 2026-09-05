@@ -31,3 +31,15 @@ GROUP BY product;
 
 -- Revenue by product and status in one query
 
+SELECT
+    ROUND(SUM(CASE WHEN status = 'delivered' THEN amount ELSE 0 END))
+        AS delivered_revenue,
+    ROUND(SUM(CASE WHEN status = 'pending' THEN amount ELSE 0 END))
+        AS pending_revenue,
+    ROUND(SUM(CASE WHEN status = 'returned' THEN amount ELSE 0 END))
+        AS returned_revenue
+FROM orders
+GROUP BY product;
+
+
+
