@@ -15,3 +15,11 @@ SELECT
     COUNT(*) OVER (PARTITION BY city) AS customers_in_same_city
 FROM customers;
 
+-- Returns all 7 rows, each showing how many total customers share their city
+-- Ali    Karachi    3
+-- Ahmed  Karachi    3
+-- Hira   Karachi    3
+-- Sara   Lahore     2
+-- Bilal  Lahore     2
+-- Zara   Islamabad  2
+-- Usman  Islamabad  2
