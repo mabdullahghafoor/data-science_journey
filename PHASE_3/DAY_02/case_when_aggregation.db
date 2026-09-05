@@ -7,3 +7,12 @@ It lets you turn rows into columns.
 
 -- Without CASE WHEN — you get a long table
 
+SELECT 
+    status,
+    product,
+    COUNT(*) as total
+FROM orders
+GROUP BY product, status;
+
+
+
