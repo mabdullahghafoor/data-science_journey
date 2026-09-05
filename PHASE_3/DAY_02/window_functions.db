@@ -48,3 +48,7 @@ SELECT
     SUM(amount) OVER (ORDER BY order_date) AS running_total
 FROM orders
 ORDER BY order_date;
+
+
+
+
