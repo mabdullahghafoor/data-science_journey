@@ -5,3 +5,5 @@ It lets you turn rows into columns.
 
 -- How many orders of each status per product?
 
+-- Without CASE WHEN — you get a long table
+
