@@ -16,3 +16,5 @@ GROUP BY product, status;
 
 
 
+-- With CASE WHEN — you get a wide, readable summary
+
