@@ -4,3 +4,5 @@ SELECT name, LENGTH(name) AS name_length FROM customers;
 
 
 
+-- Case
+
