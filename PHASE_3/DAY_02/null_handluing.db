@@ -42,3 +42,9 @@ SELECT COALESCE(NULL, NULL, 'third', 'fourth');  -- returns 'third'
 
 
 -- NULLIF — return NULL if two values are equal (avoids division by zero)
+
+SELECT
+    product,
+    SUM(amount) / NULLIF(COUNT(*), 0) AS avg_amount
+FROM orders
+GROUP BY product;
