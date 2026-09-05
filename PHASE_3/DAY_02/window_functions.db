@@ -9,3 +9,8 @@ SELECT city, COUNT(*) FROM customers GROUP BY city;
 
 -- Window function keeps all rows AND adds the aggregate
 
+SELECT
+    name,
+    city,
+    COUNT(*) OVER (PARTITION BY city) AS customers_in_same_city
+FROM customers;
