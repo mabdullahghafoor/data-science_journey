@@ -6,3 +6,7 @@ SELECT name, LENGTH(name) AS name_length FROM customers;
 
 -- Case
 
+SELECT UPPER(name), LOWER(city) FROM customers;
+
+
+
