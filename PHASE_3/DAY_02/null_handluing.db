@@ -48,3 +48,5 @@ SELECT
     SUM(amount) / NULLIF(COUNT(*), 0) AS avg_amount
 FROM orders
 GROUP BY product;
+
+-- If COUNT(*) = 0, NULLIF returns NULL instead of dividing by zero
