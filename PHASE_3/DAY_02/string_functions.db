@@ -22,3 +22,7 @@ SELECT LTRIM('  Ali'), RTRIM('Ali  ');
 
 SELECT SUBSTR(name, 1, 3) FROM customers;   -- first 3 characters
 
+-- SUBSTR(string, start_position, length)
+
+
+
