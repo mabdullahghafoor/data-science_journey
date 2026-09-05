@@ -72,3 +72,6 @@ Your answer:
 COUNT(column) counts only the rows where that specific column is not NULL.
 If the two numbers differ, 
 it tells you exactly how many NULLs exist in that column."*
+
+
+
