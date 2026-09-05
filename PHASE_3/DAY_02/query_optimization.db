@@ -6,3 +6,5 @@
 SELECT * FROM orders JOIN customers ON ...;
 
 
+-- GOOD
+
