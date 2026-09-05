@@ -24,3 +24,6 @@ SELECT
     order_id,
     COALESCE(amount, 0) AS amount        -- replace NULL with 0
 FROM orders;
+
+
+
