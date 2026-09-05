@@ -53,3 +53,5 @@ GROUP BY product;
 
 
 
+-- COUNT behavior with NULLs — important interview topic
+
