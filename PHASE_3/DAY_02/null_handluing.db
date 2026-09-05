@@ -34,3 +34,5 @@ FROM customers;
 
 
 
+-- COALESCE with multiple fallbacks
+
