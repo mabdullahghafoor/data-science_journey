@@ -7,3 +7,6 @@ SELECT * FROM orders WHERE amount = NULL;    -- always returns 0 rows
 
 
 
+-- This is correct:
+
+
