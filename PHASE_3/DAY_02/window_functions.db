@@ -35,3 +35,7 @@ SELECT
     ROW_NUMBER() OVER (PARTITION BY city ORDER BY amount DESC) AS rank_in_city
 FROM orders o
 JOIN customers c ON o.customer_id = c.customer_id;
+
+
+
+
