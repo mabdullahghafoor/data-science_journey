@@ -58,3 +58,4 @@ ORDER BY order_date;
 -- ROW_NUMBER: 1, 2, 3, 4  (no ties, always unique)
 
 -- RANK:       1, 2, 2, 4  (ties get same rank, gap after ties)
+
