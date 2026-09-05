@@ -65,3 +65,5 @@ ORDER BY order_date;
 
 Interview question you will get: 
 "What is the difference between GROUP BY and window functions?"
+
+
