@@ -27,3 +27,7 @@ FROM orders;
 
 
 
+SELECT
+    name,
+    COALESCE(city, 'Unknown') AS city    -- replace NULL with 'Unknown'
+FROM customers;
