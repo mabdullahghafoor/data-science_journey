@@ -64,3 +64,5 @@ FROM orders;
 
 
 
+Interview question you will get: 
+"What is the difference between COUNT() and COUNT(column)?"*
