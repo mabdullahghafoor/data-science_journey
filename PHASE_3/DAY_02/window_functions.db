@@ -1,2 +1,4 @@
 -- Regular aggregation collapses rows into groups
 
+SELECT city, COUNT(*) FROM customers GROUP BY city;
+
