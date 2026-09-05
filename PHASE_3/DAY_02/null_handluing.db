@@ -67,3 +67,8 @@ FROM orders;
 Interview question you will get: 
 "What is the difference between COUNT() and COUNT(column)?"*
 
+Your answer: 
+"COUNT() counts all rows including those with NULL values. 
+COUNT(column) counts only the rows where that specific column is not NULL.
+If the two numbers differ, 
+it tells you exactly how many NULLs exist in that column."*
