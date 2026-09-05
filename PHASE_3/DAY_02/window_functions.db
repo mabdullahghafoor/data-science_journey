@@ -26,3 +26,5 @@ FROM customers;
 
 
 
+-- ROW_NUMBER — rank rows within a group
+
