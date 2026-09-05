@@ -1,3 +1,5 @@
 -- NULL is not equal to anything, including itself
 
 
+-- This NEVER works:
+
