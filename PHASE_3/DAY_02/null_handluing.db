@@ -60,3 +60,4 @@ SELECT
     COUNT(amount) AS non_null_amounts    -- skips NULLs
 FROM orders;
 
+-- If these two numbers differ, you have NULLs in that column
