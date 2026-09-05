@@ -8,3 +8,7 @@ SELECT * FROM orders JOIN customers ON ...;
 
 -- GOOD
 
+SELECT o.order_id, o.amount, c.name FROM orders o JOIN customers c ON ...;
+
+
+
