@@ -34,3 +34,5 @@ SELECT REPLACE(city, 'Karachi', 'KHI') FROM customers;
 
 -- Concatenation
 
+SELECT name || ' from ' || city AS description FROM customers;
+
