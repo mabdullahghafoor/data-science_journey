@@ -15,3 +15,6 @@ SELECT * FROM orders WHERE amount IS NOT NULL;
 
 
 
+-- COALESCE — return first non-null value
+
+
