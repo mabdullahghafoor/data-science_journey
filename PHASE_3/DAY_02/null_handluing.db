@@ -61,3 +61,6 @@ SELECT
 FROM orders;
 
 -- If these two numbers differ, you have NULLs in that column
+
+
+
