@@ -41,3 +41,10 @@ JOIN customers c ON o.customer_id = c.customer_id;
 
 -- Running total (cumulative sum)
 
+SELECT
+    order_id,
+    order_date,
+    amount,
+    SUM(amount) OVER (ORDER BY order_date) AS running_total
+FROM orders
+ORDER BY order_date;
