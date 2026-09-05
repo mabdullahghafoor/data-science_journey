@@ -11,3 +11,4 @@ SELECT * FROM orders WHERE amount = NULL;    -- always returns 0 rows
 
 
 SELECT * FROM orders WHERE amount IS NULL;
+SELECT * FROM orders WHERE amount IS NOT NULL;
