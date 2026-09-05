@@ -14,3 +14,4 @@ SELECT
     city,
     COUNT(*) OVER (PARTITION BY city) AS customers_in_same_city
 FROM customers;
+
