@@ -36,3 +36,4 @@ FROM customers;
 
 -- COALESCE with multiple fallbacks
 
+SELECT COALESCE(NULL, NULL, 'third', 'fourth');  -- returns 'third'
