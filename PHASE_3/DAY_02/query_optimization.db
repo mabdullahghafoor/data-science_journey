@@ -27,3 +27,6 @@ SELECT * FROM (
     SELECT * FROM orders WHERE status = 'delivered'
 ) o
 JOIN customers c ON o.customer_id = c.customer_id;
+
+
+
