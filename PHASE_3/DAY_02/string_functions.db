@@ -26,3 +26,5 @@ SELECT SUBSTR(name, 1, 3) FROM customers;   -- first 3 characters
 
 
 
+-- Replace
+
