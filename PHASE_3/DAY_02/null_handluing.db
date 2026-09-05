@@ -41,3 +41,4 @@ SELECT COALESCE(NULL, NULL, 'third', 'fourth');  -- returns 'third'
 
 
 
+-- NULLIF — return NULL if two values are equal (avoids division by zero)
