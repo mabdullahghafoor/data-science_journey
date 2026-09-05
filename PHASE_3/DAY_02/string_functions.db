@@ -18,3 +18,5 @@ SELECT LTRIM('  Ali'), RTRIM('Ali  ');
 
 
 
+-- Substring
+
