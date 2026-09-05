@@ -12,3 +12,5 @@ SELECT UPPER(name), LOWER(city) FROM customers;
 
 -- Trim whitespace
 
+SELECT TRIM('  Ali Khan  ');          -- 'Ali Khan'
+
