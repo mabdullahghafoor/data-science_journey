@@ -59,3 +59,7 @@ ORDER BY order_date;
 
 -- RANK:       1, 2, 2, 4  (ties get same rank, gap after ties)
 
+-- DENSE_RANK: 1, 2, 2, 3  (ties get same rank, no gap)
+
+
+
