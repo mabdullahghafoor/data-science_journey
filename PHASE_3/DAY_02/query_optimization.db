@@ -30,3 +30,5 @@ JOIN customers c ON o.customer_id = c.customer_id;
 
 
 
+-- Use LIMIT when exploring large tables
+
