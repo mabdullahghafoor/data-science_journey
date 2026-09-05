@@ -55,3 +55,7 @@ GROUP BY product;
 
 -- COUNT behavior with NULLs — important interview topic
 
+SELECT
+    COUNT(*)      AS total_rows,         -- counts everything including NULLs
+    COUNT(amount) AS non_null_amounts    -- skips NULLs
+FROM orders;
