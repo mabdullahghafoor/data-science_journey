@@ -18,3 +18,5 @@ SELECT * FROM orders WHERE amount IS NOT NULL;
 -- COALESCE — return first non-null value
 
 
+-- The most useful NULL function in SQL
+
