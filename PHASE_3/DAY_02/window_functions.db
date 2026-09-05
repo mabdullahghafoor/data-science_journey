@@ -2,3 +2,8 @@
 
 SELECT city, COUNT(*) FROM customers GROUP BY city;
 
+-- Returns one row per city
+
+
+
+
