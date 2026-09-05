@@ -36,3 +36,7 @@ SELECT REPLACE(city, 'Karachi', 'KHI') FROM customers;
 
 SELECT name || ' from ' || city AS description FROM customers;
 
+-- In MySQL: CONCAT(name, ' from ', city)
+
+
+
