@@ -45,3 +45,16 @@ GROUP BY product;
 
 -- Categorize and count in one pass
 
+SELECT
+	CASE
+    	when age < 25 then 'Under 25'
+        when age BETWEEN 25 and 35 then '25 To 35'
+        else 'Over 35'
+    end as age_group,
+	count(*) as customer_count,
+    ROUND(AVG(age),1) as avg_age
+from customers
+GROUP by age_group;
+
+
+
