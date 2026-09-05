@@ -7,3 +7,5 @@ SELECT city, COUNT(*) FROM customers GROUP BY city;
 
 
 
+-- Window function keeps all rows AND adds the aggregate
+
