@@ -12,3 +12,6 @@ SELECT o.order_id, o.amount, c.name FROM orders o JOIN customers c ON ...;
 
 
 
+-- Filter early with WHERE before joining when possible
+
+
