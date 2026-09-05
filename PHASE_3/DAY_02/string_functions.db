@@ -42,3 +42,9 @@ SELECT name || ' from ' || city AS description FROM customers;
 
 -- Find position of substring
 
+SELECT INSTR(name, 'Khan') FROM customers;  -- 0 if not found
+
+
+
+
+
