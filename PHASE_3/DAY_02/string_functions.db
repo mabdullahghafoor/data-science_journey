@@ -40,3 +40,5 @@ SELECT name || ' from ' || city AS description FROM customers;
 
 
 
+-- Find position of substring
+
