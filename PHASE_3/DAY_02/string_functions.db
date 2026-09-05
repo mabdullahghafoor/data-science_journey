@@ -14,3 +14,7 @@ SELECT UPPER(name), LOWER(city) FROM customers;
 
 SELECT TRIM('  Ali Khan  ');          -- 'Ali Khan'
 
+SELECT LTRIM('  Ali'), RTRIM('Ali  ');
+
+
+
