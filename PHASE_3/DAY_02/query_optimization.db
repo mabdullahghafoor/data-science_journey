@@ -21,3 +21,5 @@ SELECT * FROM orders o JOIN customers c ON o.customer_id = c.customer_id
 WHERE o.status = 'delivered';
 
 
+-- GOOD — same result, but filtering first reduces the join size
+
