@@ -18,3 +18,14 @@ GROUP BY product, status;
 
 -- With CASE WHEN — you get a wide, readable summary
 
+SELECT
+    product,
+    COUNT(CASE WHEN status = 'delivered' THEN 1 END) AS delivered,
+    COUNT(CASE WHEN status = 'pending' THEN 1 END) AS pending,
+    COUNT(CASE WHEN status = 'returned' THEN 1 END) AS returned,
+    COUNT(*) AS total
+FROM orders
+GROUP BY product;
+
+
+
