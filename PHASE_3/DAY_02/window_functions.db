@@ -39,3 +39,5 @@ JOIN customers c ON o.customer_id = c.customer_id;
 
 
 
+-- Running total (cumulative sum)
+
