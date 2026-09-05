@@ -69,3 +69,10 @@ Interview question you will get:
 
 Your answer: 
 
+"GROUP BY collapses multiple rows into a single row per group. 
+Window functions perform the same calculations 
+but keep every row in the result 
+— they add the aggregated value as a new column without reducing 
+the number of rows. 
+This is useful when you want to see both the individual row data 
+and the group-level aggregation together."
